@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1531517040 "bloodRecord.tex" "bloodRecord.pdf" "bloodRecord" 1531517040
+["pdflatex"] 1531519123 "bloodRecord.tex" "bloodRecord.pdf" "bloodRecord" 1531519124
   "/etc/texmf/web2c/texmf.cnf" 1499075352 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/ae/aebx12.tfm" 1136768653 6132 8ad25ac1b8f3422e2a7eaeb718e3c843 ""
@@ -75,11 +75,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1531026431 1522025 712255bf90b3ac3b1340c49a49587b87 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1515212277 718486 8e3c4063540653a907aac5a0abd8b8c0 ""
-  "bloodRecord.aux" 1531517040 376 b74b74730427d23db345938b1cf278cd ""
-  "bloodRecord.tex" 1531517038 21027 adebad1d3a09583505bbb8753184b222 ""
+  "bloodRecord.aux" 1531519124 376 b74b74730427d23db345938b1cf278cd ""
+  "bloodRecord.tex" 1531519122 24543 2a70437eeba21bd9be708dfba71d1541 ""
   "compoundMicroscope.jpg" 1531493345 129908 24a8de3f5861817967143daa8e762fdc ""
   "grid.jpg" 1531511934 125982 ea1e4f5d9b1832fa631e538f41f6e755 ""
   (generated)
-  "bloodRecord.log"
   "bloodRecord.pdf"
+  "bloodRecord.log"
   "bloodRecord.aux"
