@@ -1,9 +1,15 @@
 
-\documentclass{book}
+\documentclass[12pt]{book}
 
-\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage[a4paper, total={6in, 10in}]{geometry}
 \usepackage{fancyhdr}
 \renewcommand{\chaptername}{Experiment}
+\usepackage[utf8]{inputenc}
+\usepackage{pdfrender}
+\usepackage{xcolor}
+\usepackage{ae}
+\usepackage{aecompl}
+\usepackage{helvet}
 \usepackage{afterpage}
 \makeatletter
 \newcommand\@addfig{\relax}
@@ -21,6 +27,7 @@
 		\makeatother
 
 		\begin{document}
+		%\pdfrender{StrokeColor=black,TextRenderingMode=2,LineWidth=0.1pt}
 		\afterpage{\blankpage}
 		\part{Hematology}
 
