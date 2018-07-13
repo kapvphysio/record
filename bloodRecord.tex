@@ -1,0 +1,176 @@
+
+\documentclass{book}
+
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage{fancyhdr}
+\renewcommand{\chaptername}{Experiment}
+\usepackage{afterpage}
+\makeatletter
+\newcommand\@addfig{\relax}
+\newcommand\addfig[1]{\global\long\def\@addfig{#1}}
+\newcommand\@putfig{\@addfig\addfig{\relax}}
+\newcommand\blankpage{%
+	\null
+		\vfill
+		\@putfig%
+		\vfill
+		\thispagestyle{empty}% BEWARE, if you want the header and footer, you should put the correct style here
+		\clearpage%
+		\addtocounter{page}{-1}% BEWARE, if you want the left pages to be numbered, don't put this line, this is intended to have picture page with the same number as the facing text page
+		\afterpage{\blankpage}}
+		\makeatother
+
+		\begin{document}
+		\afterpage{\blankpage}
+		\part{Hematology}
+
+		\chapter{Compound Microscope}
+		\section{Introduction}
+		\par
+		A microscope is an optical instrument which magnifies the image of an object.
+		There are various types of microscope which use different types of lens and different principles of optics.
+		Compound microscope is one of the most frequently used equipment in a medical laboratory.\newline
+
+		Physical terms:
+		\begin{itemize}
+		\item{Resolution \par It is the ability to reveal closely adjacent structural details as separate and distinct. The limit of magnification of a microscope is set by its resolving power.}
+		\item{Numerical Aperture \par It is the ratio of the diameter of the lens to its focal length. Greater the numerical aperture greater the resolving power.}
+		\item{Working Distance \par It is the distance between the objective lens and the slide.}
+		\end{itemize}
+
+		\section{Parts Of The Microscope}
+
+		\subsection{SUPPORT SYSTEM}
+		\begin{enumerate}
+		\item{Base \par It supports the microscope on the working table.}
+		\item{Pillars \par Two upright pillars project upwards from the base.}
+		\item{Handle \par Handle is hinged to the pillars. It supports the magnifying and adjusting systems. It is the handle by which the microscope must be carried. It is curved and the microscope can be tilted at the hinged joint.}
+		\item{Body tube \par The eyepiece fits into the top of the body tube. The nose piece with the objective lenses fits into its lower end. It is the part through which the light passes to the eyepiece. It actually conducts the image.}
+		\item{Stage \par Fixed stage is the horizontal platform on which the object is placed. It has a central opening through which the illuminating system focuses the light on the object. Mechanical stage has a spring mounted clip to hold the slide or counting chamber in position. It has two screws to move the mounted object from side to side and for ward and backwards.}
+		\item {Nose piece \par Fixed nose piece is attached to lower end of body tube. Revolving nose piece carries objective lenses of different magnifying powers.}
+		\end{enumerate}
+
+		\subsection{ADJUSTING SYSTEM}
+		It consists of the coarse and fine adjustment screws mounted in the handle by a double sided micrometer mechanism.
+		\begin{enumerate}
+		\item{Coarse adjustment screws \par It consists of rack and pinion which moves the tube rapidly through a large distance when the screw is rotated clockwise or anticlockwise. It is used to obtain an approximate focus of the object.}
+		\item{Fine adjustment screws \par Similar to coarse adjustment screw, but several rotations will move the tube through a very small distance. It is used to obtain exact focus of the object.}
+		\end{enumerate}
+
+		\subsection{ILLUMINATION SYSTEM}
+		\begin{enumerate}
+
+		\item{Source of illumination \newline
+			\par Light source may be internal or external.
+				\par Internal source –In modern microscopes, there is an in-built light source with an electrical tungsten lamp, which is placed directly under the stage.
+				\par External source – This can be from an electric lamp housed in a lamp box with a window or from the sun. The rays of light are reflected by a mirror towards the object. The mirror is located at the base of the microscope which is plain or concave.}
+				\item{Condenser
+					\par It focuses the rays of light reflected from the mirror onto the object under observation and helps in resolving the image. It is mounted below the stage of the microscope. Position of the condenser has to be adjusted according to the objective lens used.}
+					\item{Iris diaphragm
+						\par It is located at the bottom of the condenser. It has a central aperture. The size of the aperture can be altered to regulate the amount of light that passes through the condenser onto the object under observation.}
+						\end{enumerate}
+
+						\subsection{MAGNIFICATION SYSTEM}
+						\begin{enumerate}
+
+						\item{Eye piece
+							\par This is a magnifying lens inserted into the upper end of the body tube. Each eyepiece has two lenses, an eye lens mounted at the top and a field lens at the bottom. It has a magnification power of 5 and 10. It magnifies the primary image to give a virtual image which is observed through the eye piece.}
+							\item{Objective lens
+
+								\par Three objective lenses are fitted to the lower end of the body tube in the revolving nose piece. They are the low power, high power and oil immersion objective lenses. The desired objective lens is placed close to object on the stage and it produces a real magnified and inverted primary image. When the oil immersion objective is used, the space between the object and the lens is filled with cedar wood oil which has the same refractive index as that of glass and hence prevents refraction of light.\newline
+									\begin{tabular}{c | c | c | c}
+								\hline
+									Objective & Working Distance & Numerical Aperture &Magnification\\
+									\hline
+									Low Power & 5 to 15 millm & 0.3 & 10\\
+									\hline
+									High Power
+									&0.5 to 4 millm
+									&0.65
+									&40/45 \\
+									\hline
+
+									%next row
+									Oil immersion
+									&0.15 to 1.5 millm
+									&1.3
+									&100 \\
+
+									\hline
+
+
+
+
+
+									\end{tabular}
+
+								\par
+									Adjustments for low power objective
+									\begin{itemize}
+								\item {Concave mirror is used.}
+								\item {Condenser is lowered.}
+								\item {Iris diaphragm is slightly opened to decrease the intensity of illumination.}
+								\end{itemize}
+
+								\par
+									Adjustments for high power objective
+									\begin{itemize}
+								\item{Concave mirror is used.}
+
+								\item{Condenser is slightly raised.}
+
+								\item{Iris diaphragm is partially opened to increase the intensity of illumination.}
+								\end{itemize}
+
+								\par
+									Adjustments for oil immersion objective (OPR)
+									\begin{itemize}
+
+								\item{Open the Iris diaphragm fully to get maximum intensity of illumination}
+
+								\item{Plane mirror is used.}
+
+								\item{Raise the Condenser.}
+								\end{itemize}
+							}
+
+
+
+
+\end{enumerate}
+
+\section{Precautions}
+\begin{itemize}
+\item Objectives and eyepiece should be free from dust.
+item The mirror, the position of the condenser, and the aperture of the iris should be checked in order to get proper illumination.
+\item While changing the objective it should be noted that the objective clicks into its proper position.
+\item Do the necessary microscopic adjustments before using each objective.
+\item While focusing, lower the objective close to the slide and focus the object by slowly raising the objective.
+\item Never bring down the objective with the coarse adjustment screw while looking into the microscope.
+\item Examine the slide under low power and high power before examining it under oil immersion objective.
+\item After using oil immersion objective, clean the lens with filter paper and xylol.
+\end{itemize}
+
+\section{Questions}
+\begin{enumerate}
+\item Name the oils used for oil immersion objective.
+\item How will you calculate the total magnification power of the microscope for each objective?
+\item Name the other types of microscope.
+\end{enumerate}
+
+\chapter{Hemocytometer}
+\chapter{Estimation Of Total RBC Count}
+\chapter{Estimation Of Total WBC Count}
+\chapter{Absolute Eosinophil Count}
+\chapter{Diffrential Count}
+\chapter{Hemoglobin Estimation}
+\chapter{Blood Grouping \& Typing}
+\chapter{Estimation Of Erythrocyte Sedimentation Rate}
+\chapter{Packed Cell Volume}
+\chapter{Osmotic Fragility}
+\chapter{Specific Gravity}
+
+\part{Clinical Physiology}
+
+
+\end{document}
