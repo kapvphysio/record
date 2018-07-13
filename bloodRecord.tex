@@ -1,8 +1,9 @@
 
-\documentclass[12pt]{book}
-
-\usepackage[a4paper, total={6in, 10in}]{geometry}
+\documentclass[a4paper,12pt]{book}
+\usepackage{tabularx}
+\usepackage[a4paper, left=1in,right=1in,top=2cm,bottom=1.5cm]{geometry}
 \usepackage{fancyhdr}
+\pagestyle{plain}
 \renewcommand{\chaptername}{Experiment}
 \usepackage[utf8]{inputenc}
 \usepackage{pdfrender}
@@ -11,6 +12,8 @@
 \usepackage{aecompl}
 \usepackage{helvet}
 \usepackage{afterpage}
+\usepackage{graphicx}
+\usepackage{caption}
 \makeatletter
 \newcommand\@addfig{\relax}
 \newcommand\addfig[1]{\global\long\def\@addfig{#1}}
@@ -31,79 +34,92 @@
 		\afterpage{\blankpage}
 		\part{Hematology}
 
-		\chapter{Compound Microscope}
-		\section{Introduction}
+		\chapter*{\centering Compound Microscope}
+
+		\begin{tabular}{p{5in} p{1in}}
+			\textbf{Exp No:}  & \textbf{Date:}\\
+		\end{tabular}
+		\section*{Introduction}
 		\par
 		A microscope is an optical instrument which magnifies the image of an object.
 		There are various types of microscope which use different types of lens and different principles of optics.
 		Compound microscope is one of the most frequently used equipment in a medical laboratory.\newline
 
+		\addfig{%
+			\begin{figure}[h]
+				\centering
+				\includegraphics[scale=10]{./compoundMicroscope.jpg}
+				\caption*{\textbf{Compound Microscope}}
+				\label{compound microscope}
+			\end{figure}
+			}
+
 		Physical terms:
 		\begin{itemize}
-		\item{Resolution \par It is the ability to reveal closely adjacent structural details as separate and distinct. The limit of magnification of a microscope is set by its resolving power.}
-		\item{Numerical Aperture \par It is the ratio of the diameter of the lens to its focal length. Greater the numerical aperture greater the resolving power.}
-		\item{Working Distance \par It is the distance between the objective lens and the slide.}
+			\item{Resolution \par It is the ability to reveal closely adjacent structural details as separate and distinct. The limit of magnification of a microscope is set by its resolving power.}
+			\item{Numerical Aperture \par It is the ratio of the diameter of the lens to its focal length. Greater the numerical aperture greater the resolving power.}
+			\item{Working Distance \par It is the distance between the objective lens and the slide.}
 		\end{itemize}
 
-		\section{Parts Of The Microscope}
+		\section*{Parts Of The Microscope}
 
-		\subsection{SUPPORT SYSTEM}
+		\subsection*{Support System}
 		\begin{enumerate}
-		\item{Base \par It supports the microscope on the working table.}
-		\item{Pillars \par Two upright pillars project upwards from the base.}
-		\item{Handle \par Handle is hinged to the pillars. It supports the magnifying and adjusting systems. It is the handle by which the microscope must be carried. It is curved and the microscope can be tilted at the hinged joint.}
-		\item{Body tube \par The eyepiece fits into the top of the body tube. The nose piece with the objective lenses fits into its lower end. It is the part through which the light passes to the eyepiece. It actually conducts the image.}
-		\item{Stage \par Fixed stage is the horizontal platform on which the object is placed. It has a central opening through which the illuminating system focuses the light on the object. Mechanical stage has a spring mounted clip to hold the slide or counting chamber in position. It has two screws to move the mounted object from side to side and for ward and backwards.}
-		\item {Nose piece \par Fixed nose piece is attached to lower end of body tube. Revolving nose piece carries objective lenses of different magnifying powers.}
+			\item{Base \par It supports the microscope on the working table.}
+			\item{Pillars \par Two upright pillars project upwards from the base.}
+			\item{Handle \par Handle is hinged to the pillars. It supports the magnifying and adjusting systems. It is the handle by which the microscope must be carried. It is curved and the microscope can be tilted at the hinged joint.}
+			\item{Body tube \par The eyepiece fits into the top of the body tube. The nose piece with the objective lenses fits into its lower end. It is the part through which the light passes to the eyepiece. It actually conducts the image.}
+			\item{Stage \par Fixed stage is the horizontal platform on which the object is placed. It has a central opening through which the illuminating system focuses the light on the object. Mechanical stage has a spring mounted clip to hold the slide or counting chamber in position. It has two screws to move the mounted object from side to side and for ward and backwards.}
+			\item {Nose piece \par Fixed nose piece is attached to lower end of body tube. Revolving nose piece carries objective lenses of different magnifying powers.}
 		\end{enumerate}
 
-		\subsection{ADJUSTING SYSTEM}
+		\subsection*{Adjusting System}
 		It consists of the coarse and fine adjustment screws mounted in the handle by a double sided micrometer mechanism.
 		\begin{enumerate}
-		\item{Coarse adjustment screws \par It consists of rack and pinion which moves the tube rapidly through a large distance when the screw is rotated clockwise or anticlockwise. It is used to obtain an approximate focus of the object.}
-		\item{Fine adjustment screws \par Similar to coarse adjustment screw, but several rotations will move the tube through a very small distance. It is used to obtain exact focus of the object.}
+			\item{Coarse adjustment screws \par It consists of rack and pinion which moves the tube rapidly through a large distance when the screw is rotated clockwise or anticlockwise. It is used to obtain an approximate focus of the object.}
+			\item{Fine adjustment screws \par Similar to coarse adjustment screw, but several rotations will move the tube through a very small distance. It is used to obtain exact focus of the object.}
 		\end{enumerate}
 
-		\subsection{ILLUMINATION SYSTEM}
+		\subsection*{Illumination System}
 		\begin{enumerate}
 
-		\item{Source of illumination \newline
-			\par Light source may be internal or external.
+			\item{Source of illumination \newline
+				\par Light source may be internal or external.
 				\par Internal source –In modern microscopes, there is an in-built light source with an electrical tungsten lamp, which is placed directly under the stage.
 				\par External source – This can be from an electric lamp housed in a lamp box with a window or from the sun. The rays of light are reflected by a mirror towards the object. The mirror is located at the base of the microscope which is plain or concave.}
-				\item{Condenser
-					\par It focuses the rays of light reflected from the mirror onto the object under observation and helps in resolving the image. It is mounted below the stage of the microscope. Position of the condenser has to be adjusted according to the objective lens used.}
-					\item{Iris diaphragm
-						\par It is located at the bottom of the condenser. It has a central aperture. The size of the aperture can be altered to regulate the amount of light that passes through the condenser onto the object under observation.}
-						\end{enumerate}
+			\item{Condenser
+				\par It focuses the rays of light reflected from the mirror onto the object under observation and helps in resolving the image. It is mounted below the stage of the microscope. Position of the condenser has to be adjusted according to the objective lens used.}
+			\item{Iris diaphragm
+				\par It is located at the bottom of the condenser. It has a central aperture. The size of the aperture can be altered to regulate the amount of light that passes through the condenser onto the object under observation.}
+		\end{enumerate}
 
-						\subsection{MAGNIFICATION SYSTEM}
+						\subsection*{Magnification System}
 						\begin{enumerate}
 
-						\item{Eye piece
-							\par This is a magnifying lens inserted into the upper end of the body tube. Each eyepiece has two lenses, an eye lens mounted at the top and a field lens at the bottom. It has a magnification power of 5 and 10. It magnifies the primary image to give a virtual image which is observed through the eye piece.}
+							\item{Eye piece
+								\par This is a magnifying lens inserted into the upper end of the body tube. Each eyepiece has two lenses, an eye lens mounted at the top and a field lens at the bottom. It has a magnification power of 5 and 10. It magnifies the primary image to give a virtual image which is observed through the eye piece.}
 							\item{Objective lens
 
 								\par Three objective lenses are fitted to the lower end of the body tube in the revolving nose piece. They are the low power, high power and oil immersion objective lenses. The desired objective lens is placed close to object on the stage and it produces a real magnified and inverted primary image. When the oil immersion objective is used, the space between the object and the lens is filled with cedar wood oil which has the same refractive index as that of glass and hence prevents refraction of light.\newline
 									\begin{tabular}{c | c | c | c}
-								\hline
-									Objective & Working Distance & Numerical Aperture &Magnification\\
-									\hline
-									Low Power & 5 to 15 millm & 0.3 & 10\\
-									\hline
-									High Power
-									&0.5 to 4 millm
-									&0.65
-									&40/45 \\
-									\hline
+										\hline
+										Objective & Working Distance & Numerical Aperture &Magnification\\
+										\hline
+										Low Power & 5 to 15 millm & 0.3 & 10\\
+										\hline
+										High Power
+										&0.5 to 4 millm
+										&0.65
+										&40/45 \\
+										\hline
 
-									%next row
-									Oil immersion
-									&0.15 to 1.5 millm
-									&1.3
-									&100 \\
+										%next row
+										Oil immersion
+										&0.15 to 1.5 millm
+										&1.3
+										&100 \\
 
-									\hline
+										\hline
 
 
 
@@ -114,68 +130,239 @@
 								\par
 									Adjustments for low power objective
 									\begin{itemize}
-								\item {Concave mirror is used.}
-								\item {Condenser is lowered.}
-								\item {Iris diaphragm is slightly opened to decrease the intensity of illumination.}
-								\end{itemize}
+										\item {Concave mirror is used.}
+										\item {Condenser is lowered.}
+										\item {Iris diaphragm is slightly opened to decrease the intensity of illumination.}
+									\end{itemize}
 
 								\par
 									Adjustments for high power objective
 									\begin{itemize}
-								\item{Concave mirror is used.}
+										\item{Concave mirror is used.}
 
-								\item{Condenser is slightly raised.}
+										\item{Condenser is slightly raised.}
 
-								\item{Iris diaphragm is partially opened to increase the intensity of illumination.}
-								\end{itemize}
+										\item{Iris diaphragm is partially opened to increase the intensity of illumination.}
+									\end{itemize}
 
 								\par
 									Adjustments for oil immersion objective (OPR)
 									\begin{itemize}
 
-								\item{Open the Iris diaphragm fully to get maximum intensity of illumination}
+										\item{Open the Iris diaphragm fully to get maximum intensity of illumination}
 
-								\item{Plane mirror is used.}
+										\item{Plane mirror is used.}
 
-								\item{Raise the Condenser.}
-								\end{itemize}
+										\item{Raise the Condenser.}
+									\end{itemize}
 							}
 
 
 
 
-\end{enumerate}
+						\end{enumerate}
 
-\section{Precautions}
+\section*{Precautions}
 \begin{itemize}
-\item Objectives and eyepiece should be free from dust.
-item The mirror, the position of the condenser, and the aperture of the iris should be checked in order to get proper illumination.
-\item While changing the objective it should be noted that the objective clicks into its proper position.
-\item Do the necessary microscopic adjustments before using each objective.
-\item While focusing, lower the objective close to the slide and focus the object by slowly raising the objective.
-\item Never bring down the objective with the coarse adjustment screw while looking into the microscope.
-\item Examine the slide under low power and high power before examining it under oil immersion objective.
-\item After using oil immersion objective, clean the lens with filter paper and xylol.
+	\item Objectives and eyepiece should be free from dust.
+		item The mirror, the position of the condenser, and the aperture of the iris should be checked in order to get proper illumination.
+	\item While changing the objective it should be noted that the objective clicks into its proper position.
+	\item Do the necessary microscopic adjustments before using each objective.
+	\item While focusing, lower the objective close to the slide and focus the object by slowly raising the objective.
+	\item Never bring down the objective with the coarse adjustment screw while looking into the microscope.
+	\item Examine the slide under low power and high power before examining it under oil immersion objective.
+	\item After using oil immersion objective, clean the lens with filter paper and xylol.
 \end{itemize}
 
-\section{Questions}
+\section*{Questions}
 \begin{enumerate}
-\item Name the oils used for oil immersion objective.
-\item How will you calculate the total magnification power of the microscope for each objective?
-\item Name the other types of microscope.
+	\item Name the oils used for oil immersion objective.
+	\item How will you calculate the total magnification power of the microscope for each objective?
+	\item Name the other types of microscope.
 \end{enumerate}
 
-\chapter{Hemocytometer}
-\chapter{Estimation Of Total RBC Count}
-\chapter{Estimation Of Total WBC Count}
-\chapter{Absolute Eosinophil Count}
-\chapter{Diffrential Count}
-\chapter{Hemoglobin Estimation}
-\chapter{Blood Grouping \& Typing}
-\chapter{Estimation Of Erythrocyte Sedimentation Rate}
-\chapter{Packed Cell Volume}
-\chapter{Osmotic Fragility}
-\chapter{Specific Gravity}
+\chapter*{\centering Hemocytometer}
+		\begin{tabular}{p{5in} p{1in}}
+			\textbf{Exp No:}  & \textbf{Date:}\\
+		\end{tabular}
+
+		\addfig{%
+			\begin{figure}[h]
+				\centering
+				\includegraphics[scale=.5]{./neubar.jpg}
+				\caption*{\textbf{Neubauer Chamber}}
+				\vspace{1.5cm}
+				\includegraphics[scale=0.5]{./neubarSide.jpg}
+				\caption*{\textbf{Neubauer Chamber - side view}}
+				\vspace{2cm}
+				\includegraphics[scale=.5]{./pipette.jpg}
+				\caption*{\textbf{RBC \& WBC pipettes}}
+				\label{chamber}
+			\end{figure}
+			}
+		\addfig{%
+			\begin{figure}[h]
+				\centering
+				\includegraphics[scale=.5]{./grid.jpg}
+				\caption*{\textbf{Neubauer Chamber's Counting Region}}
+				\label{grid}
+			\end{figure}
+			}
+
+
+		\section*{Introduction}
+		The formed elements of blood are counted by Hemocytometry. The apparatus is called as hemocytometer. It consists of diluting pipettes and counting chamber.
+		The counting chamber in common use is the improved Neubauer’s counting chamber. This is a thick glass slide divided into two central platforms by a ‘H’ shaped groove. The central platform is slightly lower than the sides. When a cover slip is placed over the central platforms, resting on the side platforms, a space of $\frac{1}{10}$  $mm$ depth will be present between the cover slip and the central platform. This area is used for charging the chamber with the diluted blood for cell counting.
+		The central platforms have ruled squares which are used for cell counting. The ruled area is a square measuring 3 $mm$ $\times$ 3 $mm$. This area is divided into 9 large equal squares each having an area of 1 $mm$$^2$. The four large corner squares are used for WBC count. The central square is used for RBC count. All nine squares are used for Absolute eosinophil count.
+
+		\section*{WBC counting squares}
+\begin{itemize}
+	\item
+		The four large corner squares are used for the WBC count and each has 16 medium squares (16$\times$4=64 medium squares).
+	\item {
+			Side of each large square is 1 $mm$.}
+	\item{
+			Area of each large square is 1 $\times$ 1 = 1 $mm$$^{2}$.}
+	\item {
+			Volume of each large square = area $\times$ depth = 1 $\times$ $\frac{1}{10}$ = $\frac{1}{10}$ $mm^3$.}
+	\item{
+			Volume of each medium square = $\frac{1}{4}$ $\times$ $\frac{1}{4}$ $\times$ $\frac{1}{10}$ = $\frac{1}{160}$ $mm^3$.}
+\end{itemize}
+
+\section*{RBC counting squares}
+\begin{itemize}
+
+	\item{The 1$mm^2$ central RBC square is divided into 25 medium sized squares by triple lines. The four corner and central medium sized squares are used for RBC count.}
+	\item{Each medium sized square is further divided into 16 small squares.}
+	\item{(5 $\times$ 16 = 80 small squares).}
+	\item{Side of each medium sized square is $\frac{1}{5}$ $mm$.}
+	\item{Area of each medium sized square is $\frac{1}{5}$ $\times$ $\frac{1}{5}$ = $\frac{1}{25}$ $mm^2$.}
+	\item{Volume of each medium sized square is $\frac{1}{250}$ $mm^3$.}
+	\item{Volume of each smallest square = $\frac{1}{20}$ $\times$ $\frac{1}{20}$ $\times$ $\frac{1}{10}$ = $\frac{1}{4000}$ $mm^3$.}
+
+\end{itemize}
+
+\section*{Pipettes}
+The pipettes are used to dilute the blood to a known dilution.
+Two types of pipettes are used – RBC pipette, WBC pipette .
+\par
+
+
+Parts of a pipette are:-\newline
+\textbf{The Stem:}
+The long narrow stem has a capillary bore and a well-grounded conical tip. It is divided into 10 equal parts with two numbers etched on it – 0.5 in the middle and 1.0 at the junction of stem and the bulb.\newline
+\textbf{The bulb:}
+The bulb contains a free-rolling bead. The bead helps in identifying the pipette and mixing the diluents with blood in the bulb. Free rolling of the bead in the bulb indicates whether the pipette is dry or not.\newline
+\textbf{Rubber tube and mouthpiece:}
+The narrow rubber tube attached to the bulb, facilitates filling of the pipette by gentle suction. There is a marking just above the bulb. This marking is 11 in WB C pipette and 101 in RBC pipette. The graduations do not indicate absolute or definite amounts in terms of cubic mm .They only indicate relative volumes in relation to each other. The markings indicate relative parts in the pipette\newline
+
+\subsection*{RBC pipette}
+\begin{itemize}
+
+\item{Markings are 0.5, 1.0 and 101}
+\item{The capillary bore is narrow}
+\item{Bulb is larger and has a red bead}
+\item{Volume of the bulb is 100 parts}
+\end{itemize}
+
+\subsection*{WBC pipette:}
+\begin{itemize}
+\item{Markings are 0.5, 1.0 and 11}
+\item{The capillary bore is wider}
+\item{Bulb is smaller and has a white bead}
+\item{Volume of the bulb is 10 parts}
+\end{itemize}
+
+
+\subsection*{Finger Prick}
+\begin{itemize}
+\item{Clean the tip of the finger with spirit and allow the area to dry.}
+\item{Prick the tip of finger with the lancet, deep enough to get a good drop of blood.}
+\item{Don’t squeeze the finger pulp after pricking as this leads to the seepage of tissue fluid resulting in dilution of the blood.}
+\item{The prick is usually made on middle or ring finger.}
+\end{itemize}
+
+\subsection*{Filling The Pipette}
+\begin{itemize}
+
+\item{Under aseptic precautions prick the finger and wipe away the first drop and allow the flowing blood to form a good sized drop.}
+\item{Hold the pipette horizontally and dip its end into the blood drop. Gently suck blood upto 0.5 or 1.0 mark depending on the dilution required.}
+
+\item{If the blood overshoots 0.5 or 1.0 mark, remove the excess blood by gently tapping the tip of the pipette on to the palm. Do not use cotton or any absorbent material as it might absorb water content of blood and concentrates blood.}
+\item{Place the tip of the pipette into the diluting fluid and suck upto the 11 mark in case of WBC pipette or 101 mark in case of RBC pipette without any air bubble.}
+\item{Place the pipette horizontally between the palms of both hands with the rubber tube folded parallel to it and roll the pipette for 1-2 minutes, for thorough mixing of blood with the fluid in the bulb.}
+
+\end{itemize}
+
+\subsection*{Precautions}
+\begin{itemize}
+
+\item{The pipette must be dry and free from clotted blood and the bead must roll freely in the bulb.}
+\item{The tip must not press against the finger or be lifted out of the blood drop or else air will enter it.}
+\item{The blood must be diluted immediately, or else it may clot.}
+\item{Always hold the pipette horizontally to avoid leakage of fluid from the pipette while mixing.}
+
+\end{itemize}
+
+
+\subsection*{Focussing The Counting Grid}
+\begin{itemize}
+
+	\item{	Focus the counting grid with low power and then high power objective.}
+	\item{	The lines of the squares must be seen clearly.}
+\end{itemize}
+
+	\subsection*{Charging The Chamber}
+	\begin{itemize}
+
+		\item{	 Place the coverslip on the central platform of the chamber covering the ruled squares.}
+\item{	 Discard the stem fluid before charging the chamber as it contains only the diluting fluid.}
+\item{	 Form a good drop of diluted blood at the tip of the pipette, by squeezing the rubber tube, while closing its mouthpiece or by gently blowing through the rubber tube.}
+\item{	 Hold the pipette at 45 degree inclination and touch the chamber with the  tip of the pipette between the cover slip and the central platform.}
+\item{	 A thin layer of the fluid spreads under the coverslip on the central  platform by capillary action.}
+\item{	 Avoid overcharging the chamber which is recognized by fluid in the  trenches.}
+\item{	 Wait for 2 minutes for the cells to settle down.}
+\item{	 Focus  the  squares  under  the  desired  objective  and  start  counting.}
+	\end{itemize}
+
+
+	\subsection*{Precautions}
+	\begin{itemize}
+
+\item{	 The chamber and the coverslip should be properly cleaned.}
+\item{	 The contents of the bulb must be thoroughly mixed before charging.}
+\item{	 2-3 drops of fluid must be discarded from the pipette before charging as the stem contains only diluents.}
+\item{	 Air bubbles should not enter the platform of the chamber while charging.}
+\item{	 The chamber should not be overcharged ( gives false low results) or undercharged ( the cells may not be found in peripheral squares).}
+	\end{itemize}
+
+	\subsection*{Cell Counting}
+	\begin{itemize}
+
+\item{	 Count the cells in the respective squares.}
+\item{	 Care should be taken not to count the same cells again by following L rule. (Count the cells present inside the square and those on the left and lower lines. Ignore those on the right and upper lines).}
+	\end{itemize}
+
+	\subsection*{Questions}
+	
+	\begin{itemize}
+
+\item{	 What are the other types of cell counting chambers ?}
+}
+\item{	 What are the other cells that can be counted using Neubauer’s chamber?}
+\item{	 Mention the differences between RBC and WBC pipettes.}
+	\end{itemize}
+	
+\chapter*{\centering Estimatim Of Total RBC Count}
+\chapter*{\centering Estimation Of Total WBC Count}
+\chapter*{\centering Absolute Eosinophil Count}
+\chapter*{\centering Diffrential Count}
+\chapter*{\centering Hemoglobin Estimation}
+\chapter*{\centering Blood Grouping \& Typing}
+\chapter*{\centering Estimation Of Erythrocyte Sedimentation Rate}
+\chapter*{\centering Packed Cell Volume}
+\chapter*{\centering Osmotic Fragility}
+\chapter*{\centering Specific Gravity}
 
 \part{Clinical Physiology}
 
