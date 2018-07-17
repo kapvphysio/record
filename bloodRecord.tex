@@ -9,11 +9,13 @@
 \usepackage{pdfrender}
 \usepackage{xcolor}
 \usepackage{ae}
+\usepackage{multirow}
 \usepackage{aecompl}
 \usepackage{helvet}
 \usepackage{afterpage}
 \usepackage{graphicx}
 \usepackage{caption}
+\usepackage{array}
 \makeatletter
 \newcommand\@addfig{\relax}
 \newcommand\addfig[1]{\global\long\def\@addfig{#1}}
@@ -532,17 +534,26 @@
 
 					Draw a table with 100 squares to count 100 WBCs and enter the type of cell as identified while examining the film.
 
+	\addfig{%
+		\begin{figure}[h]
+			\centering
+			\includegraphics[scale=13]{./dc1.jpg}
+			\label{dc1}
+			\vspace{3cm}
+			\includegraphics[scale=13]{./dc2.jpg}
+			\label{dc2}
+		\end{figure}
+		}
+					Under aseptic precautions, prick the finger. Discard the first drop of blood. Place the slide on the table and support with left hand. Place the blood drop on the right end, one cm away from the edge. Place the spreader slide just infront of the blood drop. Draw the spreader slide backwards to touch the drop. The blood spreads across the edge of the spreader. Draw the spreader slide forward at an angle of 45$^{\circ}$ with a smooth, fast and firm movement to make a thin tongue shaped blood smear. Too thick, thin or a patchy smear is to be avoided. Air dry the smear quickly.
+
 					\section*{Result}
-					The differential count of WBCs in the blood sample is as follows.
+					The differential count of WBCs in the blood sample is as follows.\newline
+					Neutrophil = $\rule{5cm}{0.1cm}$ \%\newline
+					Eosinophil = $\rule{5cm}{0.1cm}$ \%\newline
+					Basophil = $\rule{5cm}{0.1cm}$ \%\newline
+					Lymphocyte = $\rule{5cm}{0.1cm}$ \%\newline
+					Monocyte =$\rule{5cm}{0.1cm}$ \%\newline
 
-					Neutrophil = $\rule{5cm}{0.1cm}$ \%
-					Eosinophil = $\rule{5cm}{0.1cm}$ \%
-					Basophil = $\rule{5cm}{0.1cm}$ \%
-					Lymphocyte = $\rule{5cm}{0.1cm}$ \%
-					Monocyte =$\rule{5cm}{0.1cm}$ \%
-
-
-					
 					\section*{Questions}
 					\begin{enumerate}
 						\item{Draw the different WBCs using appropriate colours.}
@@ -552,6 +563,68 @@
 						\item{Mention the functions of various types of WBCs and their abnormalities in count.}
 						\item{Mention the clinical importance of peripheral blood smear.}
 					\end{enumerate}
+
+
+					\section*{Identifcation Of The Cells}
+					A leukocyte is identified by its size, nucleus, cytoplasm and granules.
+
+					\begin{tabularx}{\textwidth}{*{5}{m{.2\textwidth}|X|}}
+%{|c|c|X|X|c|}
+						\hline
+						\textbf{Cell type}&
+						\textbf{Size}&
+						\textbf{Nucleus}&
+						\textbf{Cytoplasm}&
+						\textbf{Normal Values}\\
+
+						\hline
+
+						Neutrophil&
+						10 – 14 ${\mu}m$&
+						2-5 lobes connected by narrow strands of chromatin&
+						Fine violet-pink granules&
+						60-70\%\\
+
+						\hline
+						Eosinophil&
+						10 - 15 ${\mu}m$&
+						Often bi-lobed connected by thick strands of chromatin (spectacle shaped nucleus)&
+						Coarse brick-red to orange granules&
+						2-8\%\\
+						\hline	
+
+						Basophil&
+						10 - 15 ${\mu}m$&
+						Irregularly shaped (S shaped) nucleus masked by the granules&
+						Very coarse deep purple granules&
+						0-1\%\\
+						\hline
+
+						Small lymphocyte&
+						7-9 ${\mu}m$&
+						Single, round, almost fills the cell Thin cresent of clear, light blue cytoplasm. &
+						No visible granules.&
+						\multirow{2}{*}{20-30\%}\\
+						\cline{1-4}
+
+						Large lymphocyte&
+						10 - 15 ${\mu}m$&
+						Single, round, almost fills the cell.  May be central or eccentric.&
+						Large cresent of clear, light blue cytoplasm. No visible granules.&
+						\\
+						\hline
+
+						Monocyte&
+						12 - 20 ${\mu}m$&
+						Horse-shoe shaped nucleus Indented&
+						Abundant, muddy blue in appearance. No visible granules.&
+						1-5\%\\
+						\hline
+					\end{tabularx}	
+
+
+
+
 
 					\chapter*{\centering Hemoglobin Estimation}
 					\begin{tabular}{p{5in} p{1in}}

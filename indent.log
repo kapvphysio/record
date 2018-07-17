@@ -1,0 +1,20 @@
+Sat Jul 14 22:20:51 2018
+latexindent version 2.1R, a script to indent .tex files
+latexindent lives here: /usr/share/texlive/texmf-dist/scripts/latexindent/
+
+Directory for backup files and indent.log: ./Record/record
+Reading defaultSettings.yaml from /usr/share/texlive/texmf-dist/scripts/latexindent/defaultSettings.yaml
+
+Home directory is /home/gg
+To specify user settings you would put indentconfig.yaml here: 
+	/home/gg/indentconfig.yaml
+
+Alternatively, you can use the hidden file .indentconfig.yaml as: 
+	/home/gg/.indentconfig.yaml
+
+Just out put to the terminal :)
+
+Line Count of ./Record/record/bloodRecord.tex: 595
+Line Count of indented ./Record/record/bloodRecord.tex: 595
+
+Line counts of original file and indented file match
