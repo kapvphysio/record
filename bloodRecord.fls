@@ -199,6 +199,10 @@ INPUT ./osmoticFragility.csv
 INPUT ./osmoticFragility.jpg
 INPUT ./osmoticFragility.jpg
 INPUT ./osmoticFragility.jpg
+INPUT ./specificGravity.jpg
+INPUT ./specificGravity.jpg
+INPUT ./specificGravity.jpg
+INPUT ./specificGravity.csv
 INPUT bloodRecord.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb

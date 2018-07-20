@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.1)  20 JUL 2018 12:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.1)  20 JUL 2018 16:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -540,27 +540,27 @@ Package caption Info: End \AtBeginDocument code.
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 42.
+(Font)              <12> on input line 43.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 42.
+(Font)              <8> on input line 43.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 42.
+(Font)              <6> on input line 43.
 
-Overfull \hbox (4.65208pt too wide) in paragraph at lines 42--45
+Overfull \hbox (4.65208pt too wide) in paragraph at lines 43--46
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--50
+Underfull \hbox (badness 10000) in paragraph at lines 48--51
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+aer on input line 62.
+LaTeX Font Info:    Try loading font information for OMS+aer on input line 63.
 (/usr/share/texmf/tex/latex/R/tex/latex/omsaer.fd
 File: omsaer.fd 1999/12/27
 )
 LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 62.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
  [3
 
 ]
@@ -568,10 +568,10 @@ LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <12> not available
 File: ./compoundMicroscope.jpg Graphic file (type jpg)
 
 <use ./compoundMicroscope.jpg>
-Package pdftex.def Info: ./compoundMicroscope.jpg used on input line 75.
+Package pdftex.def Info: ./compoundMicroscope.jpg used on input line 76.
 (pdftex.def)             Requested size: 233.02734pt x 431.34277pt.
  [4 <./compoundMicroscope.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
@@ -584,7 +584,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--90
 ] [7
 
 ]
-Overfull \hbox (4.65208pt too wide) in paragraph at lines 188--191
+Overfull \hbox (4.65208pt too wide) in paragraph at lines 191--194
 [] 
  []
 
@@ -593,15 +593,15 @@ Overfull \hbox (4.65208pt too wide) in paragraph at lines 188--191
 ] <./grid.jpg, id=56, 955.57pt x 999.735pt>
 File: ./grid.jpg Graphic file (type jpg)
  <use ./grid.jpg>
-Package pdftex.def Info: ./grid.jpg used on input line 246.
+Package pdftex.def Info: ./grid.jpg used on input line 249.
 (pdftex.def)             Requested size: 477.78383pt x 499.86627pt.
 
-Overfull \hbox (24.81593pt too wide) in paragraph at lines 246--246
+Overfull \hbox (24.81593pt too wide) in paragraph at lines 249--249
  [][] 
  []
 
 [8 <./grid.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 254--261
+Underfull \hbox (badness 10000) in paragraph at lines 257--264
 
  []
 
@@ -614,7 +614,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 254--261
 ] [11
 
 ]
-Overfull \hbox (4.65208pt too wide) in paragraph at lines 361--364
+Overfull \hbox (4.65208pt too wide) in paragraph at lines 365--368
 [] 
  []
 
@@ -625,7 +625,7 @@ Overfull \hbox (4.65208pt too wide) in paragraph at lines 361--364
 ] [13
 
 ]
-Overfull \hbox (4.65208pt too wide) in paragraph at lines 412--415
+Overfull \hbox (4.65208pt too wide) in paragraph at lines 417--420
 [] 
  []
 
@@ -636,12 +636,12 @@ Overfull \hbox (4.65208pt too wide) in paragraph at lines 412--415
 ] [15
 
 ]
-Overfull \hbox (4.65208pt too wide) in paragraph at lines 462--465
+Overfull \hbox (4.65208pt too wide) in paragraph at lines 468--471
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 472--475
+Underfull \hbox (badness 10000) in paragraph at lines 478--481
 
  []
 
@@ -652,12 +652,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 472--475
 ] [17
 
 ]
-Overfull \hbox (4.65208pt too wide) in paragraph at lines 503--506
+Overfull \hbox (4.65208pt too wide) in paragraph at lines 510--513
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 512--515
+Underfull \hbox (badness 10000) in paragraph at lines 519--522
 
  []
 
@@ -666,22 +666,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 512--515
 ] <./smear1.jpg, id=121, 978.65625pt x 234.8775pt>
 File: ./smear1.jpg Graphic file (type jpg)
  <use ./smear1.jpg>
-Package pdftex.def Info: ./smear1.jpg used on input line 535.
+Package pdftex.def Info: ./smear1.jpg used on input line 542.
 (pdftex.def)             Requested size: 489.32693pt x 117.43846pt.
 
 <./smear2.jpg, id=122, 876.27374pt x 375.4025pt>
 File: ./smear2.jpg Graphic file (type jpg)
  <use ./smear2.jpg>
-Package pdftex.def Info: ./smear2.jpg used on input line 535.
+Package pdftex.def Info: ./smear2.jpg used on input line 542.
 (pdftex.def)             Requested size: 438.13579pt x 187.70079pt.
 
 <./smear3.jpg, id=123, 670.505pt x 272.01625pt>
 File: ./smear3.jpg Graphic file (type jpg)
  <use ./smear3.jpg>
-Package pdftex.def Info: ./smear3.jpg used on input line 535.
+Package pdftex.def Info: ./smear3.jpg used on input line 542.
 (pdftex.def)             Requested size: 335.25168pt x 136.00778pt.
 
-Overfull \hbox (36.35904pt too wide) in paragraph at lines 535--535
+Overfull \hbox (36.35904pt too wide) in paragraph at lines 542--542
  [][] 
  []
 
@@ -691,166 +691,166 @@ Overfull \hbox (36.35904pt too wide) in paragraph at lines 535--535
 <./dc1.jpg, id=131, 26.68869pt x 18.26666pt>
 File: ./dc1.jpg Graphic file (type jpg)
  <use ./dc1.jpg>
-Package pdftex.def Info: ./dc1.jpg used on input line 568.
+Package pdftex.def Info: ./dc1.jpg used on input line 575.
 (pdftex.def)             Requested size: 346.95198pt x 237.46582pt.
 
 <./dc2.jpg, id=132, 26.74559pt x 17.18547pt>
 File: ./dc2.jpg Graphic file (type jpg)
  <use ./dc2.jpg>
-Package pdftex.def Info: ./dc2.jpg used on input line 568.
+Package pdftex.def Info: ./dc2.jpg used on input line 575.
 (pdftex.def)             Requested size: 347.69168pt x 223.41032pt.
  [19 <./dc1.jpg> <./dc2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 571--573
+Underfull \hbox (badness 10000) in paragraph at lines 578--580
 
  []
 
 
-Overfull \hbox (3.80757pt too wide) in paragraph at lines 626--626
+Overfull \hbox (3.80757pt too wide) in paragraph at lines 633--633
 []|\T1/aer/bx/n/12 Cytoplasm| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--626
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
 []|\T1/aer/m/n/12 2-5 lobes con-
  []
 
 
-Underfull \hbox (badness 1810) in paragraph at lines 626--626
+Underfull \hbox (badness 1810) in paragraph at lines 633--633
 \T1/aer/m/n/12 strands of chro-
  []
 
 
-Underfull \hbox (badness 3312) in paragraph at lines 626--626
+Underfull \hbox (badness 3312) in paragraph at lines 633--633
 \T1/aer/m/n/12 pink gran-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--626
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
 []|\T1/aer/m/n/12 Often bi-lobed
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--626
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
 \T1/aer/m/n/12 con-nected by
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--626
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
 \T1/aer/m/n/12 thick strands
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--626
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
 \T1/aer/m/n/12 of chro-matin
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--626
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
 []|\T1/aer/m/n/12 Coarse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--626
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
 \T1/aer/m/n/12 brick-red
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--626
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
 \T1/aer/m/n/12 to or-ange
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--626
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
 []|\T1/aer/m/n/12 Irregularly
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--626
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
 \T1/aer/m/n/12 shaped (S
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--626
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
 \T1/aer/m/n/12 shaped) nu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--626
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
 []|\T1/aer/m/n/12 Small lym-pho-
  []
 
 
-Underfull \hbox (badness 3612) in paragraph at lines 626--626
+Underfull \hbox (badness 3612) in paragraph at lines 633--633
 \T1/aer/m/n/12 Thin cre-sent of
  []
 
 
-Underfull \hbox (badness 1460) in paragraph at lines 626--626
+Underfull \hbox (badness 1460) in paragraph at lines 633--633
 \T1/aer/m/n/12 clear, light blue
  []
 
 
-Underfull \hbox (badness 8170) in paragraph at lines 626--626
+Underfull \hbox (badness 8170) in paragraph at lines 633--633
 []|\T1/aer/m/n/12 No vis-i-ble
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--626
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
 []|\T1/aer/m/n/12 Large lym-pho-
  []
 
 
-Underfull \hbox (badness 6141) in paragraph at lines 626--626
+Underfull \hbox (badness 6141) in paragraph at lines 633--633
 []|\T1/aer/m/n/12 Large cre-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--626
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
 \T1/aer/m/n/12 sent of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--626
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
 \T1/aer/m/n/12 blue cy-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--626
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
 \T1/aer/m/n/12 to-plasm.
  []
 
 
-Underfull \hbox (badness 8170) in paragraph at lines 626--626
+Underfull \hbox (badness 8170) in paragraph at lines 633--633
 \T1/aer/m/n/12 No vis-i-ble
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--626
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
 []|\T1/aer/m/n/12 Horse-shoe
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--626
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
 \T1/aer/m/n/12 shaped nu-cleus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--626
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
 []|\T1/aer/m/n/12 Abundant,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--626
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
 \T1/aer/m/n/12 muddy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--626
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
 \T1/aer/m/n/12 pear-ance.
  []
 
 
-Underfull \hbox (badness 8170) in paragraph at lines 626--626
+Underfull \hbox (badness 8170) in paragraph at lines 633--633
 \T1/aer/m/n/12 No vis-i-ble
  []
 
@@ -861,7 +861,7 @@ Underfull \hbox (badness 8170) in paragraph at lines 626--626
 ] [20
 
 ] [21]
-Overfull \hbox (4.65208pt too wide) in paragraph at lines 634--637
+Overfull \hbox (4.65208pt too wide) in paragraph at lines 638--641
 [] 
  []
 
@@ -870,14 +870,14 @@ Overfull \hbox (4.65208pt too wide) in paragraph at lines 634--637
 ] <./hb.jpg, id=153, 1234.6125pt x 1898.09125pt>
 File: ./hb.jpg Graphic file (type jpg)
  <use ./hb.jpg>
-Package pdftex.def Info: ./hb.jpg used on input line 665.
+Package pdftex.def Info: ./hb.jpg used on input line 669.
 (pdftex.def)             Requested size: 308.65237pt x 474.52165pt.
  [22 <./hb.jpg>] [22
 
 ] [23
 
 ]
-Overfull \hbox (4.65208pt too wide) in paragraph at lines 682--685
+Overfull \hbox (4.65208pt too wide) in paragraph at lines 688--691
 [] 
  []
 
@@ -887,10 +887,10 @@ Overfull \hbox (4.65208pt too wide) in paragraph at lines 682--685
 File: ./bloodGrouping.jpg Graphic file (type jpg)
 
 <use ./bloodGrouping.jpg>
-Package pdftex.def Info: ./bloodGrouping.jpg used on input line 718.
+Package pdftex.def Info: ./bloodGrouping.jpg used on input line 724.
 (pdftex.def)             Requested size: 480.5931pt x 501.06947pt.
 
-Overfull \hbox (27.6252pt too wide) in paragraph at lines 718--718
+Overfull \hbox (27.6252pt too wide) in paragraph at lines 724--724
  [][] 
  []
 
@@ -899,12 +899,12 @@ Overfull \hbox (27.6252pt too wide) in paragraph at lines 718--718
 ] [25
 
 ]
-Overfull \hbox (4.65208pt too wide) in paragraph at lines 731--742
+Overfull \hbox (4.65208pt too wide) in paragraph at lines 739--750
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 731--742
+Underfull \hbox (badness 10000) in paragraph at lines 739--750
 
  []
 
@@ -914,14 +914,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 731--742
 File: ./bleedingTime.jpg Graphic file (type jpg)
 
 <use ./bleedingTime.jpg>
-Package pdftex.def Info: ./bleedingTime.jpg used on input line 766.
+Package pdftex.def Info: ./bleedingTime.jpg used on input line 774.
 (pdftex.def)             Requested size: 427.59647pt x 139.01903pt.
  [26 <./bleedingTime.jpg>] [26
 
 ] [27
 
 ]
-Overfull \hbox (4.65208pt too wide) in paragraph at lines 776--779
+Overfull \hbox (4.65208pt too wide) in paragraph at lines 784--787
 [] 
  []
 
@@ -931,19 +931,19 @@ Overfull \hbox (4.65208pt too wide) in paragraph at lines 776--779
 File: ./clottingTime.jpg Graphic file (type jpg)
 
 <use ./clottingTime.jpg>
-Package pdftex.def Info: ./clottingTime.jpg used on input line 809.
+Package pdftex.def Info: ./clottingTime.jpg used on input line 817.
 (pdftex.def)             Requested size: 373.89595pt x 136.50966pt.
  [28 <./clottingTime.jpg>] [28
 
 ] [29
 
 ]
-Overfull \hbox (4.65208pt too wide) in paragraph at lines 826--829
+Overfull \hbox (4.65208pt too wide) in paragraph at lines 836--839
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 849--850
+Underfull \hbox (badness 10000) in paragraph at lines 859--860
 
  []
 
@@ -952,10 +952,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 849--850
 ] <./esr.jpg, id=208, 763.85374pt x 702.625pt>
 File: ./esr.jpg Graphic file (type jpg)
  <use ./esr.jpg>
-Package pdftex.def Info: ./esr.jpg used on input line 858.
+Package pdftex.def Info: ./esr.jpg used on input line 868.
 (pdftex.def)             Requested size: 381.92593pt x 351.31163pt.
  [30 <./esr.jpg>]
-Overfull \hbox (0.67636pt too wide) in paragraph at lines 869--870
+Overfull \hbox (0.67636pt too wide) in paragraph at lines 879--880
 []\T1/aer/m/n/12 Can you use ox-alate mix-ture in West-er-gren method and cit-r
 ate in Win-trobe method? 
  []
@@ -965,12 +965,12 @@ ate in Win-trobe method?
 ] [31
 
 ]
-Overfull \hbox (4.65208pt too wide) in paragraph at lines 882--885
+Overfull \hbox (4.65208pt too wide) in paragraph at lines 893--896
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 903--904
+Underfull \hbox (badness 10000) in paragraph at lines 914--915
 
  []
 
@@ -979,19 +979,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 903--904
 ] <./pcv.jpg, id=222, 752.8125pt x 473.77pt>
 File: ./pcv.jpg Graphic file (type jpg)
  <use ./pcv.jpg>
-Package pdftex.def Info: ./pcv.jpg used on input line 913.
+Package pdftex.def Info: ./pcv.jpg used on input line 924.
 (pdftex.def)             Requested size: 376.40532pt x 236.88441pt.
  [32 <./pcv.jpg>] [32
 
 ] [33
 
 ]
-Overfull \hbox (4.65208pt too wide) in paragraph at lines 924--927
+Overfull \hbox (4.65208pt too wide) in paragraph at lines 935--938
 [] 
  []
 
 
-Overfull \hbox (34.3562pt too wide) in paragraph at lines 959--960
+Overfull \hbox (48.4801pt too wide) in paragraph at lines 968--969
  [] 
  []
 
@@ -1001,42 +1001,62 @@ Overfull \hbox (34.3562pt too wide) in paragraph at lines 959--960
 File: ./osmoticFragility.jpg Graphic file (type jpg)
 
 <use ./osmoticFragility.jpg>
-Package pdftex.def Info: ./osmoticFragility.jpg used on input line 960.
+Package pdftex.def Info: ./osmoticFragility.jpg used on input line 969.
 (pdftex.def)             Requested size: 439.13956pt x 471.76134pt.
  [34 <./osmoticFragility.jpg>] [34
 
 ] [35
 
 ]
-Overfull \hbox (4.65208pt too wide) in paragraph at lines 981--984
+Overfull \hbox (4.65208pt too wide) in paragraph at lines 996--999
 [] 
  []
 
 [35
 
-] [36
+] <./specificGravity.jpg, id=249, 975.645pt x 849.1725pt>
+File: ./specificGravity.jpg Graphic file (type jpg)
 
-] [36
+<use ./specificGravity.jpg>
+Package pdftex.def Info: ./specificGravity.jpg used on input line 1025.
+(pdftex.def)             Requested size: 487.8213pt x 424.5852pt.
 
-] [37] [37
+Overfull \hbox (34.85341pt too wide) in paragraph at lines 1025--1025
+ [][] 
+ []
+
+[36 <./specificGravity.jpg>] [36
+
+] [37
+
+] [37
 
 ] [38] [38
 
 ] [39] [39
 
 
-] [39
+]
+Overfull \hbox (4.65208pt too wide) in paragraph at lines 1051--1055
+[]
+ []
+
+[39
+
+] [40
+
+] [40
 
 
 ] (./bloodRecord.aux) ) 
 Here is how much of TeX's memory you used:
- 5121 strings out of 494985
- 80510 string characters out of 6180357
- 154887 words of memory out of 5000000
- 8213 multiletter control sequences out of 15000+600000
+ 5127 strings out of 494985
+ 80649 string characters out of 6180357
+ 154934 words of memory out of 5000000
+ 8218 multiletter control sequences out of 15000+600000
  25611 words of font info for 53 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 41i,10n,51p,657b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,10n,51p,657b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.
@@ -1044,10 +1064,10 @@ pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on bloodRecord.pdf (80 pages, 889220 bytes).
+Output written on bloodRecord.pdf (82 pages, 956929 bytes).
 PDF statistics:
- 305 PDF objects out of 1000 (max. 8388607)
- 200 compressed objects within 2 object streams
+ 313 PDF objects out of 1000 (max. 8388607)
+ 204 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
