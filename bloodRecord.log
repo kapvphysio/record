@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.1)  21 JUL 2018 13:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.1)  21 JUL 2018 16:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1047,49 +1047,172 @@ Overfull \hbox (4.65208pt too wide) in paragraph at lines 1052--1056
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1064--1065
+Underfull \hbox (badness 10000) in paragraph at lines 1141--1142
 
  []
 
 [39
 
-] [40] [40
+] <./clinicalPhysioPic/pallor1.jpg, id=279, 501.875pt x 501.875pt>
+File: ./clinicalPhysioPic/pallor1.jpg Graphic file (type jpg)
 
-] [41]
-Overfull \hbox (1.40753pt too wide) in paragraph at lines 1149--1150
+<use ./clinicalPhysioPic/pallor1.jpg>
+Package pdftex.def Info: ./clinicalPhysioPic/pallor1.jpg used on input line 115
+8.
+(pdftex.def)             Requested size: 135.89174pt x 135.89095pt.
+
+<./clinicalPhysioPic/pallor2.jpg, id=280, 501.875pt x 501.875pt>
+File: ./clinicalPhysioPic/pallor2.jpg Graphic file (type jpg)
+
+<use ./clinicalPhysioPic/pallor2.jpg>
+Package pdftex.def Info: ./clinicalPhysioPic/pallor2.jpg used on input line 115
+8.
+(pdftex.def)             Requested size: 135.89174pt x 135.89095pt.
+
+Underfull \hbox (badness 1178) in paragraph at lines 1158--1158
+[]\T1/aer/m/n/10.95 (b) |Lower Pal-pa-bral Con-
+ []
+
+<./clinicalPhysioPic/koilonychia.jpg, id=281, 501.875pt x 501.875pt>
+File: ./clinicalPhysioPic/koilonychia.jpg Graphic file (type jpg)
+
+<use ./clinicalPhysioPic/koilonychia.jpg>
+Package pdftex.def Info: ./clinicalPhysioPic/koilonychia.jpg used on input line
+ 1158.
+(pdftex.def)             Requested size: 135.89174pt x 135.89095pt.
+
+<./clinicalPhysioPic/jaundice.jpg, id=282, 501.875pt x 501.875pt>
+File: ./clinicalPhysioPic/jaundice.jpg Graphic file (type jpg)
+
+<use ./clinicalPhysioPic/jaundice.jpg>
+Package pdftex.def Info: ./clinicalPhysioPic/jaundice.jpg used on input line 11
+58.
+(pdftex.def)             Requested size: 135.89174pt x 135.89095pt.
+
+<./clinicalPhysioPic/cyanosis4-0.jpg, id=283, 501.875pt x 501.875pt>
+File: ./clinicalPhysioPic/cyanosis4-0.jpg Graphic file (type jpg)
+
+<use ./clinicalPhysioPic/cyanosis4-0.jpg>
+Package pdftex.def Info: ./clinicalPhysioPic/cyanosis4-0.jpg used on input line
+ 1158.
+(pdftex.def)             Requested size: 135.89174pt x 135.89095pt.
+
+<./clinicalPhysioPic/cyanosis4-1.jpg, id=284, 501.875pt x 501.875pt>
+File: ./clinicalPhysioPic/cyanosis4-1.jpg Graphic file (type jpg)
+
+<use ./clinicalPhysioPic/cyanosis4-1.jpg>
+Package pdftex.def Info: ./clinicalPhysioPic/cyanosis4-1.jpg used on input line
+ 1158.
+(pdftex.def)             Requested size: 135.89174pt x 135.89095pt.
+
+<./clinicalPhysioPic/cyanosis4-2.jpg, id=285, 501.875pt x 501.875pt>
+File: ./clinicalPhysioPic/cyanosis4-2.jpg Graphic file (type jpg)
+
+<use ./clinicalPhysioPic/cyanosis4-2.jpg>
+Package pdftex.def Info: ./clinicalPhysioPic/cyanosis4-2.jpg used on input line
+ 1158.
+(pdftex.def)             Requested size: 135.89174pt x 135.89095pt.
+
+<./clinicalPhysioPic/cyanosis4-3.jpg, id=286, 501.875pt x 501.875pt>
+File: ./clinicalPhysioPic/cyanosis4-3.jpg Graphic file (type jpg)
+
+<use ./clinicalPhysioPic/cyanosis4-3.jpg>
+Package pdftex.def Info: ./clinicalPhysioPic/cyanosis4-3.jpg used on input line
+ 1158.
+(pdftex.def)             Requested size: 135.89174pt x 135.89095pt.
+
+<./clinicalPhysioPic/clubbing3-0.jpg, id=287, 501.875pt x 501.875pt>
+File: ./clinicalPhysioPic/clubbing3-0.jpg Graphic file (type jpg)
+
+<use ./clinicalPhysioPic/clubbing3-0.jpg>
+Package pdftex.def Info: ./clinicalPhysioPic/clubbing3-0.jpg used on input line
+ 1158.
+(pdftex.def)             Requested size: 135.89174pt x 135.89095pt.
+
+<./clinicalPhysioPic/clubbing3-1.jpg, id=288, 501.875pt x 501.875pt>
+File: ./clinicalPhysioPic/clubbing3-1.jpg Graphic file (type jpg)
+
+<use ./clinicalPhysioPic/clubbing3-1.jpg>
+Package pdftex.def Info: ./clinicalPhysioPic/clubbing3-1.jpg used on input line
+ 1158.
+(pdftex.def)             Requested size: 135.89174pt x 135.89095pt.
+
+<./clinicalPhysioPic/clubbing3-2.jpg, id=289, 501.875pt x 501.875pt>
+File: ./clinicalPhysioPic/clubbing3-2.jpg Graphic file (type jpg)
+
+<use ./clinicalPhysioPic/clubbing3-2.jpg>
+Package pdftex.def Info: ./clinicalPhysioPic/clubbing3-2.jpg used on input line
+ 1158.
+(pdftex.def)             Requested size: 135.89174pt x 135.89095pt.
+
+<./clinicalPhysioPic/pittingPedalEdema.jpg, id=290, 501.875pt x 501.875pt>
+File: ./clinicalPhysioPic/pittingPedalEdema.jpg Graphic file (type jpg)
+
+<use ./clinicalPhysioPic/pittingPedalEdema.jpg>
+Package pdftex.def Info: ./clinicalPhysioPic/pittingPedalEdema.jpg used on inpu
+t line 1158.
+(pdftex.def)             Requested size: 135.89174pt x 135.89095pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1158--1158
+[][] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1158--1158
+[] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1158--1158
+[] [] []
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[40] [41 <./clinicalPhysioPic/pallor1.jpg> <./clinicalPhysioPic/pallor2.jpg> <.
+/clinicalPhysioPic/koilonychia.jpg> <./clinicalPhysioPic/jaundice.jpg> <./clini
+calPhysioPic/cyanosis4-0.jpg> <./clinicalPhysioPic/cyanosis4-1.jpg> <./clinical
+PhysioPic/cyanosis4-2.jpg> <./clinicalPhysioPic/cyanosis4-3.jpg> <./clinicalPhy
+sioPic/clubbing3-0.jpg> <./clinicalPhysioPic/clubbing3-1.jpg> <./clinicalPhysio
+Pic/clubbing3-2.jpg> <./clinicalPhysioPic/pittingPedalEdema.jpg>] [41
+
+] [42]
+Overfull \hbox (1.40753pt too wide) in paragraph at lines 1226--1227
 []\T1/aer/m/n/12 Bronchopulmonary dis-eases like bronchiec-ta-sis, lung ab-sces
 s, empyema, chronic
  []
 
-[41
+[42
 
-] [42] [42
+] [43] [43
 
-] [43
+] [44
 
-] [43
+] [44
 
 
 ] (./bloodRecord.aux) ) 
 Here is how much of TeX's memory you used:
- 5175 strings out of 494985
- 81404 string characters out of 6180357
- 155874 words of memory out of 5000000
- 8264 multiletter control sequences out of 15000+600000
- 25611 words of font info for 53 fonts, out of 8000000 for 9000
+ 5274 strings out of 494985
+ 83971 string characters out of 6180357
+ 156102 words of memory out of 5000000
+ 8344 multiletter control sequences out of 15000+600000
+ 28676 words of font info for 59 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 41i,10n,51p,657b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,10n,51p,657b,523s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on bloodRecord.pdf (88 pages, 963286 bytes).
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on bloodRecord.pdf (89 pages, 1255619 bytes).
 PDF statistics:
- 332 PDF objects out of 1000 (max. 8388607)
- 217 compressed objects within 3 object streams
+ 351 PDF objects out of 1000 (max. 8388607)
+ 222 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 
