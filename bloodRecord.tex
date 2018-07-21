@@ -17,6 +17,7 @@
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{array}
+\usepackage{subcaption}
 \makeatletter
 \newcommand\@addfig{\relax}
 \newcommand\addfig[1]{\global\long\def\@addfig{#1}}
@@ -37,7 +38,7 @@
 	\afterpage{\blankpage}
 	%-------Hematology----{{{
 	\part{Hematology}
-%-------CompoundMicroscope---{{{
+	%-------CompoundMicroscope---{{{
 	\chapter*{\centering Compound Microscope}
 
 	\begin{tabular}{p{5in} p{1in}}
@@ -462,7 +463,7 @@
 						\item{ What is Leukemia?}
 					\end{enumerate}
 					%----}}}
-%------AEC---{{{
+					%------AEC---{{{
 					\chapter*{\centering Absolute Eosinophil Count}
 
 					\begin{tabular}{p{5in} p{1in}}
@@ -505,7 +506,7 @@
 						\item{What are eosinopenia and eosinophilia?}
 					\end{enumerate}
 					%-----}}}
-%-----DC{{{
+					%-----DC{{{
 					\chapter*{\centering Diffrential Count}
 					\begin{tabular}{p{5in} p{1in}}
 						\textbf{Exp No:}  & \textbf{Date:}\\
@@ -633,7 +634,7 @@
 								\end{tabularx}	
 							\end{center}
 							%------}}}
-%---------Hb---{{{
+							%---------Hb---{{{
 							\chapter*{\centering Hemoglobin Estimation}
 							\begin{tabular}{p{5in} p{1in}}
 								\textbf{Exp No:}  & \textbf{Date:}\\
@@ -779,7 +780,7 @@
 											\item{What is Thrombocytopenic purpura? Comment on the clotting time in this condition.}
 										\end{enumerate}
 										%------------------------}}}
-%------------ClottingTime---{{{
+										%------------ClottingTime---{{{
 										\chapter*{\centering Estimation Of Clotting Time}
 										\begin{tabular}{p{5in} p{1in}}
 											\textbf{Exp No:}  & \textbf{Date:}\\
@@ -887,7 +888,7 @@
 													\item{What is zeta potential?}
 												\end{enumerate}
 												%------------------------}}}
-%---PackedCellVolume-{{{
+												%---PackedCellVolume-{{{
 
 												\chapter*{\centering Packed Cell Volume}
 												\begin{tabular}{p{5in} p{1in}}
@@ -930,7 +931,7 @@
 														\item{What is the difference between arterial and venous blood hematocrit?}
 													\end{enumerate}
 													%-----------------}}}
-%---------OsmoticFragility---{{{
+													%---------OsmoticFragility---{{{
 													\chapter*{\centering Osmotic Fragility}
 													\begin{tabular}{p{5in} p{1in}}
 														\textbf{Exp No:}  & \textbf{Date:}\\
@@ -987,8 +988,8 @@
 															\item{Name some conditions which increase / decrease the osmotic fragility of the RBC.}
 															\item{What are the advantages of the shape of red blood cells?}
 														\end{enumerate}	
-%----------------------------}}}
-%--------------------------------SpecificGravity------------------------------{{{
+														%----------------------------}}}
+														%--------------------------------SpecificGravity------------------------------{{{
 
 
 														\chapter*{\centering Specific Gravity}
@@ -1043,26 +1044,154 @@
 															\end{enumerate}
 															%----------------------------------------------------------------------------}}}
 															%-----------}}}
-															
+
 															\part{Clinical Physiology}
 
-														\chapter*{\centering General Examination}
+															\chapter*{\centering General Examination}
 
-														\begin{tabular}{p{5in} p{1in}}
-															\textbf{Exp No:}  & \textbf{Date:}\\
-														\end{tabular}
-A thorough general examination is done before any systemic examination. Vital information such as name, age, sex, height, weight, occupation and address of the individual are recorded. The subject is comfortably seated. The room is well illuminated. It is always preferable to examine under good day light. The examiner should always be on the right side of the subject while examining.
-\section*{The following observations are recorded:}
-\subsection*{Level Of Consciousness}
-The level of consciousness can be clear sensorium, drowsiness, stupor, semicoma and coma.
-\subsection*{Orientation To Time, Place And Person}
-Ask about the day, date, month, year and time of day. Subject should know where they are (e.g. home or hospital) Similarly test his orientation towards person.
-\subsection*{Body Build And Nourishment}
-Build refers to skeletal frame work and nourishment refers to muscular bulk. It should be observed whether he is well / moderately / thin built and nourished.
-\subsection*{Temperature}
-Recorded by a clinical thermometer
-\\
-\textbf{Method of recording temperature}
-Do not touch the bulb of the thermometer. Shake down the mercury column into the bulb. Keep it under the tongue with the mouth closed for one minute before reading the temperature.
+															\begin{tabular}{p{5in} p{1in}}
+																\textbf{Exp No:}  & \textbf{Date:}\\
+															\end{tabular}
+															A thorough general examination is done before any systemic examination. Vital information such as name, age, sex, height, weight, occupation and address of the individual are recorded. The subject is comfortably seated. The room is well illuminated. It is always preferable to examine under good day light. The examiner should always be on the right side of the subject while examining.
+															\section*{The following observations are recorded:}
+															\subsection*{Level Of Consciousness}
+															The level of consciousness can be clear sensorium, drowsiness, stupor, semicoma and coma.
+															\subsection*{Orientation To Time, Place And Person}
+															Ask about the day, date, month, year and time of day. Subject should know where they are (e.g. home or hospital) Similarly test his orientation towards person.
+															\subsection*{Body Build And Nourishment}
+															Build refers to skeletal frame work and nourishment refers to muscular bulk. It should be observed whether he is well / moderately / thin built and nourished.
+															\subsection*{Temperature}
+															Recorded by a clinical thermometer.\newline
+															\begin{itemize}
+																\item{\textbf{Method of recording temperature:}}
 
+																	Do not touch the bulb of the thermometer. Shake down the mercury column into the bulb. Keep it under the tongue with the mouth closed for one minute before reading the temperature.
+																\item{\textbf{Sites of recording temperature:}}
+																	\begin{itemize}%Sites of recording temperature:]
+																		\setlength\itemsep{.5em}
+																		\item{Mouth ( 36.6$^{\circ}$C to 37.2C$^{\circ}$C )}
+																		\item{Axilla ( 0.5 $^{\circ}$C lower than oral temperature )}
+																		\item{Rectum ( 0.5 $^{\circ}$C higher than oral temperature – Closer to core temperature )}
+																	\end{itemize}
+															\end{itemize}
+
+															\subsection*{Pallor}
+															Pallor of the skin and mucous membrane.
+															\begin{itemize}
+																\item{\textbf{Areas to look for pallor}}
+																	\begin{itemize}
+																		\item{Lower palpebral conjunctiva}
+																		\item{Instruct the subject to look up and retract the lower lid to see the palpebral conjunctiva}
+																		\item{Dorsum of tongue}
+																		\item{Mucous membrane of oral cavity}
+																		\item{Nail bed}
+																		\item{Skin over palm and sole}
+																	\end{itemize}
+
+																\item{\textbf{Conditions where pallor is seen}}
+																	\begin{itemize}
+																		\item{Anemia – Reduced count of RBCs / Hb content in blood}
+																		\item{Shock}
+																	\end{itemize}
+															\end{itemize}
+															\subsection*{Jaundice ( Icterus )}
+															Yellowish discoloration of the sclera, skin and the mucous membrane due to presence of excess bilirubin in blood of more than 2 $mg$\%
+															\begin{itemize}
+																\item{\textbf{Areas to look for jaundice}}
+																	\begin{itemize}
+																		\item{Bulbar conjunctiva of both eyes – Upper sclera}
+																			(Instruct the subject to look down and retract the upper lid to view the sclera)
+																		\item{Mucus membrane of oral cavity}
+																			(especially the undersurface of tongue and floor of mouth)
+																		\item{Nail bed}
+																		\item{Skin}
+																	\end{itemize}
+																\item{\textbf{Causes of yellowish discoloration of skin}}
+																	\begin{itemize}
+																		\item{Jaundice, Carotenemia, Hemochromatosis}
+																	\end{itemize}
+
+																\item{\textbf{Hypercarotenemia occurs in}}
+																	\begin{itemize}
+																		\item{People who eat large quantity of raw carrots and tomatoes}
+																		\item{Hypothyroidism.}
+																	\end{itemize}
+															\end{itemize}
+															\subsection*{Cyanosis}
+															It is the bluish discoloration of the skin and mucous membrane due to an increased quantity of reduced hemoglobin concentration of more than 5 gm in 100 ml of blood.
+															\begin{itemize}
+																\item{\textbf{Areas to look for cyanosis:}}
+\begin{itemize}
+\item{Lips}
+\item{Tongue}
+\item{Mucous membrane over the Palate}
+\item{Conjunctiva}
+\item{Tip of the nose and ear lobules}
+\item{Extremities (fingers, toes and nail beds)}
+																	\end{itemize}
+																\item{\textbf{Types of Cyanosis:}}
+\begin{itemize}
+\item{	Central cyanosis}
+\item{	Peripheral cyanosis}
+\item{	Differential cyanosis}
+\end{itemize}
+\end{itemize}
+
+\subsection*{Clubbing}
+Bulbous enlargement of soft parts of the terminal phalanges with over curving of the nails both longitudinally and transversely.
+\begin{itemize}
+	\item{\textbf{Schamroth’s sign:}}
+	\begin{itemize}
+\item{When two fingers of both hands are held together with their nails facing each other, a diamond shaped space is seen. This space is lost in clubbing (Positive Schamroth’s sign).}
+	\end{itemize}
+\item{\textbf{Clubbing is seen in}}
+	\begin{itemize}
+\item{Bronchopulmonary diseases like bronchiectasis, lung abscess, empyema, chronic bronchitis and bronchogenic carcinoma}
+\item{Cardiac diseases like congenital cyanotic heart disease and bacterial endocarditis}
+\item{Gastro intestinal diseases like ulcerative colitis and liver cirrhosis}
+\item{Endocrine disorders like acromegaly, thyrotoxicosis}
+\item{Hereditary}
+	\end{itemize}
+\end{itemize}
+
+\subsection*{Oedema}
+It is the condition where there is accumulation of free fluid in the interstitial space. Pedal oedema is examined by pressing the skin and the tissue against the tibial bone just above the medial malleolus, sustaining the pressure for at least 15 seconds and releasing the pressure to look for pitting, if any. In bed ridden subjects oedema is examined by pressing over the presacral region.
+
+\begin{itemize}
+\item{\textbf{Types of oedema:}}
+\begin{itemize}
+\item{Pitting oedema – Heart failure, renal disease, hypoproteinemia}
+\item{Non-pitting oedema – Myxoedema, filariasis}
+\end{itemize}
+\end{itemize}
+
+\subsection*{Lymphadenopathy}
+\begin{itemize}
+	\item{\textbf{Group of nodes to be examined:}}
+		\begin{itemize}
+\item{Submental, submandibular, cervical, posterior auricular, occipital,  supraclavicular, axillary, inguinal and popliteal nodes.}
+		\end{itemize}
+\item{\textbf{Points to be noted while examining lymph nodes:}}
+	\begin{itemize}
+\item{Site, size, number, consistency (soft, firm or hard), tenderness, mobility, matted or discrete, fixity to skin, generalized or localized.}
+	\end{itemize}
+\item{\textbf{Examination of lymph nodes:}}
+	\begin{itemize}
+\item{Examiner should stand behind the sitting subject- Submental, submandibular, deep cervical nodes in the anterior triangle of neck}
+\item{Examiner should stand in front of the sitting subject – deep cervical nodes in the posterior triangle of neck, posterior auricular and occipital nodes}
+\item{Axillary nodes – sitting posture with abducted arm}
+\item{Inguinal nodes – supine position with thigh flexed to 10$^{\circ}$}
+\item{Popliteal nodes – Flex the knees and palpate deep into popliteal fossa}
+	\end{itemize}
+\end{itemize}
+
+\subsection*{Questions}
+\begin{enumerate}
+\item{Where will you look for pallor?}
+\item{What is cyanosis?}
+\item{What are the types of Jaundice?}
+\item{How do you detect clubbing?}
+\item{What are the types of oedema and what are their causes?}
+\item{What are the vital signs?}
+\end{enumerate}
 											    \end{document}

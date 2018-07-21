@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1532083559 "bloodRecord.tex" "bloodRecord.pdf" "bloodRecord" 1532083560
+["pdflatex"] 1532160500 "bloodRecord.tex" "bloodRecord.pdf" "bloodRecord" 1532160500
   "/etc/texmf/web2c/texmf.cnf" 1427186730 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/ae/aebx12.tfm" 1136768653 6132 8ad25ac1b8f3422e2a7eaeb718e3c843 ""
@@ -55,6 +55,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def" 1254151887 6350 d390538f995713c986118b8607d58f49 ""
   "/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty" 1368312746 65148 c61accbd2b9a5316d9be0887ec48d722 ""
   "/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty" 1368312746 62748 b02c0dc118f5f35146d37cec569e83b1 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty" 1360019375 4351 ee16013c18d101f9ecb20e53efde17b4 ""
   "/usr/share/texlive/texmf-dist/tex/latex/csvsimple/csvsimple.sty" 1380234330 13979 aab299e28486a3dee38afd394e0ed652 ""
   "/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1160175134 20521 e5d13d98d57bd53d4fed3aa61bd29c86 ""
   "/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty" 1284422013 40502 e003406220954b0716679d7928aedd8a ""
@@ -85,8 +86,8 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1433155222 856210 19e5823200dbf5488fb1a528921a9457 ""
   "bleedingTime.jpg" 1531996046 15849 629ffb666f0a59461f54848564998157 ""
   "bloodGrouping.jpg" 1531995294 13626 7bbb21ffb270fe09b49e3d330a5dcb4d ""
-  "bloodRecord.aux" 1532083560 1305 3f8fca1fcb81a66739701871852b039c ""
-  "bloodRecord.tex" 1532083558 59925 9d259a826a925dd16a49264a77d69aeb ""
+  "bloodRecord.aux" 1532160500 1305 86bcac4863aac8d4b41e8bc396be86af ""
+  "bloodRecord.tex" 1532160498 66421 078c81fdb7f3d1808aec7a7299c693cc ""
   "clottingTime.jpg" 1532063776 9583 5842fb5af585f838f0768d3963f0d6f9 ""
   "compoundMicroscope.jpg" 1531809385 129908 24a8de3f5861817967143daa8e762fdc ""
   "dc1.jpg" 1531992661 86539 deb60eac8d2d9b1b58449229effc8dab ""
@@ -103,6 +104,6 @@
   "specificGravity.csv" 1532078689 172 629ac0a012a2fc7a471539ebb4641d35 ""
   "specificGravity.jpg" 1532078720 61690 224805f42ecc312160efe778b370a593 ""
   (generated)
-  "bloodRecord.log"
-  "bloodRecord.aux"
   "bloodRecord.pdf"
+  "bloodRecord.aux"
+  "bloodRecord.log"
