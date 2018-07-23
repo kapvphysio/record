@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.1)  23 JUL 2018 16:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.1)  23 JUL 2018 16:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1177,7 +1177,7 @@ Overfull \hbox (40.7871pt too wide) in paragraph at lines 1289--1293
 ] [44
 
 ] [45]
-Overfull \hbox (4.65208pt too wide) in paragraph at lines 1316--1319
+Overfull \hbox (4.65208pt too wide) in paragraph at lines 1317--1320
 [] 
  []
 
@@ -1189,7 +1189,7 @@ File: ./clinicalPhysioPic/AbnormalChestShapes.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/AbnormalChestShapes.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/AbnormalChestShapes.jpg used on in
-put line 1360.
+put line 1361.
 (pdftex.def)             Requested size: 365.3641pt x 415.55148pt.
  [46 <./clinicalPhysioPic/AbnormalChestShapes.jpg>] [46
 
@@ -1199,7 +1199,7 @@ File: ./clinicalPhysioPic/trachelShift.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/trachelShift.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/trachelShift.jpg used on input lin
-e 1409.
+e 1410.
 (pdftex.def)             Requested size: 339.26666pt x 151.56587pt.
 
 <./clinicalPhysioPic/chestExpansion_LowerLobe.jpg, id=338, 716.6775pt x 279.042
@@ -1207,7 +1207,7 @@ e 1409.
 File: ./clinicalPhysioPic/chestExpansion_LowerLobe.jpg Graphic file (type jpg)
  <use ./clinicalPhysioPic/chestExpansion_LowerLobe.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/chestExpansion_LowerLobe.jpg used 
-on input line 1409.
+on input line 1410.
 (pdftex.def)             Requested size: 358.33788pt x 139.5209pt.
 
 <./clinicalPhysioPic/breathSounds.jpg, id=339, 365.365pt x 309.155pt>
@@ -1215,7 +1215,7 @@ File: ./clinicalPhysioPic/breathSounds.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/breathSounds.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/breathSounds.jpg used on input lin
-e 1409.
+e 1410.
 (pdftex.def)             Requested size: 182.68205pt x 154.57712pt.
  [47 <./clinicalPhysioPic/trachelShift.jpg> <./clinicalPhysioPic/chestExpansion
 _LowerLobe.jpg> <./clinicalPhysioPic/breathSounds.jpg>] [47
@@ -1240,7 +1240,7 @@ Here is how much of TeX's memory you used:
  8361 multiletter control sequences out of 15000+600000
  28676 words of font info for 59 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 41i,10n,51p,657b,654s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,10n,51p,657b,648s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 mi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pf
@@ -1249,7 +1249,7 @@ b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on bloodRecord.pdf (104 pages, 1359528 bytes).
+Output written on bloodRecord.pdf (104 pages, 1359516 bytes).
 PDF statistics:
  403 PDF objects out of 1000 (max. 8388607)
  255 compressed objects within 3 object streams

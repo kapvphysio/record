@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1532342870 "bloodRecord.tex" "bloodRecord.pdf" "bloodRecord" 1532342870
+["pdflatex"] 1532343208 "bloodRecord.tex" "bloodRecord.pdf" "bloodRecord" 1532343209
   "/etc/texmf/web2c/texmf.cnf" 1427186730 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/ae/aebx12.tfm" 1136768653 6132 8ad25ac1b8f3422e2a7eaeb718e3c843 ""
@@ -91,8 +91,8 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1433155222 856210 19e5823200dbf5488fb1a528921a9457 ""
   "bleedingTime.jpg" 1531996046 15849 629ffb666f0a59461f54848564998157 ""
   "bloodGrouping.jpg" 1531995294 13626 7bbb21ffb270fe09b49e3d330a5dcb4d ""
-  "bloodRecord.aux" 1532342870 2898 263be4c6fd529d34af244ac663e93cf4 ""
-  "bloodRecord.tex" 1532342867 84734 69520a306534775a16c31763795943fe ""
+  "bloodRecord.aux" 1532343209 2898 8c17fbc31a40f4390b4ff8eb82979709 ""
+  "bloodRecord.tex" 1532343206 84803 5b963809fb95bb0c220cfdce44a93e7a ""
   "clinicalPhysioPic/AbnormalChestShapes.jpg" 1532341771 46572 39962ddd5b87afd369858a6fb5e341c8 ""
   "clinicalPhysioPic/breathSounds.jpg" 1532341945 10804 bb6b9db319bda175d58494b330e8f3f9 ""
   "clinicalPhysioPic/chestExpansion_LowerLobe.jpg" 1532341921 15560 0ddbbe92d032c1fb420d1d5b6d8fb41b ""
@@ -125,6 +125,6 @@
   "specificGravity.csv" 1532078689 172 629ac0a012a2fc7a471539ebb4641d35 ""
   "specificGravity.jpg" 1532078720 61690 224805f42ecc312160efe778b370a593 ""
   (generated)
-  "bloodRecord.log"
   "bloodRecord.aux"
+  "bloodRecord.log"
   "bloodRecord.pdf"
