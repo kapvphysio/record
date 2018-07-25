@@ -113,17 +113,17 @@
 					\hline
 					Objective & Working Distance & Numerical Aperture &Magnification\\
 					\hline
-					Low Power & 5 to 15 $mm$ & 0.3 & 10\\
+					Low Power & 5 to 15 millm & 0.3 & 10\\
 					\hline
 					High Power
-					&0.5 to 4 $mm$
+					&0.5 to 4 millm
 					&0.65
 					&40/45 \\
 					\hline
 
 					%next row
 					Oil immersion
-					&0.15 to 1.5 $mm$
+					&0.15 to 1.5 millm
 					&1.3
 					&100 \\
 
@@ -264,7 +264,7 @@
 					\textbf{The bulb:}
 					The bulb contains a free-rolling bead. The bead helps in identifying the pipette and mixing the diluents with blood in the bulb. Free rolling of the bead in the bulb indicates whether the pipette is dry or not.\newline
 					\textbf{Rubber tube and mouthpiece:}
-					The narrow rubber tube attached to the bulb, facilitates filling of the pipette by gentle suction. There is a marking just above the bulb. This marking is 11 in WBC C pipette and 101 in RBC pipette. The graduations do not indicate absolute or definite amounts in terms of cubic mm .They only indicate relative volumes in relation to each other. The markings indicate relative parts in the pipette\newline
+					The narrow rubber tube attached to the bulb, facilitates filling of the pipette by gentle suction. There is a marking just above the bulb. This marking is 11 in WB C pipette and 101 in RBC pipette. The graduations do not indicate absolute or definite amounts in terms of cubic mm .They only indicate relative volumes in relation to each other. The markings indicate relative parts in the pipette\newline
 
 					\subsection*{RBC pipette}
 					\begin{itemize}
@@ -296,10 +296,10 @@
 					\begin{itemize}
 
 						\item{Under aseptic precautions prick the finger and wipe away the first drop and allow the flowing blood to form a good sized drop.}
-						\item{Hold the pipette horizontally and dip its end into the blood drop. Gently suck blood up-to 0.5 or 1.0 mark depending on the dilution required.}
+						\item{Hold the pipette horizontally and dip its end into the blood drop. Gently suck blood upto 0.5 or 1.0 mark depending on the dilution required.}
 
 						\item{If the blood overshoots 0.5 or 1.0 mark, remove the excess blood by gently tapping the tip of the pipette on to the palm. Do not use cotton or any absorbent material as it might absorb water content of blood and concentrates blood.}
-						\item{Place the tip of the pipette into the diluting fluid and suck up-to the 11 mark in case of WBC pipette or 101 mark in case of RBC pipette without any air bubble.}
+						\item{Place the tip of the pipette into the diluting fluid and suck upto the 11 mark in case of WBC pipette or 101 mark in case of RBC pipette without any air bubble.}
 						\item{Place the pipette horizontally between the palms of both hands with the rubber tube folded parallel to it and roll the pipette for 1-2 minutes, for thorough mixing of blood with the fluid in the bulb.}
 
 					\end{itemize}
@@ -315,7 +315,7 @@
 					\end{itemize}
 
 
-					\subsection*{Focusing The Counting Grid}
+					\subsection*{Focussing The Counting Grid}
 					\begin{itemize}
 
 						\item{	Focus the counting grid with low power and then high power objective.}
@@ -388,10 +388,10 @@
 
 					\section*{Procedure}
 
-					Make  a  sterile  finger  prick  and  discard  the  first drop  of blood. Draw blood up-to  0.5  mark  and  Hayem’s  fluid  up-to 101  mark  with  the  pipette. Mix  the contents thoroughly. Discard  the  first  few  drops and then charge  the  Neubauer chamber. Allow  the cells to  settle  for  3-4  minutes.Count the RBCs in the 4 medium sized corner squares and  in the central medium sized square of the RBC counting area (total of 16 x 5 = 80 smallest squares) under high power objective.
+					Make  a  sterile  finger  prick  and  discard  the  first drop  of blood. Draw blood upto  0.5  mark  and  Hayem’s  fluid  upto 101  mark  with  the  pipette. Mix  the contents thoroughly. Discard  the  first  few  drops and then charge  the  Neubauer chamber. Allow  the cells to  settle  for  3-4  minutes.Count the RBCs in the 4 medium sized corner squares and  in the central medium sized square of the RBC counting area (total of 16 x 5 = 80 smallest squares) under high power objective.
 
 
-					\section*{Calculation}
+					\section*{Calcualtion}
 					Number of RBCs in 5 medium sized RBC squares = n\newline\vspace{.4cm}
 					Area of 1 medium  sized RBC square =$\frac{1}{5}$ $\times$ $\frac{1}{5}$ = $\frac{1}{25}$ $mm^2$\newline\vspace{.4cm}
 					Volume of 1 medium sized RBC square = $\frac{1}{25}$ $\times$ $\frac{1}{10}$ = $\frac{1}{250}$ $mm^3$\newline\vspace{.4cm}
@@ -435,9 +435,9 @@
 					\end{tabular}
 					\section*{Procedure}
 
-					Make a sterile finger prick and discard the 1st drop of blood. Draw blood up-to 0.5 mark and Turk’s fluid up-to 11 mark in the WBC pipette. Mix the contents thoroughly. Discard the first few drops and charge the Neubauer chamber. Allow the cells to settle for 3 to 4 minutes. Count the WBCs in the 4 corner large squares (WBC counting area) under high power objective.
+					Make a sterile finger prick and discard the 1st drop of blood. Draw blood upto 0.5 mark and Turk’s fluid upto 11 mark in the WBC pipette. Mix the contents thoroughly. Discard the first few drops and charge the Neubauer chamber. Allow the cells to settle for 3 to 4 minutes. Count the WBCs in the 4 corner large squares (WBC counting area) under high power objective.
 
-					\section*{Calculation}
+					\section*{Calcualtion}
 
 					Number of cells in 4 WBC squares = n\newline\vspace{.2cm}
 					Area of 1 WBC square = 	1$\times$ 1 	= 1 $mm^2$\newline\vspace{.2cm}
@@ -483,8 +483,8 @@
 					Acetone (5$ml$) - Acetone lyses the cell membrane of all other cells.\newline
 					Distilled water (90$ml$) - Distilled water to make up to 100$ml$.Acts as solvent.\newline
 					\section*{Procedure}
-					Make a sterile finger prick and discard the first drop of blood. Draw blood up-to 1 and the Dunger’s fluid up-to mark 11 in a WBC pipette. Mix the contents thoroughly. Cover the pipette with a petri dish lined by moistened filter paper. Wait for 15 minutes. Discard the first few drops and charge the Neubauer chamber. The eosinophils are identified by the pinkish orange stained coarse granules in the cytoplasm. Count the Eosinophils in all the 9 large squares of the Neubauer chamber. Count within 30 minutes of charging .
-					\section*{Calculation}
+					Make a sterile finger prick and discard the first drop of blood. Draw blood upto 1 and the Dunger’s fluid upto mark 11 in a WBC pipette. Mix the contents thoroughly. Cover the pipette with a petri dish lined by moistened filter paper. Wait for 15 minutes. Discard the first few drops and charge the Neubauer chamber. The eosinophils are identified by the pinkish orange stained coarse granules in the cytoplasm. Count the Eosinophils in all the 9 large squares of the Neubauer chamber. Count within 30 minutes of charging .
+					\section*{Calcualtion}
 					Number of cells counted in 9 large squares				=	n\newline\vspace{.2cm}
 					Area of 1 large square				=	1 $\times$ 1		=	1$mm^2$	\newline\vspace{.2cm}
 					Volume of 1 large square				=	1 $\times$ $\frac{1}{10}$	=	$\frac{1}{10}$ $mm^3$\newline\vspace{.2cm}
@@ -496,7 +496,7 @@
 					=	n$\times$$\frac{100}{9}$
 					\section*{Result}
 
-					Absolute Eosinophil count in the given  blood sample is $\rule{5cm}{0.1cm}$ cells / $mm^3$
+					Abosolute Eosinophil count in the given  blood sample is $\rule{5cm}{0.1cm}$ cells / $mm^3$
 
 					\section*{Questions}
 					\begin{enumerate}
@@ -510,7 +510,7 @@
 					\end{enumerate}
 					%-----}}}
 					%-----DC{{{
-					\chapter*{\centering Differential Count}
+					\chapter*{\centering Diffrential Count}
 					\begin{tabular}{p{5in} p{1in}}
 						\textbf{Exp No:}  & \textbf{Date:}\\
 					\end{tabular}
@@ -539,9 +539,9 @@
 							\label{smear3}
 						\end{figure}
 						}
-						Under aseptic precautions, prick the finger. Discard the first drop of blood. Place the slide on the table and support with left hand. Place the blood drop on the right end, one cm away from the edge. Place the spreader slide just in front of the blood drop. Draw the spreader slide backwards to touch the drop. The blood spreads across the edge of the spreader. Draw the spreader slide forward at an angle of 45$^{\circ}$ with a smooth, fast and firm movement to make a thin tongue shaped blood smear. Too thick, thin or a patchy smear is to be avoided. Air dry the smear quickly.
+						Under aseptic precautions, prick the finger. Discard the first drop of blood. Place the slide on the table and support with left hand. Place the blood drop on the right end, one cm away from the edge. Place the spreader slide just infront of the blood drop. Draw the spreader slide backwards to touch the drop. The blood spreads across the edge of the spreader. Draw the spreader slide forward at an angle of 45$^{\circ}$ with a smooth, fast and firm movement to make a thin tongue shaped blood smear. Too thick, thin or a patchy smear is to be avoided. Air dry the smear quickly.
 
-						Place the glass slide with the smear on a tray and add Leishman’s stain, drop by drop till the entire smear is covered with the stain. Count the number of drops added. Note the time and wait for 2 minutes (Fixation time). After 2 minutes, add double the quantity of distilled water over the film using a dropper. See to that the distilled water uniformly covers the entire surface of the slide and dilutes the stain homogeneously. Gently blow the stain and the distilled water from one end of the slide to the other for uniform mixing. Wait for about 8-10 minutes for the smear to take up the stain uniformly (Staining time).
+						Place the glass slide with the smear on a tray and add Leishman’s stain, drop by drop till the entire smear is covered with the stain. Count the number of drops added. Note the time and wait for 2 minutes (Fixation time). After 2 minutes, add double the quantity of distilled water over the film using a dropper. See to that the distilled water uniformly covers the entire surface of the slide and dilutes the stain homogenously. Gently blow the stain and the distilled water from one end of the slide to the other for uniform mixing. Wait for about 8-10 minutes for the smear to take up the stain uniformly (Staining time).
 						Flush the slide under a gentle stream of tap water to remove the excess stain. Dry the slide. Scan the film under low \& high power objective. Make necessary microscopic adjustments for oil immersion objective (100X). Add a drop of cedar wood oil over the smear at the junction between the body and the tail, as the smear will be of one cell thickness with uniform staining here. Cedar wood oil has the same refractive index as that of glass and minimizes refraction. Examine in a zig-zag manner as shown in the figure.
 
 						Draw a table with 100 squares to count 100 WBCs and enter the type of cell as identified while examining the film.
@@ -556,7 +556,7 @@
 								\label{dc2}
 							\end{figure}
 							}
-							Under aseptic precautions, prick the finger. Discard the first drop of blood. Place the slide on the table and support with left hand. Place the blood drop on the right end, one cm away from the edge. Place the spreader slide just in front of the blood drop. Draw the spreader slide backwards to touch the drop. The blood spreads across the edge of the spreader. Draw the spreader slide forward at an angle of 45$^{\circ}$ with a smooth, fast and firm movement to make a thin tongue shaped blood smear. Too thick, thin or a patchy smear is to be avoided. Air dry the smear quickly.
+							Under aseptic precautions, prick the finger. Discard the first drop of blood. Place the slide on the table and support with left hand. Place the blood drop on the right end, one cm away from the edge. Place the spreader slide just infront of the blood drop. Draw the spreader slide backwards to touch the drop. The blood spreads across the edge of the spreader. Draw the spreader slide forward at an angle of 45$^{\circ}$ with a smooth, fast and firm movement to make a thin tongue shaped blood smear. Too thick, thin or a patchy smear is to be avoided. Air dry the smear quickly.
 
 							\section*{Result}
 							The differential count of WBCs in the blood sample is as follows.\newline\vspace{.5cm}
@@ -616,7 +616,7 @@
 
 									Small lymphocyte&
 									7-9 ${\mu}m$&
-									Single, round, almost fills the cell Thin crescent of clear, light blue cytoplasm. &
+									Single, round, almost fills the cell Thin cresent of clear, light blue cytoplasm. &
 									No visible granules.&
 									\multirow{2}{*}{20-30\%}\\
 									\cline{1-4}
@@ -624,7 +624,7 @@
 									Large lymphocyte&
 									10 - 15 ${\mu}m$&
 									Single, round, almost fills the cell.  May be central or eccentric.&
-									Large crescent of clear, light blue cytoplasm. No visible granules.&
+									Large cresent of clear, light blue cytoplasm. No visible granules.&
 									\\
 									\hline
 
@@ -664,8 +664,8 @@
 								The hemoglobin pipette has a single mark on the stem which corresponds to 0.02 ml or 20 cubic mm. A glass stirrer is provided for thorough mixing while diluting acid hematin solution.
 								\section*{Procedure}
 								\begin{enumerate}
-									\item{Fill the hemoglobin tube with $\frac{N}{10}$ HCl up-to its lowest mark (2 $g$\%).}
-									\item{Prick the finger under aseptic precautions to form an adequate drop of blood and suck blood into the hemoglobin pipette up-to 20 $mm^{3}$mark.}
+									\item{Fill the hemoglobin tube with $\frac{N}{10}$ HCl upto its lowest mark (2 $g$\%).}
+									\item{Prick the finger under aseptic precautions to form an adequate drop of blood and suck blood into the hemoglobin pipette upto 20 $mm^{3}$mark.}
 									\item{Gently wipe exterior of the tip of the pipette.}
 									\item{Insert the pipette into the hemoglobin tube containing $\frac{N}{10}$ HCl and blow out the blood. Rinse the pipette 2 or 3 times with the acid present in the tube.}
 									\item{Wait for 10 minutes for the formation of acid hematin.}
@@ -703,7 +703,7 @@
 										\caption*{\textbf{Blood Groups Showing Agglutination}}
 									\end{figure}
 									}
-									To determine the ABO blood group and Rh type of the given blood sample.
+									To determine uhe ABO blood group and Rh type of the given blood sample.
 									\section*{Apparatus Required}
 									Lancet, spirit, cotton, normal saline, clean white porcelain tile, glass marking pencil, anti-A serum, anti-B serum, anti-D serum, small sticks for mixing, glass slides, microscope.
 									\section*{Principle}
@@ -971,7 +971,7 @@
 														\begin{center}
 															\csvautotabular{./osmoticFragility.csv}
 														\end{center}
-														\section*{Interpretation}
+														\section*{Intrepretation}
 
 														\begin{itemize}
 															\item{Test tube with partial hemolysis shows a supernatant fluid with pink colour proportionate to the degree of hemolysis and a lower layer of sedimented red cells at the bottom of the tube.}
