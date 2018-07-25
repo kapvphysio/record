@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.6)  24 JUL 2018 18:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.6)  25 JUL 2018 07:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1465,7 +1465,7 @@ Overfull \hbox (4.65208pt too wide) in paragraph at lines 1780--1783
  []
 
 
-Overfull \hbox (6.78156pt too wide) in paragraph at lines 1832--1833
+Overfull \hbox (6.78156pt too wide) in paragraph at lines 1857--1858
 []\T1/aer/m/n/12 High vol-ume pulse or pul-sus mag-nus is ob-served in aor-tic 
 in-com-pe-tence, beriberi,
  []
@@ -1477,39 +1477,106 @@ File: ./clinicalPhysioPic/carotidPulse.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/carotidPulse.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/carotidPulse.jpg used on input lin
-e 1838.
-(pdftex.def)             Requested size: 138.01527pt x 163.61084pt.
+e 1863.
+(pdftex.def)             Requested size: 142.26929pt x 142.26074pt.
 
-Overfull \hbox (6.65764pt too wide) in paragraph at lines 1838--1838
+Overfull \hbox (10.91165pt too wide) in paragraph at lines 1863--1863
 [][] 
  []
 
-<./clinicalPhysioPic/radialPulse.jpg, id=415, 18.03905pt x 9.2756pt>
-File: ./clinicalPhysioPic/radialPulse.jpg Graphic file (type jpg)
+<./clinicalPhysioPic/radialPulse_1.jpg, id=415, 8.2513pt x 9.24715pt>
+File: ./clinicalPhysioPic/radialPulse_1.jpg Graphic file (type jpg)
 
-<use ./clinicalPhysioPic/radialPulse.jpg>
-Package pdftex.def Info: ./clinicalPhysioPic/radialPulse.jpg used on input line
- 1838.
-(pdftex.def)             Requested size: 18.03899pt x 9.27557pt.
- [58 <./clinicalPhysioPic/carotidPulse.jpg> <./clinicalPhysioPic/radialPulse.jp
-g>] [58
+<use ./clinicalPhysioPic/radialPulse_1.jpg>
+Package pdftex.def Info: ./clinicalPhysioPic/radialPulse_1.jpg used on input li
+ne 1863.
+(pdftex.def)             Requested size: 142.28549pt x 142.45999pt.
 
-] [59] [59
+Overfull \hbox (10.92786pt too wide) in paragraph at lines 1863--1863
+[][] 
+ []
 
-] [60] [60
+<./clinicalPhysioPic/collapsingPulse.jpg, id=416, 8.59273pt x 9.2756pt>
+File: ./clinicalPhysioPic/collapsingPulse.jpg Graphic file (type jpg)
+
+<use ./clinicalPhysioPic/collapsingPulse.jpg>
+Package pdftex.def Info: ./clinicalPhysioPic/collapsingPulse.jpg used on input 
+line 1863.
+(pdftex.def)             Requested size: 142.5051pt x 142.41647pt.
+
+Overfull \hbox (11.14746pt too wide) in paragraph at lines 1863--1863
+[][] 
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 1863--1863
+[]\T1/aer/m/n/10.95 (c) |Ex-am-i-na-tion Of Col-
+ []
+
+<./clinicalPhysioPic/radioFemoralDelay.jpg, id=417, 17.24237pt x 10.47061pt>
+File: ./clinicalPhysioPic/radioFemoralDelay.jpg Graphic file (type jpg)
+
+<use ./clinicalPhysioPic/radioFemoralDelay.jpg>
+Package pdftex.def Info: ./clinicalPhysioPic/radioFemoralDelay.jpg used on inpu
+t line 1863.
+(pdftex.def)             Requested size: 142.32903pt x 142.28839pt.
+
+Overfull \hbox (10.97139pt too wide) in paragraph at lines 1863--1863
+[][] 
+ []
+
+<./clinicalPhysioPic/posteriorTibial.jpg, id=418, 284.06125pt x 188.705pt>
+File: ./clinicalPhysioPic/posteriorTibial.jpg Graphic file (type jpg)
+
+<use ./clinicalPhysioPic/posteriorTibial.jpg>
+Package pdftex.def Info: ./clinicalPhysioPic/posteriorTibial.jpg used on input 
+line 1863.
+(pdftex.def)             Requested size: 142.26865pt x 142.26263pt.
+
+Overfull \hbox (10.91101pt too wide) in paragraph at lines 1863--1863
+[][] 
+ []
+
+<./clinicalPhysioPic/dorsalisPedis.jpg, id=419, 282.05376pt x 189.70876pt>
+File: ./clinicalPhysioPic/dorsalisPedis.jpg Graphic file (type jpg)
+
+<use ./clinicalPhysioPic/dorsalisPedis.jpg>
+Package pdftex.def Info: ./clinicalPhysioPic/dorsalisPedis.jpg used on input li
+ne 1863.
+(pdftex.def)             Requested size: 142.266pt x 142.26672pt.
+
+Overfull \hbox (10.90837pt too wide) in paragraph at lines 1863--1863
+[][] 
+ []
+
+[58 <./clinicalPhysioPic/carotidPulse.jpg> <./clinicalPhysioPic/radialPulse_1.j
+pg> <./clinicalPhysioPic/collapsingPulse.jpg> <./clinicalPhysioPic/radioFemoral
+Delay.jpg> <./clinicalPhysioPic/posteriorTibial.jpg> <./clinicalPhysioPic/dorsa
+lisPedis.jpg>] [58
+
+]
+<./clinicalPhysioPic/jvp.jpg, id=426, 18.72191pt x 25.55057pt>
+File: ./clinicalPhysioPic/jvp.jpg Graphic file (type jpg)
+
+<use ./clinicalPhysioPic/jvp.jpg>
+Package pdftex.def Info: ./clinicalPhysioPic/jvp.jpg used on input line 1897.
+(pdftex.def)             Requested size: 426.8619pt x 427.11263pt.
+ [59 <./clinicalPhysioPic/jvp.jpg>] [59
+
+]
+[60] [60
 
 ] [61
 
-]
-[61
+] [61
 
 
 ] (./combinedRecord.aux) ) 
 Here is how much of TeX's memory you used:
- 6460 strings out of 494953
- 105538 string characters out of 6180978
- 179533 words of memory out of 5000000
- 9567 multiletter control sequences out of 15000+600000
+ 6496 strings out of 494953
+ 106647 string characters out of 6180978
+ 179663 words of memory out of 5000000
+ 9598 multiletter control sequences out of 15000+600000
  29350 words of font info for 62 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  40i,16n,46p,674b,663s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1521,10 +1588,10 @@ i8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on combinedRecord.pdf (124 pages, 1539326 bytes).
+Output written on combinedRecord.pdf (124 pages, 1628020 bytes).
 PDF statistics:
- 472 PDF objects out of 1000 (max. 8388607)
+ 477 PDF objects out of 1000 (max. 8388607)
  299 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
 
