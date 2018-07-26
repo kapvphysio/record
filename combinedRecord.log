@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.1)  26 JUL 2018 13:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.1)  26 JUL 2018 16:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1711,9 +1711,55 @@ Overfull \hbox (16.65994pt too wide) in paragraph at lines 2256--2257
 
 [74
 
-] [75
+] [75] [75
 
-] [75
+] [76]
+Underfull \hbox (badness 10000) in paragraph at lines 2318--2318
+[]|\T1/aer/m/n/12 Fine touch,Tactile
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2318--2318
+\T1/aer/m/n/12 lo-cal-iza-tion, Tac-tile
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 2318--2318
+\T1/aer/m/n/12 dis-crim-i-na-tion, po-si-tion
+ []
+
+
+Underfull \hbox (badness 5133) in paragraph at lines 2318--2318
+\T1/aer/m/n/12 sense, vi-bra-tion sense
+ []
+
+
+Underfull \hbox (badness 6859) in paragraph at lines 2318--2319
+[]|\T1/aer/m/n/12 Dorsal/ pos-te-rior col-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2320--2321
+[]|\T1/aer/m/n/12 Anteriorspinothalamic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2322--2323
+[]|\T1/aer/m/n/12 Lateralspino-thalamic
+ []
+
+[76
+
+] [77]
+Overfull \hbox (4.65208pt too wide) in paragraph at lines 2346--2350
+ [] 
+ []
+
+[77
+
+] [78
+
+] [78
 
 
 ] (./combinedRecord.aux) ) 
@@ -1734,10 +1780,10 @@ hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on combinedRecord.pdf (151 pages, 1761590 bytes).
+Output written on combinedRecord.pdf (157 pages, 1766921 bytes).
 PDF statistics:
- 572 PDF objects out of 1000 (max. 8388607)
- 362 compressed objects within 4 object streams
+ 591 PDF objects out of 1000 (max. 8388607)
+ 375 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  221 words of extra memory for PDF output out of 10000 (max. 10000000)
 
