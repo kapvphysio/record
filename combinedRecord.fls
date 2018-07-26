@@ -1,4 +1,4 @@
-PWD /home/gg/Documents/WriteUps/Record/record
+PWD /media/physiology/Local Diskf/Academics/2017Record/record
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
@@ -29,11 +29,11 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/csvsimple/csvsimple.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/csvsimple/csvsimple.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+INPUT /usr/share/texmf/tex/latex/pgf/utilities/pgfkeys.sty
+INPUT /usr/share/texmf/tex/latex/pgf/utilities/pgfkeys.sty
+INPUT /usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+INPUT /usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+INPUT /usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
@@ -70,8 +70,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/share/texmf/tex/latex/xcolor/xcolor.sty
+INPUT /usr/share/texmf/tex/latex/xcolor/xcolor.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
