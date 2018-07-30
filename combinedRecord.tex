@@ -1,4 +1,4 @@
-
+%-----------preamble-------{{{
 \documentclass[a4paper,12pt]{book}
 \usepackage{tabularx}
 \usepackage[a4paper, left=1in,right=1in,top=2cm,bottom=1.5cm]{geometry}
@@ -41,6 +41,7 @@
 	\begin{document}
 	%\pdfrender{StrokeColor=black,TextRenderingMode=2,LineWidth=0.1pt}
 	\afterpage{\blankpage}
+%-----------------------}}}
 	%-------Hematology----{{{
 	\part{Hematology}
 	%-------CompoundMicroscope---{{{
@@ -1049,7 +1050,6 @@
 															\end{enumerate}
 															%----------------------------------------------------------------------------}}}
 															%-----------}}}
-
 															\part{Clinical Physiology}
 %---------------GeneralExamination---{{{
 															\chapter*{\centering General Examination}
@@ -2735,12 +2735,18 @@ Pathological: Parkinsonism, cerebellar disorders, thyrotoxicosis,  	hypoglycaemi
 \section*{Inference:}
 \vspace{2in}
 %-------------------------------}}}
-
+%------------------Reflexes-----{{{
 															\chapter*{\centering Reflexes}
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
 															\section*{Definition:}
+															\addfig{
+																\begin{figure}[H]
+																	\centering
+																	\includegraphics[width=10cm,height=15cm]{./clinicalPhysioPic/reflexes/reflexArc.jpg}
+																\end{figure}
+																}
 Reflex is an automatic (involuntary) response to a stimulus. The response depends on the integrity of the reflex arc and is influenced by the higher centres.
 \paragraph{Components Of Reflex Arc:}
 \begin{enumerate}
@@ -2795,6 +2801,27 @@ Ask the subject to lie in supine position with the muscles of lower limbs comple
 \end{itemize}
 \textbf{Abnormal Response:}\\
 "Extensor plantar response" manifested by
+\addfig{
+	\begin{figure}[H]
+		\begin{subfigure}[t]{.4\textwidth}
+			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/reflexes/cornealReflex.jpg}	
+			\subcaption{Corneal Reflex}
+		\end{subfigure}
+		\hspace{\fill}
+		\begin{subfigure}[t]{.4\textwidth}
+			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/reflexes/abdominalReflex.jpg}
+			\subcaption{Abdominal Reflex}	
+		\end{subfigure}
+		\hspace{\fill}
+		\begin{subfigure}[t]{\textwidth}
+			\centering
+			\includegraphics[width=10cm,height=5cm]{./clinicalPhysioPic/reflexes/plantarRelfex.jpg}	
+			\subcaption{Normal And Abnormal Plantar responses}
+		\end{subfigure}
+		\hspace{\fill}
+		\caption*{Superficial Reflexes}
+	\end{figure}
+}
 \begin{itemize}
 \item{Dorsiflexion of great toe with abduction and fanning out of other toes.}
 \item{Eversion and dorsiflexion of ankle.}
@@ -2823,36 +2850,110 @@ These are "monosynaptic reflexes", also called as "stretch reflexes".
 When the tendon of a lightly stretched muscle, is struck by a single sharp blow with soft rubber hammer, the muscle contracts briefly. This is tendon or stretch reflex.
 \par
 Before performing the deep tendon reflexes, instruct the subject to keep the muscles relaxed. Expose the corresponding muscles to see for the contraction.
-1. Jaw jerk: (Afferent- V, Efferent- V, Centre-Pons)
-	Ask the subject to let his jaw sag open slightly. Place the left thumb over the chin and tap with the knee hammer.
-Response: Closure of mouth.
-2. Biceps jerk: (C5, C6)
-Keep the elbow of the subject partially flexed and place the fore arm in a semi prone position, relaxing on the examiner's fore arm. Place the thumb over the biceps tendon and strike the thumb with the knee hammer.
-Response: (contraction of the biceps) flexion of the elbow.
-3. Triceps jerk: (C6, C7)
-Flex the elbow of the subject and rest the forearm across the subject's chest. Tap the triceps tendon just above the olecranon process gently with the knee hammer.
-Response: (contraction of the triceps) Extension of the elbow.
-
-4. Supinator jerk/Brachio-radialis jerk: (C5, C6)
-Flex the elbow of the subject and keep the forearm in a semiprone position. Tap gently the tendon overlying the radial styloid process with the knee hammer.
-Response: (contraction of brachio-radialis muscle) Supination of the forearm.
-5. Knee jerk: (L1,L2, L3)
-Ask the Subject to lie in a supine position with the Quadriceps femoris muscle relaxed. Support the knee to be tested with the hand underneath the knee joint. Strike sharply the Quadriceps tendon (patellar tendon) with a knee hammer.
-Response:(contraction of quadriceps muscle) extension of leg at the knee. Reflex may also be elicited in a sitting posture. The subject is seated on a stool
-with one leg crossed over the other with the leg hanging loosely. Examiner's hand is placed over the quadriceps muscle and the patellar tendon is gently tapped with the knee hammer.
-6. Ankle jerk: (S1-S2)
-Ask the subject to lie in a supine position. Flex the lower limb at the knee joint. Stretch the calf muscles by dorsiflexion at the ankle joint. Strike sharply at the achille's tendon.
-Response: Contraction of calf muscles with plantar flexion.
-This reflex can also be elicited when the subject is kneeling on a chair.
-Clonus: It is a sign of increased reflex activity characterized by repetitive muscular contraction produced by stretch
-Grading of reflexes:
-Grade 0: Absent
-Grade 1: Present (as a normal ankle jerk)
-Grade 2: Brisk (as a normal knee jerk)
-Grade 3: Very brisk
-Grade 4: Clonus
-Reinforcement technique:
+\subsection*{Jaw jerk: (Afferent- V, Efferent- V, Centre-Pons)}
+	Ask the subject to let his jaw sag open slightly. Place the left thumb over the chin and tap with the knee hammer.\\
+\textbf{Response:} Closure of mouth.
+\subsection*{Biceps jerk: (C5, C6)}
+\addfig{
+	\begin{figure}[H]
+		\centering
+		\begin{subfigure}[t]{.4\textwidth}
+			\centering
+			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/reflexes/bicepsJerk.jpg}
+			\subcaption{Bicpes Jerk}
+		\end{subfigure}
+		\hspace{\fill}
+		\begin{subfigure}[t]{.4\textwidth}
+			\centering
+			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/reflexes/tricepsJerk.jpg}
+			\subcaption{Triceps Jerk}
+		\end{subfigure}
+		\hspace{\fill}
+		\begin{subfigure}[t]{.4\textwidth}
+			\centering
+			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/reflexes/supinatorJerk.jpg}
+			\subcaption{Supinator Jerk}
+		\end{subfigure}
+		\hspace{\fill}
+		\begin{subfigure}[t]{.4\textwidth}
+			\centering
+			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/reflexes/jawJerk.jpg}
+			\subcaption{Jaw Jerk}
+		\end{subfigure}
+		\hspace{\fill}
+		\begin{subfigure}[t]{.29\textwidth}
+			\centering
+			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/reflexes/kneeJerkPathway.jpg}
+			\subcaption{Knee Jerk Pathway}
+		\end{subfigure}
+		\hspace{\fill}
+		\begin{subfigure}[t]{.29\textwidth}
+			\centering
+			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/reflexes/kneeJerk_1.jpg}
+			\subcaption{Knee Jerk Examination}
+		\end{subfigure}
+		\hspace{\fill}
+		\begin{subfigure}[t]{.29\textwidth}
+			\centering
+			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/reflexes/kneeJerk_2.jpg}
+			\subcaption{Knee Jerm Examination(with \textit{Reinforcement})}
+		\end{subfigure}
+		\caption*{Deep Tendon Reflexes}
+	\end{figure}
+}
+Keep the elbow of the subject partially flexed and place the fore arm in a semi prone position, relaxing on the examiner's fore arm. Place the thumb over the biceps tendon and strike the thumb with the knee hammer.\\
+\textbf{Response:} (contraction of the biceps) flexion of the elbow.
+\subsection*{Triceps jerk: (C6, C7)}
+Flex the elbow of the subject and rest the forearm across the subject's chest. Tap the triceps tendon just above the olecranon process gently with the knee hammer.\\
+\textbf{Response:} (contraction of the triceps) Extension of the elbow.
+\subsection*{Supinator jerk/Brachio-radialis jerk: (C5, C6)}
+Flex the elbow of the subject and keep the forearm in a semiprone position. Tap gently the tendon overlying the radial styloid process with the knee hammer.\\
+\textbf{Response:} (contraction of brachio-radialis muscle) Supination of the forearm.
+\subsection*{Knee jerk: (L1,L2, L3)}
+Ask the Subject to lie in a supine position with the Quadriceps femoris muscle relaxed. Support the knee to be tested with the hand underneath the knee joint. Strike sharply the Quadriceps tendon (patellar tendon) with a knee hammer.\\
+\textbf{Response:}(contraction of quadriceps muscle) extension of leg at the knee. Reflex may also be elicited in a sitting posture. The subject is seated on a stool with one leg crossed over the other with the leg hanging loosely. Examiner's hand is placed over the quadriceps muscle and the patellar tendon is gently tapped with the knee hammer.
+\subsection*{Ankle jerk: (S1-S2)}
+Ask the subject to lie in a supine position. Flex the lower limb at the knee joint. Stretch the calf muscles by dorsiflexion at the ankle joint. Strike sharply at the achille's tendon.\\
+\textbf{Response:} Contraction of calf muscles with plantar flexion.\\
+This reflex can also be elicited when the subject is kneeling on a chair.\\
+\paragraph{Clonus:}
+It is a sign of increased reflex activity characterized by repetitive muscular contraction produced by stretch
+\paragraph{Grading of reflexes:}
+\begin{itemize}
+\item[]Grade 0: Absent
+\item[]Grade 1: Present (as a normal ankle jerk)
+\item[]Grade 2: Brisk (as a normal knee jerk)
+\item[]Grade 3: Very brisk
+\item[]Grade 4: Clonus
+\end{itemize}
+\paragraph{Reinforcement technique:}
 The Jendrassik's maneuver is applied to those subjects in whom deep tendon reflexes are difficult to elicit. Reinforcement technique acts by increasing excitability of anterior horn cells and by increasing the sensitivity of muscle spindle to stretch by increasing the gamma motor discharge.
+\paragraph{For eliciting upper limb reflexes:}
+	Ask the subject to clench the teeth while the tendon reflexes are being elicited.
+\paragraph{For eliciting lower limbs reflexes:}
+Ask the subject to interlock the flexed fingers and to attempt to pull them apart at the time the tendon is being struck (Jendrassik's maneuver). Ask the subject to tighten immediately before striking the tendon and to relax thereafter.
+\subsection*{Abnormal tendon reflexes:}
+\begin{itemize}
+\item{Deep tendon reflexes are absent in LMN lesion. Eg: tabesdorsalis, poliomyelitis}
+\item{\textbf{Hyperreflexia:} Deep tendon reflexes are exaggerated in UMN lesion, anxious individuals, thyrotoxicosis, tetanus. In cerebellar diseases the reflexes have pendular (oscillatory) quality.}
+\item{Superficial reflexes are absent both in UMN and LMN lesion except plantar, which is exaggerated in UMN lesion.}
+\end{itemize}
+\section*{Visceral Reflexes:}
+\subsection*{Defaecation reflex:}
+The subject is questioned about his bowel habits to rule out incontinence.
+\subsection*{Micturition reflex:}
+The subject is questioned about his micturition habits to rule out bladder incontinence.
+\subsection*{Swallowing reflex: (Deglutition reflex)}
+The subject is questioned about any difficulty in swallowing, nasal regurgitation of food during swallowing.
+\section*{Questions:}
+\begin{enumerate}
+\item{Describe the reflex arc.}
+\item{What is a stretch reflex?}
+\item{What is babinski sign and what is its significance?}
+\item{Why are deep tendon reflexes exaggerated in UMN and lost in LMN lesion?}
+\item{What is Jendrassik's sign?}
+\end{enumerate}
+%--------------------}}}
 	\end{document}
 
 
