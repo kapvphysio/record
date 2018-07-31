@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1533016241 "combinedRecord.tex" "combinedRecord.pdf" "combinedRecord" 1533016242
+["pdflatex"] 1533022960 "combinedRecord.tex" "combinedRecord.pdf" "combinedRecord" 1533022962
   "/etc/texmf/web2c/texmf.cnf" 1427186730 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/ae/aebx12.tfm" 1136768653 6132 8ad25ac1b8f3422e2a7eaeb718e3c843 ""
@@ -129,6 +129,16 @@
   "clinicalPhysioPic/collapsingPulse.jpg" 1532588110 11624 f145ebcbfc6a066736aa1747b6eaca14 ""
   "clinicalPhysioPic/cranialNerves1_6/extraocularMuscles.jpg" 1533015692 26907 174259d343a13448b45be45ae85aa7bd ""
   "clinicalPhysioPic/cranialNerves1_6/snellensChart.jpg" 1533015801 20224 8a65e50c69aaf937569605e5f7496bc1 ""
+  "clinicalPhysioPic/cranialNerves7_12/11thNerve_scm.jpg" 1533021521 16406 9dcbc00cbdbff8bbef2a2cf28a61353a ""
+  "clinicalPhysioPic/cranialNerves7_12/11thNerve_trapezius.jpg" 1533021505 15354 f7c7e10a2c4b5a6a917dea1499897db5 ""
+  "clinicalPhysioPic/cranialNerves7_12/7thNerve_1.jpg" 1533021053 6865 0daf77a63acf0f9771a08df69c202ca8 ""
+  "clinicalPhysioPic/cranialNerves7_12/7thNerve_2.jpg" 1533021080 6787 a15065427bffbc0c2cbf1f30c312c439 ""
+  "clinicalPhysioPic/cranialNerves7_12/7thNerve_3.jpg" 1533021169 7043 385db26b72ad8de4921efc7a9133a4f6 ""
+  "clinicalPhysioPic/cranialNerves7_12/7thNerve_4.jpg" 1533021187 4618 365e094590ff7725c9eee6f6aaca1569 ""
+  "clinicalPhysioPic/cranialNerves7_12/7thNerve_BellsPalsy.jpg" 1533021213 13516 3fd5d854ef3e50b61cc471fd77a3e75d ""
+  "clinicalPhysioPic/cranialNerves7_12/softPalate_1.jpg" 1533021319 16010 dac724e2bb6cef29c273fd50f0b5adc3 ""
+  "clinicalPhysioPic/cranialNerves7_12/softPalate_2.jpg" 1533021339 8574 62a3f3ac7e51d946248e8c9f2b859bc2 ""
+  "clinicalPhysioPic/cranialNerves7_12/softPalate_palsy.jpg" 1533021376 9254 54d34cebb3e9a0e542130724cc266573 ""
   "clinicalPhysioPic/cyanosis4-0.jpg" 1532166354 19580 bbc7e3b3f3e43dd0d9ebe40ce4c52ae2 ""
   "clinicalPhysioPic/cyanosis4-1.jpg" 1532166354 21787 4eb5ae22a61ae88036f4f64a1125e064 ""
   "clinicalPhysioPic/cyanosis4-2.jpg" 1532166354 27536 447265f1b18b31467d2352ec79b6cd28 ""
@@ -180,8 +190,8 @@
   "clinicalPhysioPic/trachelShift.jpg" 1532341870 15332 3a55d8234a1486087da845ea78abd338 ""
   "clinicalPhysioPic/twoPointDiscrimination.jpg" 1532762262 11931 3028bf66420ab5c4588fc6a0a3f3c7a7 ""
   "clottingTime.jpg" 1532063776 9583 5842fb5af585f838f0768d3963f0d6f9 ""
-  "combinedRecord.aux" 1533016242 5914 fa43e02ada5308efb324eff816783d57 ""
-  "combinedRecord.tex" 1533016239 184425 ebdc5dff63d2aeab3d2a7c7e76e660b7 ""
+  "combinedRecord.aux" 1533022961 6237 fc83fbf4cb3b00404c6ed772d46603da ""
+  "combinedRecord.tex" 1533022959 198424 39d956387bce06a9d83bbb47ded0ad9b ""
   "compoundMicroscope.jpg" 1531809385 129908 24a8de3f5861817967143daa8e762fdc ""
   "dc1.jpg" 1531992661 86539 deb60eac8d2d9b1b58449229effc8dab ""
   "dc2.jpg" 1531992661 68111 7cd5959d8370c912010129aa444c5c73 ""
@@ -197,6 +207,6 @@
   "specificGravity.csv" 1532078689 172 629ac0a012a2fc7a471539ebb4641d35 ""
   "specificGravity.jpg" 1532078720 61690 224805f42ecc312160efe778b370a593 ""
   (generated)
-  "combinedRecord.aux"
   "combinedRecord.log"
+  "combinedRecord.aux"
   "combinedRecord.pdf"
