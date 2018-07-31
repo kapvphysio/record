@@ -1,4 +1,4 @@
-PWD /home/kavin/Documents/WriteUps/Record/record
+PWD /home/gg/Documents/WriteUps/Record/record
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
@@ -429,6 +429,10 @@ INPUT ./clinicalPhysioPic/cerebellum/tandemWalking.jpg
 INPUT ./clinicalPhysioPic/cerebellum/heelShinTest.jpg
 INPUT ./clinicalPhysioPic/cerebellum/heelShinTest.jpg
 INPUT ./clinicalPhysioPic/cerebellum/heelShinTest.jpg
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT combinedRecord.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb

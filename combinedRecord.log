@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.7.30)  30 JUL 2018 21:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.6)  31 JUL 2018 08:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **combinedRecord.tex
 (./combinedRecord.tex
 LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
@@ -2291,7 +2291,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2916--2919
 ] [95
 
 ]
-Overfull \hbox (4.65208pt too wide) in paragraph at lines 2958--2962
+Overfull \hbox (4.65208pt too wide) in paragraph at lines 2959--2963
 []
  []
 
@@ -2304,7 +2304,7 @@ File: ./clinicalPhysioPic/cerebellum/fingerNoseTest.jpg Graphic file (type jpg)
 
  <use ./clinicalPhysioPic/cerebellum/fingerNoseTest.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/cerebellum/fingerNoseTest.jpg used
- on input line 3011.
+ on input line 3012.
 (pdftex.def)             Requested size: 142.34364pt x 142.33238pt.
 
 <./clinicalPhysioPic/cerebellum/dysdidochokinesia.jpg, id=696, 10.58443pt x 7.2
@@ -2313,7 +2313,7 @@ File: ./clinicalPhysioPic/cerebellum/dysdidochokinesia.jpg Graphic file (type j
 pg)
  <use ./clinicalPhysioPic/cerebellum/dysdidochokinesia.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/cerebellum/dysdidochokinesia.jpg u
-sed on input line 3011.
+sed on input line 3012.
 (pdftex.def)             Requested size: 142.34778pt x 142.42584pt.
 
 <./clinicalPhysioPic/cerebellum/tandemWalking.jpg, id=697, 5.2922pt x 8.39357pt
@@ -2321,7 +2321,7 @@ sed on input line 3011.
 File: ./clinicalPhysioPic/cerebellum/tandemWalking.jpg Graphic file (type jpg)
  <use ./clinicalPhysioPic/cerebellum/tandemWalking.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/cerebellum/tandemWalking.jpg used 
-on input line 3011.
+on input line 3012.
 (pdftex.def)             Requested size: 142.55804pt x 142.31311pt.
 
 <./clinicalPhysioPic/cerebellum/heelShinTest.jpg, id=698, 11.3242pt x 8.27975pt
@@ -2329,7 +2329,7 @@ on input line 3011.
 File: ./clinicalPhysioPic/cerebellum/heelShinTest.jpg Graphic file (type jpg)
  <use ./clinicalPhysioPic/cerebellum/heelShinTest.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/cerebellum/heelShinTest.jpg used o
-n input line 3011.
+n input line 3012.
 (pdftex.def)             Requested size: 142.41023pt x 142.50635pt.
  [96 <./clinicalPhysioPic/cerebellum/fingerNoseTest.jpg> <./clinicalPhysioPic/c
 erebellum/dysdidochokinesia.jpg> <./clinicalPhysioPic/cerebellum/tandemWalking.
@@ -2341,16 +2341,36 @@ jpg> <./clinicalPhysioPic/cerebellum/heelShinTest.jpg>] [96
 
 ] [98
 
+] [99]
+Overfull \hbox (4.65208pt too wide) in paragraph at lines 3055--3058
+[] 
+ []
+
+
+Overfull \hbox (11.71103pt too wide) in paragraph at lines 3058--3058
+[]\T1/aer/bx/n/17.28 1$[]$ CRA-NIAL NERVE ^^U OL-FAC-TORY NERVE (purely
+ []
+
+[99
+
+] [100] [100
+
+] [101] [101
+
+] [102
+
+] [102
+
 
 ] (./combinedRecord.aux) ) 
 Here is how much of TeX's memory you used:
- 6717 strings out of 493029
- 115440 string characters out of 6136234
- 184814 words of memory out of 5000000
- 10021 multiletter control sequences out of 15000+600000
- 37312 words of font info for 70 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 40i,16n,46p,674b,663s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 6722 strings out of 494953
+ 115516 string characters out of 6180978
+ 179974 words of memory out of 5000000
+ 9774 multiletter control sequences out of 15000+600000
+ 38450 words of font info for 74 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 40i,16n,46p,700b,663s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
@@ -2361,10 +2381,10 @@ live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on combinedRecord.pdf (197 pages, 2482079 bytes).
+Output written on combinedRecord.pdf (205 pages, 2491928 bytes).
 PDF statistics:
- 758 PDF objects out of 1000 (max. 8388607)
- 465 compressed objects within 5 object streams
+ 784 PDF objects out of 1000 (max. 8388607)
+ 483 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
  396 words of extra memory for PDF output out of 10000 (max. 10000000)
 
