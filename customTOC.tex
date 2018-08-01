@@ -1,13 +1,14 @@
 \documentclass[a4paper,12pt]{book}
  \usepackage{graphicx}
+ \usepackage{float}
  \begin{document}
 
-\begin{table}[]
- \centering
+\begin{table}[H]
+ \renewcommand{\arraystretch}{2.5} \centering
  \resizebox{\textwidth}{!}{%
  \begin{tabular}{|l|l|l|l|l|}
  \hline
-S.No & Date & Experiment & Signature & Page \\ \hline
+S.No & Date & \centering {Experiment} & Signature & Page \\ \hline
 & & Compound Microscope & & 1 \\ \hline
 & & Hemocytometer & & 5 \\ \hline
 & & Estimation Of Total RBC Count & & 9 \\ \hline
@@ -28,8 +29,8 @@ S.No & Date & Experiment & Signature & Page \\ \hline
 
 \newpage
 
-\begin{table}[]
- \centering
+\begin{table}[H]
+ \renewcommand{\arraystretch}{2.5} \centering
  \resizebox{\textwidth}{!}{%
  \begin{tabular}{|l|l|l|l|l|}
  \hline
