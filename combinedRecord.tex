@@ -1,5 +1,7 @@
 %-----------preamble-------{{{
 \documentclass[a4paper,12pt]{book}
+\usepackage{tocloft}
+\renewcommand{\cftsecafterpnum}{\quad\rule{1cm}{0.4pt}\quad\rule{2cm}{0.4pt}}
 \usepackage{tabularx}
 \usepackage[a4paper, left=1in,right=1in,top=2cm,bottom=1.5cm]{geometry}
 \usepackage{fancyhdr}
@@ -38,14 +40,37 @@
 	\afterpage{\blankpage}}
 	\makeatother
 
+    \makeatletter
+    \renewcommand\part{%
+       \if@openright
+         \cleardoublepage
+       \else
+         \clearpage
+       \fi
+       \thispagestyle{empty}%
+       \if@twocolumn
+         \onecolumn
+         \@tempswatrue
+       \else
+         \@tempswafalse
+       \fi
+       \null\vfil
+       \secdef\@part\@spart}
+    \makeatother
+
 	\begin{document}
+	\pagenumbering{roman}
+	\tableofcontents
 	%\pdfrender{StrokeColor=black,TextRenderingMode=2,LineWidth=0.1pt}
 	\afterpage{\blankpage}
 %-----------------------}}}
 	%-------Hematology----{{{
-	\part{Hematology}
+	
+	\part*{Hematology}
 	%-------CompoundMicroscope---{{{
+	\pagenumbering{arabic}
 	\chapter*{\centering Compound Microscope}
+\addcontentsline{toc}{chapter}{Compound Microscope}
 
 	\begin{tabular}{p{5in} p{1in}}
 		\textbf{Exp No:}  & \textbf{Date:}\\
@@ -195,6 +220,7 @@
 			%-----------Hemocytometer----{{{
 
 			\chapter*{\centering Hemocytometer}
+\addcontentsline{toc}{chapter}{Hemocytometer}
 			\begin{tabular}{p{5in} p{1in}}
 				\textbf{Exp No:}  & \textbf{Date:}\\
 			\end{tabular}
@@ -368,6 +394,7 @@
 					%-----------}}}
 					%-------RBCcount---{{{
 					\chapter*{\centering Estimation Of Total RBC Count}
+\addcontentsline{toc}{chapter}{Estimation Of Total RBC Count}
 
 					\begin{tabular}{p{5in} p{1in}}
 						\textbf{Exp No:}  & \textbf{Date:}\\
@@ -420,6 +447,7 @@
 					%-----------}}}
 					%--------WBC count---{{{
 					\chapter*{\centering Estimation Of Total WBC Count}
+\addcontentsline{toc}{chapter}{Estimation Of Total WBC Count}
 
 					\begin{tabular}{p{5in} p{1in}}
 						\textbf{Exp No:}  & \textbf{Date:}\\
@@ -471,6 +499,7 @@
 					%----}}}
 					%------AEC---{{{
 					\chapter*{\centering Absolute Eosinophil Count}
+\addcontentsline{toc}{chapter}{Absolute Eosinophil Count}
 
 					\begin{tabular}{p{5in} p{1in}}
 						\textbf{Exp No:}  & \textbf{Date:}\\
@@ -514,6 +543,7 @@
 					%-----}}}
 					%-----DC{{{
 					\chapter*{\centering Differential Count}
+\addcontentsline{toc}{chapter}{Differential Count}
 					\begin{tabular}{p{5in} p{1in}}
 						\textbf{Exp No:}  & \textbf{Date:}\\
 					\end{tabular}
@@ -642,6 +672,7 @@
 							%------}}}
 							%---------Hb---{{{
 							\chapter*{\centering Hemoglobin Estimation}
+\addcontentsline{toc}{chapter}{Hemoglobin Estimation}
 							\begin{tabular}{p{5in} p{1in}}
 								\textbf{Exp No:}  & \textbf{Date:}\\
 							\end{tabular}
@@ -692,6 +723,7 @@
 								%-------BloodGrouping---{{{
 
 								\chapter*{\centering Blood Grouping \& Typing}
+\addcontentsline{toc}{chapter}{Blood Grouping \& Typing}
 								\begin{tabular}{p{5in} p{1in}}
 									\textbf{Exp No:}  & \textbf{Date:}\\
 								\end{tabular}
@@ -743,6 +775,7 @@
 									%----BleedingTime---{{{
 
 									\chapter*{\centering Estimation Of Bleeding Time}
+\addcontentsline{toc}{chapter}{Estimation Of Bleeding Time}
 									\begin{tabular}{p{5in} p{1in}}
 										\textbf{Exp No:}  & \textbf{Date:}\\
 									\end{tabular}
@@ -788,6 +821,7 @@
 										%------------------------}}}
 										%------------ClottingTime---{{{
 										\chapter*{\centering Estimation Of Clotting Time}
+\addcontentsline{toc}{chapter}{Estimation Of Clotting Time}
 										\begin{tabular}{p{5in} p{1in}}
 											\textbf{Exp No:}  & \textbf{Date:}\\
 										\end{tabular}
@@ -840,6 +874,7 @@
 											%-----ESR------{{{
 
 											\chapter*{\centering Estimation Of Erythrocyte Sedimentation Rate}
+\addcontentsline{toc}{chapter}{Estimation Of Erythrocyte Sedimentation Rate}
 											\begin{tabular}{p{5in} p{1in}}
 												\textbf{Exp No:}  & \textbf{Date:}\\
 											\end{tabular}
@@ -897,6 +932,7 @@
 												%---PackedCellVolume-{{{
 
 												\chapter*{\centering Packed Cell Volume}
+\addcontentsline{toc}{chapter}{Packed Cell Volume}
 												\begin{tabular}{p{5in} p{1in}}
 													\textbf{Exp No:}  & \textbf{Date:}\\
 												\end{tabular}
@@ -939,6 +975,7 @@
 													%-----------------}}}
 													%---------OsmoticFragility---{{{
 													\chapter*{\centering Osmotic Fragility}
+\addcontentsline{toc}{chapter}{Osmotic Fragility}
 													\begin{tabular}{p{5in} p{1in}}
 														\textbf{Exp No:}  & \textbf{Date:}\\
 													\end{tabular}
@@ -999,6 +1036,8 @@
 
 
 														\chapter*{\centering Specific Gravity}
+\addcontentsline{toc}{chapter}{Specific Gravity}
+\addtocontents{toc}{\protect\newpage}
 
 														\begin{tabular}{p{5in} p{1in}}
 															\textbf{Exp No:}  & \textbf{Date:}\\
@@ -1050,9 +1089,10 @@
 															\end{enumerate}
 															%----------------------------------------------------------------------------}}}
 															%-----------}}}
-															\part{Clinical Physiology}
+															\part*{Clinical Physiology}
 %---------------GeneralExamination---{{{
 															\chapter*{\centering General Examination}
+\addcontentsline{toc}{chapter}{General Examination}
 
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
@@ -1340,6 +1380,7 @@ It is the condition where there is accumulation of free fluid in the interstitia
 %--------------Examination of Respiratory System--{{{
 
 															\chapter*{\centering Examination Of Respiratory System}
+\addcontentsline{toc}{chapter}{Examination Of Respiratory System}
 
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
@@ -1564,6 +1605,7 @@ Examination of respiratory system is carried out in the following lung areas.
 %------------Respiratory Efficiency test---{{{
 
 															\chapter*{\centering Respiratory Efficiency Test}
+\addcontentsline{toc}{chapter}{Respiratory Efficiency Test}
 
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
@@ -1614,6 +1656,7 @@ Examination of respiratory system is carried out in the following lung areas.
 %----------------Spirometery---------------{{{
 
 															\chapter*{\centering Spirometry}
+\addcontentsline{toc}{chapter}{Spirometry}
 
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
@@ -1710,6 +1753,7 @@ Examination of respiratory system is carried out in the following lung areas.
 														%---------}}}
 %---------Stethography----{{{
 															\chapter*{\centering Stethography}
+\addcontentsline{toc}{chapter}{Stethography}
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
@@ -1780,6 +1824,7 @@ Stethograph consists of a corrugated rubber tube with one end sealed and the oth
 %--------------------Examination of Arterial Pulse------{{{
 
 															\chapter*{\centering Examination of the Arterial Pulse}
+\addcontentsline{toc}{chapter}{Examination of the Arterial Pulse}
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
@@ -1938,6 +1983,7 @@ Measurement of venous waves in the neck helps to determine the right atrial hich
 %-------------------------------------------------------------}}}
 %--------Examination of CVS----{{{
 															\chapter*{\centering Examination Of Cardiovascular System}
+\addcontentsline{toc}{chapter}{Examination Of Cardiovascular System}
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
@@ -2061,6 +2107,7 @@ The second heart sound may be split. Split S2 is better appreciated in thin indi
 	      %--------------------------}}}
 	      %------------Recording of blood pressure ------{{{
 															\chapter*{\centering Recording of Blood Pressure}
+\addcontentsline{toc}{chapter}{Recording of Blood Pressure}
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
@@ -2131,6 +2178,7 @@ It gives a rough value of systolic blood pressure, It helps to avoid missing of 
 %-----------------------}}}
 %------------Effect of posture and exercise on BP--{{{
 															\chapter*{\centering Effects of Posture and Exercise on	Blood Pressure}
+\addcontentsline{toc}{chapter}{Effects of Posture and Exercise on	Blood Pressure}
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
@@ -2204,6 +2252,7 @@ Systolic BP will show a rise due to increase in the heart rate and cardiac outpu
 %-----------------Examination of sensory system----{{{
 
 															\chapter*{\centering Examination Of Sensory System}
+\addcontentsline{toc}{chapter}{Examination Of Sensory System}
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
@@ -2417,6 +2466,7 @@ Romberg's sign                      & \multicolumn{8}{c|}{}                     
 %------------------------}}}
 %------------Examination of motor system-----------{{{
 															\chapter*{\centering Examination Of Motor System}
+\addcontentsline{toc}{chapter}{Examination Of Motor System}
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
@@ -2737,6 +2787,7 @@ Pathological: Parkinsonism, cerebellar disorders, thyrotoxicosis,  	hypoglycaemi
 %-------------------------------}}}
 %------------------Reflexes-----{{{
 															\chapter*{\centering Reflexes}
+\addcontentsline{toc}{chapter}{Reflexes}
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
@@ -2956,6 +3007,7 @@ The subject is questioned about any difficulty in swallowing, nasal regurgitatio
 %--------------------}}}
 %-------------Cerebellar Function Tests------{{{
 															\chapter*{\centering Cerebellar Function Tests}
+\addcontentsline{toc}{chapter}{Cerebellar Function Tests}
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
@@ -3052,10 +3104,11 @@ Normally he should be able to put a brake on the movement. In cerebellar lesions
 %---------------------------------------}}}
 %------------------------Cranial Nerves 1 to 6 ------{{{
 														\chapter*{\centering Examination Of Cranial Nerves (1-6)}
+\addcontentsline{toc}{chapter}{Examination Of Cranial Nerves (1-6)}
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
-\section*{1$^{st}$ CRANIAL NERVE – OLFACTORY NERVE (purely sensory)}
+\section*{I Cranial Nerve – Olfactory Nerve (purely sensory)}
 \addfig{
 	\begin{figure}
 		\centering
@@ -3071,7 +3124,7 @@ Test each nostril separately with eyes closed after giving proper instructions t
 A normal subject can recognize the substance with each nostril.
 	Anosmia means complete absence of smell.Parosmia means perverted sensation of smell Hyposmia means reduction in the sense of smell. All these conditions develop due to damage to the olfactory pathways by trauma or disease. Olfactory hallucinations occur in temporal lobe epilepsy.
 
-		\section*{2$^{nd}$ CRANIAL NERVE – OPTIC NERVE (purely sensory)}
+		\section*{II Cranial Nerve – Optic Nerve (purely sensory)}
 		It serves the sense of vision. The functions to be tested are:
 		\begin{enumerate}
 \item{Visual acuity}
@@ -3147,7 +3200,7 @@ A normal subject can recognize the substance with each nostril.
 \subsection*{Discussion:}
 	In lesions of 3rd cranial nerve, accommodation reflex is absent on the affected side. Argyll-Robertson Pupil:In neurosyphilis the pretectal region of the midbrain is damaged. Here pupillary light reflex is absent and the accommodation reflex is preserved.
 
-\section*{3, 4 \& 6 CRANIAL NERVES –OCCULOMOTOR, TROCHLEAR \& ABDUCENT NERVES (Purely motor)}
+\section*{III, IV \& VI Cranial Nerves –Occulomotor, Trochlear \& Abducent Nerves (Purely motor)}
 They supply the extra ocular muscles which move the eyeball.  
 Trochlear nerve supplies the superior oblique. 
 Abducent Nerve supplies the lateral rectus.
@@ -3163,7 +3216,7 @@ Occulomotor nerve supplies Superior rectus, Inferior rectus, Medial rectus and I
 \item{Pupillary Light reflex : (refer 2nd cranial nerve)}
 \item{Accommodation reflex : (refer 2nd cranial nerve)}
 \end{itemize}
-\section*{5$^{th}$ CRANIAL NERVE: TRIGEMINAL NERVE (MIXED NERVE)}
+\section*{V Cranial Nerve: Trigeminal Nerve (Mixed Nerve)}
 	It has sensory (Ophthalmic, Maxillary and Mandibular divisions carry the sensations of face) and motor components (Muscles of mastication).
 \subsection*{Tests for sensory function:}
 The areas of face supplied by the three divisions of 5th nerve are tested.
@@ -3216,12 +3269,13 @@ Ask the subject to let his jaw sag open slightly. Place the left thumb over t he
 \item{ Trace the pathway for light reflex.}
 \end{enumerate}
 %-----------------------}}}
-
+%--------------------Cranial Nerves 7 to 12--{{{
 														\chapter*{\centering Examination Of Cranial Nerves (7-12)}
+\addcontentsline{toc}{chapter}{Examination Of Cranial Nerves (7-12)}
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
-\section*{7$^{th}$ CRANIAL NERVE – FACIAL NERVE (Mixed nerve)}
+\section*{VII Cranial Nerve – Facial Nerve (Mixed nerve)}
 \addfig{
 	\centering
 	\begin{figure}
@@ -3262,8 +3316,7 @@ The seventh nerve consists of,
 Motor fibres supply the muscles of facial expression, muscles of the scalp and ear, platysma, posterior belly of digastrics, stylohyoid and stapedius.
 Parasympathetic fibres supply nasal, palatine, lacrimal, submaxillary and sublingual glands.
 Special sensory fibres carrying taste from anterior two third of the tongue.
-\subsection*{EXAMINATION OF FACIAL NERVE}
-\subsubsection*{Motor component:}
+\subsection*{Motor component:}
 \paragraph{Muscles of facial expression}
 \begin{itemize}
 \item{Look for the symmetry of face, loss of facial expression and obliteration of nasolabial folds}
@@ -3277,7 +3330,7 @@ Special sensory fibres carrying taste from anterior two third of the tongue.
 	\par
 		\textbf{Bell’s phenomenon:}Ask the subject to close his eyes. On closing the eyes the eyeballs roll upwards, which is not seen in a normal person since the eyelids close properly. In Bell’s palsy (LMN type of facial nerve palsy), this phenomenon is seen on the affected side as he cannot close the eyelids.}
 \end{itemize}
-\subsubsection*{Sensory component:}
+\subsection*{Sensory component:}
 Test the taste sensation in anterior two third of the tongue\\
 Use solutions of sugar, common salt, citric acid and quinine to test sensations of sweet, salt, sour and bitter respectively\\
 Ask the subject to protrude the tongue out and apply the solution on the surface of one half of the tongue with a swab.\\
@@ -3285,18 +3338,18 @@ The subject is asked to indicate perception of the taste by finger signs without
 After each test, the mouth must be rinsed.\\
 The test is repeated with each solution and then on the other half of tongue.\\
 The bitter quinine should be applied last, as its effect lasts longer.
-\subsubsection*{Reflexes:}
+\subsection*{Reflexes:}
 		\begin{itemize}
 \item{Corneal reflex (Refer 1-6 cranial nerve)}
 \item{Conjunctival reflex (Refer 1-6 cranial nerve)}
 \item{Ask for any history suggestive of hyperacusis (stapedius)}
 		\end{itemize}
 
-		\section*{8th CRANIAL NERVE- VESTIBULO-COCHLEAR NERVE (Purely sensory)}
+		\section*{VIII Cranial Nerve- Vestibulo-Cochlear Nerve (Purely sensory)}
 
 	Eighth nerve consists of 2 components – Cochlear component innervates cochlea and subserves hearing.Vestibular component supplies the labryrinth and semicircular canals which subserves equilibrium and balance.
 
-		\paragraph{TESTS FOR COCHLEAR FUNCTION}
+		\paragraph{Tests For Cochlear Function}
 		\begin{enumerate}
 \item{Watch test
 	\par
@@ -3356,11 +3409,11 @@ Conduction deafness - the sound is heard louder on the side with conduction deaf
 
 		\end{enumerate}
 
-\subsection*{TESTS FOR VESTIBULAR COMPONENT}
+\subsection*{Tests For Vestibular Component}
 Ask the subject for history of vertigo.\\
 Look for Nystagmus (Involuntary, jerky, to and fro rhythmic movements of the eyeball).
 
-\section*{9$^{th}$ CRANIAL NERVE – GLOSSOPHARYNGEAL NERVE (Mixed nerve)}
+\section*{IX Cranial Nerve – Glossopharyngeal Nerve (Mixed nerve)}
 \addfig{
 	\centering
 	\begin{figure}
@@ -3392,15 +3445,15 @@ Look for Nystagmus (Involuntary, jerky, to and fro rhythmic movements of the eye
 \item[]Secretomotor fibres supply the parotid gland.
 \end{itemize}
 
-\subsection*{TEST FOR MOTOR FUNCTION}
+\subsection*{Test For Motor Function}
 \subsubsection*{Pharygeal reflex (Gag reflex):}
 Ask the subject to open his mouth wide and tickle the back of the pharynx with the help of a cotton swab stick and observe the contraction of posterior pharyngeal wall, ( 9thand 10thcranial nerve)
 
-\subsection*{TESTS FOR SENSORY COMPONENT}
+\subsection*{Tests For Sensory Component}
 Test the taste sensation (as explained in the 7th cranial nerve) on the posterior $\frac{1}{3}^{rd}$of the tongue.
 Baroreceptor function-Record the blood pressure of the subject in the supine position and immediately (within 15 seconds) on standing. A fall in systolic BP of more than 20mmHg is suggestive of orthostatic hypotension.
 
-\section*{10$^{th}$ CRANIAL NERVE – VAGUS NERVE (Mixed nerve)}
+\section*{X Cranial Nerve – Vagus Nerve (Mixed nerve)}
 \paragraph{It has motor and sensory components.}
 \begin{itemize}
 \item[]Motor fibres supply muscles of soft palate, pharynx and larynx.
@@ -3418,7 +3471,7 @@ Baroreceptor function-Record the blood pressure of the subject in the supine pos
 \item[]Check for hoarseness of voice
 \item[]Baroreceptor function - Test for postural hypotension (refer 9th cranial nerve).
 \end{itemize}
-\section*{11th CRANIAL NERVE – SPINAL ACCESSORY NERVE (Purely motor) }
+\section*{XI Cranial Nerve – Spinal Accessory Nerve (Purely motor) }
 \addfig{
 	\centering
 	\begin{figure}
@@ -3446,7 +3499,7 @@ Ask the subject to depress his chin and offer resistance, to test muscles on bot
 \subsection*{Test for Trapezius muscle:}
 Stand behind the subject and ask the subject to shrug the shoulders while the examiner presses them downward
 
-\section*{12th CRANIAL NERVE – HYPOGLOSSAL NERVE (Purely motor)}
+\section*{XII Cranial Nerve – Hypoglossal Nerve (Purely motor)}
 
 	It supplies all the muscles of the tongue and depressors of the hyoid bone.
 \subsection*{Test:}
@@ -3468,6 +3521,7 @@ In UMN type of paralysis, the tongue may be small and spastic.
 \item{ How do you differentiate nerve deafness from conduction deafness by using Weber’s test?}
 \item{ What is Barany’s caloric test?}
 \end{enumerate}
+%-----------------------}}}
 	\end{document}
 
 
