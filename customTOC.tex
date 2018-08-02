@@ -1,14 +1,15 @@
 \documentclass[a4paper,12pt]{book}
  \usepackage{graphicx}
  \usepackage{float}
- \begin{document}
+ \usepackage[a4paper, left=1in,right=1in,top=2cm,bottom=1.5cm]{geometry} \begin{document}
 
+\pagenumbering{gobble}
 \begin{table}[H]
  \renewcommand{\arraystretch}{2.5} \centering
  \resizebox{\textwidth}{!}{%
- \begin{tabular}{|l|l|l|l|l|}
+ \begin{tabular}{|l|l|p{3in}|l|c|}
  \hline
-S.No & Date & \centering {Experiment} & Signature & Page \\ \hline
+\textbf{S.No} & \textbf{Date} & \centering {\textbf{Experiment}} & \textbf{Signature} & \textbf{Page} \\ \hline
 & & Compound Microscope & & 1 \\ \hline
 & & Hemocytometer & & 5 \\ \hline
 & & Estimation Of Total RBC Count & & 9 \\ \hline
@@ -32,9 +33,9 @@ S.No & Date & \centering {Experiment} & Signature & Page \\ \hline
 \begin{table}[H]
  \renewcommand{\arraystretch}{2.5} \centering
  \resizebox{\textwidth}{!}{%
- \begin{tabular}{|l|l|l|l|l|}
+ \begin{tabular}{|l|l|p{3in}|l|c|}
  \hline
-S.No & Date & Experiment & Signature & Page \\ \hline
+\textbf{S.No} & \textbf{Date} & \centering \textbf{Experiment} & \textbf{Signature} & \textbf{Page} \\ \hline
 & & General Examination & & 37 \\ \hline
 & & Examination Of Respiratory System & & 43 \\ \hline
 & & Respiratory Efficiency Test & & 49 \\ \hline
