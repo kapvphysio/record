@@ -1,9 +1,9 @@
 %-----------preamble-------{{{
-\documentclass[a4paper,12pt]{book}
+\documentclass[a4paper,12pt,openany,oneside]{book}
 \usepackage{tocloft}
 \renewcommand{\cftsecafterpnum}{\quad\rule{1cm}{0.4pt}\quad\rule{2cm}{0.4pt}}
 \usepackage{tabularx}
-\usepackage[a4paper, left=1in,right=1in,top=2cm,bottom=1.5cm]{geometry}
+\usepackage[a4paper, left=1.1in,right=.5in,top=2cm,bottom=1.5cm]{geometry}
 \usepackage{fancyhdr}
 \usepackage{csvsimple}
 \pagestyle{plain}
@@ -807,7 +807,7 @@
 											\item{Normal bleeding time by Duke’s method is 2-5minutes.}
 										\end{enumerate}
 										\section*{Result}
-										The bleeding time determined by Duke’s method is $\rule{5cm}{0.1cm}$
+										The bleeding time determined by Duke’s method is $\rule{5cm}{0.5pt}$
 										\section*{Questions}
 										\begin{enumerate}
 											\item{Define bleeding time.}
@@ -858,7 +858,7 @@
 											\end{enumerate}
 											\section*{Result}
 
-											The clotting time determined by Wright's capillary glass is $\rule{5cm}{0.1cm}$
+											The clotting time determined by Wright's capillary glass is $\rule{5cm}{0.5pt}$
 											\section*{Questions}
 											\begin{enumerate}
 												\item{Define clotting time.}
@@ -910,7 +910,7 @@
 													\item{After an hour, note the $mm$ of clear plasma above the red cells.}
 												\end{enumerate}
 												\section*{Result}
-												Erythrocyte Sedimentation Rate of the given blood sample is $\rule{5cm}{0.1cm}$ $mm$ in first hour.
+												Erythrocyte Sedimentation Rate of the given blood sample is $\rule{5cm}{0.5pt}$ $mm$ in first hour.
 												\section*{Questions}
 												\begin{enumerate}
 													\item{What is ESR?}
@@ -963,7 +963,7 @@
 														\item{At the end of 30 minutes, take the reading of upper level of packed red cell column.}
 													\end{enumerate}
 													\section*{Result}
-													The packed cell volume or the hematocrit value of the given blood sample is $\rule{2cm}{.1cm}$\%
+													The packed cell volume or the hematocrit value of the given blood sample is $\rule{2cm}{.5pt}$\%
 													\section*{Questions}
 													\begin{enumerate}
 														\item{Define PCV.}
@@ -1008,9 +1008,9 @@
 															\item{Leave the test tubes undisturbed for one hour. Then observe the extent of hemolysis in each tube by holding the rack at eye level, with a white paper sheet behind it.}
 														\end{enumerate}
 
-														\begin{center}
-															\csvautotabular{./osmoticFragility.csv}
-														\end{center}
+														%\begin{center}
+														\csvautotabular{./osmoticFragility.csv}
+														%\end{center}
 														\section*{Interpretation}
 
 														\begin{itemize}
@@ -1019,8 +1019,8 @@
 															\item{Test tube with no hemolysis shows a clear colourless supernatant solution with a layer of sedimented red cells at the bottom of the tube}
 														\end{itemize}
 														\section*{Result}
-														Hemolysis begins in $\rule{4cm}{.1cm}$\% of NaCl solution.\newline
-														Hemolysis is complete in $\rule{4cm}{.1cm}$\% of NaCl solution.
+														Hemolysis begins in $\rule{4cm}{.5pt}$\% of NaCl solution.\newline
+														Hemolysis is complete in $\rule{4cm}{.5pt}$\% of NaCl solution.
 														\section*{Questions}
 														\begin{enumerate}
 															\item{What is the normal range of osmotic fragility of red cells?}
@@ -1077,7 +1077,7 @@
 																\csvautotabular{./specificGravity.csv}
 															\end{center}
 															\section*{Result}
-															The specific gravity of the given blood sample is $\rule{4cm}{.1cm}$.
+															The specific gravity of the given blood sample is $\rule{4cm}{.5pt}$.
 															\section*{Questions}
 															\begin{enumerate}
 																\item{Define specific gravity.}
@@ -1089,6 +1089,7 @@
 															\end{enumerate}
 															%----------------------------------------------------------------------------}}}
 															%-----------}}}
+%-----Clinical Physiology------{{{
 															\part*{Clinical Physiology}
 %---------------GeneralExamination---{{{
 															\chapter*{\centering General Examination}
@@ -1196,12 +1197,13 @@
 															\section*{Temperature}
 															Recorded by a clinical thermometer.\newline
 															\begin{itemize}
+																	\itemsep0em
 																\item{\textbf{Method of recording temperature:}}
 
 																	Do not touch the bulb of the thermometer. Shake down the mercury column into the bulb. Keep it under the tongue with the mouth closed for one minute before reading the temperature.
 																\item{\textbf{Sites of recording temperature:}}
 																	\begin{itemize}%Sites of recording temperature:]
-																		\setlength\itemsep{.5em}
+																		\itemsep0em
 																		\item{Mouth ( 36.6$^{\circ}$C to 37.2C$^{\circ}$C )}
 																		\item{Axilla ( 0.5 $^{\circ}$C lower than oral temperature )}
 																		\item{Rectum ( 0.5 $^{\circ}$C higher than oral temperature – Closer to core temperature )}
@@ -1213,6 +1215,7 @@
 															\begin{itemize}
 																\item{\textbf{Areas to look for pallor}}
 																	\begin{itemize}
+																			\itemsep0em
 																		\item{Lower palpebral conjunctiva}
 																		\item{Instruct the subject to look up and retract the lower lid to see the palpebral conjunctiva}
 																		\item{Dorsum of tongue}
@@ -1223,6 +1226,7 @@
 
 																\item{\textbf{Conditions where pallor is seen}}
 																	\begin{itemize}
+																			\itemsep0em
 																		\item{Anemia – Reduced count of RBCs / Hb content in blood}
 																		\item{Shock}
 																	\end{itemize}
@@ -1232,6 +1236,7 @@
 															\begin{itemize}
 																\item{\textbf{Areas to look for jaundice}}
 																	\begin{itemize}
+																			\itemsep0em
 																		\item{Bulbar conjunctiva of both eyes – Upper sclera}
 																			(Instruct the subject to look down and retract the upper lid to view the sclera)
 																		\item{Mucus membrane of oral cavity}
@@ -1253,8 +1258,9 @@
 															\section*{Cyanosis}
 															It is the bluish discoloration of the skin and mucous membrane due to an increased quantity of reduced hemoglobin concentration of more than 5 gm in 100 ml of blood.
 															\begin{itemize}
-																\item{\textbf{Areas to look for cyanosis:}}
+			\itemsep0em													\item{\textbf{Areas to look for cyanosis:}}
 \begin{itemize}
+		\itemsep0em
 \item{Lips}
 \item{Tongue}
 \item{Mucous membrane over the Palate}
@@ -1264,6 +1270,7 @@
 																	\end{itemize}
 																\item{\textbf{Types of Cyanosis:}}
 \begin{itemize}
+		\itemsep0em
 \item{	Central cyanosis}
 \item{	Peripheral cyanosis}
 \item{	Differential cyanosis}
@@ -1301,6 +1308,7 @@ Bulbous enlargement of soft parts of the terminal phalanges with over curving of
 	\end{itemize}
 \item{\textbf{Clubbing is seen in}}
 	\begin{itemize}
+			\itemsep0em
 \item{Bronchopulmonary diseases like bronchiectasis, lung abscess, empyema, chronic bronchitis and bronchogenic carcinoma}
 \item{Cardiac diseases like congenital cyanotic heart disease and bacterial endocarditis}
 \item{Gastro intestinal diseases like ulcerative colitis and liver cirrhosis}
@@ -1322,6 +1330,7 @@ It is the condition where there is accumulation of free fluid in the interstitia
 
 \section*{Lymphadenopathy}
 \begin{itemize}
+		\itemsep0em
 	\item{\textbf{Group of nodes to be examined:}}
 		\begin{itemize}
 \item{Submental, submandibular, cervical, posterior auricular, occipital,  supraclavicular, axillary, inguinal and popliteal nodes.}
@@ -1332,6 +1341,7 @@ It is the condition where there is accumulation of free fluid in the interstitia
 	\end{itemize}
 \item{\textbf{Examination of lymph nodes:}}
 	\begin{itemize}
+			\itemsep0em
 \item{Examiner should stand behind the sitting subject- Submental, submandibular, deep cervical nodes in the anterior triangle of neck}
 \item{Examiner should stand in front of the sitting subject – deep cervical nodes in the posterior triangle of neck, posterior auricular and occipital nodes}
 \item{Axillary nodes – sitting posture with abducted arm}
@@ -1342,6 +1352,7 @@ It is the condition where there is accumulation of free fluid in the interstitia
 
 \section*{Questions}
 \begin{enumerate}
+		\itemsep0em
 \item{Where will you look for pallor?}
 \item{What is cyanosis?}
 \item{What are the types of Jaundice?}
@@ -1713,9 +1724,9 @@ Examination of respiratory system is carried out in the following lung areas.
 
 															\section*{Result}
 														\begin{itemize}
-														\item[]	Tidal Volume						=\rule{5cm}{1mm}	
-\item[]		Expiratory Reserve Volume				=\rule{5cm}{1mm}
-\item[]			Vital Capacity						=\rule{5cm}{1mm}	
+														\item[]	Tidal Volume						=\rule{5cm}{.5pt}	
+\item[]		Expiratory Reserve Volume				=\rule{5cm}{.5pt}
+\item[]			Vital Capacity						=\rule{5cm}{.5pt}	
 														\end{itemize}
 
 														\section*{Observations}
@@ -1813,6 +1824,7 @@ Stethograph consists of a corrugated rubber tube with one end sealed and the oth
 
 \section*{Questions :}
 \begin{enumerate}
+		\itemsep0em
 \item{What is Deglutition Apnoea ?}
 \item{What is the effect of Exercise on respiration ?}
 \item{What is the normal Breath-holding time in adults?}
@@ -1987,6 +1999,7 @@ Measurement of venous waves in the neck helps to determine the right atrial hich
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
+															\par
 The cardiovascular system is examined to assess the functions of the heart and blood vessels as follows:
 \begin{enumerate}
 \item{General Examination}
@@ -2084,10 +2097,10 @@ Auscultate with diaphragm of the stethoscope in the following area.
 \par
 While auscultating an area, feel for the carotid pulse in the neck simultaneously. The sound which coincides with the carotid pulse is the first heart sound. The heart sound that occurs in between two successive pulsations of the carotid artery is the second heart sound.
 \par
-1st heart sound (S1) is produced by closure of AV valves.\newline
-2nd heart sound (S2) is produced by closure of semilunar valves.\newline
-3rd heart sound (S3) is due to vibrations set up by rapid ventricular filling.\newline
-4th heart sound (S4) is due to atrial systole.\newline
+\noindent 1$^{st}$ heart sound (S1) is produced by closure of AV valves.\newline
+2$^{nd}$ heart sound (S2) is produced by closure of semilunar valves.\newline
+3$^{rd}$ heart sound (S3) is due to vibrations set up by rapid ventricular filling.\newline
+4$^{th}$ heart sound (S4) is due to atrial systole.\newline
 \par
 First and second heart sounds are heard normally. Third heart sound is physiological in children and young adults. Fourth heart sound is not heard and can be recorded only with phonocardiogram.
 \par
@@ -2146,11 +2159,11 @@ The Sphygmomanometer consists of mercury manometer, cuff and air pump.
 The arterial BP is balanced against the pressure in the Riva Rocci cuff. Whenever the cuff pressure is raised above the systolic BP, the artery is occluded. When the cuff pressure becomes equal to or just below the Systolic BP, flow is restored through the artery. But the flow is turbulent. This is the reason for Korotkoff sounds. When the cuff pressure is lowered below Diastolic BP, once again streamline flow is restored and hence korotkoff sound disappears.
 \section*{Procedure :}
 \subsection*{Palpatory Method:}
-Subject is made to sit or lie down at ease on a couch. He is allowed to rest for few minutes .The Riva Rocci Cuff is wrapped around the middle of the armo that the lower edge of the cuff is two finger breadths above the antecubital fossa. It should neither be too loose nor too tight. Zero level of the manometer should be checked. The cuff around the arm and the manometer are kept at the level of the heart to avoid the effect of gravity. Palpate the radial artery pulse.
+Subject is made to sit or lie down at ease on a couch. He is allowed to rest for few minutes .The Riva Rocci Cuff is wrapped around the middle of the arm so that the lower edge of the cuff is two finger breadths above the antecubital fossa. It should neither be too loose nor too tight. Zero level of the manometer should be checked. The cuff around the arm and the manometer are kept at the level of the heart to avoid the effect of gravity. Palpate the radial artery pulse.
 \par
 The pressure in the cuff is raised gradually until the radial pulse is no longer felt .The pressure at which the radial pulse disappears is noted .Now the pressure in the cuff is raised further and then slowly brought back by deflating the cuff. The pulse now reappears. The reading at which the pulse reappears is also noted .The disappearance and reappearance of the pulse coincides .This value is the approximate Systolic blood pressure.
 \subsection*{Auscultaory method:}
-The chest piece of the stethoscope is placed on the brachial artery in the antecubital fossa .The pressure in the cuff is raised to 20 to 30 mmHg above the systolic blood pressure determined by the palpatory method. While auscultating the brachial artery, the pressure in the cuff is lowered gradually .The reading in the manometer at which faint tapping sound is heard, is noted down. This is the systolic blood pressure.
+The chest piece of the stethoscope is placed on the brachial artery in the antecubital fossa .The pressure in the cuff is raised to 20 to 30 $mm$ Hg above the systolic blood pressure determined by the palpatory method. While auscultating the brachial artery, the pressure in the cuff is lowered gradually .The reading in the manometer at which faint tapping sound is heard, is noted down. This is the systolic blood pressure.
 \par
 As the pressure in the cuff is further lowered, the sound undergoes a series of changes both in quality and intensity. Note down the reading at which the auscultatory sounds disappear. This is the diastolic blood pressure .Sometimes muffling of sounds also can be taken as diastolic BP. The ausculatory sounds heard during measurement of Blood pressure are called korotkoff’s sounds.
 \paragraph{Phases of koratkoff sounds :}
@@ -2194,11 +2207,11 @@ It gives a rough value of systolic blood pressure, It helps to avoid missing of 
 \item{The deflated cuff is still wrapped around his arm.}
 \item{Now the subject is instructed to stand up swiftly from the lying posture and to lean against a support (the couch).}
 \item{Immediately record his blood pressure by auscultatory method.}
-\item{Record blood pressure again at the end of 2min and 5min on standing.}
+\item{Record blood pressure again at the end of 2 min and 5 min on standing.}
 	\end{itemize}
 	\subsection*{Discussion:}
 		When an individual stands up immediately from recumbent posture, there is pooling of blood in the legs.
-		The venous return to the heart is reduced thereby reducing the cardiac output. Hence, the systolic blood pressure will fall, which may be recorded within 15seconds. This will be brought back to normal by Baroreceptor reflex within 15 to 30 seconds .Hence, a fall in systolic BP is usually difficult to record in normal subjects.
+		The venous return to the heart is reduced thereby reducing the cardiac output. Hence, the systolic blood pressure will fall, which may be recorded within 15 $s$. This will be brought back to normal by Baroreceptor reflex within 15 to 30 $s$.Hence, a fall in systolic BP is usually difficult to record in normal subjects.
 		This is a function of autonomic nervous system (ANS).
 		\subsection*{Observation - Effect Of Change in Posture on BP}
 \begin{table}[H]
@@ -2276,7 +2289,7 @@ Apply uniform sensory stimulus and examine dermatome wise on both sides.
 \item{Stereognosis:}
 \item{Romberg’s sign}
 \end{itemize}
-\subsection*{TACTILE SENSATION: (Tested with eyes closed)}
+\subsection*{Tactile Sensation: (Tested with eyes closed)}
 \subsubsection*{Fine touch (Light touch):}
 \begin{itemize}
 \item{ Ask the subject to say ‘yes’ or raise his finger when he perceives the sensation of touch.}
@@ -2315,20 +2328,20 @@ Apply uniform sensory stimulus and examine dermatome wise on both sides.
 \item[]Paraesthesia 	- Perverted touch sensation (Touch may produce unpleasant 				sensation)
 \end{itemize}
 
-\subsection*{SENSE OF POSITION: (to be done with eyes closed)}
+\subsection*{Sense Of Position: (to be done with eyes closed)}
 \par
 The appreciation of passive movement
 \par
 	Hold the finger and fix the interphalangeal joint. Passively flex and extend the finger holding the joint, and leave it in some definite position . Ask the subject to keep the corresponding finger in similar position .Perform the test on all the upper and lower limb small and large.
 	\par
 (Movements of less than 10${^\circ}$ are appreciated at all the normal joints).
-\subsection*{VIBRATION SENSE: (to be done with eyes closed)}
+\subsection*{Vibration Sense: (to be done with eyes closed)}
 \begin{itemize}
 \item{over bony prominences like styloid process of the radius ,the lower end of the tibia, and medial or l ateral malleolus.}
 \item{Ask the subject if he perceives vibrations and instruct him to raise his hand when he ceases to feel the vibration.}
 \item{Immediately place tuning fork on the corresponding bony prominence of the examiner. If the examiner can still perceive it, the subject's perception of vibration is impaired.}
 \end{itemize}
-\subsection*{PAIN SENSATION (to be done with eyes open)}
+\subsection*{Pain Sensation (to be done with eyes open)}
 \addfig{%
 	\centering
 	\begin{figure}[H]
@@ -2377,14 +2390,14 @@ The appreciation of passive movement
 \item{Hypoalgesia is partial loss of pain sensibility}
 \item{Hyperalgesia is a condition of exaggerated sensibility to pain}
 	\end{itemize}
-	\subsection*{THERMAL SENSE:}
+	\subsection*{Thermal Sense:}
 	\begin{itemize}
 \item{Take two test tubes containing warm and cold water separately}
 \item{Give proper instructions to the subject (to say whether he feels cold or warm when touched with different glass tubes)}
 \item{Place the bottom of the test tubes on the skin of the subject each ‘in turn or randomly’ and ask the subject to say what he feels}
 \item{Test and compare all the dermatomes.}
 	\end{itemize}
-	\subsection*{STEREOGNOSIS: (to be done with eyes closed)}
+	\subsection*{Stereognosis: (to be done with eyes closed)}
 \begin{itemize}
 \item{Place a familiar object in subject’s hand}
 \item{The subject should identify the object by its shape,texture, size, etc and should tell what it is}
@@ -2395,7 +2408,7 @@ The appreciation of passive movement
 	Ability to recognize the known objects purely from the feel of its shape and size with eyes closed is called stereognosis.
 	\par
 	Tactile localization, tactile discrimination and stereognosis are known as cortical sensations as intact parietal association area is needed.
-\subsection*{ROMBERG’S SIGN:}
+\subsection*{Romberg’s Sign:}
 \par
 	Ask the subject to stand with his feet close together and then to close his eyes. Swaying of the body from side to side will occur if the posterior column is affected. The position sense from the legs is lacking, hence the subject becomes unsteady on closing the eyes.
 	\par
@@ -2775,6 +2788,7 @@ Pathological: Parkinsonism, cerebellar disorders, thyrotoxicosis,  	hypoglycaemi
 				Sudden, rapid, repeated, coordinated and purposeless movements that occur in the form of blinking of the eyes or wriggling of the shoulders.
 				\section*{Questions:}
 				\begin{enumerate}
+						\itemsep0em
 \item{Define muscle tone.}
 \item{Define hemiparesis, hemiplegia and paraplegia.}
 \item{Name the descending tract that controls voluntary motor movements?}
@@ -2783,7 +2797,7 @@ Pathological: Parkinsonism, cerebellar disorders, thyrotoxicosis,  	hypoglycaemi
 \item{List out the differences between spasticity and rigidity.}
 				\end{enumerate}
 \section*{Inference:}
-\vspace{2in}
+\vspace{.1in}
 %-------------------------------}}}
 %------------------Reflexes-----{{{
 															\chapter*{\centering Reflexes}
@@ -2847,6 +2861,7 @@ Ask the subject to lie in supine position with the muscles of lower limbs comple
 \textbf{Normal Response: }\\
 "Extensor plantar response" manifested by
 \begin{itemize}
+		\itemsep0em
 \item{Plantar flexion of all the toes at metatarsophalangeal and inter phalangealjoints.}
 \item{Inversion and plantar flexion of ankle.}
 \end{itemize}
@@ -2874,6 +2889,7 @@ Ask the subject to lie in supine position with the muscles of lower limbs comple
 	\end{figure}
 }
 \begin{itemize}
+		\itemsep0em
 \item{Dorsiflexion of great toe with abduction and fanning out of other toes.}
 \item{Eversion and dorsiflexion of ankle.}
 \item{Also called as Babinsk's sign.}
@@ -2882,6 +2898,7 @@ Ask the subject to lie in supine position with the muscles of lower limbs comple
 \end{itemize}
 \subsection*{Other reflexes:}
 \begin{itemize}
+		\itemsep0em
 \item{Scapular reflex: C5-T1.}
 \item{Anal reflex: S3-S4.}
 \item{Cremasteric reflex: LI - L2.}
@@ -2891,6 +2908,7 @@ Ask the subject to lie in supine position with the muscles of lower limbs comple
 \section*{Deep Reflexes:}
 These are "monosynaptic reflexes", also called as "stretch reflexes".
 \begin{itemize}
+		\itemsep0em
 \item{Stimulus: Sudden stretch of muscle at the tendinous region}
 \item{Receptor: Muscle spindle}
 \item{Afferent: Sensory nerve component of mixed nerve}
@@ -2966,11 +2984,12 @@ Ask the Subject to lie in a supine position with the Quadriceps femoris muscle r
 \subsection*{Ankle jerk: (S1-S2)}
 Ask the subject to lie in a supine position. Flex the lower limb at the knee joint. Stretch the calf muscles by dorsiflexion at the ankle joint. Strike sharply at the achille's tendon.\\
 \textbf{Response:} Contraction of calf muscles with plantar flexion.\\
-This reflex can also be elicited when the subject is kneeling on a chair.\\
+This reflex can also be elicited when the subject is kneeling on a chair.
 \paragraph{Clonus:}
 It is a sign of increased reflex activity characterized by repetitive muscular contraction produced by stretch
 \paragraph{Grading of reflexes:}
 \begin{itemize}
+		\itemsep0em
 \item[]Grade 0: Absent
 \item[]Grade 1: Present (as a normal ankle jerk)
 \item[]Grade 2: Brisk (as a normal knee jerk)
@@ -2985,6 +3004,7 @@ The Jendrassik's maneuver is applied to those subjects in whom deep tendon refle
 Ask the subject to interlock the flexed fingers and to attempt to pull them apart at the time the tendon is being struck (Jendrassik's maneuver). Ask the subject to tighten immediately before striking the tendon and to relax thereafter.
 \subsection*{Abnormal tendon reflexes:}
 \begin{itemize}
+		\itemsep0em
 \item{Deep tendon reflexes are absent in LMN lesion. Eg: tabesdorsalis, poliomyelitis}
 \item{\textbf{Hyperreflexia:} Deep tendon reflexes are exaggerated in UMN lesion, anxious individuals, thyrotoxicosis, tetanus. In cerebellar diseases the reflexes have pendular (oscillatory) quality.}
 \item{Superficial reflexes are absent both in UMN and LMN lesion except plantar, which is exaggerated in UMN lesion.}
@@ -2998,6 +3018,7 @@ The subject is questioned about his micturition habits to rule out bladder incon
 The subject is questioned about any difficulty in swallowing, nasal regurgitation of food during swallowing.
 \section*{Questions:}
 \begin{enumerate}
+		\itemsep0em
 \item{Describe the reflex arc.}
 \item{What is a stretch reflex?}
 \item{What is babinski sign and what is its significance?}
@@ -3006,7 +3027,7 @@ The subject is questioned about any difficulty in swallowing, nasal regurgitatio
 \end{enumerate}
 %--------------------}}}
 %-------------Cerebellar Function Tests------{{{
-															\chapter*{\centering Cerebellar Function Tests}
+\chapter*{\centering Cerebellar Function Tests}
 \addcontentsline{toc}{chapter}{Cerebellar Function Tests}
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
@@ -3523,6 +3544,7 @@ In UMN type of paralysis, the tongue may be small and spastic.
 \end{enumerate}
 %-----------------------}}}
 	\end{document}
+%------------------}}}
 
 
 

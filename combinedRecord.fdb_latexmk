@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1533213069 "combinedRecord.tex" "combinedRecord.pdf" "combinedRecord" 1533213070
+["pdflatex"] 1533239246 "combinedRecord.tex" "combinedRecord.pdf" "combinedRecord" 1533239247
   "/etc/texmf/web2c/texmf.cnf" 1499075352 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/ae/aebx12.tfm" 1136768653 6132 8ad25ac1b8f3422e2a7eaeb718e3c843 ""
@@ -190,8 +190,8 @@
   "clinicalPhysioPic/trachelShift.jpg" 1532364977 15332 3a55d8234a1486087da845ea78abd338 ""
   "clinicalPhysioPic/twoPointDiscrimination.jpg" 1532788922 11931 3028bf66420ab5c4588fc6a0a3f3c7a7 ""
   "clottingTime.jpg" 1532100137 9583 5842fb5af585f838f0768d3963f0d6f9 ""
-  "combinedRecord.aux" 1533213070 8234 62e88b9e00d330ea1dafd348be164565 ""
-  "combinedRecord.tex" 1533213067 200673 78f3f0e8fd2f5c20b37566df15470b21 ""
+  "combinedRecord.aux" 1533239246 8228 2d8ceb5d24dc18b103b73ec882f25892 ""
+  "combinedRecord.tex" 1533239241 201123 49938f36c03ccc2e96a7505c1cfdfb62 ""
   "compoundMicroscope.jpg" 1531493345 129908 24a8de3f5861817967143daa8e762fdc ""
   "dc1.jpg" 1531848426 86539 deb60eac8d2d9b1b58449229effc8dab ""
   "dc2.jpg" 1531848460 68111 7cd5959d8370c912010129aa444c5c73 ""
@@ -207,7 +207,7 @@
   "specificGravity.csv" 1532100137 172 629ac0a012a2fc7a471539ebb4641d35 ""
   "specificGravity.jpg" 1532100137 61690 224805f42ecc312160efe778b370a593 ""
   (generated)
-  "combinedRecord.pdf"
   "combinedRecord.toc"
-  "combinedRecord.aux"
   "combinedRecord.log"
+  "combinedRecord.pdf"
+  "combinedRecord.aux"
