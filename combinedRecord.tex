@@ -3,7 +3,7 @@
 \usepackage{tocloft}
 \renewcommand{\cftsecafterpnum}{\quad\rule{1cm}{0.4pt}\quad\rule{2cm}{0.4pt}}
 \usepackage{tabularx}
-\usepackage[a4paper, left=1.1in,right=.5in,top=2cm,bottom=1.5cm]{geometry}
+\usepackage[a4paper, left=2in,right=.7in,top=2cm,bottom=1.5cm]{geometry}
 \usepackage{fancyhdr}
 \usepackage{csvsimple}
 \pagestyle{plain}
@@ -1009,7 +1009,7 @@
 														\end{enumerate}
 
 														%\begin{center}
-														\csvautotabular{./osmoticFragility.csv}
+															{\tiny {\csvautotabular{./osmoticFragility.csv}}}
 														%\end{center}
 														\section*{Interpretation}
 
@@ -1051,7 +1051,7 @@
 														\addfig{%
 															\begin{figure}[h]
 																\centering
-																\includegraphics[scale=.5]{./specificGravity.jpg}
+																\includegraphics[scale=.4]{./specificGravity.jpg}
 																\label{specificGravity}
 																\caption*{\textbf{Determination Of Specific Gravity}}
 															\end{figure}
@@ -1278,7 +1278,8 @@
 \end{itemize}
 \begin{table}[H]
 	\centering
-	\begin{tabular}{|p{.5in}|p{1in}|p{2.25in}|p{2.25in}|} 
+	\scriptsize{%
+	\begin{tabular}{|p{.5in}|p{.75in}|p{2in}|p{2in}|} 
 		\hline
 		\textbf{S.No.} & \textbf{Features}                                                 & \textbf{Central			Cyanosis}                                                      & \textbf{Peripheral			Cyanosis}                                           \\ 
 		\hline
@@ -1297,6 +1298,7 @@
 			7.							        & Arterial			PaO2							                                            & \textless{}85\%                                                                  & Normal                                                                   \\
 			\hline
 	\end{tabular}
+	}
 \end{table}
 
 \section*{Clubbing}
@@ -1364,7 +1366,7 @@ It is the condition where there is accumulation of free fluid in the interstitia
 \newpage
 
 \section*{\centering Case Sheet - General Examination Of The Subject}
-															\begin{tabular}{p{5in} p{1.5in}}
+															\begin{tabular}{p{3in} p{1.5in}}
 																\textbf{Name:}  & \textbf{Age:}\\
 																\textbf{Sex:}   & \textbf{Occupation:}
 															\end{tabular}
@@ -1731,7 +1733,7 @@ Examination of respiratory system is carried out in the following lung areas.
 
 														\section*{Observations}
 
-															\begin{tabular}{p{5in} p{1in}}
+															\begin{tabular}{p{3in} p{1in}}
 																\textbf{Name:}  & \textbf{Age:}\\
 																\textbf{Sex:}   & \textbf{Occupation:}
 															\end{tabular}
@@ -1740,7 +1742,7 @@ Examination of respiratory system is carried out in the following lung areas.
 \centering
 \begin{tabular}{|l|l|l|l|} 
 	\hline
-	\textbf{Lung			Volumes \& Capacities}~							 &  \textbf{Reading			1} &  2\textbf{Reading			2} &  \textbf{Reading			3}  \\ 
+	\textbf{Lung			Volumes \& Capacities}~							 &  \textbf{Reading			1} &  \textbf{Reading			2} &  \textbf{Reading			3}  \\ 
 	\hline
 	TidalVolume                                   &                       &                        &                        \\ 
 	\hline
@@ -2180,13 +2182,15 @@ It gives a rough value of systolic blood pressure, It helps to avoid missing of 
 \begin{table}[H]
 
 		\setlength\extrarowheight{10pt}
-	\begin{tabular}{|p{1.1in}|p{1.1in}|p{1.1in}|p{1.1in}|p{1.1in}|}
+	\small{%
+	\begin{tabular}{|p{1in}|p{1in}|p{1in}|p{1in}|p{1in}|}
 		\hline
 		Systolic BP by palpatory method ($mm$Hg) & Systolic BP by auscultatory method ($mm$Hg) & Diastolic BP by auscultatory method ($mm$ Hg) & Pulse pressure (SBP-DBP) ($mm$ Hg) & Mean arterial pressure (DBP+${\frac{1}{3}}$ Pulse Pressure) ($mm$ Hg) \\ \hline
 			                                         &                                             &                                               &                                                                              &                                                                                                               \\ \hline
 								                                          &                                             &                                               &                                                                              &                                                                                                               \\ \hline
 													                                           &                                             &                                               &                                                                              &                                                                                                               \\ \hline
 	\end{tabular}
+	}
 \end{table}
 %-----------------------}}}
 %------------Effect of posture and exercise on BP--{{{
@@ -2216,14 +2220,17 @@ It gives a rough value of systolic blood pressure, It helps to avoid missing of 
 		\subsection*{Observation - Effect Of Change in Posture on BP}
 \begin{table}[H]
 	\setlength\extrarowheight{15pt}
-\begin{tabular}{|p{1.2in}|p{1.2in}|p{1.2in}|p{1.2in}|}
+	\small{%
+\begin{tabular}{|p{1in}|p{1in}|p{1in}|p{1in}|}
 	\hline
 	Posture                                                           & Systolic BP by palpatory method ($mm$Hg) & Systolic BP by auscultatory method ($mm$ Hg) & Diastolic BP by auscultatory method ($mm$ Hg) \\ \hline
 	Supine                                                            &                                          &                                              &                                               \\ \hline
 	\begin{tabular}[c]{@{}l@{}}Immediately\\ on standing\end{tabular} & Not to be done                           &                                              &                                               \\ \hline
 		2 min                                                             & Not to be done                           &                                              &                                               \\ \hline
 		5 min                                                             & Not to be done                           &                                              &                                               \\ \hline
+	
 \end{tabular}
+	}
 \end{table}
 	\section*{Effect Of Exercise On Blood Pressure}
 \subsection*{Procedure:}
@@ -2241,7 +2248,8 @@ Systolic BP will show a rise due to increase in the heart rate and cardiac outpu
 \subsection*{Observation - Effect Of Exercise On Blood Pressure}
 \begin{table}[H]
 	\setlength\extrarowheight{25pt}
-	\begin{tabular}{|p{1.2in}|p{1.2in}|p{1.2in}|p{1.2in}|}
+	\small{%
+	\begin{tabular}{|p{1in}|p{1in}|p{1in}|p{1in}|}
 		\hline
 		                                                                     & Systolic BP by palpatory method ($mm$Hg) & Systolic BP by auscultatory method ($mm$ Hg) & Diastolic BP by auscultatory method ($mm$ Hg) \\ \hline
 
@@ -2250,6 +2258,7 @@ Systolic BP will show a rise due to increase in the heart rate and cardiac outpu
 											     2 min after exercise                                                 & Not to be done                           &                                              &                                               \\ \hline
 											     5 min after exercise                                                 & Not to be done                           &                                              &                                               \\ \hline
 	\end{tabular}
+	}
 \end{table}
 \section*{Questions:}
 \begin{enumerate}
@@ -2448,7 +2457,7 @@ S.No. & \textbf{Senses}                                                         
 
 \newpage
 {\centering \paragraph{Clinical Examination of Sensory System}}
-															\begin{tabular}{p{5in} p{1in}}
+															\begin{tabular}{p{3in} p{1in}}
 																\textbf{Name:}  & \textbf{Age:}\\
 																\textbf{Sex:} & \textbf{Occupation:}
 															\end{tabular}
@@ -2499,62 +2508,62 @@ Examination of the motor system is carried out by assessing,
 \addfig{
 	\begin{figure}[H]
 		\begin{subfigure}[t]{.25\textwidth}
-			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/motorSystem/abductorPollicisBrevis.jpg}
+			\includegraphics[width=4cm,height=5cm]{./clinicalPhysioPic/motorSystem/abductorPollicisBrevis.jpg}
 			\subcaption{Testing abductor Pollicis brevis}
 		\end{subfigure}
 		\hspace{\fill}
 		\begin{subfigure}[t]{.25\textwidth}
-			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/motorSystem/opponensPollicis.jpg}
+			\includegraphics[width=4cm,height=5cm]{./clinicalPhysioPic/motorSystem/opponensPollicis.jpg}
 			\subcaption{Testing opponens pollicis}
 		\end{subfigure}
 		\hspace{\fill}
 		\begin{subfigure}[t]{.25\textwidth}
-			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/motorSystem/interossesi.jpg}
+			\includegraphics[width=4cm,height=5cm]{./clinicalPhysioPic/motorSystem/interossesi.jpg}
 			\subcaption{Testing Dorsal and palmar interossei}
 		\end{subfigure}
 		\hspace{\fill}
 		\begin{subfigure}[t]{.25\textwidth}
-			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/motorSystem/flexorArm.jpg}
+			\includegraphics[width=4cm,height=5cm]{./clinicalPhysioPic/motorSystem/flexorArm.jpg}
 			\subcaption{Testing Biceps}
 		\end{subfigure}
 		\hspace{\fill}
 		\begin{subfigure}[t]{.25\textwidth}
-			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/motorSystem/extensorArm.jpg}
+			\includegraphics[width=4cm,height=5cm]{./clinicalPhysioPic/motorSystem/extensorArm.jpg}
 			\subcaption{Testing Triceps}
 		\end{subfigure}
 		\hspace{\fill}
 		\begin{subfigure}[t]{.25\textwidth}
-			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/motorSystem/deltoid.jpg}
+			\includegraphics[width=4cm,height=5cm]{./clinicalPhysioPic/motorSystem/deltoid.jpg}
 			\subcaption{Testing Deltoid}
 		\end{subfigure}
 		\hspace{\fill}
 		\begin{subfigure}[t]{.25\textwidth}
-			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/motorSystem/supraspinatus.jpg}
+			\includegraphics[width=4cm,height=5cm]{./clinicalPhysioPic/motorSystem/supraspinatus.jpg}
 			\subcaption{Testing Supraspinatus:}
 		\end{subfigure}
 		\hspace{\fill}
 		\begin{subfigure}[t]{.25\textwidth}
-			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/motorSystem/infraspinatus.jpg}
+			\includegraphics[width=4cm,height=5cm]{./clinicalPhysioPic/motorSystem/infraspinatus.jpg}
 			\subcaption{Testing Infraspinatus:}
 		\end{subfigure}
 		\hspace{\fill}
 		\begin{subfigure}[t]{.25\textwidth}
-			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/motorSystem/pectoralisMajor.jpg}
+			\includegraphics[width=4cm,height=5cm]{./clinicalPhysioPic/motorSystem/pectoralisMajor.jpg}
 			\subcaption{Testing Pectoralis Major}
 		\end{subfigure}
 		\hspace{\fill}
 		\begin{subfigure}[t]{.25\textwidth}
-			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/motorSystem/hipFlexion.jpg}
+			\includegraphics[width=4cm,height=5cm]{./clinicalPhysioPic/motorSystem/hipFlexion.jpg}
 			\subcaption{Testing hip flexors}
 		\end{subfigure}
 		\hspace{\fill}
 		\begin{subfigure}[t]{.25\textwidth}
-			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/motorSystem/hipExtension.jpg}
+			\includegraphics[width=4cm,height=5cm]{./clinicalPhysioPic/motorSystem/hipExtension.jpg}
 			\subcaption{Testing hip extensors}
 		\end{subfigure}
 		\hspace{\fill}
 		\begin{subfigure}[t]{.25\textwidth}
-			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/motorSystem/hipAbduction.jpg}
+			\includegraphics[width=4cm,height=5cm]{./clinicalPhysioPic/motorSystem/hipAbduction.jpg}
 			\subcaption{Testing hip Abductors}
 		\end{subfigure}
 		\caption*{Examination Of Muscle Power}
@@ -2592,15 +2601,16 @@ Examination of the motor system is carried out by assessing,
 \item{The strength of the muscle is assessed by comparing the  strength of the examiner.}
 	\end{itemize}
 	\subsection*{Grading of power:}
-	\par
-	\begin{align*}
-		\text{Grade 0} 	&:	\text{Complete paralysis.} \\
-	\text{Grade 1} 	&: 	\text{Flicker of contraction only.}\\
-		\text{Grade 2} 	&: \text{Muscle movement only when gravity is eliminated}\\
-	\text{Grade 3} 	&:	\text{Muscle movement against the force of gravity, but not against resistance.} \\
-	\text{Grade 4} 	&:	\text{Some degree of weakness, usually described as poor, fair or moderate 		strength.} \\
-	\text{Grade 5} 	&:	\text{Normal power.}\\
-	\end{align*}
+	\begin{itemize}
+			\itemsep0em
+\item[]	Grade 0 	:	Complete paralysis. 
+\item[]	Grade 1 	: 	Flicker of contraction only.
+\item[]		Grade 2 	: Muscle movement only when gravity is eliminated
+\item[]	Grade 3 	:	Muscle movement against the force of gravity, but not against resistance.
+\item[]	Grade 4 :	Some degree of weakness, usually described as poor, fair or moderate 		strength.
+\item[]	Grade 5 	:	Normal power.
+	\end{itemize}
+	
 
 
 	\subsection*{Testing muscles of the upper limb:}
