@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.6)  3 AUG 2018 11:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.6)  3 AUG 2018 11:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -777,10 +777,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--123
 [2
 
 ] [3]
-Overfull \hbox (54.39584pt too wide) in paragraph at lines 139--165
-[] 
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
+[]|\T1/aer/bx/n/10.95 Numerical
  []
 
+
+Overfull \hbox (2.92279pt too wide) in paragraph at lines 143--144
+[]|\T1/aer/bx/n/10.95 Magnification| 
+ []
+
+LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 171.
 [3
 
 ] [4] [4
@@ -788,24 +795,24 @@ Overfull \hbox (54.39584pt too wide) in paragraph at lines 139--165
 ] [5
 
 ]
-Overfull \hbox (55.24088pt too wide) in paragraph at lines 224--227
+Overfull \hbox (55.24088pt too wide) in paragraph at lines 226--229
 [] 
  []
 
 [5
 
-] <./grid.jpg, id=51, 955.57pt x 999.735pt>
+] <./grid.jpg, id=54, 955.57pt x 999.735pt>
 File: ./grid.jpg Graphic file (type jpg)
  <use ./grid.jpg>
-Package pdftex.def Info: ./grid.jpg used on input line 278.
+Package pdftex.def Info: ./grid.jpg used on input line 280.
 (pdftex.def)             Requested size: 477.78383pt x 499.86627pt.
 
-Overfull \hbox (75.40472pt too wide) in paragraph at lines 278--278
+Overfull \hbox (75.40472pt too wide) in paragraph at lines 280--280
  [][] 
  []
 
 [6 <./grid.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 290--297
+Underfull \hbox (badness 10000) in paragraph at lines 292--299
 
  []
 
@@ -814,7 +821,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 290--297
 ] [7] [7
 
 ] [8]
-Overfull \hbox (7.89801pt too wide) in paragraph at lines 362--363
+Overfull \hbox (7.89801pt too wide) in paragraph at lines 364--365
 []\T1/aer/m/n/12 Avoid over-charg-ing the cham-ber which is rec-og-nized by flu
 id in the trenches. 
  []
@@ -824,7 +831,7 @@ id in the trenches.
 ] [9
 
 ]
-Overfull \hbox (55.24088pt too wide) in paragraph at lines 399--402
+Overfull \hbox (55.24088pt too wide) in paragraph at lines 401--404
 [] 
  []
 
@@ -835,7 +842,7 @@ Overfull \hbox (55.24088pt too wide) in paragraph at lines 399--402
 ] [11
 
 ]
-Overfull \hbox (55.24088pt too wide) in paragraph at lines 452--455
+Overfull \hbox (55.24088pt too wide) in paragraph at lines 454--457
 [] 
  []
 
@@ -846,12 +853,12 @@ Overfull \hbox (55.24088pt too wide) in paragraph at lines 452--455
 ] [13
 
 ]
-Overfull \hbox (55.24088pt too wide) in paragraph at lines 504--507
+Overfull \hbox (55.24088pt too wide) in paragraph at lines 506--509
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 514--517
+Underfull \hbox (badness 10000) in paragraph at lines 516--519
 
  []
 
@@ -862,295 +869,295 @@ Underfull \hbox (badness 10000) in paragraph at lines 514--517
 ] [15
 
 ]
-Overfull \hbox (55.24088pt too wide) in paragraph at lines 547--550
+Overfull \hbox (55.24088pt too wide) in paragraph at lines 549--552
 [] 
  []
 
 [15
 
-] <./smear1.jpg, id=116, 978.65625pt x 234.8775pt>
+] <./smear1.jpg, id=119, 978.65625pt x 234.8775pt>
 File: ./smear1.jpg Graphic file (type jpg)
  <use ./smear1.jpg>
-Package pdftex.def Info: ./smear1.jpg used on input line 579.
+Package pdftex.def Info: ./smear1.jpg used on input line 581.
 (pdftex.def)             Requested size: 489.32693pt x 117.43846pt.
 
-<./smear2.jpg, id=117, 876.27374pt x 375.4025pt>
+<./smear2.jpg, id=120, 876.27374pt x 375.4025pt>
 File: ./smear2.jpg Graphic file (type jpg)
  <use ./smear2.jpg>
-Package pdftex.def Info: ./smear2.jpg used on input line 579.
+Package pdftex.def Info: ./smear2.jpg used on input line 581.
 (pdftex.def)             Requested size: 438.13579pt x 187.70079pt.
 
-<./smear3.jpg, id=118, 670.505pt x 272.01625pt>
+<./smear3.jpg, id=121, 670.505pt x 272.01625pt>
 File: ./smear3.jpg Graphic file (type jpg)
  <use ./smear3.jpg>
-Package pdftex.def Info: ./smear3.jpg used on input line 579.
+Package pdftex.def Info: ./smear3.jpg used on input line 581.
 (pdftex.def)             Requested size: 335.25168pt x 136.00778pt.
 
-Overfull \hbox (86.94783pt too wide) in paragraph at lines 579--579
+Overfull \hbox (86.94783pt too wide) in paragraph at lines 581--581
  [][] 
  []
 
 
-Overfull \hbox (35.75668pt too wide) in paragraph at lines 579--579
+Overfull \hbox (35.75668pt too wide) in paragraph at lines 581--581
  [] 
  []
 
 [16 <./smear1.jpg> <./smear2.jpg> <./smear3.jpg>] [16
 
 ]
-<./dc1.jpg, id=125, 26.68869pt x 18.26666pt>
+<./dc1.jpg, id=128, 26.68869pt x 18.26666pt>
 File: ./dc1.jpg Graphic file (type jpg)
  <use ./dc1.jpg>
-Package pdftex.def Info: ./dc1.jpg used on input line 612.
+Package pdftex.def Info: ./dc1.jpg used on input line 614.
 (pdftex.def)             Requested size: 346.95198pt x 237.46582pt.
 
-<./dc2.jpg, id=126, 26.74559pt x 17.18547pt>
+<./dc2.jpg, id=129, 26.74559pt x 17.18547pt>
 File: ./dc2.jpg Graphic file (type jpg)
  <use ./dc2.jpg>
-Package pdftex.def Info: ./dc2.jpg used on input line 612.
+Package pdftex.def Info: ./dc2.jpg used on input line 614.
 (pdftex.def)             Requested size: 347.69168pt x 223.41032pt.
  [17 <./dc1.jpg> <./dc2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 615--617
+Underfull \hbox (badness 10000) in paragraph at lines 617--619
 
  []
 
 
-Overfull \hbox (13.92554pt too wide) in paragraph at lines 670--670
+Overfull \hbox (13.92554pt too wide) in paragraph at lines 672--672
 []|\T1/aer/bx/n/12 Cytoplasm| 
  []
 
 
-Underfull \hbox (badness 4144) in paragraph at lines 670--670
+Underfull \hbox (badness 4144) in paragraph at lines 672--672
 []|\T1/aer/bx/n/12 Normal Val-
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 670--670
+Underfull \hbox (badness 2961) in paragraph at lines 672--672
 []|\T1/aer/m/n/12 10 ^^U 14
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 670--670
+Underfull \hbox (badness 1509) in paragraph at lines 672--672
 []|\T1/aer/m/n/12 2-5 lobes con-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 []|\T1/aer/m/n/12 Fine
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 \T1/aer/m/n/12 violet-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 \T1/aer/m/n/12 pink
  []
 
 
-Underfull \hbox (badness 4647) in paragraph at lines 670--670
+Underfull \hbox (badness 4647) in paragraph at lines 672--672
 []|\T1/aer/m/n/12 10 - 15
  []
 
 
-Underfull \hbox (badness 3138) in paragraph at lines 670--670
+Underfull \hbox (badness 3138) in paragraph at lines 672--672
 []|\T1/aer/m/n/12 Often bi-lobed
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 \T1/aer/m/n/12 con-nected by
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 \T1/aer/m/n/12 thick strands
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 \T1/aer/m/n/12 of chro-matin
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 \T1/aer/m/n/12 (spec-ta-cle
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 \T1/aer/m/n/12 shaped nu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 []|\T1/aer/m/n/12 Coarse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 \T1/aer/m/n/12 brick-red
  []
 
 
-Underfull \hbox (badness 4647) in paragraph at lines 670--670
+Underfull \hbox (badness 4647) in paragraph at lines 672--672
 []|\T1/aer/m/n/12 10 - 15
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 []|\T1/aer/m/n/12 Irregularly
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 \T1/aer/m/n/12 shaped (S
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 \T1/aer/m/n/12 shaped) nu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 \T1/aer/m/n/12 cleus masked
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 []|\T1/aer/m/n/12 Very
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 \T1/aer/m/n/12 coarse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 \T1/aer/m/n/12 deep
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 \T1/aer/m/n/12 pur-ple
  []
 
 
-Underfull \hbox (badness 2680) in paragraph at lines 670--670
+Underfull \hbox (badness 2680) in paragraph at lines 672--672
 []|\T1/aer/m/n/12 Small lym-pho-
  []
 
 
-Underfull \hbox (badness 5787) in paragraph at lines 670--670
+Underfull \hbox (badness 5787) in paragraph at lines 672--672
 []|\T1/aer/m/n/12 Single, round,
  []
 
 
-Underfull \hbox (badness 5217) in paragraph at lines 670--670
+Underfull \hbox (badness 5217) in paragraph at lines 672--672
 \T1/aer/m/n/12 cent of clear,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 []|\T1/aer/m/n/12 No vis-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 \T1/aer/m/n/12 i-ble
  []
 
 
-Underfull \hbox (badness 2443) in paragraph at lines 670--670
+Underfull \hbox (badness 2443) in paragraph at lines 672--672
 []|\T1/aer/m/n/12 Large lym-pho-
  []
 
 
-Underfull \hbox (badness 4647) in paragraph at lines 670--670
+Underfull \hbox (badness 4647) in paragraph at lines 672--672
 []|\T1/aer/m/n/12 10 - 15
  []
 
 
-Underfull \hbox (badness 5787) in paragraph at lines 670--670
+Underfull \hbox (badness 5787) in paragraph at lines 672--672
 []|\T1/aer/m/n/12 Single, round,
  []
 
 
-Underfull \hbox (badness 3657) in paragraph at lines 670--670
+Underfull \hbox (badness 3657) in paragraph at lines 672--672
 \T1/aer/m/n/12 cen-tral or ec-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 []|\T1/aer/m/n/12 Large
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 \T1/aer/m/n/12 cres-cent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 \T1/aer/m/n/12 of clear,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 \T1/aer/m/n/12 cy-to-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 \T1/aer/m/n/12 plasm.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 \T1/aer/m/n/12 No vis-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 \T1/aer/m/n/12 i-ble
  []
 
 
-Underfull \hbox (badness 4647) in paragraph at lines 670--670
+Underfull \hbox (badness 4647) in paragraph at lines 672--672
 []|\T1/aer/m/n/12 12 - 20
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 []|\T1/aer/m/n/12 Horse-shoe
  []
 
 
-Overfull \hbox (5.46605pt too wide) in paragraph at lines 670--670
+Overfull \hbox (5.46605pt too wide) in paragraph at lines 672--672
 []|\T1/aer/m/n/12 Abundant,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 \T1/aer/m/n/12 muddy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 \T1/aer/m/n/12 blue in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 \T1/aer/m/n/12 ap-pear-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 \T1/aer/m/n/12 vis-i-ble
  []
 
@@ -1159,48 +1166,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 670--670
 ] [18
 
 ]
-Overfull \hbox (55.24088pt too wide) in paragraph at lines 676--679
+Overfull \hbox (55.24088pt too wide) in paragraph at lines 678--681
 [] 
  []
 
 
-Overfull \hbox (2.94269pt too wide) in paragraph at lines 690--691
+Overfull \hbox (2.94269pt too wide) in paragraph at lines 692--693
 \T1/aer/m/n/12 To es-ti-mate the hemoglobin con-tent of the blood by Sahli's ac
 id hematin method. 
  []
 
 
-Overfull \hbox (1.86237pt too wide) in paragraph at lines 696--697
+Overfull \hbox (1.86237pt too wide) in paragraph at lines 698--699
 \T1/aer/m/n/12 part-ment to ac-com-mo-date the `Hemoglobin tube' and two yel-lo
 w brown coloured
  []
 
 [18
 
-] <./hb.jpg, id=141, 1234.6125pt x 1898.09125pt>
+] <./hb.jpg, id=144, 1234.6125pt x 1898.09125pt>
 File: ./hb.jpg Graphic file (type jpg)
  <use ./hb.jpg>
-Package pdftex.def Info: ./hb.jpg used on input line 705.
+Package pdftex.def Info: ./hb.jpg used on input line 707.
 (pdftex.def)             Requested size: 308.65237pt x 474.52165pt.
  [19 <./hb.jpg>] [19
 
 ] [20
 
 ]
-Overfull \hbox (55.24088pt too wide) in paragraph at lines 727--730
+Overfull \hbox (55.24088pt too wide) in paragraph at lines 729--732
 [] 
  []
 
 [20
 
-] <./bloodGrouping.jpg, id=155, 400.49625pt x 417.56pt>
+] <./bloodGrouping.jpg, id=158, 400.49625pt x 417.56pt>
 File: ./bloodGrouping.jpg Graphic file (type jpg)
 
 <use ./bloodGrouping.jpg>
-Package pdftex.def Info: ./bloodGrouping.jpg used on input line 758.
+Package pdftex.def Info: ./bloodGrouping.jpg used on input line 760.
 (pdftex.def)             Requested size: 480.5931pt x 501.06947pt.
 
-Overfull \hbox (78.21399pt too wide) in paragraph at lines 758--758
+Overfull \hbox (78.21399pt too wide) in paragraph at lines 760--760
  [][] 
  []
 
@@ -1209,25 +1216,25 @@ Overfull \hbox (78.21399pt too wide) in paragraph at lines 758--758
 ] [22
 
 ]
-Overfull \hbox (55.24088pt too wide) in paragraph at lines 779--790
+Overfull \hbox (55.24088pt too wide) in paragraph at lines 781--792
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 779--790
+Underfull \hbox (badness 10000) in paragraph at lines 781--792
 
  []
 
 [22
 
-] <./bleedingTime.jpg, id=168, 855.195pt x 278.03876pt>
+] <./bleedingTime.jpg, id=171, 855.195pt x 278.03876pt>
 File: ./bleedingTime.jpg Graphic file (type jpg)
 
 <use ./bleedingTime.jpg>
-Package pdftex.def Info: ./bleedingTime.jpg used on input line 811.
+Package pdftex.def Info: ./bleedingTime.jpg used on input line 813.
 (pdftex.def)             Requested size: 427.59647pt x 139.01903pt.
 
-Overfull \hbox (25.21736pt too wide) in paragraph at lines 811--811
+Overfull \hbox (25.21736pt too wide) in paragraph at lines 813--813
  [][] 
  []
 
@@ -1236,20 +1243,20 @@ Overfull \hbox (25.21736pt too wide) in paragraph at lines 811--811
 ] [24
 
 ]
-Overfull \hbox (55.24088pt too wide) in paragraph at lines 825--828
+Overfull \hbox (55.24088pt too wide) in paragraph at lines 827--830
 [] 
  []
 
 [24
 
-] <./clottingTime.jpg, id=183, 747.79375pt x 273.02pt>
+] <./clottingTime.jpg, id=186, 747.79375pt x 273.02pt>
 File: ./clottingTime.jpg Graphic file (type jpg)
 
 <use ./clottingTime.jpg>
-Package pdftex.def Info: ./clottingTime.jpg used on input line 856.
+Package pdftex.def Info: ./clottingTime.jpg used on input line 858.
 (pdftex.def)             Requested size: 373.89595pt x 136.50966pt.
  [25 <./clottingTime.jpg>]
-Overfull \hbox (34.83093pt too wide) in paragraph at lines 861--862
+Overfull \hbox (34.83093pt too wide) in paragraph at lines 863--864
 \T1/aer/m/n/12 The clot-ting time de-ter-mined by Wright's cap-il-lary glass is
  $[]$ 
  []
@@ -1259,24 +1266,24 @@ Overfull \hbox (34.83093pt too wide) in paragraph at lines 861--862
 ] [26
 
 ]
-Overfull \hbox (55.24088pt too wide) in paragraph at lines 878--881
+Overfull \hbox (55.24088pt too wide) in paragraph at lines 880--883
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 901--902
+Underfull \hbox (badness 10000) in paragraph at lines 903--904
 
  []
 
 [26
 
-] <./esr.jpg, id=197, 763.85374pt x 702.625pt>
+] <./esr.jpg, id=200, 763.85374pt x 702.625pt>
 File: ./esr.jpg Graphic file (type jpg)
  <use ./esr.jpg>
-Package pdftex.def Info: ./esr.jpg used on input line 908.
+Package pdftex.def Info: ./esr.jpg used on input line 910.
 (pdftex.def)             Requested size: 381.92593pt x 351.31163pt.
  [27 <./esr.jpg>]
-Overfull \hbox (47.09467pt too wide) in paragraph at lines 913--914
+Overfull \hbox (47.09467pt too wide) in paragraph at lines 915--916
 \T1/aer/m/n/12 Erythrocyte Sed-i-men-ta-tion Rate of the given blood sam-ple is
  $[]$
  []
@@ -1286,41 +1293,41 @@ Overfull \hbox (47.09467pt too wide) in paragraph at lines 913--914
 ] [28
 
 ]
-Overfull \hbox (55.24088pt too wide) in paragraph at lines 936--939
+Overfull \hbox (55.24088pt too wide) in paragraph at lines 938--941
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 957--958
+Underfull \hbox (badness 10000) in paragraph at lines 959--960
 
  []
 
 [28
 
-] <./pcv.jpg, id=210, 752.8125pt x 473.77pt>
+] <./pcv.jpg, id=213, 752.8125pt x 473.77pt>
 File: ./pcv.jpg Graphic file (type jpg)
  <use ./pcv.jpg>
-Package pdftex.def Info: ./pcv.jpg used on input line 962.
+Package pdftex.def Info: ./pcv.jpg used on input line 964.
 (pdftex.def)             Requested size: 376.40532pt x 236.88441pt.
  [29 <./pcv.jpg>] [29
 
 ] [30
 
 ]
-Overfull \hbox (55.24088pt too wide) in paragraph at lines 979--982
+Overfull \hbox (55.24088pt too wide) in paragraph at lines 981--984
 [] 
  []
 
 [30
 
-] <./osmoticFragility.jpg, id=224, 878.28125pt x 943.525pt>
+] <./osmoticFragility.jpg, id=227, 878.28125pt x 943.525pt>
 File: ./osmoticFragility.jpg Graphic file (type jpg)
 
 <use ./osmoticFragility.jpg>
-Package pdftex.def Info: ./osmoticFragility.jpg used on input line 1008.
+Package pdftex.def Info: ./osmoticFragility.jpg used on input line 1010.
 (pdftex.def)             Requested size: 439.13956pt x 471.76134pt.
 
-Overfull \hbox (36.76045pt too wide) in paragraph at lines 1008--1008
+Overfull \hbox (36.76045pt too wide) in paragraph at lines 1010--1010
  [][] 
  []
 
@@ -1329,17 +1336,17 @@ Overfull \hbox (36.76045pt too wide) in paragraph at lines 1008--1008
 ] [32
 
 ]
-Overfull \hbox (55.24088pt too wide) in paragraph at lines 1042--1045
+Overfull \hbox (55.24088pt too wide) in paragraph at lines 1044--1047
 [] 
  []
 
 [32
 
-] <./specificGravity.jpg, id=239, 975.645pt x 849.1725pt>
+] <./specificGravity.jpg, id=242, 975.645pt x 849.1725pt>
 File: ./specificGravity.jpg Graphic file (type jpg)
 
 <use ./specificGravity.jpg>
-Package pdftex.def Info: ./specificGravity.jpg used on input line 1070.
+Package pdftex.def Info: ./specificGravity.jpg used on input line 1072.
 (pdftex.def)             Requested size: 390.25108pt x 339.66298pt.
  [33 <./specificGravity.jpg>] [33
 
@@ -1352,115 +1359,115 @@ Package pdftex.def Info: ./specificGravity.jpg used on input line 1070.
 
 
 ]
-Overfull \hbox (55.24088pt too wide) in paragraph at lines 1098--1102
+Overfull \hbox (55.24088pt too wide) in paragraph at lines 1100--1104
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1198--1199
+Underfull \hbox (badness 10000) in paragraph at lines 1200--1201
 
  []
 
 [35
 
-] <./clinicalPhysioPic/pallor1.jpg, id=262, 501.875pt x 501.875pt>
+] <./clinicalPhysioPic/pallor1.jpg, id=265, 501.875pt x 501.875pt>
 File: ./clinicalPhysioPic/pallor1.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/pallor1.jpg>
-Package pdftex.def Info: ./clinicalPhysioPic/pallor1.jpg used on input line 120
-8.
+Package pdftex.def Info: ./clinicalPhysioPic/pallor1.jpg used on input line 121
+0.
 (pdftex.def)             Requested size: 92.54547pt x 92.5391pt.
 
-<./clinicalPhysioPic/pallor2.jpg, id=263, 501.875pt x 501.875pt>
+<./clinicalPhysioPic/pallor2.jpg, id=266, 501.875pt x 501.875pt>
 File: ./clinicalPhysioPic/pallor2.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/pallor2.jpg>
-Package pdftex.def Info: ./clinicalPhysioPic/pallor2.jpg used on input line 120
-8.
+Package pdftex.def Info: ./clinicalPhysioPic/pallor2.jpg used on input line 121
+0.
 (pdftex.def)             Requested size: 92.54547pt x 92.5391pt.
 
-Underfull \hbox (badness 2799) in paragraph at lines 1208--1208
+Underfull \hbox (badness 2799) in paragraph at lines 1210--1210
 []\T1/aer/m/n/10.95 (b) |Lower Pal-pa-
  []
 
-<./clinicalPhysioPic/koilonychia.jpg, id=264, 501.875pt x 501.875pt>
+<./clinicalPhysioPic/koilonychia.jpg, id=267, 501.875pt x 501.875pt>
 File: ./clinicalPhysioPic/koilonychia.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/koilonychia.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/koilonychia.jpg used on input line
- 1208.
+ 1210.
 (pdftex.def)             Requested size: 92.54547pt x 92.5391pt.
 
-<./clinicalPhysioPic/jaundice.jpg, id=265, 501.875pt x 501.875pt>
+<./clinicalPhysioPic/jaundice.jpg, id=268, 501.875pt x 501.875pt>
 File: ./clinicalPhysioPic/jaundice.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/jaundice.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/jaundice.jpg used on input line 12
-08.
+10.
 (pdftex.def)             Requested size: 92.54547pt x 92.5391pt.
 
-<./clinicalPhysioPic/cyanosis4-0.jpg, id=266, 501.875pt x 501.875pt>
+<./clinicalPhysioPic/cyanosis4-0.jpg, id=269, 501.875pt x 501.875pt>
 File: ./clinicalPhysioPic/cyanosis4-0.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/cyanosis4-0.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/cyanosis4-0.jpg used on input line
- 1208.
+ 1210.
 (pdftex.def)             Requested size: 92.54547pt x 92.5391pt.
 
-<./clinicalPhysioPic/cyanosis4-1.jpg, id=267, 501.875pt x 501.875pt>
+<./clinicalPhysioPic/cyanosis4-1.jpg, id=270, 501.875pt x 501.875pt>
 File: ./clinicalPhysioPic/cyanosis4-1.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/cyanosis4-1.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/cyanosis4-1.jpg used on input line
- 1208.
+ 1210.
 (pdftex.def)             Requested size: 92.54547pt x 92.5391pt.
 
-<./clinicalPhysioPic/cyanosis4-2.jpg, id=268, 501.875pt x 501.875pt>
+<./clinicalPhysioPic/cyanosis4-2.jpg, id=271, 501.875pt x 501.875pt>
 File: ./clinicalPhysioPic/cyanosis4-2.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/cyanosis4-2.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/cyanosis4-2.jpg used on input line
- 1208.
+ 1210.
 (pdftex.def)             Requested size: 92.54547pt x 92.5391pt.
 
-<./clinicalPhysioPic/cyanosis4-3.jpg, id=269, 501.875pt x 501.875pt>
+<./clinicalPhysioPic/cyanosis4-3.jpg, id=272, 501.875pt x 501.875pt>
 File: ./clinicalPhysioPic/cyanosis4-3.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/cyanosis4-3.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/cyanosis4-3.jpg used on input line
- 1208.
+ 1210.
 (pdftex.def)             Requested size: 92.54547pt x 92.5391pt.
 
-<./clinicalPhysioPic/clubbing3-0.jpg, id=270, 501.875pt x 501.875pt>
+<./clinicalPhysioPic/clubbing3-0.jpg, id=273, 501.875pt x 501.875pt>
 File: ./clinicalPhysioPic/clubbing3-0.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/clubbing3-0.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/clubbing3-0.jpg used on input line
- 1208.
+ 1210.
 (pdftex.def)             Requested size: 92.54547pt x 92.5391pt.
 
-<./clinicalPhysioPic/clubbing3-1.jpg, id=271, 501.875pt x 501.875pt>
+<./clinicalPhysioPic/clubbing3-1.jpg, id=274, 501.875pt x 501.875pt>
 File: ./clinicalPhysioPic/clubbing3-1.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/clubbing3-1.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/clubbing3-1.jpg used on input line
- 1208.
+ 1210.
 (pdftex.def)             Requested size: 92.54547pt x 92.5391pt.
 
-<./clinicalPhysioPic/clubbing3-2.jpg, id=272, 501.875pt x 501.875pt>
+<./clinicalPhysioPic/clubbing3-2.jpg, id=275, 501.875pt x 501.875pt>
 File: ./clinicalPhysioPic/clubbing3-2.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/clubbing3-2.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/clubbing3-2.jpg used on input line
- 1208.
+ 1210.
 (pdftex.def)             Requested size: 92.54547pt x 92.5391pt.
 
-<./clinicalPhysioPic/pittingPedalEdema.jpg, id=273, 501.875pt x 501.875pt>
+<./clinicalPhysioPic/pittingPedalEdema.jpg, id=276, 501.875pt x 501.875pt>
 File: ./clinicalPhysioPic/pittingPedalEdema.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/pittingPedalEdema.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/pittingPedalEdema.jpg used on inpu
-t line 1208.
+t line 1210.
 (pdftex.def)             Requested size: 92.54547pt x 92.5391pt.
  [36 <./clinicalPhysioPic/pallor1.jpg> <./clinicalPhysioPic/pallor2.jpg> <./cli
 nicalPhysioPic/koilonychia.jpg> <./clinicalPhysioPic/jaundice.jpg> <./clinicalP
@@ -1468,7 +1475,7 @@ hysioPic/cyanosis4-0.jpg> <./clinicalPhysioPic/cyanosis4-1.jpg> <./clinicalPhys
 ioPic/cyanosis4-2.jpg> <./clinicalPhysioPic/cyanosis4-3.jpg> <./clinicalPhysioP
 ic/clubbing3-0.jpg> <./clinicalPhysioPic/clubbing3-1.jpg> <./clinicalPhysioPic/
 clubbing3-2.jpg> <./clinicalPhysioPic/pittingPedalEdema.jpg>]
-Overfull \hbox (1.55104pt too wide) in paragraph at lines 1242--1244
+Overfull \hbox (1.55104pt too wide) in paragraph at lines 1244--1246
 []\T1/aer/m/n/12 Mucus mem-brane of oral cav-ity (es-pe-cially the un-der-sur-f
 ace of tongue
  []
@@ -1476,17 +1483,17 @@ ace of tongue
 [36
 
 ] [37]
-Underfull \hbox (badness 10000) in paragraph at lines 1290--1290
+Underfull \hbox (badness 10000) in paragraph at lines 1292--1292
 []|\T1/aer/m/n/8 Associated
  []
 
 
-Overfull \hbox (27.03835pt too wide) in paragraph at lines 1282--1302
+Overfull \hbox (27.03835pt too wide) in paragraph at lines 1284--1304
  [][] 
  []
 
 
-Overfull \hbox (12.29329pt too wide) in paragraph at lines 1314--1315
+Overfull \hbox (12.29329pt too wide) in paragraph at lines 1316--1317
 []\T1/aer/m/n/12 Bronchopulmonary dis-eases like bronchiec-ta-sis, lung ab-sces
 s, empyema,
  []
@@ -1500,45 +1507,45 @@ s, empyema,
 ] [40
 
 ]
-Overfull \hbox (55.24088pt too wide) in paragraph at lines 1398--1401
+Overfull \hbox (55.24088pt too wide) in paragraph at lines 1400--1403
 [] 
  []
 
 [40
 
 ]
-<./clinicalPhysioPic/AbnormalChestShapes.jpg, id=307, 730.73pt x 831.105pt>
+<./clinicalPhysioPic/AbnormalChestShapes.jpg, id=309, 730.73pt x 831.105pt>
 File: ./clinicalPhysioPic/AbnormalChestShapes.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/AbnormalChestShapes.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/AbnormalChestShapes.jpg used on in
-put line 1435.
+put line 1437.
 (pdftex.def)             Requested size: 365.3641pt x 415.55148pt.
  [41 <./clinicalPhysioPic/AbnormalChestShapes.jpg>] [41
 
 ]
-<./clinicalPhysioPic/trachelShift.jpg, id=315, 678.535pt x 303.1325pt>
+<./clinicalPhysioPic/trachelShift.jpg, id=317, 678.535pt x 303.1325pt>
 File: ./clinicalPhysioPic/trachelShift.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/trachelShift.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/trachelShift.jpg used on input lin
-e 1484.
+e 1486.
 (pdftex.def)             Requested size: 339.26666pt x 151.56587pt.
 
-<./clinicalPhysioPic/chestExpansion_LowerLobe.jpg, id=316, 716.6775pt x 279.042
+<./clinicalPhysioPic/chestExpansion_LowerLobe.jpg, id=318, 716.6775pt x 279.042
 5pt>
 File: ./clinicalPhysioPic/chestExpansion_LowerLobe.jpg Graphic file (type jpg)
  <use ./clinicalPhysioPic/chestExpansion_LowerLobe.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/chestExpansion_LowerLobe.jpg used 
-on input line 1484.
+on input line 1486.
 (pdftex.def)             Requested size: 358.33788pt x 139.5209pt.
 
-<./clinicalPhysioPic/breathSounds.jpg, id=317, 365.365pt x 309.155pt>
+<./clinicalPhysioPic/breathSounds.jpg, id=319, 365.365pt x 309.155pt>
 File: ./clinicalPhysioPic/breathSounds.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/breathSounds.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/breathSounds.jpg used on input lin
-e 1484.
+e 1486.
 (pdftex.def)             Requested size: 182.68205pt x 154.57712pt.
  [42 <./clinicalPhysioPic/trachelShift.jpg> <./clinicalPhysioPic/chestExpansion
 _LowerLobe.jpg> <./clinicalPhysioPic/breathSounds.jpg>] [42
@@ -1554,14 +1561,14 @@ _LowerLobe.jpg> <./clinicalPhysioPic/breathSounds.jpg>] [42
 ] [47
 
 ]
-Overfull \hbox (55.24088pt too wide) in paragraph at lines 1623--1626
+Overfull \hbox (55.24088pt too wide) in paragraph at lines 1625--1628
 [] 
  []
 
 [47
 
 ] [48]
-Underfull \hbox (badness 10000) in paragraph at lines 1657--1658
+Underfull \hbox (badness 10000) in paragraph at lines 1659--1660
 
  []
 
@@ -1570,26 +1577,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 1657--1658
 ] [49
 
 ]
-Overfull \hbox (55.24088pt too wide) in paragraph at lines 1674--1677
+Overfull \hbox (55.24088pt too wide) in paragraph at lines 1676--1679
 [] 
  []
 
 [49
 
-] <./clinicalPhysioPic/spirometry.jpg, id=369, 462.72874pt x 462.72874pt>
+] <./clinicalPhysioPic/spirometry.jpg, id=371, 462.72874pt x 462.72874pt>
 File: ./clinicalPhysioPic/spirometry.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/spirometry.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/spirometry.jpg used on input line 
-1714.
+1716.
 (pdftex.def)             Requested size: 231.3638pt x 231.3638pt.
 
-<./clinicalPhysioPic/spirogram.jpg, id=370, 667.49374pt x 534.99875pt>
+<./clinicalPhysioPic/spirogram.jpg, id=372, 667.49374pt x 534.99875pt>
 File: ./clinicalPhysioPic/spirogram.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/spirogram.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/spirogram.jpg used on input line 1
-714.
+716.
 (pdftex.def)             Requested size: 333.74606pt x 267.49872pt.
  [50 <./clinicalPhysioPic/spirometry.jpg> <./clinicalPhysioPic/spirogram.jpg>] 
 [50
@@ -1599,21 +1606,21 @@ Package pdftex.def Info: ./clinicalPhysioPic/spirogram.jpg used on input line 1
 ] [52
 
 ]
-Overfull \hbox (55.24088pt too wide) in paragraph at lines 1770--1773
+Overfull \hbox (55.24088pt too wide) in paragraph at lines 1772--1775
 [] 
  []
 
 [52
 
-] <./clinicalPhysioPic/stethography.jpg, id=390, 1043.9pt x 1162.3425pt>
+] <./clinicalPhysioPic/stethography.jpg, id=392, 1043.9pt x 1162.3425pt>
 File: ./clinicalPhysioPic/stethography.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/stethography.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/stethography.jpg used on input lin
-e 1801.
+e 1803.
 (pdftex.def)             Requested size: 417.5526pt x 464.92877pt.
 
-Overfull \hbox (15.1735pt too wide) in paragraph at lines 1801--1801
+Overfull \hbox (15.1735pt too wide) in paragraph at lines 1803--1803
 [][] 
  []
 
@@ -1624,92 +1631,92 @@ Overfull \hbox (15.1735pt too wide) in paragraph at lines 1801--1801
 ] [55
 
 ]
-Overfull \hbox (55.24088pt too wide) in paragraph at lines 1842--1845
+Overfull \hbox (55.24088pt too wide) in paragraph at lines 1844--1847
 [] 
  []
 
 
-Overfull \hbox (4.2643pt too wide) in paragraph at lines 1897--1898
+Overfull \hbox (4.2643pt too wide) in paragraph at lines 1899--1900
 []\T1/aer/bx/n/12 Pathological causes: \T1/aer/m/n/12 Heart blocks, Myx-oedema,
  in-creased in-tracra-
  []
 
 [55
 
-] <./clinicalPhysioPic/carotidPulse.jpg, id=410, 276.03125pt x 327.2225pt>
+] <./clinicalPhysioPic/carotidPulse.jpg, id=412, 276.03125pt x 327.2225pt>
 File: ./clinicalPhysioPic/carotidPulse.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/carotidPulse.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/carotidPulse.jpg used on input lin
-e 1918.
+e 1920.
 (pdftex.def)             Requested size: 142.26929pt x 142.26074pt.
 
-Overfull \hbox (25.58206pt too wide) in paragraph at lines 1918--1918
+Overfull \hbox (25.58206pt too wide) in paragraph at lines 1920--1920
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1918--1918
+Underfull \hbox (badness 10000) in paragraph at lines 1920--1920
 []\T1/aer/m/n/10.95 (a) |Ex-am-i-na-tion Of
  []
 
-<./clinicalPhysioPic/radialPulse_1.jpg, id=411, 8.2513pt x 9.24715pt>
+<./clinicalPhysioPic/radialPulse_1.jpg, id=413, 8.2513pt x 9.24715pt>
 File: ./clinicalPhysioPic/radialPulse_1.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/radialPulse_1.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/radialPulse_1.jpg used on input li
-ne 1918.
+ne 1920.
 (pdftex.def)             Requested size: 142.28549pt x 142.45999pt.
 
-Overfull \hbox (25.59827pt too wide) in paragraph at lines 1918--1918
+Overfull \hbox (25.59827pt too wide) in paragraph at lines 1920--1920
 [][] 
  []
 
-<./clinicalPhysioPic/collapsingPulse.jpg, id=412, 8.59273pt x 9.2756pt>
+<./clinicalPhysioPic/collapsingPulse.jpg, id=414, 8.59273pt x 9.2756pt>
 File: ./clinicalPhysioPic/collapsingPulse.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/collapsingPulse.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/collapsingPulse.jpg used on input 
-line 1918.
+line 1920.
 (pdftex.def)             Requested size: 142.5051pt x 142.41647pt.
 
-Overfull \hbox (25.81787pt too wide) in paragraph at lines 1918--1918
+Overfull \hbox (25.81787pt too wide) in paragraph at lines 1920--1920
 [][] 
  []
 
-<./clinicalPhysioPic/radioFemoralDelay.jpg, id=413, 17.24237pt x 10.47061pt>
+<./clinicalPhysioPic/radioFemoralDelay.jpg, id=415, 17.24237pt x 10.47061pt>
 File: ./clinicalPhysioPic/radioFemoralDelay.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/radioFemoralDelay.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/radioFemoralDelay.jpg used on inpu
-t line 1918.
+t line 1920.
 (pdftex.def)             Requested size: 142.32903pt x 142.28839pt.
 
-Overfull \hbox (25.6418pt too wide) in paragraph at lines 1918--1918
+Overfull \hbox (25.6418pt too wide) in paragraph at lines 1920--1920
 [][] 
  []
 
-<./clinicalPhysioPic/posteriorTibial.jpg, id=414, 284.06125pt x 188.705pt>
+<./clinicalPhysioPic/posteriorTibial.jpg, id=416, 284.06125pt x 188.705pt>
 File: ./clinicalPhysioPic/posteriorTibial.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/posteriorTibial.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/posteriorTibial.jpg used on input 
-line 1918.
+line 1920.
 (pdftex.def)             Requested size: 142.26865pt x 142.26263pt.
 
-Overfull \hbox (25.58142pt too wide) in paragraph at lines 1918--1918
+Overfull \hbox (25.58142pt too wide) in paragraph at lines 1920--1920
 [][] 
  []
 
-<./clinicalPhysioPic/dorsalisPedis.jpg, id=415, 282.05376pt x 189.70876pt>
+<./clinicalPhysioPic/dorsalisPedis.jpg, id=417, 282.05376pt x 189.70876pt>
 File: ./clinicalPhysioPic/dorsalisPedis.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/dorsalisPedis.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/dorsalisPedis.jpg used on input li
-ne 1918.
+ne 1920.
 (pdftex.def)             Requested size: 142.266pt x 142.26672pt.
 
-Overfull \hbox (25.57878pt too wide) in paragraph at lines 1918--1918
+Overfull \hbox (25.57878pt too wide) in paragraph at lines 1920--1920
 [][] 
  []
 
@@ -1719,14 +1726,14 @@ Delay.jpg> <./clinicalPhysioPic/posteriorTibial.jpg> <./clinicalPhysioPic/dorsa
 lisPedis.jpg>] [56
 
 ]
-<./clinicalPhysioPic/jvp.jpg, id=423, 18.72191pt x 25.55057pt>
+<./clinicalPhysioPic/jvp.jpg, id=425, 18.72191pt x 25.55057pt>
 File: ./clinicalPhysioPic/jvp.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/jvp.jpg>
-Package pdftex.def Info: ./clinicalPhysioPic/jvp.jpg used on input line 1955.
+Package pdftex.def Info: ./clinicalPhysioPic/jvp.jpg used on input line 1957.
 (pdftex.def)             Requested size: 426.8619pt x 427.11263pt.
 
-Overfull \hbox (24.48279pt too wide) in paragraph at lines 1955--1955
+Overfull \hbox (24.48279pt too wide) in paragraph at lines 1957--1957
 [][] 
  []
 
@@ -1737,7 +1744,7 @@ Overfull \hbox (24.48279pt too wide) in paragraph at lines 1955--1955
 ] [59
 
 ]
-Overfull \hbox (55.24088pt too wide) in paragraph at lines 2001--2004
+Overfull \hbox (55.24088pt too wide) in paragraph at lines 2003--2006
 [] 
  []
 
@@ -1746,53 +1753,53 @@ Overfull \hbox (55.24088pt too wide) in paragraph at lines 2001--2004
 ] [60] [60
 
 ] [61]
-Underfull \hbox (badness 10000) in paragraph at lines 2102--2106
+Underfull \hbox (badness 10000) in paragraph at lines 2104--2108
 
  []
 
 [61
 
 ]
-<./clinicalPhysioPic/auscultatingAreas.jpg, id=455, 25.46521pt x 23.2459pt>
+<./clinicalPhysioPic/auscultatingAreas.jpg, id=457, 25.46521pt x 23.2459pt>
 File: ./clinicalPhysioPic/auscultatingAreas.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/auscultatingAreas.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/auscultatingAreas.jpg used on inpu
-t line 2106.
+t line 2108.
 (pdftex.def)             Requested size: 284.83638pt x 427.28877pt.
  [62 <./clinicalPhysioPic/auscultatingAreas.jpg>] [62
 
 ] [63
 
 ]
-Overfull \hbox (55.24088pt too wide) in paragraph at lines 2126--2129
+Overfull \hbox (55.24088pt too wide) in paragraph at lines 2128--2131
 [] 
  []
 
 [63
 
 ]
-<./clinicalPhysioPic/mercury_manometer.jpg, id=469, 18.38048pt x 16.27498pt>
+<./clinicalPhysioPic/mercury_manometer.jpg, id=471, 18.38048pt x 16.27498pt>
 File: ./clinicalPhysioPic/mercury_manometer.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/mercury_manometer.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/mercury_manometer.jpg used on inpu
-t line 2160.
+t line 2162.
 (pdftex.def)             Requested size: 170.76656pt x 170.81386pt.
 
-Overfull \hbox (9.81738pt too wide) in paragraph at lines 2160--2160
+Overfull \hbox (9.81738pt too wide) in paragraph at lines 2162--2162
 [][] 
  []
 
-<./clinicalPhysioPic/aneroid_manometer.jpg, id=470, 18.77882pt x 11.69408pt>
+<./clinicalPhysioPic/aneroid_manometer.jpg, id=472, 18.77882pt x 11.69408pt>
 File: ./clinicalPhysioPic/aneroid_manometer.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/aneroid_manometer.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/aneroid_manometer.jpg used on inpu
-t line 2160.
+t line 2162.
 (pdftex.def)             Requested size: 170.83585pt x 170.81178pt.
 
-Overfull \hbox (9.88667pt too wide) in paragraph at lines 2160--2160
+Overfull \hbox (9.88667pt too wide) in paragraph at lines 2162--2162
 [][] 
  []
 
@@ -1800,72 +1807,72 @@ Overfull \hbox (9.88667pt too wide) in paragraph at lines 2160--2160
 nometer.jpg>] [64
 
 ] [65]
-Underfull \hbox (badness 10000) in paragraph at lines 2188--2188
+Underfull \hbox (badness 10000) in paragraph at lines 2190--2190
 []|\T1/aer/m/n/10.95 Systolic BP
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2188--2188
+Underfull \hbox (badness 10000) in paragraph at lines 2190--2190
 \T1/aer/m/n/10.95 by pal-pa-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2188--2188
+Underfull \hbox (badness 10000) in paragraph at lines 2190--2190
 \T1/aer/m/n/10.95 tory method
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2188--2188
+Underfull \hbox (badness 10000) in paragraph at lines 2190--2190
 []|\T1/aer/m/n/10.95 Systolic BP
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2188--2188
+Underfull \hbox (badness 10000) in paragraph at lines 2190--2190
 \T1/aer/m/n/10.95 by aus-cul-ta-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2188--2188
+Underfull \hbox (badness 10000) in paragraph at lines 2190--2190
 \T1/aer/m/n/10.95 tory method
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2188--2188
+Underfull \hbox (badness 10000) in paragraph at lines 2190--2190
 []|\T1/aer/m/n/10.95 Diastolic BP
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2188--2188
+Underfull \hbox (badness 10000) in paragraph at lines 2190--2190
 \T1/aer/m/n/10.95 by aus-cul-ta-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2188--2188
+Underfull \hbox (badness 10000) in paragraph at lines 2190--2190
 \T1/aer/m/n/10.95 tory method
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2188--2188
+Underfull \hbox (badness 10000) in paragraph at lines 2190--2190
 \T1/aer/m/n/10.95 (SBP-DBP)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2188--2188
+Underfull \hbox (badness 10000) in paragraph at lines 2190--2190
 []|\T1/aer/m/n/10.95 Mean ar-te-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2188--2188
+Underfull \hbox (badness 10000) in paragraph at lines 2190--2190
 \T1/aer/m/n/10.95 rial pres-sure
  []
 
 
-Overfull \hbox (21.3708pt too wide) in paragraph at lines 2186--2194
+Overfull \hbox (21.3708pt too wide) in paragraph at lines 2188--2196
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2186--2194
+Underfull \hbox (badness 10000) in paragraph at lines 2188--2196
 
  []
 
@@ -1874,89 +1881,89 @@ Underfull \hbox (badness 10000) in paragraph at lines 2186--2194
 ] [66
 
 ]
-Overfull \hbox (55.24088pt too wide) in paragraph at lines 2199--2202
+Overfull \hbox (55.24088pt too wide) in paragraph at lines 2201--2204
 [] 
  []
 
 [66
 
 ] [67]
-Underfull \hbox (badness 10000) in paragraph at lines 2226--2226
+Underfull \hbox (badness 10000) in paragraph at lines 2228--2228
 []|\T1/aer/m/n/10.95 Systolic BP
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2226--2226
+Underfull \hbox (badness 10000) in paragraph at lines 2228--2228
 \T1/aer/m/n/10.95 by pal-pa-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2226--2226
+Underfull \hbox (badness 10000) in paragraph at lines 2228--2228
 \T1/aer/m/n/10.95 tory method
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2226--2226
+Underfull \hbox (badness 10000) in paragraph at lines 2228--2228
 \T1/aer/m/n/10.95 aus-cul-ta-tory
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2226--2226
+Underfull \hbox (badness 10000) in paragraph at lines 2228--2228
 \T1/aer/m/n/10.95 method ($\OML/cmm/m/it/10.95 mm$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2226--2226
+Underfull \hbox (badness 10000) in paragraph at lines 2228--2228
 []|\T1/aer/m/n/10.95 Diastolic BP
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2226--2226
+Underfull \hbox (badness 10000) in paragraph at lines 2228--2228
 \T1/aer/m/n/10.95 by aus-cul-ta-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2226--2226
+Underfull \hbox (badness 10000) in paragraph at lines 2228--2228
 \T1/aer/m/n/10.95 tory method
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2254--2254
+Underfull \hbox (badness 10000) in paragraph at lines 2256--2256
 []|\T1/aer/m/n/10.95 Systolic BP
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2254--2254
+Underfull \hbox (badness 10000) in paragraph at lines 2256--2256
 \T1/aer/m/n/10.95 by pal-pa-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2254--2254
+Underfull \hbox (badness 10000) in paragraph at lines 2256--2256
 \T1/aer/m/n/10.95 tory method
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2254--2254
+Underfull \hbox (badness 10000) in paragraph at lines 2256--2256
 \T1/aer/m/n/10.95 aus-cul-ta-tory
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2254--2254
+Underfull \hbox (badness 10000) in paragraph at lines 2256--2256
 \T1/aer/m/n/10.95 method ($\OML/cmm/m/it/10.95 mm$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2254--2254
+Underfull \hbox (badness 10000) in paragraph at lines 2256--2256
 []|\T1/aer/m/n/10.95 Diastolic BP
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2254--2254
+Underfull \hbox (badness 10000) in paragraph at lines 2256--2256
 \T1/aer/m/n/10.95 by aus-cul-ta-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2254--2254
+Underfull \hbox (badness 10000) in paragraph at lines 2256--2256
 \T1/aer/m/n/10.95 tory method
  []
 
@@ -1967,22 +1974,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 2254--2254
 ] [69
 
 ]
-Overfull \hbox (55.24088pt too wide) in paragraph at lines 2278--2281
+Overfull \hbox (55.24088pt too wide) in paragraph at lines 2280--2283
 [] 
  []
 
 [69
 
 ]
-<./clinicalPhysioPic/sensoryIntruments.jpg, id=510, 976.64874pt x 1204.5pt>
+<./clinicalPhysioPic/sensoryIntruments.jpg, id=511, 976.64874pt x 1204.5pt>
 File: ./clinicalPhysioPic/sensoryIntruments.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/sensoryIntruments.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/sensoryIntruments.jpg used on inpu
-t line 2313.
+t line 2315.
 (pdftex.def)             Requested size: 341.42981pt x 512.17223pt.
  [70 <./clinicalPhysioPic/sensoryIntruments.jpg>]
-Overfull \hbox (6.42125pt too wide) in paragraph at lines 2319--2320
+Overfull \hbox (6.42125pt too wide) in paragraph at lines 2321--2322
 []\T1/aer/m/n/12 Measure the dis-tance be-tween the two points (lo-cal-i-sa-tio
 n dis-tance). Tested
  []
@@ -1992,71 +1999,71 @@ n dis-tance). Tested
 ] [71] [71
 
 ]
-<./clinicalPhysioPic/positionSense.jpg, id=524, 367.3725pt x 232.87pt>
+<./clinicalPhysioPic/positionSense.jpg, id=525, 367.3725pt x 232.87pt>
 File: ./clinicalPhysioPic/positionSense.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/positionSense.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/positionSense.jpg used on input li
-ne 2408.
+ne 2410.
 (pdftex.def)             Requested size: 142.26567pt x 142.26723pt.
 
-<./clinicalPhysioPic/painSense.jpg, id=525, 505.89pt x 202.7575pt>
+<./clinicalPhysioPic/painSense.jpg, id=526, 505.89pt x 202.7575pt>
 File: ./clinicalPhysioPic/painSense.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/painSense.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/painSense.jpg used on input line 2
-408.
+410.
 (pdftex.def)             Requested size: 142.26576pt x 142.26651pt.
 
-<./clinicalPhysioPic/twoPointDiscrimination.jpg, id=526, 584.1825pt x 230.8625p
+<./clinicalPhysioPic/twoPointDiscrimination.jpg, id=527, 584.1825pt x 230.8625p
 t>
 File: ./clinicalPhysioPic/twoPointDiscrimination.jpg Graphic file (type jpg)
  <use ./clinicalPhysioPic/twoPointDiscrimination.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/twoPointDiscrimination.jpg used on
- input line 2408.
+ input line 2410.
 (pdftex.def)             Requested size: 142.26576pt x 142.26315pt.
 
-<./clinicalPhysioPic/sensorySystem2.jpg, id=527, 495.8525pt x 379.4175pt>
+<./clinicalPhysioPic/sensorySystem2.jpg, id=528, 495.8525pt x 379.4175pt>
 File: ./clinicalPhysioPic/sensorySystem2.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/sensorySystem2.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/sensorySystem2.jpg used on input l
-ine 2408.
+ine 2410.
 (pdftex.def)             Requested size: 142.26518pt x 142.26384pt.
  [72 <./clinicalPhysioPic/positionSense.jpg> <./clinicalPhysioPic/painSense.jpg
 > <./clinicalPhysioPic/twoPointDiscrimination.jpg> <./clinicalPhysioPic/sensory
 System2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2432--2432
+Underfull \hbox (badness 10000) in paragraph at lines 2434--2434
 []|\T1/aer/m/n/12 Fine touch,Tactile
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2432--2432
+Underfull \hbox (badness 10000) in paragraph at lines 2434--2434
 \T1/aer/m/n/12 lo-cal-iza-tion, Tac-tile
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 2432--2432
+Underfull \hbox (badness 1122) in paragraph at lines 2434--2434
 \T1/aer/m/n/12 dis-crim-i-na-tion, po-si-tion
  []
 
 
-Underfull \hbox (badness 5133) in paragraph at lines 2432--2432
+Underfull \hbox (badness 5133) in paragraph at lines 2434--2434
 \T1/aer/m/n/12 sense, vi-bra-tion sense
  []
 
 
-Underfull \hbox (badness 6859) in paragraph at lines 2432--2433
+Underfull \hbox (badness 6859) in paragraph at lines 2434--2435
 []|\T1/aer/m/n/12 Dorsal/ pos-te-rior col-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2434--2435
+Underfull \hbox (badness 10000) in paragraph at lines 2436--2437
 []|\T1/aer/m/n/12 Anteriorspinothalamic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2436--2437
+Underfull \hbox (badness 10000) in paragraph at lines 2438--2439
 []|\T1/aer/m/n/12 Lateralspino-thalamic
  []
 
@@ -2069,183 +2076,183 @@ Underfull \hbox (badness 10000) in paragraph at lines 2436--2437
 ] [75
 
 ]
-Overfull \hbox (55.24088pt too wide) in paragraph at lines 2492--2495
+Overfull \hbox (55.24088pt too wide) in paragraph at lines 2494--2497
 [] 
  []
 
 [75
 
 ]
-<./clinicalPhysioPic/motorSystem/abductorPollicisBrevis.jpg, id=554, 545.03625p
+<./clinicalPhysioPic/motorSystem/abductorPollicisBrevis.jpg, id=555, 545.03625p
 t x 310.15875pt>
 File: ./clinicalPhysioPic/motorSystem/abductorPollicisBrevis.jpg Graphic file (
 type jpg)
 
 <use ./clinicalPhysioPic/motorSystem/abductorPollicisBrevis.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/motorSystem/abductorPollicisBrevis
-.jpg used on input line 2587.
+.jpg used on input line 2589.
 (pdftex.def)             Requested size: 113.80397pt x 142.26302pt.
 
-Overfull \hbox (13.2092pt too wide) in paragraph at lines 2587--2587
+Overfull \hbox (13.2092pt too wide) in paragraph at lines 2589--2589
 [][] 
  []
 
 
-<./clinicalPhysioPic/motorSystem/opponensPollicis.jpg, id=555, 487.8225pt x 421
+<./clinicalPhysioPic/motorSystem/opponensPollicis.jpg, id=556, 487.8225pt x 421
 .575pt>
 File: ./clinicalPhysioPic/motorSystem/opponensPollicis.jpg Graphic file (type j
 pg)
  <use ./clinicalPhysioPic/motorSystem/opponensPollicis.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/motorSystem/opponensPollicis.jpg u
-sed on input line 2587.
+sed on input line 2589.
 (pdftex.def)             Requested size: 113.80461pt x 142.26576pt.
 
-Overfull \hbox (13.20984pt too wide) in paragraph at lines 2587--2587
+Overfull \hbox (13.20984pt too wide) in paragraph at lines 2589--2589
 [][] 
  []
 
 
-<./clinicalPhysioPic/motorSystem/interossesi.jpg, id=556, 703.62875pt x 289.08p
+<./clinicalPhysioPic/motorSystem/interossesi.jpg, id=557, 703.62875pt x 289.08p
 t>
 File: ./clinicalPhysioPic/motorSystem/interossesi.jpg Graphic file (type jpg)
  <use ./clinicalPhysioPic/motorSystem/interossesi.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/motorSystem/interossesi.jpg used o
-n input line 2587.
+n input line 2589.
 (pdftex.def)             Requested size: 113.80685pt x 142.26357pt.
 
-Overfull \hbox (13.21208pt too wide) in paragraph at lines 2587--2587
+Overfull \hbox (13.21208pt too wide) in paragraph at lines 2589--2589
 [][] 
  []
 
 
-Underfull \hbox (badness 5711) in paragraph at lines 2587--2587
+Underfull \hbox (badness 5711) in paragraph at lines 2589--2589
 []\T1/aer/m/n/10.95 (c) |Test-ing Dor-sal
  []
 
-<./clinicalPhysioPic/motorSystem/flexorArm.jpg, id=557, 702.625pt x 353.32pt>
+<./clinicalPhysioPic/motorSystem/flexorArm.jpg, id=558, 702.625pt x 353.32pt>
 File: ./clinicalPhysioPic/motorSystem/flexorArm.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/motorSystem/flexorArm.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/motorSystem/flexorArm.jpg used on 
-input line 2587.
+input line 2589.
 (pdftex.def)             Requested size: 113.80533pt x 142.26357pt.
 
-Overfull \hbox (13.21056pt too wide) in paragraph at lines 2587--2587
+Overfull \hbox (13.21056pt too wide) in paragraph at lines 2589--2589
 [][] 
  []
 
 
-<./clinicalPhysioPic/motorSystem/extensorArm.jpg, id=558, 851.18pt x 373.395pt>
+<./clinicalPhysioPic/motorSystem/extensorArm.jpg, id=559, 851.18pt x 373.395pt>
 File: ./clinicalPhysioPic/motorSystem/extensorArm.jpg Graphic file (type jpg)
 <use ./clinicalPhysioPic/motorSystem/extensorArm.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/motorSystem/extensorArm.jpg used o
-n input line 2587.
+n input line 2589.
 (pdftex.def)             Requested size: 113.80035pt x 142.26192pt.
 
-Overfull \hbox (13.20558pt too wide) in paragraph at lines 2587--2587
+Overfull \hbox (13.20558pt too wide) in paragraph at lines 2589--2589
 [][] 
  []
 
-<./clinicalPhysioPic/motorSystem/deltoid.jpg, id=559, 493.845pt x 313.17pt>
+<./clinicalPhysioPic/motorSystem/deltoid.jpg, id=560, 493.845pt x 313.17pt>
 File: ./clinicalPhysioPic/motorSystem/deltoid.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/motorSystem/deltoid.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/motorSystem/deltoid.jpg used on in
-put line 2587.
+put line 2589.
 (pdftex.def)             Requested size: 113.80801pt x 142.26797pt.
 
-Overfull \hbox (13.21324pt too wide) in paragraph at lines 2587--2587
+Overfull \hbox (13.21324pt too wide) in paragraph at lines 2589--2589
 [][] 
  []
 
 
-<./clinicalPhysioPic/motorSystem/supraspinatus.jpg, id=560, 317.185pt x 353.32p
+<./clinicalPhysioPic/motorSystem/supraspinatus.jpg, id=561, 317.185pt x 353.32p
 t>
 File: ./clinicalPhysioPic/motorSystem/supraspinatus.jpg Graphic file (type jpg)
 
  <use ./clinicalPhysioPic/motorSystem/supraspinatus.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/motorSystem/supraspinatus.jpg used
- on input line 2587.
+ on input line 2589.
 (pdftex.def)             Requested size: 113.80899pt x 142.26357pt.
 
-Overfull \hbox (13.21422pt too wide) in paragraph at lines 2587--2587
+Overfull \hbox (13.21422pt too wide) in paragraph at lines 2589--2589
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2587--2587
+Underfull \hbox (badness 10000) in paragraph at lines 2589--2589
 []\T1/aer/m/n/10.95 (g) |Test-ing
  []
 
 
-<./clinicalPhysioPic/motorSystem/infraspinatus.jpg, id=561, 397.485pt x 357.335
+<./clinicalPhysioPic/motorSystem/infraspinatus.jpg, id=562, 397.485pt x 357.335
 pt>
 File: ./clinicalPhysioPic/motorSystem/infraspinatus.jpg Graphic file (type jpg)
 
  <use ./clinicalPhysioPic/motorSystem/infraspinatus.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/motorSystem/infraspinatus.jpg used
- on input line 2587.
+ on input line 2589.
 (pdftex.def)             Requested size: 113.81206pt x 142.2608pt.
 
-Overfull \hbox (13.21729pt too wide) in paragraph at lines 2587--2587
+Overfull \hbox (13.21729pt too wide) in paragraph at lines 2589--2589
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2587--2587
+Underfull \hbox (badness 10000) in paragraph at lines 2589--2589
 []\T1/aer/m/n/10.95 (h) |Test-ing In-
  []
 
 
-<./clinicalPhysioPic/motorSystem/pectoralisMajor.jpg, id=562, 505.89pt x 297.11
+<./clinicalPhysioPic/motorSystem/pectoralisMajor.jpg, id=563, 505.89pt x 297.11
 pt>
 File: ./clinicalPhysioPic/motorSystem/pectoralisMajor.jpg Graphic file (type jp
 g)
  <use ./clinicalPhysioPic/motorSystem/pectoralisMajor.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/motorSystem/pectoralisMajor.jpg us
-ed on input line 2587.
+ed on input line 2589.
 (pdftex.def)             Requested size: 113.80489pt x 142.27116pt.
 
-Overfull \hbox (13.21011pt too wide) in paragraph at lines 2587--2587
+Overfull \hbox (13.21011pt too wide) in paragraph at lines 2589--2589
 [][] 
  []
 
 
-<./clinicalPhysioPic/motorSystem/hipFlexion.jpg, id=563, 359.3425pt x 242.9075p
+<./clinicalPhysioPic/motorSystem/hipFlexion.jpg, id=564, 359.3425pt x 242.9075p
 t>
 File: ./clinicalPhysioPic/motorSystem/hipFlexion.jpg Graphic file (type jpg)
  <use ./clinicalPhysioPic/motorSystem/hipFlexion.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/motorSystem/hipFlexion.jpg used on
- input line 2587.
+ input line 2589.
 (pdftex.def)             Requested size: 113.80759pt x 142.26154pt.
 
-Overfull \hbox (13.21281pt too wide) in paragraph at lines 2587--2587
+Overfull \hbox (13.21281pt too wide) in paragraph at lines 2589--2589
 [][] 
  []
 
 
-<./clinicalPhysioPic/motorSystem/hipExtension.jpg, id=564, 307.1475pt x 248.93p
+<./clinicalPhysioPic/motorSystem/hipExtension.jpg, id=565, 307.1475pt x 248.93p
 t>
 File: ./clinicalPhysioPic/motorSystem/hipExtension.jpg Graphic file (type jpg)
  <use ./clinicalPhysioPic/motorSystem/hipExtension.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/motorSystem/hipExtension.jpg used 
-on input line 2587.
+on input line 2589.
 (pdftex.def)             Requested size: 113.81151pt x 142.26761pt.
 
-Overfull \hbox (13.21674pt too wide) in paragraph at lines 2587--2587
+Overfull \hbox (13.21674pt too wide) in paragraph at lines 2589--2589
 [][] 
  []
 
 
-<./clinicalPhysioPic/motorSystem/hipAbduction.jpg, id=565, 262.9825pt x 295.102
+<./clinicalPhysioPic/motorSystem/hipAbduction.jpg, id=566, 262.9825pt x 295.102
 5pt>
 File: ./clinicalPhysioPic/motorSystem/hipAbduction.jpg Graphic file (type jpg)
  <use ./clinicalPhysioPic/motorSystem/hipAbduction.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/motorSystem/hipAbduction.jpg used 
-on input line 2587.
+on input line 2589.
 (pdftex.def)             Requested size: 113.8106pt x 142.26448pt.
 
-Overfull \hbox (13.21582pt too wide) in paragraph at lines 2587--2587
+Overfull \hbox (13.21582pt too wide) in paragraph at lines 2589--2589
 [][] 
  []
 
@@ -2262,32 +2269,32 @@ tem/infraspinatus.jpg> <./clinicalPhysioPic/motorSystem/pectoralisMajor.jpg> <.
 [77] [77
 
 ]
-<./clinicalPhysioPic/motorSystem/hipAdduction.jpg, id=579, 240.9pt x 307.1475pt
+<./clinicalPhysioPic/motorSystem/hipAdduction.jpg, id=580, 240.9pt x 307.1475pt
 >
 File: ./clinicalPhysioPic/motorSystem/hipAdduction.jpg Graphic file (type jpg)
  <use ./clinicalPhysioPic/motorSystem/hipAdduction.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/motorSystem/hipAdduction.jpg used 
-on input line 2695.
+on input line 2697.
 (pdftex.def)             Requested size: 142.26576pt x 142.26439pt.
 
-<./clinicalPhysioPic/motorSystem/kneeFlexion.jpg, id=580, 357.335pt x 262.9825p
+<./clinicalPhysioPic/motorSystem/kneeFlexion.jpg, id=581, 357.335pt x 262.9825p
 t>
 File: ./clinicalPhysioPic/motorSystem/kneeFlexion.jpg Graphic file (type jpg)
  <use ./clinicalPhysioPic/motorSystem/kneeFlexion.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/motorSystem/kneeFlexion.jpg used o
-n input line 2695.
+n input line 2697.
 (pdftex.def)             Requested size: 142.2608pt x 142.26926pt.
 
-<./clinicalPhysioPic/motorSystem/kneeExtension.jpg, id=581, 355.3275pt x 244.91
+<./clinicalPhysioPic/motorSystem/kneeExtension.jpg, id=582, 355.3275pt x 244.91
 5pt>
 File: ./clinicalPhysioPic/motorSystem/kneeExtension.jpg Graphic file (type jpg)
 
  <use ./clinicalPhysioPic/motorSystem/kneeExtension.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/motorSystem/kneeExtension.jpg used
- on input line 2695.
+ on input line 2697.
 (pdftex.def)             Requested size: 142.26402pt x 142.26753pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2695--2695
+Underfull \hbox (badness 10000) in paragraph at lines 2697--2697
 
  []
 
@@ -2298,7 +2305,7 @@ orSystem/kneeFlexion.jpg> <./clinicalPhysioPic/motorSystem/kneeExtension.jpg>]
 ] [79] [79
 
 ] [80]
-Overfull \hbox (2.57866pt too wide) in paragraph at lines 2787--2789
+Overfull \hbox (2.57866pt too wide) in paragraph at lines 2789--2791
 \T1/aer/m/n/12 Pathological: Parkin-son-ism, cere-bel-lar dis-or-ders, thy-ro-t
 ox-i-co-sis, hy-po-gly-caemia,
  []
@@ -2310,99 +2317,99 @@ ox-i-co-sis, hy-po-gly-caemia,
 ] [82
 
 ]
-Overfull \hbox (55.24088pt too wide) in paragraph at lines 2815--2818
+Overfull \hbox (55.24088pt too wide) in paragraph at lines 2817--2820
 [] 
  []
 
 [82
 
 ]
-<./clinicalPhysioPic/reflexes/reflexArc.jpg, id=613, 870.25125pt x 994.71625pt>
+<./clinicalPhysioPic/reflexes/reflexArc.jpg, id=614, 870.25125pt x 994.71625pt>
 File: ./clinicalPhysioPic/reflexes/reflexArc.jpg Graphic file (type jpg)
 <use ./clinicalPhysioPic/reflexes/reflexArc.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/reflexes/reflexArc.jpg used on inp
-ut line 2848.
+ut line 2850.
 (pdftex.def)             Requested size: 284.52802pt x 426.79378pt.
  [83 <./clinicalPhysioPic/reflexes/reflexArc.jpg>] [83
 
 ] [84] [84
 
 ]
-<./clinicalPhysioPic/reflexes/bicepsJerk.jpg, id=627, 333.245pt x 224.84pt>
+<./clinicalPhysioPic/reflexes/bicepsJerk.jpg, id=628, 333.245pt x 224.84pt>
 File: ./clinicalPhysioPic/reflexes/bicepsJerk.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/reflexes/bicepsJerk.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/reflexes/bicepsJerk.jpg used on in
-put line 2985.
+put line 2987.
 (pdftex.def)             Requested size: 142.2654pt x 142.27092pt.
 
-<./clinicalPhysioPic/reflexes/tricepsJerk.jpg, id=628, 311.1625pt x 216.81pt>
+<./clinicalPhysioPic/reflexes/tricepsJerk.jpg, id=629, 311.1625pt x 216.81pt>
 File: ./clinicalPhysioPic/reflexes/tricepsJerk.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/reflexes/tricepsJerk.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/reflexes/tricepsJerk.jpg used on i
-nput line 2985.
+nput line 2987.
 (pdftex.def)             Requested size: 142.26286pt x 142.27127pt.
 
-<./clinicalPhysioPic/reflexes/supinatorJerk.jpg, id=629, 337.26pt x 230.8625pt>
+<./clinicalPhysioPic/reflexes/supinatorJerk.jpg, id=630, 337.26pt x 230.8625pt>
 File: ./clinicalPhysioPic/reflexes/supinatorJerk.jpg Graphic file (type jpg)
 <use ./clinicalPhysioPic/reflexes/supinatorJerk.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/reflexes/supinatorJerk.jpg used on
- input line 2985.
+ input line 2987.
 (pdftex.def)             Requested size: 142.26576pt x 142.26315pt.
 
-<./clinicalPhysioPic/reflexes/jawJerk.jpg, id=630, 381.425pt x 285.065pt>
+<./clinicalPhysioPic/reflexes/jawJerk.jpg, id=631, 381.425pt x 285.065pt>
 File: ./clinicalPhysioPic/reflexes/jawJerk.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/reflexes/jawJerk.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/reflexes/jawJerk.jpg used on input
- line 2985.
+ line 2987.
 (pdftex.def)             Requested size: 142.25995pt x 142.26247pt.
 
-<./clinicalPhysioPic/reflexes/kneeJerkPathway.jpg, id=631, 634.37pt x 325.215pt
+<./clinicalPhysioPic/reflexes/kneeJerkPathway.jpg, id=632, 634.37pt x 325.215pt
 >
 File: ./clinicalPhysioPic/reflexes/kneeJerkPathway.jpg Graphic file (type jpg)
  <use ./clinicalPhysioPic/reflexes/kneeJerkPathway.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/reflexes/kneeJerkPathway.jpg used 
-on input line 2985.
+on input line 2987.
 (pdftex.def)             Requested size: 142.26245pt x 142.26631pt.
 
-Overfull \hbox (25.57523pt too wide) in paragraph at lines 2985--2985
+Overfull \hbox (25.57523pt too wide) in paragraph at lines 2987--2987
  [][] 
  []
 
-<./clinicalPhysioPic/reflexes/kneeJerk_1.jpg, id=632, 764.8575pt x 441.65pt>
+<./clinicalPhysioPic/reflexes/kneeJerk_1.jpg, id=633, 764.8575pt x 441.65pt>
 File: ./clinicalPhysioPic/reflexes/kneeJerk_1.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/reflexes/kneeJerk_1.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/reflexes/kneeJerk_1.jpg used on in
-put line 2985.
+put line 2987.
 (pdftex.def)             Requested size: 142.25502pt x 142.26086pt.
 
-Overfull \hbox (25.5678pt too wide) in paragraph at lines 2985--2985
+Overfull \hbox (25.5678pt too wide) in paragraph at lines 2987--2987
  [][] 
  []
 
 
-<./clinicalPhysioPic/reflexes/kneeJerk_2.jpg, id=633, 327.2225pt x 266.9975pt>
+<./clinicalPhysioPic/reflexes/kneeJerk_2.jpg, id=634, 327.2225pt x 266.9975pt>
 File: ./clinicalPhysioPic/reflexes/kneeJerk_2.jpg Graphic file (type jpg)
 
 <use ./clinicalPhysioPic/reflexes/kneeJerk_2.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/reflexes/kneeJerk_2.jpg used on in
-put line 2985.
+put line 2987.
 (pdftex.def)             Requested size: 142.26074pt x 142.26984pt.
 
-Overfull \hbox (25.57352pt too wide) in paragraph at lines 2985--2985
+Overfull \hbox (25.57352pt too wide) in paragraph at lines 2987--2987
  [][] 
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 2985--2985
+Underfull \hbox (badness 1097) in paragraph at lines 2987--2987
 []\T1/aer/m/n/10.95 (g) |Knee Jerm Ex-am-
  []
 
 
-Underfull \hbox (badness 3168) in paragraph at lines 2985--2985
+Underfull \hbox (badness 3168) in paragraph at lines 2987--2987
 \T1/aer/m/n/10.95 i-na-tion(with \T1/aer/m/it/10.95 Re-in-force-
  []
 
@@ -2419,45 +2426,45 @@ kneeJerk_2.jpg>] [85
 ] [88
 
 ]
-Overfull \hbox (55.24088pt too wide) in paragraph at lines 3042--3046
+Overfull \hbox (55.24088pt too wide) in paragraph at lines 3044--3048
 []
  []
 
 [88
 
 ]
-<./clinicalPhysioPic/cerebellum/fingerNoseTest.jpg, id=660, 10.27144pt x 6.8002
+<./clinicalPhysioPic/cerebellum/fingerNoseTest.jpg, id=661, 10.27144pt x 6.8002
 pt>
 File: ./clinicalPhysioPic/cerebellum/fingerNoseTest.jpg Graphic file (type jpg)
 
  <use ./clinicalPhysioPic/cerebellum/fingerNoseTest.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/cerebellum/fingerNoseTest.jpg used
- on input line 3095.
+ on input line 3097.
 (pdftex.def)             Requested size: 142.34364pt x 142.33238pt.
 
-<./clinicalPhysioPic/cerebellum/dysdidochokinesia.jpg, id=661, 10.58443pt x 7.2
+<./clinicalPhysioPic/cerebellum/dysdidochokinesia.jpg, id=662, 10.58443pt x 7.2
 27pt>
 File: ./clinicalPhysioPic/cerebellum/dysdidochokinesia.jpg Graphic file (type j
 pg)
  <use ./clinicalPhysioPic/cerebellum/dysdidochokinesia.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/cerebellum/dysdidochokinesia.jpg u
-sed on input line 3095.
+sed on input line 3097.
 (pdftex.def)             Requested size: 142.34778pt x 142.42584pt.
 
-<./clinicalPhysioPic/cerebellum/tandemWalking.jpg, id=662, 5.2922pt x 8.39357pt
+<./clinicalPhysioPic/cerebellum/tandemWalking.jpg, id=663, 5.2922pt x 8.39357pt
 >
 File: ./clinicalPhysioPic/cerebellum/tandemWalking.jpg Graphic file (type jpg)
  <use ./clinicalPhysioPic/cerebellum/tandemWalking.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/cerebellum/tandemWalking.jpg used 
-on input line 3095.
+on input line 3097.
 (pdftex.def)             Requested size: 142.55804pt x 142.31311pt.
 
-<./clinicalPhysioPic/cerebellum/heelShinTest.jpg, id=663, 11.3242pt x 8.27975pt
+<./clinicalPhysioPic/cerebellum/heelShinTest.jpg, id=664, 11.3242pt x 8.27975pt
 >
 File: ./clinicalPhysioPic/cerebellum/heelShinTest.jpg Graphic file (type jpg)
  <use ./clinicalPhysioPic/cerebellum/heelShinTest.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/cerebellum/heelShinTest.jpg used o
-n input line 3095.
+n input line 3097.
 (pdftex.def)             Requested size: 142.41023pt x 142.50635pt.
  [89 <./clinicalPhysioPic/cerebellum/fingerNoseTest.jpg> <./clinicalPhysioPic/c
 erebellum/dysdidochokinesia.jpg> <./clinicalPhysioPic/cerebellum/tandemWalking.
@@ -2468,37 +2475,37 @@ jpg> <./clinicalPhysioPic/cerebellum/heelShinTest.jpg>] [89
 ] [91
 
 ]
-Overfull \hbox (55.24088pt too wide) in paragraph at lines 3139--3142
+Overfull \hbox (55.24088pt too wide) in paragraph at lines 3141--3144
 [] 
  []
 
 [91
 
 ]
-<./clinicalPhysioPic/cranialNerves1_6/snellensChart.jpg, id=683, 445.665pt x 95
+<./clinicalPhysioPic/cranialNerves1_6/snellensChart.jpg, id=684, 445.665pt x 95
 7.5775pt>
 File: ./clinicalPhysioPic/cranialNerves1_6/snellensChart.jpg Graphic file (type
  jpg)
  <use ./clinicalPhysioPic/cranialNerves1_6/snellensChart.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/cranialNerves1_6/snellensChart.jpg
- used on input line 3169.
+ used on input line 3171.
 (pdftex.def)             Requested size: 284.53099pt x 426.78546pt.
  [92 <./clinicalPhysioPic/cranialNerves1_6/snellensChart.jpg>] [92
 
 ] [93] [93
 
 ]
-<./clinicalPhysioPic/cranialNerves1_6/extraocularMuscles.jpg, id=697, 853.1875p
+<./clinicalPhysioPic/cranialNerves1_6/extraocularMuscles.jpg, id=698, 853.1875p
 t x 677.53125pt>
 File: ./clinicalPhysioPic/cranialNerves1_6/extraocularMuscles.jpg Graphic file 
 (type jpg)
 
 <use ./clinicalPhysioPic/cranialNerves1_6/extraocularMuscles.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/cranialNerves1_6/extraocularMuscle
-s.jpg used on input line 3221.
+s.jpg used on input line 3223.
 (pdftex.def)             Requested size: 284.534pt x 426.80559pt.
  [94 <./clinicalPhysioPic/cranialNerves1_6/extraocularMuscles.jpg>]
-Overfull \hbox (40.53313pt too wide) in paragraph at lines 3234--3234
+Overfull \hbox (40.53313pt too wide) in paragraph at lines 3236--3236
 []\T1/aer/bx/n/17.28 III, IV & VI Cra-nial Nerves ^^UOc-cu-lo-mo-tor, Trochlear
 
  []
@@ -2506,7 +2513,7 @@ Overfull \hbox (40.53313pt too wide) in paragraph at lines 3234--3234
 [94
 
 ] [95]
-Overfull \hbox (20.79253pt too wide) in paragraph at lines 3250--3250
+Overfull \hbox (20.79253pt too wide) in paragraph at lines 3252--3252
 []\T1/aer/bx/n/17.28 V Cra-nial Nerve: Trigem-i-nal Nerve (Mixed Nerve) 
  []
 
@@ -2517,12 +2524,12 @@ Overfull \hbox (20.79253pt too wide) in paragraph at lines 3250--3250
 ] [97
 
 ]
-Overfull \hbox (55.24088pt too wide) in paragraph at lines 3306--3309
+Overfull \hbox (55.24088pt too wide) in paragraph at lines 3308--3311
 [] 
  []
 
 
-Overfull \hbox (1.53764pt too wide) in paragraph at lines 3360--3361
+Overfull \hbox (1.53764pt too wide) in paragraph at lines 3362--3363
 []\T1/aer/m/n/12 Ask the sub-ject to clench his teeth and look for the promi-ne
 nce of platysma
  []
@@ -2530,53 +2537,53 @@ nce of platysma
 [97
 
 ]
-<./clinicalPhysioPic/cranialNerves7_12/7thNerve_1.jpg, id=723, 262.9825pt x 270
+<./clinicalPhysioPic/cranialNerves7_12/7thNerve_1.jpg, id=724, 262.9825pt x 270
 .00874pt>
 File: ./clinicalPhysioPic/cranialNerves7_12/7thNerve_1.jpg Graphic file (type j
 pg)
  <use ./clinicalPhysioPic/cranialNerves7_12/7thNerve_1.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/cranialNerves7_12/7thNerve_1.jpg u
-sed on input line 3363.
+sed on input line 3365.
 (pdftex.def)             Requested size: 142.26926pt x 142.26758pt.
 
-<./clinicalPhysioPic/cranialNerves7_12/7thNerve_2.jpg, id=724, 257.96375pt x 27
+<./clinicalPhysioPic/cranialNerves7_12/7thNerve_2.jpg, id=725, 257.96375pt x 27
 2.01625pt>
 File: ./clinicalPhysioPic/cranialNerves7_12/7thNerve_2.jpg Graphic file (type j
 pg)
  <use ./clinicalPhysioPic/cranialNerves7_12/7thNerve_2.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/cranialNerves7_12/7thNerve_2.jpg u
-sed on input line 3363.
+sed on input line 3365.
 (pdftex.def)             Requested size: 142.26624pt x 142.27109pt.
 
-<./clinicalPhysioPic/cranialNerves7_12/7thNerve_3.jpg, id=725, 262.9825pt x 261
+<./clinicalPhysioPic/cranialNerves7_12/7thNerve_3.jpg, id=726, 262.9825pt x 261
 .97874pt>
 File: ./clinicalPhysioPic/cranialNerves7_12/7thNerve_3.jpg Graphic file (type j
 pg)
  <use ./clinicalPhysioPic/cranialNerves7_12/7thNerve_3.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/cranialNerves7_12/7thNerve_3.jpg u
-sed on input line 3363.
+sed on input line 3365.
 (pdftex.def)             Requested size: 142.26926pt x 142.2659pt.
 
-<./clinicalPhysioPic/cranialNerves7_12/7thNerve_4.jpg, id=726, 266.9975pt x 133
+<./clinicalPhysioPic/cranialNerves7_12/7thNerve_4.jpg, id=727, 266.9975pt x 133
 .49875pt>
 File: ./clinicalPhysioPic/cranialNerves7_12/7thNerve_4.jpg Graphic file (type j
 pg)
  <use ./clinicalPhysioPic/cranialNerves7_12/7thNerve_4.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/cranialNerves7_12/7thNerve_4.jpg u
-sed on input line 3363.
+sed on input line 3365.
 (pdftex.def)             Requested size: 142.26984pt x 142.27797pt.
 
-<./clinicalPhysioPic/cranialNerves7_12/7thNerve_BellsPalsy.jpg, id=727, 596.227
+<./clinicalPhysioPic/cranialNerves7_12/7thNerve_BellsPalsy.jpg, id=728, 596.227
 5pt x 294.09875pt>
 File: ./clinicalPhysioPic/cranialNerves7_12/7thNerve_BellsPalsy.jpg Graphic fil
 e (type jpg)
 
 <use ./clinicalPhysioPic/cranialNerves7_12/7thNerve_BellsPalsy.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/cranialNerves7_12/7thNerve_BellsPa
-lsy.jpg used on input line 3363.
+lsy.jpg used on input line 3365.
 (pdftex.def)             Requested size: 284.53017pt x 113.8095pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3363--3363
+Underfull \hbox (badness 10000) in paragraph at lines 3365--3365
 
  []
 
@@ -2584,7 +2591,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3363--3363
 /cranialNerves7_12/7thNerve_2.jpg> <./clinicalPhysioPic/cranialNerves7_12/7thNe
 rve_3.jpg> <./clinicalPhysioPic/cranialNerves7_12/7thNerve_4.jpg> <./clinicalPh
 ysioPic/cranialNerves7_12/7thNerve_BellsPalsy.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 3402--3405
+Underfull \hbox (badness 10000) in paragraph at lines 3404--3407
 
  []
 
@@ -2593,76 +2600,76 @@ Underfull \hbox (badness 10000) in paragraph at lines 3402--3405
 ] [99] [99
 
 ] [100]
-Overfull \hbox (28.78464pt too wide) in paragraph at lines 3447--3447
+Overfull \hbox (28.78464pt too wide) in paragraph at lines 3449--3449
 []\T1/aer/bx/n/17.28 IX Cra-nial Nerve ^^U Glos-sopha-ryn-geal Nerve (Mixed
  []
 
 [100
 
 ]
-<./clinicalPhysioPic/cranialNerves7_12/softPalate_1.jpg, id=748, 662.475pt x 34
+<./clinicalPhysioPic/cranialNerves7_12/softPalate_1.jpg, id=749, 662.475pt x 34
 5.29pt>
 File: ./clinicalPhysioPic/cranialNerves7_12/softPalate_1.jpg Graphic file (type
  jpg)
  <use ./clinicalPhysioPic/cranialNerves7_12/softPalate_1.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/cranialNerves7_12/softPalate_1.jpg
- used on input line 3498.
+ used on input line 3500.
 (pdftex.def)             Requested size: 199.1686pt x 142.26527pt.
 
-Overfull \hbox (6.02835pt too wide) in paragraph at lines 3498--3498
+Overfull \hbox (6.02835pt too wide) in paragraph at lines 3500--3500
  [][] 
  []
 
 
-<./clinicalPhysioPic/cranialNerves7_12/softPalate_2.jpg, id=749, 403.5075pt x 2
+<./clinicalPhysioPic/cranialNerves7_12/softPalate_2.jpg, id=750, 403.5075pt x 2
 71.0125pt>
 File: ./clinicalPhysioPic/cranialNerves7_12/softPalate_2.jpg Graphic file (type
  jpg)
  <use ./clinicalPhysioPic/cranialNerves7_12/softPalate_2.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/cranialNerves7_12/softPalate_2.jpg
- used on input line 3498.
+ used on input line 3500.
 (pdftex.def)             Requested size: 142.26411pt x 142.26714pt.
 
-<./clinicalPhysioPic/cranialNerves7_12/softPalate_palsy.jpg, id=750, 632.3625pt
+<./clinicalPhysioPic/cranialNerves7_12/softPalate_palsy.jpg, id=751, 632.3625pt
  x 220.825pt>
 File: ./clinicalPhysioPic/cranialNerves7_12/softPalate_palsy.jpg Graphic file (
 type jpg)
  <use ./clinicalPhysioPic/cranialNerves7_12/softPalate_palsy.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/cranialNerves7_12/softPalate_palsy
-.jpg used on input line 3498.
+.jpg used on input line 3500.
 (pdftex.def)             Requested size: 284.53156pt x 142.27097pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3498--3498
+Underfull \hbox (badness 10000) in paragraph at lines 3500--3500
 
  []
 
 [101 <./clinicalPhysioPic/cranialNerves7_12/softPalate_1.jpg> <./clinicalPhysio
 Pic/cranialNerves7_12/softPalate_2.jpg> <./clinicalPhysioPic/cranialNerves7_12/
 softPalate_palsy.jpg>]
-Overfull \hbox (23.68752pt too wide) in paragraph at lines 3505--3505
+Overfull \hbox (23.68752pt too wide) in paragraph at lines 3507--3507
 []\T1/aer/bx/n/17.28 XI Cra-nial Nerve ^^U Spinal Ac-ces-sory Nerve (Purely
  []
 
 [101
 
 ]
-<./clinicalPhysioPic/cranialNerves7_12/11thNerve_trapezius.jpg, id=758, 453.695
+<./clinicalPhysioPic/cranialNerves7_12/11thNerve_trapezius.jpg, id=759, 453.695
 pt x 340.27126pt>
 File: ./clinicalPhysioPic/cranialNerves7_12/11thNerve_trapezius.jpg Graphic fil
 e (type jpg)
 
 <use ./clinicalPhysioPic/cranialNerves7_12/11thNerve_trapezius.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/cranialNerves7_12/11thNerve_trapez
-ius.jpg used on input line 3543.
+ius.jpg used on input line 3545.
 (pdftex.def)             Requested size: 142.26393pt x 142.26393pt.
 
-<./clinicalPhysioPic/cranialNerves7_12/11thNerve_scm.jpg, id=759, 457.71pt x 44
+<./clinicalPhysioPic/cranialNerves7_12/11thNerve_scm.jpg, id=760, 457.71pt x 44
 6.66875pt>
 File: ./clinicalPhysioPic/cranialNerves7_12/11thNerve_scm.jpg Graphic file (typ
 e jpg)
  <use ./clinicalPhysioPic/cranialNerves7_12/11thNerve_scm.jpg>
 Package pdftex.def Info: ./clinicalPhysioPic/cranialNerves7_12/11thNerve_scm.jp
-g used on input line 3543.
+g used on input line 3545.
 (pdftex.def)             Requested size: 142.25879pt x 142.26216pt.
 
 [102 <./clinicalPhysioPic/cranialNerves7_12/11thNerve_trapezius.jpg> <./clinica
@@ -2676,30 +2683,31 @@ lPhysioPic/cranialNerves7_12/11thNerve_scm.jpg>] [102
 ]
 (./combinedRecord.aux) ) 
 Here is how much of TeX's memory you used:
- 7043 strings out of 494953
- 122044 string characters out of 6180978
+ 7048 strings out of 494953
+ 122102 string characters out of 6180978
  185842 words of memory out of 5000000
- 10072 multiletter control sequences out of 15000+600000
- 42212 words of font info for 82 fonts, out of 8000000 for 9000
+ 10074 multiletter control sequences out of 15000+600000
+ 45356 words of font info for 88 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  40i,16n,46p,729b,663s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmti12.pfb>
-Output written on combinedRecord.pdf (210 pages, 2648642 bytes).
+nts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mti12.pfb>
+Output written on combinedRecord.pdf (210 pages, 2663917 bytes).
 PDF statistics:
- 821 PDF objects out of 1000 (max. 8388607)
- 502 compressed objects within 6 object streams
+ 825 PDF objects out of 1000 (max. 8388607)
+ 505 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
  441 words of extra memory for PDF output out of 10000 (max. 10000000)
 

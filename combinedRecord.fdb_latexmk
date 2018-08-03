@@ -1,7 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1533275593 "combinedRecord.tex" "combinedRecord.pdf" "combinedRecord" 1533275594
+["pdflatex"] 1533277659 "combinedRecord.tex" "combinedRecord.pdf" "combinedRecord" 1533277660
   "/etc/texmf/web2c/texmf.cnf" 1499075352 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/ae/aebx10.tfm" 1136768653 6120 a142592c2114b48b2aa4610db47a327d ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/ae/aebx12.tfm" 1136768653 6132 8ad25ac1b8f3422e2a7eaeb718e3c843 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/ae/aebx8.tfm" 1136768653 6128 d66b930a3f7174435b6fcf899df2375b ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/ae/aer10.tfm" 1136768653 6076 dc5394361b1c55a30e76ff07ab99157c ""
@@ -14,6 +15,7 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm" 1136768653 1116 4e6ba9d7914baa6482fd69f67d126380 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm" 1136768653 1332 1fde11373e221473104d6cc5993f046e ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm" 1136768653 1532 9162035f4e7176612125649e348e2195 ""
@@ -35,6 +37,7 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti12.tfm" 1136768653 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmu10.tfm" 1136768653 1276 d1b8c21fa8328272b4e5e6bc10761e6e ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb" 1248133631 32166 b0c356b15f19587482a9217ce1d8fa67 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
@@ -48,6 +51,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1248133631 36118 fad905eba93cff5bce1e185fe980a177 ""
+  "/usr/share/texlive/texmf-dist/fonts/vf/public/ae/aebx10.vf" 1136768653 3200 665f8279b0eb14745aeb9172bb203536 ""
   "/usr/share/texlive/texmf-dist/fonts/vf/public/ae/aebx12.vf" 1136768653 3188 9220059dad8c24eb72c5ca13862eaaa7 ""
   "/usr/share/texlive/texmf-dist/fonts/vf/public/ae/aebx8.vf" 1136768653 3200 4be0c4c4109a9c24a892efce9a6764c5 ""
   "/usr/share/texlive/texmf-dist/fonts/vf/public/ae/aer10.vf" 1136768653 3160 99d961359fad2b22331b477acf927f3b ""
@@ -195,8 +199,8 @@
   "clinicalPhysioPic/trachelShift.jpg" 1532364977 15332 3a55d8234a1486087da845ea78abd338 ""
   "clinicalPhysioPic/twoPointDiscrimination.jpg" 1532788922 11931 3028bf66420ab5c4588fc6a0a3f3c7a7 ""
   "clottingTime.jpg" 1532100137 9583 5842fb5af585f838f0768d3963f0d6f9 ""
-  "combinedRecord.aux" 1533275594 8230 a34e4b0d0355479f9f65ea0c416d8c4a ""
-  "combinedRecord.tex" 1533275591 201109 9b3dc5a27f805334ab24b08cdb112033 ""
+  "combinedRecord.aux" 1533277660 8230 a7fc92974e1acd9e1c1e3dcefaef6896 ""
+  "combinedRecord.tex" 1533277647 201149 c5bfd951eccf36af0fe501a72a2072c0 ""
   "compoundMicroscope.jpg" 1531493345 129908 24a8de3f5861817967143daa8e762fdc ""
   "dc1.jpg" 1531848426 86539 deb60eac8d2d9b1b58449229effc8dab ""
   "dc2.jpg" 1531848460 68111 7cd5959d8370c912010129aa444c5c73 ""
@@ -212,7 +216,7 @@
   "specificGravity.csv" 1532100137 172 629ac0a012a2fc7a471539ebb4641d35 ""
   "specificGravity.jpg" 1532100137 61690 224805f42ecc312160efe778b370a593 ""
   (generated)
-  "combinedRecord.pdf"
   "combinedRecord.log"
   "combinedRecord.toc"
+  "combinedRecord.pdf"
   "combinedRecord.aux"
