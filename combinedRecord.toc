@@ -1,63 +1,63 @@
 \contentsline {chapter}{Compound Microscope}{1}
 \contentsline {chapter}{Hemocytometer}{5}
 \contentsline {chapter}{Estimation Of Total RBC Count}{9}
-\contentsline {chapter}{Estimation Of Total WBC Count}{11}
-\contentsline {chapter}{Absolute Eosinophil Count}{13}
-\contentsline {chapter}{Hemoglobin Estimation}{15}
-\contentsline {chapter}{Differential Count}{17}
-\contentsline {chapter}{Blood Grouping \& Typing}{20}
-\contentsline {chapter}{Estimation Of Bleeding Time}{22}
-\contentsline {chapter}{Estimation Of Clotting Time}{24}
-\contentsline {chapter}{Estimation Of Erythrocyte Sedimentation Rate}{26}
-\contentsline {chapter}{Packed Cell Volume}{28}
-\contentsline {chapter}{Osmotic Fragility}{30}
-\contentsline {chapter}{Specific Gravity}{32}
+\contentsline {chapter}{Estimation Of Total WBC Count}{12}
+\contentsline {chapter}{Absolute Eosinophil Count}{15}
+\contentsline {chapter}{Differential Count}{18}
+\contentsline {chapter}{Hemoglobin Estimation}{22}
+\contentsline {chapter}{Blood Grouping \& Typing}{24}
+\contentsline {chapter}{Estimation Of Bleeding Time}{26}
+\contentsline {chapter}{Estimation Of Clotting Time}{28}
+\contentsline {chapter}{Estimation Of Erythrocyte Sedimentation Rate}{30}
+\contentsline {chapter}{Packed Cell Volume}{32}
+\contentsline {chapter}{Osmotic Fragility}{34}
+\contentsline {chapter}{Specific Gravity}{36}
 \newpage 
-\contentsline {chapter}{General Examination}{35}
-\contentsline {chapter}{Examination Of Respiratory System}{40}
-\contentsline {paragraph}{Important Anatomical Landmarks:}{40}
-\contentsline {paragraph}{Rules of percussion}{43}
-\contentsline {paragraph}{Methods of Percussion:}{43}
-\contentsline {paragraph}{Percussion Notes}{44}
-\contentsline {paragraph}{Positioning Of Subject For Percussion:}{44}
-\contentsline {paragraph}{Bronchial Breath Sounds:}{44}
-\contentsline {paragraph}{Causes for absence of breath sounds}{44}
-\contentsline {paragraph}{Vocal Resonance:}{45}
-\contentsline {paragraph}{Adventitious or Added Sounds}{45}
-\contentsline {paragraph}{Note:}{45}
-\contentsline {chapter}{Respiratory Efficiency Test}{47}
-\contentsline {paragraph}{Procedure}{48}
-\contentsline {chapter}{Spirometry}{49}
-\contentsline {chapter}{Stethography}{51}
-\contentsline {chapter}{Examination of the Arterial Pulse}{53}
-\contentsline {paragraph}{Certain Abnormal character of pulse:}{54}
-\contentsline {chapter}{Examination Of Cardiovascular System}{57}
-\contentsline {chapter}{Recording of Blood Pressure}{61}
-\contentsline {paragraph}{Phases of koratkoff sounds :}{62}
-\contentsline {chapter}{Effects of Posture and Exercise on Blood Pressure}{64}
-\contentsline {chapter}{Examination Of Sensory System}{67}
-\contentsline {paragraph}{Following sensations are tested}{67}
-\contentsline {chapter}{Examination Of Motor System}{73}
-\contentsline {chapter}{Reflexes}{80}
-\contentsline {paragraph}{Components Of Reflex Arc:}{80}
-\contentsline {paragraph}{Types Of Reflexes:}{80}
-\contentsline {paragraph}{Clonus:}{83}
-\contentsline {paragraph}{Grading of reflexes:}{83}
-\contentsline {paragraph}{Reinforcement technique:}{83}
-\contentsline {paragraph}{For eliciting upper limb reflexes:}{83}
-\contentsline {paragraph}{For eliciting lower limbs reflexes:}{84}
-\contentsline {chapter}{Cerebellar Function Tests}{85}
-\contentsline {chapter}{Examination Of Cranial Nerves (1-6)}{88}
-\contentsline {paragraph}{Observation:}{89}
-\contentsline {paragraph}{Ishihara's chart:}{90}
-\contentsline {paragraph}{Holmgren\IeC {\textquoteright }s wool test:}{90}
-\contentsline {paragraph}{Direct light reflex:}{90}
-\contentsline {paragraph}{Response:}{90}
-\contentsline {paragraph}{Indirect/ Consensual light reflex:}{90}
-\contentsline {paragraph}{Response:}{91}
-\contentsline {paragraph}{Response: [ \IeC {\textquotedblleft }3Cs\IeC {\textquotedblright }]}{91}
-\contentsline {chapter}{Examination Of Cranial Nerves (7-12)}{94}
-\contentsline {paragraph}{Muscles of facial expression}{94}
-\contentsline {paragraph}{Tests For Cochlear Function}{95}
-\contentsline {paragraph}{It consists of 3 components:}{97}
-\contentsline {paragraph}{It has motor and sensory components.}{97}
+\contentsline {chapter}{General Examination}{39}
+\contentsline {chapter}{Examination Of Respiratory System}{46}
+\contentsline {paragraph}{Important Anatomical Landmarks:}{46}
+\contentsline {paragraph}{Rules of percussion}{49}
+\contentsline {paragraph}{Methods of Percussion:}{49}
+\contentsline {paragraph}{Percussion Notes}{49}
+\contentsline {paragraph}{Positioning Of Subject For Percussion:}{50}
+\contentsline {paragraph}{Bronchial Breath Sounds:}{50}
+\contentsline {paragraph}{Causes for absence of breath sounds}{50}
+\contentsline {paragraph}{Vocal Resonance:}{50}
+\contentsline {paragraph}{Adventitious or Added Sounds}{51}
+\contentsline {paragraph}{Note:}{51}
+\contentsline {chapter}{Respiratory Efficiency Test}{55}
+\contentsline {paragraph}{Procedure}{56}
+\contentsline {chapter}{Spirometry}{58}
+\contentsline {chapter}{Stethography}{61}
+\contentsline {chapter}{Examination of the Arterial Pulse}{64}
+\contentsline {paragraph}{Certain Abnormal character of pulse:}{65}
+\contentsline {chapter}{Examination Of Cardiovascular System}{71}
+\contentsline {chapter}{Recording of Blood Pressure}{78}
+\contentsline {paragraph}{Phases of koratkoff sounds :}{79}
+\contentsline {chapter}{Effects of Posture and Exercise on Blood Pressure}{81}
+\contentsline {chapter}{Examination Of Sensory System}{85}
+\contentsline {paragraph}{Following sensations are tested}{85}
+\contentsline {chapter}{Examination Of Motor System}{93}
+\contentsline {chapter}{Reflexes}{103}
+\contentsline {paragraph}{Components Of Reflex Arc:}{103}
+\contentsline {paragraph}{Types Of Reflexes:}{103}
+\contentsline {paragraph}{Clonus:}{106}
+\contentsline {paragraph}{Grading of reflexes:}{106}
+\contentsline {paragraph}{Reinforcement technique:}{106}
+\contentsline {paragraph}{For eliciting upper limb reflexes:}{106}
+\contentsline {paragraph}{For eliciting lower limbs reflexes:}{107}
+\contentsline {chapter}{Cerebellar Function Tests}{111}
+\contentsline {chapter}{Examination Of Cranial Nerves (1-6)}{117}
+\contentsline {paragraph}{Observation:}{118}
+\contentsline {paragraph}{Ishihara's chart:}{119}
+\contentsline {paragraph}{Holmgren\IeC {\textquoteright }s wool test:}{119}
+\contentsline {paragraph}{Direct light reflex:}{119}
+\contentsline {paragraph}{Response:}{119}
+\contentsline {paragraph}{Indirect/ Consensual light reflex:}{119}
+\contentsline {paragraph}{Response:}{120}
+\contentsline {paragraph}{Response: [ \IeC {\textquotedblleft }3Cs\IeC {\textquotedblright }]}{120}
+\contentsline {chapter}{Examination Of Cranial Nerves (7-12)}{126}
+\contentsline {paragraph}{Muscles of facial expression}{126}
+\contentsline {paragraph}{Tests For Cochlear Function}{127}
+\contentsline {paragraph}{It consists of 3 components:}{129}
+\contentsline {paragraph}{It has motor and sensory components.}{129}

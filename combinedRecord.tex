@@ -3,7 +3,7 @@
 \usepackage{tocloft}
 \renewcommand{\cftsecafterpnum}{\quad\rule{1cm}{0.4pt}\quad\rule{2cm}{0.4pt}}
 \usepackage{tabularx}
-\usepackage[a4paper, left=1.5in,right=.7in,top=2cm,bottom=1.5cm,footskip=.5cm]{geometry}
+\usepackage[a4paper, left=1.35in,right=.7in,top=2cm,bottom=1.5cm,footskip=.5cm]{geometry}
 \usepackage{fancyhdr}
 \usepackage{csvsimple}
 \pagestyle{plain}
@@ -63,6 +63,27 @@
       \immediate\openout\tf@toc\jobname.toc\relax
 \makeatother
 
+\newcommand{\blankpageForCaseSheet}{
+	\newpage
+	\thispagestyle{empty}
+	%\mbox{}
+	\begin{center}
+		\huge Case Sheet 
+	\end{center}
+	\newpage
+	\thispagestyle{empty}
+	\mbox{}
+	}
+
+\newcommand{\blankpageForAnswers}{
+	\newpage
+	\thispagestyle{empty}
+	%\mbox{}
+	\begin{center}
+		\Large Space For Answers: 
+	\end{center}
+	}
+
 
 	\begin{document}
 	\pagenumbering{roman}
@@ -76,6 +97,15 @@
 	%-------CompoundMicroscope---{{{
 	\pagenumbering{arabic}
 
+	\clearpage
+	\addfig{%
+		\begin{figure}[h]
+			\centering
+			\includegraphics[scale=10]{./compoundMicroscope.jpg}
+			\caption*{\textbf{Compound Microscope}}
+			\label{compound microscope}
+		\end{figure}
+		}
 	\chapter*{\centering Compound Microscope}
 \addcontentsline{toc}{chapter}{Compound Microscope}
 
@@ -88,14 +118,6 @@
 	There are various types of microscope which use different types of lens and different principles of optics.
 	Compound microscope is one of the most frequently used equipment in a medical laboratory.\newline
 
-	\addfig{%
-		\begin{figure}[h]
-			\centering
-			\includegraphics[scale=10]{./compoundMicroscope.jpg}
-			\caption*{\textbf{Compound Microscope}}
-			\label{compound microscope}
-		\end{figure}
-		}
 
 		Physical terms:
 		\begin{itemize}
@@ -227,14 +249,6 @@
 			\end{enumerate}
 			%------}}}
 			%-----------Hemocytometer----{{{
-
-			\chapter*{\centering Hemocytometer}
-\addcontentsline{toc}{chapter}{Hemocytometer}
-
-			\begin{tabular}{p{4.5in} p{1in}}
-				\textbf{Exp No:}  & \textbf{Date:}\\
-			\end{tabular}
-
 			\addfig{%
 				\begin{figure}[h]
 					\centering
@@ -249,10 +263,18 @@
 					\label{chamber}
 				\end{figure}
 				}
+
+			\chapter*{\centering Hemocytometer}
+\addcontentsline{toc}{chapter}{Hemocytometer}
+
+			\begin{tabular}{p{4.5in} p{1in}}
+				\textbf{Exp No:}  & \textbf{Date:}\\
+			\end{tabular}
+
 				\addfig{%
 					\begin{figure}[h]
 						\centering
-							\includegraphics[scale=.5]{./grid.jpg}
+							\includegraphics[scale=.45]{./grid.jpg}
 						\caption*{\textbf{Neubauer Chamber's Counting Region}}
 						\label{grid}
 					\end{figure}
@@ -432,14 +454,22 @@
 
 
 					\section*{Calculation}
-					Number of RBCs in 5 medium sized RBC squares = n\newline\vspace{.4cm}
-					Area of 1 medium  sized RBC square =$\frac{1}{5}$ $\times$ $\frac{1}{5}$ = $\frac{1}{25}$ $mm^2$\newline\vspace{.4cm}
-					Volume of 1 medium sized RBC square = $\frac{1}{25}$ $\times$ $\frac{1}{10}$ = $\frac{1}{250}$ $mm^3$\newline\vspace{.4cm}
-					Volume of 5 medium sized RBC squares = $\frac{1}{250}$ $\times$ 5= $\frac{1}{50}$ $mm^3$\newline\vspace{.4cm}
-					Number of cells in  $\frac{1}{50}$ $mm^3$ of diluted blood  = n\newline\vspace{.4cm}
-					Number of cells in  1 $mm^3$  of diluted blood = 50 n\newline\vspace{.4cm}
-					Dilution factor = 1 : 200\newline\vspace{.4cm}
-					Number of cells in 1 $mm^3$ of un diluted blood 	= n $\times$ 50 $\times$ 200  \newline\vspace{.4cm}
+					\begin{tabbing}
+					Number of RBCs in 5 medium sized RBC squares \= = \= $\frac{1}{25}$ $\times$ $\frac{1}{15}$ \= = \= hellohow \kill\\
+					
+					Number of RBCs in 5 medium sized RBC squares \> = \> n\vspace{.4cm}  \\
+					\> \\
+					Area of 1 medium  sized RBC square \> = \>$\frac{1}{5}$ $\times$ $\frac{1}{5}$ \> = \> $\frac{1}{25}$ $mm^2$\newline\vspace{.4cm}\\
+					\> \\
+					Volume of 1 medium sized RBC square \> = \> $\frac{1}{25}$ $\times$ $\frac{1}{10}$\> =  \> $\frac{1}{250}$ $mm^3$\\
+					\> \\
+					Volume of 5 medium sized RBC squares \> = \> $\frac{1}{250}$ $\times$ 5 \> 			= \> $\frac{1}{50}$ $mm^3$\\
+					\> \\
+					Number of cells in  $\frac{1}{50}$ $mm^3$ of diluted blood  \> = \> n\\
+					Number of cells in  1 $mm^3$  of diluted blood \> = \> 50 n\\
+					Dilution factor \> = \> 1 : 200\newline\vspace{.4cm}\\
+					Number of cells in 1 $mm^3$ of un diluted blood 	\> = \> n $\times$ 50 $\times$ 200 \\
+					\end{tabbing}
 
 					\section*{Result}
 					RBC  count in the given  blood sample is $\rule{5cm}{0.5pt}$ cells / $mm^3$
@@ -454,6 +484,7 @@
 
 
 					\end{enumerate}
+					\blankpageForAnswers
 					%-----------}}}
 					%--------WBC count---{{{
 					\chapter*{\centering Estimation Of Total WBC Count}
@@ -479,16 +510,23 @@
 					Make a sterile finger prick and discard the 1st drop of blood. Draw blood up-to 0.5 mark and Turk’s fluid up-to 11 mark in the WBC pipette. Mix the contents thoroughly. Discard the first few drops and charge the Neubauer chamber. Allow the cells to settle for 3 to 4 minutes. Count the WBCs in the 4 corner large squares (WBC counting area) under high power objective.
 
 					\section*{Calculation}
+					\begin{tabbing}
+Number of cells in 1 $mm^3$ of un Diluted blood \= = \= n $\times$ $\frac{10}{4}$ $\times$ 20 \= = \= \kill\\
+					
 
-					Number of cells in 4 WBC squares = n\newline\vspace{.2cm}
-					Area of 1 WBC square = 	1$\times$ 1 	= 1 $mm^2$\newline\vspace{.2cm}
-					Volume of 1 WBC square	= 1$\times$ $\frac{1}{10}$ = $\frac{1}{10}$ $mm^3$\newline\vspace{.2cm}
-					Volume of 4 WBC squares =4$\times$ $\frac{1}{10}$ = $\frac{4}{10}$ $mm^3$\newline\vspace{.2cm}
-					Number of cells in $\frac{4}{10}$ $mm^3$ of Diluted blood 	= n \newline\vspace{.2cm}
-					Therefore, Number of cells in 1 $mm^3$ of Diluted blood = 	n $\times$ $\frac{10}{4}$\newline\vspace{.2cm}
-					Dilution Factor = 1 : 20\newline\vspace{.2cm}
-					Therefore, Number of cells in 1 $mm^3$ of Undiluted blood 	= n $\times$ $\frac{10}{4}$ $\times$ 20 =	n $\times$ 50\newline\vspace{.2cm}
-
+					Number of cells in 4 WBC squares \> = \> n \\
+					Area of 1 WBC square \> = \>	1$\times$ 1 \>	= \> 1 $mm^2$\\
+					Volume of 1 WBC square\>	= \> 1$\times$ $\frac{1}{10}$ \> = \> $\frac{1}{10}$ $mm^3$\\
+					\>\\
+					Volume of 4 WBC squares \> = \> 4$\times$ $\frac{1}{10}$ \> = \> $\frac{4}{10}$ $mm^3$\\
+					\> \\
+					Number of cells in $\frac{4}{10}$ $mm^3$ of Diluted blood 	\> = \> n \\
+					\> \\
+					Number of cells in 1 $mm^3$ of Diluted blood \> = \>  	n $\times$ $\frac{10}{4}$\\
+					Dilution Factor \> = \> 1 : 20\\
+					\> \\
+					Number of cells in 1 $mm^3$ of Undiluted blood \>	= \> n $\times$ $\frac{10}{4}$ $\times$ 20\>  =	\> n $\times$ 50\\
+					\end{tabbing}
 
 					\section *{Result}
 
@@ -506,6 +544,7 @@
 						\item{ What is Leucocytosis ?}
 						\item{ What is Leukemia?}
 					\end{enumerate}
+					\blankpageForAnswers
 					%----}}}
 					%------AEC---{{{
 					\chapter*{\centering Absolute Eosinophil Count}
@@ -527,15 +566,18 @@
 					\section*{Procedure}
 					Make a sterile finger prick and discard the first drop of blood. Draw blood up-to 1 and the Dunger’s fluid up-to mark 11 in a WBC pipette. Mix the contents thoroughly. Cover the pipette with a petri dish lined by moistened filter paper. Wait for 15 minutes. Discard the first few drops and charge the Neubauer chamber. The eosinophils are identified by the pinkish orange stained coarse granules in the cytoplasm. Count the Eosinophils in all the 9 large squares of the Neubauer chamber. Count within 30 minutes of charging .
 					\section*{Calculation}
-					Number of cells counted in 9 large squares				=	n\newline\vspace{.2cm}
-					Area of 1 large square				=	1 $\times$ 1		=	1$mm^2$	\newline\vspace{.2cm}
-					Volume of 1 large square				=	1 $\times$ $\frac{1}{10}$	=	$\frac{1}{10}$ $mm^3$\newline\vspace{.2cm}
-					Volume of 9 large square				=	9 $\times$ $\frac{1}{10}$	=	$\frac{9}{10}$ $mm^3$\newline\vspace{.2cm}
-					Number of cells in $\frac{9}{10}$ $mm^3$ of diluted blood				=	n\newline\vspace{.2cm}
-					Number of cells in 1 $mm^3$ of diluted blood				=	n $\times$ $\frac{10}{9}$\newline\vspace{.2cm}
-					Dilution factor								=	1:10\newline\vspace{.2cm}
-					Therefore, number of cells in 1 $mm^3$ of undiluted blood		=	n$\times$$\frac{10}{9}$$\times$10
-					=	n$\times$$\frac{100}{9}$
+					\begin{tabbing}
+Number of cells in 1 $mm^3$ of undiluted blood \= = \= n$\times$$\frac{10}{9}$$\times$10 \= = \= \kill\\
+
+					Number of cells counted in 9 large squares		\>		= \>	n\\
+					Area of 1 large square \>	= \>	1 $\times$ 1 \>		=	\> 1$mm^2$\\	
+					Volume of 1 large square \>				=	\> 1 $\times$ $\frac{1}{10}$ \>	= \>	$\frac{1}{10}$ $mm^3$\\
+					Volume of 9 large square \>			=	\> 9 $\times$ $\frac{1}{10}$ \>	= \>	$\frac{9}{10}$ $mm^3$\\
+					Number of cells in $\frac{9}{10}$ $mm^3$ of diluted blood			\>	= \>	n\\
+					Number of cells in 1 $mm^3$ of diluted blood \>				=	\> n $\times$ $\frac{10}{9}$\\
+					Dilution factor			\>					=	\> 1:10\\
+					Number of cells in 1 $mm^3$ of undiluted blood	\>	=	\> n$\times$$\frac{10}{9}$$\times$10 \> = \>	n$\times$$\frac{100}{9}$\\
+					\end{tabbing}
 					\section*{Result}
 
 					Absolute Eosinophil count in the given  blood sample is $\rule{3cm}{0.5pt}$ cells / $mm^3$
@@ -550,58 +592,23 @@
 						\item{What are the functions of eosinophils?}
 						\item{What are eosinopenia and eosinophilia?}
 					\end{enumerate}
+					\blankpageForAnswers
 					%-----}}}
-							%---------Hb---{{{
-							\chapter*{\centering Hemoglobin Estimation}
-\addcontentsline{toc}{chapter}{Hemoglobin Estimation}
-							\begin{tabular}{p{5in} p{1in}}
-								\textbf{Exp No:}  & \textbf{Date:}\\
-							\end{tabular}
-
-							\section*{Aim}
-
-							\addfig{%
-								\begin{figure}[h]
-									\centering
-									\includegraphics[scale=.25]{./hb.jpg}
-									\label{hb}
-									\caption*{\textbf{Sahli's Hemoglobinometer}}
-								\end{figure}
-								}
-								To estimate the hemoglobin content of the blood by Sahli’s acid hematin method.
-								\section*{Apparatus Required}
-								Sahli’s Hemoglobinometer, Hemoglobin pipette, $\frac{N}{10}$ HCl, Distilled water, Glass stirrer, Dropper, Lancet, Spirit and Cotton.
-								\section*{Principle}
-								The amount of hemoglobin in the blood can be estimated by converting a known volume of blood into acid hematin solution and matching the color of the acid hematin solution with that of the standard colour.
-								\section*{Description Of The Apparatus}
-								The hemoglobinometer is a rectangular cubic box consisting of a central compartment to accommodate the ‘Hemoglobin tube’ and two yellow brown coloured cylindrical rods on either side as comparators. The Hb tube is graduated in percentage on one side and in gram percentage on the other side.
-
-								The hemoglobin pipette has a single mark on the stem which corresponds to 0.02 $ml$ or 20 $mm^{3}$. A glass stirrer is provided for thorough mixing while diluting acid hematin solution.
-								\section*{Procedure}
-								\begin{enumerate}
-									\item{Fill the hemoglobin tube with $\frac{N}{10}$ HCl up-to its lowest mark (2 $g$\%).}
-									\item{Prick the finger under aseptic precautions to form an adequate drop of blood and suck blood into the hemoglobin pipette up-to 20 $mm^{3}$mark.}
-									\item{Gently wipe exterior of the tip of the pipette.}
-									\item{Insert the pipette into the hemoglobin tube containing $\frac{N}{10}$ HCl and blow out the blood. Rinse the pipette 2 or 3 times with the acid present in the tube.}
-									\item{Wait for 10 minutes for the formation of acid hematin.}
-									\item{Then, dilute the acid hematin by adding distilled water drop by drop and mix with the stirrer.}
-									\item{Continue dilution till its color matches with that of the standards on either side.}
-									\item{While matching, always take care to raise the stirrer above the level of the solution. Never take the stirrer out of the tube.}
-									\item{Note down the final reading. (Lower meniscus).}
-								\end{enumerate}
-								\section*{Result}
-								The Hb content of the given sample of blood is $\rule{5cm}{0.5pt}$ $g$\%
-								\section*{Questions}
-								\begin{enumerate}
-									\item{What are the other methods used to estimate Hb content of blood?}
-									\item{Which is the most reliable method for estimation of Hb?}
-									\item{What are the different types of normal Hb in adults?}
-									\item{Mention the names of abnormal hemoglobin.}
-									\item{What are the differences between adult Hb \& fetal Hb?}
-									\item{What are the different RBC indices? What are their clinical significance?}
-								\end{enumerate}
-								%-----}}}
 					%-----DC{{{
+					\addfig{%
+						\begin{figure}[h]
+							\centering
+							\includegraphics[scale=.50]{./smear1.jpg}
+							\label{smear1}
+							\vspace{3cm}
+							\includegraphics[scale=.50]{./smear2.jpg}
+							\label{smear2}
+							\vspace{1cm}
+							\includegraphics[scale=.50]{./smear3.jpg}
+							\caption*{\textbf{Zig - Zag movement of the slide for counting}}
+							\label{smear3}
+						\end{figure}
+						}
 					\chapter*{\centering Differential Count}
 \addcontentsline{toc}{chapter}{Differential Count}
 					\begin{tabular}{p{5in} p{1in}}
@@ -619,19 +626,6 @@
 
 					\section*{Procedure}
 
-					\addfig{%
-						\begin{figure}[h]
-							\centering
-							\includegraphics[scale=.50]{./smear1.jpg}
-							\label{smear1}
-							\vspace{3cm}
-							\includegraphics[scale=.50]{./smear2.jpg}
-							\label{smear2}
-							\vspace{1cm}
-							\includegraphics[scale=.50]{./smear3.jpg}
-							\label{smear3}
-						\end{figure}
-						}
 						Under aseptic precautions, prick the finger. Discard the first drop of blood. Place the slide on the table and support with left hand. Place the blood drop on the right end, one cm away from the edge. Place the spreader slide just in front of the blood drop. Draw the spreader slide backwards to touch the drop. The blood spreads across the edge of the spreader. Draw the spreader slide forward at an angle of 45$^{\circ}$ with a smooth, fast and firm movement to make a thin tongue shaped blood smear. Too thick, thin or a patchy smear is to be avoided. Air dry the smear quickly.
 
 						Place the glass slide with the smear on a tray and add Leishman’s stain, drop by drop till the entire smear is covered with the stain. Count the number of drops added. Note the time and wait for 2 minutes (Fixation time). After 2 minutes, add double the quantity of distilled water over the film using a dropper. See to that the distilled water uniformly covers the entire surface of the slide and dilutes the stain homogeneously. Gently blow the stain and the distilled water from one end of the slide to the other for uniform mixing. Wait for about 8-10 minutes for the smear to take up the stain uniformly (Staining time).
@@ -653,11 +647,18 @@
 
 							\section*{Result}
 							The differential count of WBCs in the blood sample is as follows.\vspace{.5cm}\\
-							Neutrophil = $\rule{5cm}{0.5pt}$ \%\vspace{.5cm}\\
-							Eosinophil = $\rule{5cm}{0.5pt}$ \%\vspace{.5cm}\\
-							Basophil = $\rule{5cm}{0.5pt}$ \%\vspace{.5cm}\\
-							Lymphocyte = $\rule{5cm}{0.5pt}$ \%\vspace{.5cm}\\
-							Monocyte =$\rule{5cm}{0.5pt}$ \%
+							\begin{tabbing}
+							Lymphocyte \= = \= $\rule{5cm}{0.5pt}$ \= \% \kill \\
+							Neutrophil \> = \> $\rule{5cm}{0.5pt}$ \> \%\\
+							\> \\
+							Eosinophil \> = \> $\rule{5cm}{0.5pt}$ \> \%\\
+							\> \\
+							Basophil \> = \> $\rule{5cm}{0.5pt}$ \> \%\\
+							\> \\
+							Lymphocyte \> = \> $\rule{5cm}{0.5pt}$ \> \%\\
+							\> \\
+							Monocyte \> =\> $\rule{5cm}{0.5pt}$ \> \%\\
+							\end{tabbing}
 
 							\section*{Questions}
 							\begin{enumerate}
@@ -729,9 +730,67 @@
 									\hline
 								\end{tabularx}	
 							\end{center}
+							\blankpageForAnswers
 							%------}}}
-								%-------BloodGrouping---{{{
+							%---------Hb---{{{
+							\addfig{%
+								\begin{figure}[h]
+									\centering
+									\includegraphics[scale=.25]{./hb.jpg}
+									\label{hb}
+									\caption*{\textbf{Sahli's Hemoglobinometer}}
+								\end{figure}
+								}
+							\chapter*{\centering Hemoglobin Estimation}
+\addcontentsline{toc}{chapter}{Hemoglobin Estimation}
+							\begin{tabular}{p{5in} p{1in}}
+								\textbf{Exp No:}  & \textbf{Date:}\\
+							\end{tabular}
 
+							\section*{Aim}
+
+								To estimate the hemoglobin content of the blood by Sahli’s acid hematin method.
+								\section*{Apparatus Required}
+								Sahli’s Hemoglobinometer, Hemoglobin pipette, $\frac{N}{10}$ HCl, Distilled water, Glass stirrer, Dropper, Lancet, Spirit and Cotton.
+								\section*{Principle}
+								The amount of hemoglobin in the blood can be estimated by converting a known volume of blood into acid hematin solution and matching the color of the acid hematin solution with that of the standard colour.
+								\section*{Description Of The Apparatus}
+								The hemoglobinometer is a rectangular cubic box consisting of a central compartment to accommodate the ‘Hemoglobin tube’ and two yellow brown coloured cylindrical rods on either side as comparators. The Hb tube is graduated in percentage on one side and in gram percentage on the other side.
+
+								The hemoglobin pipette has a single mark on the stem which corresponds to 0.02 $ml$ or 20 $mm^{3}$. A glass stirrer is provided for thorough mixing while diluting acid hematin solution.
+								\section*{Procedure}
+								\begin{enumerate}
+									\item{Fill the hemoglobin tube with $\frac{N}{10}$ HCl up-to its lowest mark (2 $g$\%).}
+									\item{Prick the finger under aseptic precautions to form an adequate drop of blood and suck blood into the hemoglobin pipette up-to 20 $mm^{3}$mark.}
+									\item{Gently wipe exterior of the tip of the pipette.}
+									\item{Insert the pipette into the hemoglobin tube containing $\frac{N}{10}$ HCl and blow out the blood. Rinse the pipette 2 or 3 times with the acid present in the tube.}
+									\item{Wait for 10 minutes for the formation of acid hematin.}
+									\item{Then, dilute the acid hematin by adding distilled water drop by drop and mix with the stirrer.}
+									\item{Continue dilution till its color matches with that of the standards on either side.}
+									\item{While matching, always take care to raise the stirrer above the level of the solution. Never take the stirrer out of the tube.}
+									\item{Note down the final reading. (Lower meniscus).}
+								\end{enumerate}
+								\section*{Result}
+								The Hb content of the given sample of blood is $\rule{5cm}{0.5pt}$ $g$\%
+								\section*{Questions}
+								\begin{enumerate}
+									\item{What are the other methods used to estimate Hb content of blood?}
+									\item{Which is the most reliable method for estimation of Hb?}
+									\item{What are the different types of normal Hb in adults?}
+									\item{Mention the names of abnormal hemoglobin.}
+									\item{What are the differences between adult Hb \& fetal Hb?}
+									\item{What are the different RBC indices? What are their clinical significance?}
+								\end{enumerate}
+								%-----}}}
+								%-------BloodGrouping---{{{
+								\addfig{%
+									\begin{figure}[h]
+										\centering
+										\includegraphics[scale=.8]{./bloodGrouping.jpg}
+										\label{bloodGrouping}
+										\caption*{\textbf{Blood Groups Showing Agglutination}}
+									\end{figure}
+									}
 								\chapter*{\centering Blood Grouping \& Typing}
 \addcontentsline{toc}{chapter}{Blood Grouping \& Typing}
 								\begin{tabular}{p{5in} p{1in}}
@@ -740,14 +799,6 @@
 
 								\section*{Aim}
 
-								\addfig{%
-									\begin{figure}[h]
-										\centering
-										\includegraphics[scale=1.2]{./bloodGrouping.jpg}
-										\label{bloodGrouping}
-										\caption*{\textbf{Blood Groups Showing Agglutination}}
-									\end{figure}
-									}
 									To determine the ABO blood group and Rh type of the given blood sample.
 									\section*{Apparatus Required}
 									Lancet, spirit, cotton, normal saline, clean white porcelain tile, glass marking pencil, anti-A serum, anti-B serum, anti-D serum, small sticks for mixing, glass slides, microscope.
@@ -783,12 +834,6 @@
 									\end{enumerate}
 									%---------------}}}
 									%----BleedingTime---{{{
-
-									\chapter*{\centering Estimation Of Bleeding Time}
-\addcontentsline{toc}{chapter}{Estimation Of Bleeding Time}
-									\begin{tabular}{p{5in} p{1in}}
-										\textbf{Exp No:}  & \textbf{Date:}\\
-									\end{tabular}
 									\addfig{%
 										\begin{figure}[h]
 											\centering
@@ -797,6 +842,12 @@
 											\caption*{\textbf{Estimation Of Bleeding Time}}
 										\end{figure}
 										}
+
+									\chapter*{\centering Estimation Of Bleeding Time}
+\addcontentsline{toc}{chapter}{Estimation Of Bleeding Time}
+									\begin{tabular}{p{5in} p{1in}}
+										\textbf{Exp No:}  & \textbf{Date:}\\
+									\end{tabular}
 
 										\section*{Aim}
 										To determine the bleeding time by Duke’s method
@@ -830,13 +881,6 @@
 										\end{enumerate}
 										%------------------------}}}
 										%------------ClottingTime---{{{
-										\chapter*{\centering Estimation Of Clotting Time}
-\addcontentsline{toc}{chapter}{Estimation Of Clotting Time}
-										\begin{tabular}{p{5in} p{1in}}
-											\textbf{Exp No:}  & \textbf{Date:}\\
-										\end{tabular}
-										\section*{Aim}
-
 										\addfig{%
 											\begin{figure}[h]
 												\centering
@@ -845,6 +889,13 @@
 												\caption*{\textbf{Estimation Of Clotting Time}}
 											\end{figure}
 											}
+										\chapter*{\centering Estimation Of Clotting Time}
+\addcontentsline{toc}{chapter}{Estimation Of Clotting Time}
+										\begin{tabular}{p{5in} p{1in}}
+											\textbf{Exp No:}  & \textbf{Date:}\\
+										\end{tabular}
+										\section*{Aim}
+
 											To determine the clotting time of blood by Wright’s capillary glass tube method.
 											\section*{Apparatus Required}
 											Capillary glass tube, lancet, spirit, cotton swabs \& stop watch.
@@ -882,6 +933,14 @@
 											\end{enumerate}
 											%--------}}}
 											%-----ESR------{{{
+											\addfig{%
+												\begin{figure}[h]
+													\centering
+													\includegraphics[scale=.5]{./esr.jpg}
+													\label{esr}
+													%\caption*{\textbf{Estimation Of Clotting Time}}
+												\end{figure}
+												}
 
 											\chapter*{\centering Estimation Of Erythrocyte Sedimentation Rate}
 \addcontentsline{toc}{chapter}{Estimation Of Erythrocyte Sedimentation Rate}
@@ -892,14 +951,6 @@
 											To determine the Erythrocyte Sedimentation Rate of the given blood sample.
 											\section*{Apparatus Required}
 
-											\addfig{%
-												\begin{figure}[h]
-													\centering
-													\includegraphics[scale=.5]{./esr.jpg}
-													\label{esr}
-													%\caption*{\textbf{Estimation Of Clotting Time}}
-												\end{figure}
-												}
 												Westergren’s pipette and stand, syringe with needle and 3.8\% sodium citrate solution (anticoagulant)
 
 												\section*{Principle}
@@ -940,15 +991,6 @@
 												\end{enumerate}
 												%------------------------}}}
 												%---PackedCellVolume-{{{
-
-												\chapter*{\centering Packed Cell Volume}
-\addcontentsline{toc}{chapter}{Packed Cell Volume}
-												\begin{tabular}{p{5in} p{1in}}
-													\textbf{Exp No:}  & \textbf{Date:}\\
-												\end{tabular}
-
-												\section*{Aim}
-
 												\addfig{%
 													\begin{figure}[h]
 														\centering
@@ -957,6 +999,14 @@
 														\caption*{\textbf{Estimation Of Packed Cell Volume }}
 													\end{figure}
 													}
+												\chapter*{\centering Packed Cell Volume}
+\addcontentsline{toc}{chapter}{Packed Cell Volume}
+												\begin{tabular}{p{5in} p{1in}}
+													\textbf{Exp No:}  & \textbf{Date:}\\
+												\end{tabular}
+
+												\section*{Aim}
+
 													To determine the packed cell volume of the given blood sample.
 													\section*{Apparatus Required}
 													Centrifuge, Hematocrit tube (Wintrobe tube), Pasteur pipette, syringe with needle and double oxalate or EDTA (anticoagulant).
@@ -983,15 +1033,7 @@
 														\item{What is the difference between arterial and venous blood hematocrit?}
 													\end{enumerate}
 													%-----------------}}}
-													%---------OsmoticFragility---{{{
-													\chapter*{\centering Osmotic Fragility}
-\addcontentsline{toc}{chapter}{Osmotic Fragility}
-													\begin{tabular}{p{5in} p{1in}}
-														\textbf{Exp No:}  & \textbf{Date:}\\
-													\end{tabular}
-
-													\section*{Aim}
-
+%---------OsmoticFragility---{{{
 													\addfig{%
 														\begin{figure}[h]
 															\centering
@@ -1000,6 +1042,14 @@
 															\caption*{\textbf{Estimation Of Osmotic Fragility}}
 														\end{figure}
 														}
+													\chapter*{\centering Osmotic Fragility}
+\addcontentsline{toc}{chapter}{Osmotic Fragility}
+													\begin{tabular}{p{5in} p{1in}}
+														\textbf{Exp No:}  & \textbf{Date:}\\
+													\end{tabular}
+
+													\section*{Aim}
+
 														To determine the osmotic fragility of red blood cells in the given sample of blood.
 														\section*{Apparatus Required}
 														Test tubes with rack, anticoagulated blood, NaCl, distilled water.
@@ -1017,10 +1067,9 @@
 															\item{Invert each tube gently once to mix blood with saline.}
 															\item{Leave the test tubes undisturbed for one hour. Then observe the extent of hemolysis in each tube by holding the rack at eye level, with a white paper sheet behind it.}
 														\end{enumerate}
-
-														%\begin{center}
+														%-----------------------t{{{
 															{\tiny {\csvautotabular{./osmoticFragility.csv}}}
-														%\end{center}
+%-----------------------t											
 														\section*{Interpretation}
 
 														\begin{itemize}
@@ -1043,7 +1092,14 @@
 														\end{enumerate}	
 														%----------------------------}}}
 														%--------------------------------SpecificGravity------------------------------{{{
-
+														\addfig{%
+															\begin{figure}[h]
+																\centering
+																\includegraphics[scale=.34]{./specificGravity.jpg}
+																\label{specificGravity}
+																\caption*{\textbf{Determination Of Specific Gravity}}
+															\end{figure}
+															}
 
 														\chapter*{\centering Specific Gravity}
 \addcontentsline{toc}{chapter}{Specific Gravity}
@@ -1058,14 +1114,6 @@
 
 														\section*{Apparatus Required}
 
-														\addfig{%
-															\begin{figure}[h]
-																\centering
-																\includegraphics[scale=.4]{./specificGravity.jpg}
-																\label{specificGravity}
-																\caption*{\textbf{Determination Of Specific Gravity}}
-															\end{figure}
-															}
 															Test tubes with rack, distilled water, anticoagulated blood, copper sulphate crystals (CuSO$_4$.5H$_2$O), beaker, measuring jar, Pasteur pipette
 															\section*{Principle}
 															The specific gravity of blood is determined by comparing the specific gravity of one drop of blood with that of copper sulphate solution of known specific gravity.
@@ -1098,19 +1146,11 @@
 																\item{What are the clinical applications of this method? }
 															\end{enumerate}
 															%----------------------------------------------------------------------------}}}
-														%-----------}}}
+															%---------------------}}}
 %-----Clinical Physiology------{{{
 															\part*{Clinical Physiology}
+															\clearpage
 %---------------GeneralExamination---{{{
-															\chapter*{\centering General Examination}
-\addcontentsline{toc}{chapter}{General Examination}
-
-															\begin{tabular}{p{4.5in} p{1in}}
-																\textbf{Exp No:}  & \textbf{Date:}\\
-															\end{tabular}
-															A thorough general examination is done before any systemic examination. Vital information such as name, age, sex, height, weight, occupation and address of the individual are recorded. The subject is comfortably seated. The room is well illuminated. It is always preferable to examine under good day light. The examiner should always be on the right side of the subject while examining.
-															\section*{The following observations are recorded:}
-															\section*{Level Of Consciousness}
 														\addfig{%
 															\begin{figure}[h]
 																\begin{subfigure}[t]{.23\textwidth}
@@ -1196,9 +1236,18 @@
 																	\caption{Pedal Edema}
 																	\label{PedalEdema}
 																\end{subfigure}
-																\caption*{General Examination}
+																\caption*{\textbf{General Examination}}
 															\end{figure}
 															}
+															\chapter*{\centering General Examination}
+\addcontentsline{toc}{chapter}{General Examination}
+
+															\begin{tabular}{p{4.5in} p{1in}}
+																\textbf{Exp No:}  & \textbf{Date:}\\
+															\end{tabular}
+															A thorough general examination is done before any systemic examination. Vital information such as name, age, sex, height, weight, occupation and address of the individual are recorded. The subject is comfortably seated. The room is well illuminated. It is always preferable to examine under good day light. The examiner should always be on the right side of the subject while examining.
+															\section*{The following observations are recorded:}
+															\section*{Level Of Consciousness}
 															The level of consciousness can be clear sensorium, drowsiness, stupor, semicoma and coma.
 															\section*{Orientation To Time, Place And Person}
 															Ask about the day, date, month, year and time of day. Subject should know where they are (e.g. home or hospital) Similarly test his orientation towards person.
@@ -1373,6 +1422,7 @@ It is the condition where there is accumulation of free fluid in the interstitia
 \item{What are the vital signs?}
 \end{enumerate}
 
+\iffalse
 \newpage
 
 \section*{\centering Case Sheet - General Examination Of The Subject}
@@ -1399,9 +1449,21 @@ It is the condition where there is accumulation of free fluid in the interstitia
 	\end{itemize}
 															\end{itemize}
 \textbf{Inference:}
+\fi
+
+\blankpageForCaseSheet
+\blankpageForAnswers
 %------------------General Examination---}}}
 %--------------Examination of Respiratory System--{{{
-
+															\addfig{%
+																%\vspace{\fill}
+																\begin{figure}[h]
+																	\centering
+																	\includegraphics[scale=.5]{./clinicalPhysioPic/AbnormalChestShapes.jpg}
+																	\caption*{\textbf{Abnormal Chest Shapes}}
+																	\label{AbnormalChestShapes}
+																\end{figure}
+																}
 															\chapter*{\centering Examination Of Respiratory System}
 \addcontentsline{toc}{chapter}{Examination Of Respiratory System}
 
@@ -1409,14 +1471,6 @@ It is the condition where there is accumulation of free fluid in the interstitia
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
 															\section*{Introduction}
-															\addfig{%
-																\begin{figure}
-																	\centering
-																	\includegraphics[scale=.5]{./clinicalPhysioPic/AbnormalChestShapes.jpg}
-																	\caption*{Abnormal Chest Shapes}
-																	\label{AbnormalChestShapes}
-																\end{figure}
-																}
 
 
 															\paragraph{Important Anatomical Landmarks:}
@@ -1465,7 +1519,7 @@ Ask the subject to sit on a stool with the chest and upper abdomen fully exposed
 \section*{Palpation}
 																\addfig{%
 																	\centering
-																	\begin{figure}
+																	\begin{figure}[h]
 																	\begin{subfigure}[t]{\textwidth}
 																		\centering
 																		\includegraphics[scale=.5]{./clinicalPhysioPic/trachelShift.jpg}
@@ -1626,6 +1680,9 @@ Examination of respiratory system is carried out in the following lung areas.
 \item{What are the normal breath sounds?}
 \item{What are Wheezes and Crackles?}
 \end{enumerate}
+
+\blankpageForCaseSheet
+\blankpageForAnswers
 %-------------------------}}}
 %------------Respiratory Efficiency test---{{{
 
@@ -1677,16 +1734,10 @@ Examination of respiratory system is carried out in the following lung areas.
 \item{ Define PEFR? What is the normal value?}
 \item{ What are the uses of Wright’s peak flow meter in clinical practice?}
 \end{enumerate}
+
+\blankpageForAnswers
 %----------------------------}}}
 %----------------Spirometery---------------{{{
-
-															\chapter*{\centering Spirometry}
-\addcontentsline{toc}{chapter}{Spirometry}
-
-															\begin{tabular}{p{4.5in} p{1in}}
-																\textbf{Exp No:}  & \textbf{Date:}\\
-															\end{tabular}
-															\section*{Aim:}
 \addfig{%
 	\begin{figure}[H]
 		\begin{subfigure}{\textwidth}
@@ -1696,7 +1747,7 @@ Examination of respiratory system is carried out in the following lung areas.
 			\label{Spirometer}
 		\end{subfigure}
 		\hspace{\fill}
-		\vspace{1cm}
+		\vspace{2cm}
 		\begin{subfigure}{\textwidth}
 			\centering
 			\includegraphics[scale=.5]{./clinicalPhysioPic/spirogram.jpg}
@@ -1705,6 +1756,14 @@ Examination of respiratory system is carried out in the following lung areas.
 		\end{subfigure}
 	\end{figure}
 	}
+
+															\chapter*{\centering Spirometry}
+\addcontentsline{toc}{chapter}{Spirometry}
+
+															\begin{tabular}{p{4.5in} p{1in}}
+																\textbf{Exp No:}  & \textbf{Date:}\\
+															\end{tabular}
+															\section*{Aim:}
 															To measure Tidal Volume, Expiratory Reserve Volume and Vital Capacity in the given subject.
 															\section*{Apparatus Required:}
 															Student’s Spirometer
@@ -1775,22 +1834,23 @@ Examination of respiratory system is carried out in the following lung areas.
 														 Define Dead space. Write a note on Anatomical and Physiological Dead space.
 
 														\end{enumerate}
+														\blankpageForAnswers
 														%---------}}}
 %---------Stethography----{{{
+\addfig{%
+	\centering
+	\begin{figure}[H]
+		\includegraphics[scale=.4]{./clinicalPhysioPic/stethography.jpg}
+		\caption*{\textbf{Stethography}}
+		\label{stethography}
+	\end{figure}
+	}
 															\chapter*{\centering Stethography}
 \addcontentsline{toc}{chapter}{Stethography}
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
 \section*{Aim:}
-\addfig{%
-	\centering
-	\begin{figure}[H]
-		\includegraphics[scale=.4]{./clinicalPhysioPic/stethography.jpg}
-		\caption*{Stethography}
-		\label{stethography}
-	\end{figure}
-	}
 To record Respiratory movements using Stethograph in the given subject.
 \section*{Apparatus Required:}
 Stethograph , Marey’s tambour, Kymograph, Stop watch, A glass of drinking water .
@@ -1846,6 +1906,7 @@ Stethograph consists of a corrugated rubber tube with one end sealed and the oth
 \item{Mention the changes in respiration following hyperventilation.}
 \item{What is Periodic breathing ? Give few examples.}
 \end{enumerate}
+\blankpageForAnswers
 %--------}}}
 %--------------------Examination of Arterial Pulse------{{{
 
@@ -1892,7 +1953,7 @@ Stethograph consists of a corrugated rubber tube with one end sealed and the oth
 			\label{dorsalisPedis}
 		\end{subfigure}
 		
-		\caption*{Examination Of Arterial Pulses}
+		\caption*{\textbf{Examination Of Arterial Pulses}}
 		\label{arterialPulses}
 	\end{figure}
 	}
@@ -1954,7 +2015,7 @@ When the interval between the pulse wave is constant, the pulse is said to be re
 	\centering
 	\begin{figure}[H]
 		\includegraphics[width = 15cm, height = 15cm]{./clinicalPhysioPic/jvp.jpg}
-		\caption*{Examination Of Jugular Venous Pulse \& Measurement of Jugular Venous Pressure}
+		\caption*{\textbf{Examination Of Jugular Venous Pulse \& Measurement of Jugular Venous Pressure}}
 		\label{jvp}
 	\end{figure}
 	}
@@ -2006,6 +2067,8 @@ Measurement of venous waves in the neck helps to determine the right atrial hich
 \item{What is pulsus paradoxus?}
 \item{What are the waves seen in JVP?}
 \end{enumerate}
+\blankpageForCaseSheet
+\blankpageForAnswers
 %-------------------------------------------------------------}}}
 %--------Examination of CVS----{{{
 															\chapter*{\centering Examination Of Cardiovascular System}
@@ -2028,7 +2091,7 @@ The cardiovascular system is examined to assess the functions of the heart and b
 \section*{Examination Of Precordium}
 \par
 Precordium is the anterior aspect of the chest wall overlying the heart. Examination of precordium is done under the following headings.
-\subsection*{Inspection:}
+\section*{Inspection:}
 \par
 \begin{itemize}
 \item{Examine the subject in sitting posture in good day light , stripped to the waist so as to expose the precordium fully.}
@@ -2043,7 +2106,15 @@ Precordium is the anterior aspect of the chest wall overlying the heart. Examina
 \item{	Inspect for any bulge in the precordium and any dilated and engorged superficial veins in the precordium. Precordial bulge is seen in congenital heart disease. Engorged veins indicate superior or inferior venacaval obstruction.}
 \end{itemize}
 
-\subsection*{Palpation}
+\section*{Palpation}
+\addfig{%
+	\begin{figure}[H]
+	\centering
+		\includegraphics[width=10cm,height=15cm]{./clinicalPhysioPic/auscultatingAreas.jpg}
+		\caption*{\textbf{Auscultating Areas}}
+		\label{auscultatingAreas}
+	\end{figure}
+	}
 
 \emph{( Refer Respiratory system for inspection and palpation of Tracheal position)}
 \begin{itemize}
@@ -2093,14 +2164,6 @@ Start percussion from the midaxillary line in the intercostals space where apica
 }
 \end{itemize}
 \section*{Auscultation:}
-\addfig{%
-	\begin{figure}
-	\centering
-		\includegraphics[width=10cm,height=15cm]{./clinicalPhysioPic/auscultatingAreas.jpg}
-		\caption*{Auscultating Areas}
-		\label{auscultatingAreas}
-	\end{figure}
-	}
 Auscultate with diaphragm of the stethoscope in the following area. 
 \begin{itemize}
 \item[]Mitral area: Corresponds to Apical impulse (left 5th intercostals space half an inch medial to midclavicular line.
@@ -2131,17 +2194,10 @@ The second heart sound may be split. Split S2 is better appreciated in thin indi
 \item{What are the characteristics of S1 and S2?}
 \item{What is pericardial effusion?}
 	      \end{enumerate}
+	      \blankpageForCaseSheet
+	      \blankpageForAnswers
 	      %--------------------------}}}
 	      %------------Recording of blood pressure ------{{{
-															\chapter*{\centering Recording of Blood Pressure}
-\addcontentsline{toc}{chapter}{Recording of Blood Pressure}
-															\begin{tabular}{p{5in} p{1in}}
-																\textbf{Exp No:}  & \textbf{Date:}\\
-															\end{tabular}
-															\section*{Definition:}
-
-															Blood pressure is the lateral pressure exerted by the column of  blood on the walls of the arteries.
-															\section*{Aim:}
 															\addfig{%
 																\centering
 																\begin{figure}[H]
@@ -2156,10 +2212,19 @@ The second heart sound may be split. Split S2 is better appreciated in thin indi
 	\subcaption{Aneroid Sphygmomanometer}
 																	\label{aneroid_manometer}
 																\end{subfigure}
-																\caption*{Types Of Sphygmomanometer}
+																	\caption*{\textbf{Types Of Sphygmomanometer}}
 																\label{Sphygmomanometer}
 																\end{figure}
 																}
+															\chapter*{\centering Recording of Blood Pressure}
+\addcontentsline{toc}{chapter}{Recording of Blood Pressure}
+															\begin{tabular}{p{5in} p{1in}}
+																\textbf{Exp No:}  & \textbf{Date:}\\
+															\end{tabular}
+															\section*{Definition:}
+
+															Blood pressure is the lateral pressure exerted by the column of  blood on the walls of the arteries.
+															\section*{Aim:}
 																
 To record the blood pressure of the given subject at rest.
 \section*{Apparatus required :}
@@ -2176,10 +2241,10 @@ The arterial BP is balanced against the pressure in the Riva Rocci cuff. Wheneve
 Subject is made to sit or lie down at ease on a couch. He is allowed to rest for few minutes .The Riva Rocci Cuff is wrapped around the middle of the arm so that the lower edge of the cuff is two finger breadths above the antecubital fossa. It should neither be too loose nor too tight. Zero level of the manometer should be checked. The cuff around the arm and the manometer are kept at the level of the heart to avoid the effect of gravity. Palpate the radial artery pulse.
 \par
 The pressure in the cuff is raised gradually until the radial pulse is no longer felt .The pressure at which the radial pulse disappears is noted .Now the pressure in the cuff is raised further and then slowly brought back by deflating the cuff. The pulse now reappears. The reading at which the pulse reappears is also noted .The disappearance and reappearance of the pulse coincides .This value is the approximate Systolic blood pressure.
-\subsection*{Auscultaory method:}
+\subsection*{Auscultatory method:}
 The chest piece of the stethoscope is placed on the brachial artery in the antecubital fossa .The pressure in the cuff is raised to 20 to 30 $mm$ Hg above the systolic blood pressure determined by the palpatory method. While auscultating the brachial artery, the pressure in the cuff is lowered gradually .The reading in the manometer at which faint tapping sound is heard, is noted down. This is the systolic blood pressure.
 \par
-As the pressure in the cuff is further lowered, the sound undergoes a series of changes both in quality and intensity. Note down the reading at which the auscultatory sounds disappear. This is the diastolic blood pressure .Sometimes muffling of sounds also can be taken as diastolic BP. The ausculatory sounds heard during measurement of Blood pressure are called korotkoff’s sounds.
+As the pressure in the cuff is further lowered, the sound undergoes a series of changes both in quality and intensity. Note down the reading at which the auscultatory sounds disappear. This is the diastolic blood pressure .Sometimes muffling of sounds also can be taken as diastolic BP. The auscultatory sounds heard during measurement of Blood pressure are called korotkoff’s sounds.
 \paragraph{Phases of koratkoff sounds :}
 \begin{itemize}
 \item[]Phase I : Faint ,tapping sound .
@@ -2282,22 +2347,23 @@ Systolic BP will show a rise due to increase in the heart rate and cardiac outpu
 \item{What are korotkoff’s sounds?}
 \item{What is postural hypotension?}
 \end{enumerate}
+\blankpageForAnswers
 %----------}}}
 %-----------------Examination of sensory system----{{{
-
-															\chapter*{\centering Examination Of Sensory System}
-\addcontentsline{toc}{chapter}{Examination Of Sensory System}
-															\begin{tabular}{p{5in} p{1in}}
-																\textbf{Exp No:}  & \textbf{Date:}\\
-															\end{tabular}
-															\section*{Pre-requisites for the examination}
 			\addfig{%
 				\centering
 				\begin{figure}[H]
 					\includegraphics[height=18cm,width=12cm]{./clinicalPhysioPic/sensoryIntruments.jpg}
 					\label{SensoryIntruments}
 				\end{figure}
-				}												\par									Before starting the procedure explain the nature of the test to be performed. Ask the subject to \textbf{close the eyes or turn the face to the other side whenever necessary.}
+				}
+															\chapter*{\centering Examination Of Sensory System}
+\addcontentsline{toc}{chapter}{Examination Of Sensory System}
+															\begin{tabular}{p{5in} p{1in}}
+																\textbf{Exp No:}  & \textbf{Date:}\\
+															\end{tabular}
+															\section*{Pre-requisites for the examination}
+				\par									Before starting the procedure explain the nature of the test to be performed. Ask the subject to \textbf{close the eyes or turn the face to the other side whenever necessary.}
 															\par
 Apply uniform sensory stimulus and examine dermatome wise on both sides.
 \paragraph{Following sensations are tested}
@@ -2311,6 +2377,40 @@ Apply uniform sensory stimulus and examine dermatome wise on both sides.
 \item{Romberg’s sign}
 \end{itemize}
 \subsection*{Tactile Sensation:}
+\addfig{%
+	\centering
+	\begin{figure}[H]
+		\begin{subfigure}[t]{.43\textwidth}
+			\centering
+			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/positionSense.jpg}
+			\subcaption{Position Sense}
+			\label{position sense}
+		\end{subfigure}
+		\hspace{\fill}
+		\begin{subfigure}[t]{.43\textwidth}
+			\centering
+			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/painSense.jpg}
+			\subcaption{Pain Sense}
+			\label{pain sense}
+		\end{subfigure}
+		\hspace{\fill}
+		\begin{subfigure}[t]{.43\textwidth}
+			\centering
+			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/twoPointDiscrimination.jpg}
+			\subcaption{Two Point Discrimination}
+			\label{twoPointDiscrimination}
+		\end{subfigure}
+		\hspace{\fill}
+		\begin{subfigure}[t]{.43\textwidth}
+			\centering
+			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/sensorySystem2.jpg}
+			\subcaption{Vibration Sense}
+			\label{vibrationSense}
+		\end{subfigure}
+		\caption*{Sensory System Examination}
+		
+	\end{figure}
+	}
 \subsubsection*{Fine touch (Light touch):}
 \begin{itemize}
 \item{ Ask the subject to say ‘yes’ or raise his finger when he perceives the sensation of touch.}
@@ -2363,40 +2463,6 @@ The appreciation of passive movement
 \item{Immediately place tuning fork on the corresponding bony prominence of the examiner. If the examiner can still perceive it, the subject's perception of vibration is impaired.}
 \end{itemize}
 \subsection*{Pain Sensation:}
-\addfig{%
-	\centering
-	\begin{figure}[H]
-		\begin{subfigure}[t]{.43\textwidth}
-			\centering
-			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/positionSense.jpg}
-			\subcaption{Position Sense}
-			\label{position sense}
-		\end{subfigure}
-		\hspace{\fill}
-		\begin{subfigure}[t]{.43\textwidth}
-			\centering
-			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/painSense.jpg}
-			\subcaption{Pain Sense}
-			\label{pain sense}
-		\end{subfigure}
-		\hspace{\fill}
-		\begin{subfigure}[t]{.43\textwidth}
-			\centering
-			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/twoPointDiscrimination.jpg}
-			\subcaption{Two Point Discrimination}
-			\label{twoPointDiscrimination}
-		\end{subfigure}
-		\hspace{\fill}
-		\begin{subfigure}[t]{.43\textwidth}
-			\centering
-			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/sensorySystem2.jpg}
-			\subcaption{Vibration Sense}
-			\label{vibrationSense}
-		\end{subfigure}
-		\caption*{Sensory System Examination}
-		
-	\end{figure}
-	}
 \subsubsection*{Superficial pain:}
 \begin{itemize}
 \item{Explain the procedure}
@@ -2450,11 +2516,6 @@ S.No. & \textbf{Senses}                                                         
 \end{tabular}
 \end{table}
 
-\section*{Inference :}
-\vspace{2in}
-
-
-
 \section*{Questions:}
 \begin{enumerate}
 \item{What is a dermatome?}
@@ -2467,6 +2528,8 @@ S.No. & \textbf{Senses}                                                         
 \item{What is astereognosis?}
 \end{enumerate}
 
+
+\iffalse															
 \newpage
 {\centering \paragraph{Clinical Examination of Sensory System}}
 															\begin{tabular}{p{3in} p{1in}}
@@ -2476,7 +2539,7 @@ S.No. & \textbf{Senses}                                                         
 															% Please add the following required packages to your document preamble:
 % \usepackage{multirow}
 % \usepackage{graphicx}
-															\renewcommand{\arraystretch}{2}
+\renewcommand{\arraystretch}{2}
 \begin{table}[H]
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
@@ -2497,6 +2560,9 @@ Romberg's sign                      & \multicolumn{8}{c|}{}                     
 }
 \end{table}
 \renewcommand{\arraystretch}{1}
+\fi
+\blankpageForCaseSheet
+\blankpageForAnswers
 %------------------------}}}
 %------------Examination of motor system-----------{{{
 															\chapter*{\centering Examination Of Motor System}
@@ -2578,7 +2644,7 @@ Examination of the motor system is carried out by assessing,
 			\includegraphics[width=4cm,height=5cm]{./clinicalPhysioPic/motorSystem/hipAbduction.jpg}
 			\subcaption{Testing hip Abductors}
 		\end{subfigure}
-		\caption*{Examination Of Muscle Power}
+		\caption*{\textbf{Examination Of Muscle Power}}
 	\end{figure}
 }
 \begin{itemize}
@@ -2652,7 +2718,7 @@ Examination of the motor system is carried out by assessing,
 			\subcaption{Testing hip Adductors}
 		\end{subfigure}
 		\hspace{\fill}
-			\caption*{Examination Of Muscle Power}
+			\caption*{\textbf{Examination Of Muscle Power}}
 		\end{figure}
 		}
 	\par
@@ -2818,22 +2884,22 @@ Pathological: Parkinsonism, cerebellar disorders, thyrotoxicosis,  	hypoglycaemi
 \item{What are the differences between UMN lesion and LMN lesion?}
 \item{List out the differences between spasticity and rigidity.}
 				\end{enumerate}
-\section*{Inference:}
-\vspace{.1in}
+\blankpageForCaseSheet
+\blankpageForAnswers
 %-------------------------------}}}
 %------------------Reflexes-----{{{
-															\chapter*{\centering Reflexes}
-\addcontentsline{toc}{chapter}{Reflexes}
-															\begin{tabular}{p{5in} p{1in}}
-																\textbf{Exp No:}  & \textbf{Date:}\\
-															\end{tabular}
-															\section*{Definition:}
 															\addfig{
 																\begin{figure}[H]
 																	\centering
 																	\includegraphics[width=10cm,height=15cm]{./clinicalPhysioPic/reflexes/reflexArc.jpg}
 																\end{figure}
 																}
+															\chapter*{\centering Reflexes}
+\addcontentsline{toc}{chapter}{Reflexes}
+															\begin{tabular}{p{5in} p{1in}}
+																\textbf{Exp No:}  & \textbf{Date:}\\
+															\end{tabular}
+															\section*{Definition:}
 Reflex is an automatic (involuntary) response to a stimulus. The response depends on the integrity of the reflex arc and is influenced by the higher centres.
 \paragraph{Components Of Reflex Arc:}
 \begin{enumerate}
@@ -2854,6 +2920,27 @@ To elicit superficial, deep and visceral reflexes in the subject.
 \section*{Apparatus Required:}
 Knee hammer, cotton swab.
 \section*{Superficial Reflexes: }
+\addfig{
+	\begin{figure}[H]
+		\begin{subfigure}[t]{.4\textwidth}
+			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/reflexes/cornealReflex.jpg}	
+			\subcaption{Corneal Reflex}
+		\end{subfigure}
+		\hspace{\fill}
+		\begin{subfigure}[t]{.4\textwidth}
+			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/reflexes/abdominalReflex.jpg}
+			\subcaption{Abdominal Reflex}	
+		\end{subfigure}
+		\hspace{\fill}
+		\begin{subfigure}[t]{\textwidth}
+			\centering
+			\includegraphics[width=10cm,height=5cm]{./clinicalPhysioPic/reflexes/plantarRelfex.jpg}	
+			\subcaption{Normal And Abnormal Plantar responses}
+		\end{subfigure}
+		\hspace{\fill}
+		\caption*{\textbf{Superficial Reflexes}}
+	\end{figure}
+}
 These are 'polysynaptic reflexes'.
 \begin{itemize}
 \item{Stimulus: Superficial structure. ( skin / mucous membrane)}
@@ -2889,27 +2976,6 @@ Ask the subject to lie in supine position with the muscles of lower limbs comple
 \end{itemize}
 \textbf{Abnormal Response:}\\
 "Extensor plantar response" manifested by
-\addfig{
-	\begin{figure}[H]
-		\begin{subfigure}[t]{.4\textwidth}
-			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/reflexes/cornealReflex.jpg}	
-			\subcaption{Corneal Reflex}
-		\end{subfigure}
-		\hspace{\fill}
-		\begin{subfigure}[t]{.4\textwidth}
-			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/reflexes/abdominalReflex.jpg}
-			\subcaption{Abdominal Reflex}	
-		\end{subfigure}
-		\hspace{\fill}
-		\begin{subfigure}[t]{\textwidth}
-			\centering
-			\includegraphics[width=10cm,height=5cm]{./clinicalPhysioPic/reflexes/plantarRelfex.jpg}	
-			\subcaption{Normal And Abnormal Plantar responses}
-		\end{subfigure}
-		\hspace{\fill}
-		\caption*{Superficial Reflexes}
-	\end{figure}
-}
 \begin{itemize}
 		\itemsep0em
 \item{Dorsiflexion of great toe with abduction and fanning out of other toes.}
@@ -2928,23 +2994,6 @@ Ask the subject to lie in supine position with the muscles of lower limbs comple
 \item{Cilio-spinal reflex: C8,Tl-T2.}
 \end{itemize}
 \section*{Deep Reflexes:}
-These are "monosynaptic reflexes", also called as "stretch reflexes".
-\begin{itemize}
-		\itemsep0em
-\item{Stimulus: Sudden stretch of muscle at the tendinous region}
-\item{Receptor: Muscle spindle}
-\item{Afferent: Sensory nerve component of mixed nerve}
-\item{Centre: Spinal cord}
-\item{Efferent: Motor nerve component of mixed nerve.}
-\end{itemize}
-\par
-When the tendon of a lightly stretched muscle, is struck by a single sharp blow with soft rubber hammer, the muscle contracts briefly. This is tendon or stretch reflex.
-\par
-Before performing the deep tendon reflexes, instruct the subject to keep the muscles relaxed. Expose the corresponding muscles to see for the contraction.
-\subsection*{Jaw jerk: (Afferent- V, Efferent- V, Centre-Pons)}
-	Ask the subject to let his jaw sag open slightly. Place the left thumb over the chin and tap with the knee hammer.\\
-\textbf{Response:} Closure of mouth.
-\subsection*{Biceps jerk: (C5, C6)}
 \addfig{
 	\begin{figure}[H]
 		\centering
@@ -2992,6 +3041,23 @@ Before performing the deep tendon reflexes, instruct the subject to keep the mus
 		\caption*{Deep Tendon Reflexes}
 	\end{figure}
 }
+These are "monosynaptic reflexes", also called as "stretch reflexes".
+\begin{itemize}
+		\itemsep0em
+\item{Stimulus: Sudden stretch of muscle at the tendinous region}
+\item{Receptor: Muscle spindle}
+\item{Afferent: Sensory nerve component of mixed nerve}
+\item{Centre: Spinal cord}
+\item{Efferent: Motor nerve component of mixed nerve.}
+\end{itemize}
+\par
+When the tendon of a lightly stretched muscle, is struck by a single sharp blow with soft rubber hammer, the muscle contracts briefly. This is tendon or stretch reflex.
+\par
+Before performing the deep tendon reflexes, instruct the subject to keep the muscles relaxed. Expose the corresponding muscles to see for the contraction.
+\subsection*{Jaw jerk: (Afferent- V, Efferent- V, Centre-Pons)}
+	Ask the subject to let his jaw sag open slightly. Place the left thumb over the chin and tap with the knee hammer.\\
+\textbf{Response:} Closure of mouth.
+\subsection*{Biceps jerk: (C5, C6)}
 Keep the elbow of the subject partially flexed and place the fore arm in a semi prone position, relaxing on the examiner's fore arm. Place the thumb over the biceps tendon and strike the thumb with the knee hammer.\\
 \textbf{Response:} (contraction of the biceps) flexion of the elbow.
 \subsection*{Triceps jerk: (C6, C7)}
@@ -3047,6 +3113,8 @@ The subject is questioned about any difficulty in swallowing, nasal regurgitatio
 \item{Why are deep tendon reflexes exaggerated in UMN and lost in LMN lesion?}
 \item{What is Jendrassik's sign?}
 \end{enumerate}
+\blankpageForCaseSheet
+\blankpageForAnswers
 %--------------------}}}
 %-------------Cerebellar Function Tests------{{{
 \chapter*{\centering Cerebellar Function Tests}
@@ -3144,6 +3212,8 @@ Normally he should be able to put a brake on the movement. In cerebellar lesions
 \item{ Name few other abnormal gaits.}
 \item{ What is Resting tremor?}
 											\end{enumerate}
+											\blankpageForCaseSheet
+											\blankpageForAnswers
 %---------------------------------------}}}
 %------------------------Cranial Nerves 1 to 6 ------{{{
 														\chapter*{\centering Examination Of Cranial Nerves (1-6)}
@@ -3153,10 +3223,10 @@ Normally he should be able to put a brake on the movement. In cerebellar lesions
 															\end{tabular}
 \section*{I Cranial Nerve – Olfactory Nerve (purely sensory)}
 \addfig{
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[height=15cm,width=10cm]{./clinicalPhysioPic/cranialNerves1_6/snellensChart.jpg}
-		\caption*{Snellen's Chart}
+		\caption*{\textbf{Snellen's Chart}}
 	\end{figure}
 }
 It serves the sense of olfaction.
@@ -3215,10 +3285,10 @@ A normal subject can recognize the substance with each nostril.
 			Perimeter is used to accurately map the peripheral field of vision
 			\subsection*{Colour vision}
 			\addfig{
-				\begin{figure}
+				\begin{figure}[h]
 					\centering
 					\includegraphics[width=12cm,height=15cm]{./clinicalPhysioPic/cranialNerves1_6/extraocularMuscles.jpg}
-					\caption*{Extraocular Muscles}
+					\caption*{\textbf{Extraocular Muscles}}
 				\end{figure}
 				}
 			\paragraph{Ishihara's chart:} The Ishihara's chart consists of series of lithographic colour plates which are printed with figures or designs in coloured circles on a background of differently coloured circles of the same size. The subject is asked to read numbers or trace the lines in each plate of the book.A person with defective colour vision will read a different number from the colour plate.
@@ -3318,6 +3388,8 @@ Ask the subject to let his jaw sag open slightly. Place the left thumb over t he
 \item{ What is ptosis?}
 \item{ Trace the pathway for light reflex.}
 \end{enumerate}
+\blankpageForCaseSheet
+\blankpageForAnswers
 %-----------------------}}}
 %--------------------Cranial Nerves 7 to 12--{{{
 														\chapter*{\centering Examination Of Cranial Nerves (7-12)}
@@ -3328,7 +3400,7 @@ Ask the subject to let his jaw sag open slightly. Place the left thumb over t he
 \section*{VII Cranial Nerve – Facial Nerve (Mixed nerve)}
 \addfig{
 	\centering
-	\begin{figure}
+	\begin{figure}[h]
 		\begin{subfigure}[t]{.48\textwidth}
 			\centering
 			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/cranialNerves7_12/7thNerve_1.jpg}
@@ -3359,7 +3431,7 @@ Ask the subject to let his jaw sag open slightly. Place the left thumb over t he
 			\subcaption{Bell's Palsy}
 		\end{subfigure}
 		\hspace{\fill}
-		\caption*{Examination Of The Motor Component Of The Facial Nerve}
+		\caption*{\textbf{Examination Of The Motor Component Of The Facial Nerve}}
 	\end{figure}
 }
 The seventh nerve consists of,
@@ -3469,7 +3541,7 @@ Look for Nystagmus (Involuntary, jerky, to and fro rhythmic movements of the eye
 \section*{IX Cranial Nerve – Glossopharyngeal Nerve (Mixed nerve)}
 \addfig{
 	\centering
-	\begin{figure}
+	\begin{figure}[h]
 		\begin{subfigure}[t]{.48\textwidth}
 			\centering
 			\includegraphics[width=7cm,height=5cm]{./clinicalPhysioPic/cranialNerves7_12/softPalate_1.jpg}
@@ -3488,7 +3560,7 @@ Look for Nystagmus (Involuntary, jerky, to and fro rhythmic movements of the eye
 			\subcaption{The Palate in X Nerve Palsy}
 		\end{subfigure}
 		\hspace{\fill}
-		\caption*{Examination Of Soft Palate and Palatine Reflex}
+		\caption*{\textbf{Examination Of Soft Palate and Palatine Reflex}}
 	\end{figure}
 }
 \paragraph{It consists of 3 components:}
@@ -3508,6 +3580,24 @@ Ask the subject to open his mouth wide and tickle the back of the pharynx with t
 \item{Baroreceptor function-Record the blood pressure of the subject in the supine position and immediately (within 15 seconds) on standing. A fall in systolic BP of more than 20mmHg is suggestive of orthostatic hypotension.}
 \end{itemize}
 
+\addfig{
+	\centering
+	\begin{figure}[h]
+		\begin{subfigure}[t]{.48\textwidth}
+			\centering
+			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/cranialNerves7_12/11thNerve_trapezius.jpg}
+			\subcaption{Examination of Trapezius}
+		\end{subfigure}
+		\hspace{\fill}
+		\begin{subfigure}[t]{.48\textwidth}
+			\centering
+			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/cranialNerves7_12/11thNerve_scm.jpg}
+			\subcaption{Examination of Sternocleidomastoid}
+		\end{subfigure}
+		\hspace{\fill}
+		\caption*{\textbf{Examination Of XI cranial nerve}}
+	\end{figure}
+}
 \section*{X Cranial Nerve – Vagus Nerve (Mixed nerve)}
 \paragraph{It has motor and sensory components.}
 \begin{itemize}
@@ -3527,24 +3617,6 @@ Ask the subject to open his mouth wide and tickle the back of the pharynx with t
 \item[]Baroreceptor function - Test for postural hypotension (refer 9th cranial nerve).
 \end{itemize}
 \section*{XI Cranial Nerve – Spinal Accessory Nerve (Purely motor) }
-\addfig{
-	\centering
-	\begin{figure}
-		\begin{subfigure}[t]{.48\textwidth}
-			\centering
-			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/cranialNerves7_12/11thNerve_trapezius.jpg}
-			\subcaption{Examination of Trapezius}
-		\end{subfigure}
-		\hspace{\fill}
-		\begin{subfigure}[t]{.48\textwidth}
-			\centering
-			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/cranialNerves7_12/11thNerve_scm.jpg}
-			\subcaption{Examination of Sternocleidomastoid}
-		\end{subfigure}
-		\hspace{\fill}
-		\caption*{Examination Of XI cranial nerve}
-	\end{figure}
-}
 The spinal part of the accessory nerve supplies sternocleidomastoid and trapezius muscle.
 
 \subsection*{Test for Sternocleidomastoid muscle:}
@@ -3576,13 +3648,9 @@ In UMN type of paralysis, the tongue may be small and spastic.
 \item{ How do you differentiate nerve deafness from conduction deafness by using Weber’s test?}
 \item{ What is Barany’s caloric test?}
 \end{enumerate}
+\blankpageForCaseSheet
+\blankpageForAnswers
 %-----------------------}}}
 	\end{document}
 %%%%%%%%%%%%%%%%%%%%%%%%
 %------------------}}}
-
-
-
-
-											    
-
