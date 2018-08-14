@@ -58,9 +58,15 @@
        \secdef\@part\@spart}
     \makeatother
 
+\makeatletter
+      \newwrite\tf@toc
+      \immediate\openout\tf@toc\jobname.toc\relax
+\makeatother
+
+
 	\begin{document}
 	\pagenumbering{roman}
-	{\tableofcontents}
+	\tableofcontents
 	%\pdfrender{StrokeColor=black,TextRenderingMode=2,LineWidth=0.1pt}
 	\afterpage{\blankpage}
 %-----------------------}}}
@@ -70,10 +76,10 @@
 	%-------CompoundMicroscope---{{{
 	\pagenumbering{arabic}
 
-\addcontentsline{toc}{chapter}{Compound Microscope}
 	\chapter*{\centering Compound Microscope}
+\addcontentsline{toc}{chapter}{Compound Microscope}
 
-	\begin{tabular}{p{5in} p{1in}}
+	\begin{tabular}{p{4.5in} p{1in}}
 		\textbf{Exp No:}  & \textbf{Date:}\\
 	\end{tabular}
 	\section*{Introduction}
@@ -225,7 +231,7 @@
 			\chapter*{\centering Hemocytometer}
 \addcontentsline{toc}{chapter}{Hemocytometer}
 
-			\begin{tabular}{p{5in} p{1in}}
+			\begin{tabular}{p{4.5in} p{1in}}
 				\textbf{Exp No:}  & \textbf{Date:}\\
 			\end{tabular}
 
@@ -400,7 +406,7 @@
 					\chapter*{\centering Estimation Of Total RBC Count}
 \addcontentsline{toc}{chapter}{Estimation Of Total RBC Count}
 
-					\begin{tabular}{p{5in} p{1in}}
+					\begin{tabular}{p{4.5in} p{1in}}
 						\textbf{Exp No:}  & \textbf{Date:}\\
 					\end{tabular}
 
@@ -453,7 +459,7 @@
 					\chapter*{\centering Estimation Of Total WBC Count}
 \addcontentsline{toc}{chapter}{Estimation Of Total WBC Count}
 
-					\begin{tabular}{p{5in} p{1in}}
+					\begin{tabular}{p{4.5in} p{1in}}
 						\textbf{Exp No:}  & \textbf{Date:}\\
 					\end{tabular}
 					\section *{Aim}
@@ -505,7 +511,7 @@
 					\chapter*{\centering Absolute Eosinophil Count}
 \addcontentsline{toc}{chapter}{Absolute Eosinophil Count}
 
-					\begin{tabular}{p{5in} p{1in}}
+					\begin{tabular}{p{4.5in} p{1in}}
 						\textbf{Exp No:}  & \textbf{Date:}\\
 					\end{tabular}
 
@@ -1099,7 +1105,7 @@
 															\chapter*{\centering General Examination}
 \addcontentsline{toc}{chapter}{General Examination}
 
-															\begin{tabular}{p{5in} p{1in}}
+															\begin{tabular}{p{4.5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
 															A thorough general examination is done before any systemic examination. Vital information such as name, age, sex, height, weight, occupation and address of the individual are recorded. The subject is comfortably seated. The room is well illuminated. It is always preferable to examine under good day light. The examiner should always be on the right side of the subject while examining.
@@ -1399,7 +1405,7 @@ It is the condition where there is accumulation of free fluid in the interstitia
 															\chapter*{\centering Examination Of Respiratory System}
 \addcontentsline{toc}{chapter}{Examination Of Respiratory System}
 
-															\begin{tabular}{p{5in} p{1in}}
+															\begin{tabular}{p{4.5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
 															\section*{Introduction}
@@ -1626,7 +1632,7 @@ Examination of respiratory system is carried out in the following lung areas.
 															\chapter*{\centering Respiratory Efficiency Test}
 \addcontentsline{toc}{chapter}{Respiratory Efficiency Test}
 
-															\begin{tabular}{p{5in} p{1in}}
+															\begin{tabular}{p{4.5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
 															\section*{Aim}
@@ -1677,7 +1683,7 @@ Examination of respiratory system is carried out in the following lung areas.
 															\chapter*{\centering Spirometry}
 \addcontentsline{toc}{chapter}{Spirometry}
 
-															\begin{tabular}{p{5in} p{1in}}
+															\begin{tabular}{p{4.5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
 															\section*{Aim:}
@@ -3572,6 +3578,7 @@ In UMN type of paralysis, the tongue may be small and spastic.
 \end{enumerate}
 %-----------------------}}}
 	\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%
 %------------------}}}
 
 
