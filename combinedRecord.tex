@@ -3,7 +3,7 @@
 \usepackage{tocloft}
 \renewcommand{\cftsecafterpnum}{\quad\rule{1cm}{0.4pt}\quad\rule{2cm}{0.4pt}}
 \usepackage{tabularx}
-\usepackage[a4paper, left=2in,right=.7in,top=2cm,bottom=1.5cm]{geometry}
+\usepackage[a4paper, left=1.5in,right=.7in,top=2cm,bottom=1.5cm,footskip=.5cm]{geometry}
 \usepackage{fancyhdr}
 \usepackage{csvsimple}
 \pagestyle{plain}
@@ -60,7 +60,7 @@
 
 	\begin{document}
 	\pagenumbering{roman}
-	%\tableofcontents
+	{\tableofcontents}
 	%\pdfrender{StrokeColor=black,TextRenderingMode=2,LineWidth=0.1pt}
 	\afterpage{\blankpage}
 %-----------------------}}}
@@ -69,8 +69,9 @@
 	\part*{Hematology}
 	%-------CompoundMicroscope---{{{
 	\pagenumbering{arabic}
-	\chapter*{\centering Compound Microscope}
+
 \addcontentsline{toc}{chapter}{Compound Microscope}
+	\chapter*{\centering Compound Microscope}
 
 	\begin{tabular}{p{5in} p{1in}}
 		\textbf{Exp No:}  & \textbf{Date:}\\
@@ -223,6 +224,7 @@
 
 			\chapter*{\centering Hemocytometer}
 \addcontentsline{toc}{chapter}{Hemocytometer}
+
 			\begin{tabular}{p{5in} p{1in}}
 				\textbf{Exp No:}  & \textbf{Date:}\\
 			\end{tabular}
@@ -543,6 +545,56 @@
 						\item{What are eosinopenia and eosinophilia?}
 					\end{enumerate}
 					%-----}}}
+							%---------Hb---{{{
+							\chapter*{\centering Hemoglobin Estimation}
+\addcontentsline{toc}{chapter}{Hemoglobin Estimation}
+							\begin{tabular}{p{5in} p{1in}}
+								\textbf{Exp No:}  & \textbf{Date:}\\
+							\end{tabular}
+
+							\section*{Aim}
+
+							\addfig{%
+								\begin{figure}[h]
+									\centering
+									\includegraphics[scale=.25]{./hb.jpg}
+									\label{hb}
+									\caption*{\textbf{Sahli's Hemoglobinometer}}
+								\end{figure}
+								}
+								To estimate the hemoglobin content of the blood by Sahli’s acid hematin method.
+								\section*{Apparatus Required}
+								Sahli’s Hemoglobinometer, Hemoglobin pipette, $\frac{N}{10}$ HCl, Distilled water, Glass stirrer, Dropper, Lancet, Spirit and Cotton.
+								\section*{Principle}
+								The amount of hemoglobin in the blood can be estimated by converting a known volume of blood into acid hematin solution and matching the color of the acid hematin solution with that of the standard colour.
+								\section*{Description Of The Apparatus}
+								The hemoglobinometer is a rectangular cubic box consisting of a central compartment to accommodate the ‘Hemoglobin tube’ and two yellow brown coloured cylindrical rods on either side as comparators. The Hb tube is graduated in percentage on one side and in gram percentage on the other side.
+
+								The hemoglobin pipette has a single mark on the stem which corresponds to 0.02 $ml$ or 20 $mm^{3}$. A glass stirrer is provided for thorough mixing while diluting acid hematin solution.
+								\section*{Procedure}
+								\begin{enumerate}
+									\item{Fill the hemoglobin tube with $\frac{N}{10}$ HCl up-to its lowest mark (2 $g$\%).}
+									\item{Prick the finger under aseptic precautions to form an adequate drop of blood and suck blood into the hemoglobin pipette up-to 20 $mm^{3}$mark.}
+									\item{Gently wipe exterior of the tip of the pipette.}
+									\item{Insert the pipette into the hemoglobin tube containing $\frac{N}{10}$ HCl and blow out the blood. Rinse the pipette 2 or 3 times with the acid present in the tube.}
+									\item{Wait for 10 minutes for the formation of acid hematin.}
+									\item{Then, dilute the acid hematin by adding distilled water drop by drop and mix with the stirrer.}
+									\item{Continue dilution till its color matches with that of the standards on either side.}
+									\item{While matching, always take care to raise the stirrer above the level of the solution. Never take the stirrer out of the tube.}
+									\item{Note down the final reading. (Lower meniscus).}
+								\end{enumerate}
+								\section*{Result}
+								The Hb content of the given sample of blood is $\rule{5cm}{0.5pt}$ $g$\%
+								\section*{Questions}
+								\begin{enumerate}
+									\item{What are the other methods used to estimate Hb content of blood?}
+									\item{Which is the most reliable method for estimation of Hb?}
+									\item{What are the different types of normal Hb in adults?}
+									\item{Mention the names of abnormal hemoglobin.}
+									\item{What are the differences between adult Hb \& fetal Hb?}
+									\item{What are the different RBC indices? What are their clinical significance?}
+								\end{enumerate}
+								%-----}}}
 					%-----DC{{{
 					\chapter*{\centering Differential Count}
 \addcontentsline{toc}{chapter}{Differential Count}
@@ -672,56 +724,6 @@
 								\end{tabularx}	
 							\end{center}
 							%------}}}
-							%---------Hb---{{{
-							\chapter*{\centering Hemoglobin Estimation}
-\addcontentsline{toc}{chapter}{Hemoglobin Estimation}
-							\begin{tabular}{p{5in} p{1in}}
-								\textbf{Exp No:}  & \textbf{Date:}\\
-							\end{tabular}
-
-							\section*{Aim}
-
-							\addfig{%
-								\begin{figure}[h]
-									\centering
-									\includegraphics[scale=.25]{./hb.jpg}
-									\label{hb}
-									\caption*{\textbf{Sahli's Hemoglobinometer}}
-								\end{figure}
-								}
-								To estimate the hemoglobin content of the blood by Sahli’s acid hematin method.
-								\section*{Apparatus Required}
-								Sahli’s Hemoglobinometer, Hemoglobin pipette, $\frac{N}{10}$ HCl, Distilled water, Glass stirrer, Dropper, Lancet, Spirit and Cotton.
-								\section*{Principle}
-								The amount of hemoglobin in the blood can be estimated by converting a known volume of blood into acid hematin solution and matching the color of the acid hematin solution with that of the standard colour.
-								\section*{Description Of The Apparatus}
-								The hemoglobinometer is a rectangular cubic box consisting of a central compartment to accommodate the ‘Hemoglobin tube’ and two yellow brown coloured cylindrical rods on either side as comparators. The Hb tube is graduated in percentage on one side and in gram percentage on the other side.
-
-								The hemoglobin pipette has a single mark on the stem which corresponds to 0.02 $ml$ or 20 $mm^{3}$. A glass stirrer is provided for thorough mixing while diluting acid hematin solution.
-								\section*{Procedure}
-								\begin{enumerate}
-									\item{Fill the hemoglobin tube with $\frac{N}{10}$ HCl up-to its lowest mark (2 $g$\%).}
-									\item{Prick the finger under aseptic precautions to form an adequate drop of blood and suck blood into the hemoglobin pipette up-to 20 $mm^{3}$mark.}
-									\item{Gently wipe exterior of the tip of the pipette.}
-									\item{Insert the pipette into the hemoglobin tube containing $\frac{N}{10}$ HCl and blow out the blood. Rinse the pipette 2 or 3 times with the acid present in the tube.}
-									\item{Wait for 10 minutes for the formation of acid hematin.}
-									\item{Then, dilute the acid hematin by adding distilled water drop by drop and mix with the stirrer.}
-									\item{Continue dilution till its color matches with that of the standards on either side.}
-									\item{While matching, always take care to raise the stirrer above the level of the solution. Never take the stirrer out of the tube.}
-									\item{Note down the final reading. (Lower meniscus).}
-								\end{enumerate}
-								\section*{Result}
-								The Hb content of the given sample of blood is $\rule{5cm}{0.5pt}$ $g$\%
-								\section*{Questions}
-								\begin{enumerate}
-									\item{What are the other methods used to estimate Hb content of blood?}
-									\item{Which is the most reliable method for estimation of Hb?}
-									\item{What are the different types of normal Hb in adults?}
-									\item{Mention the names of abnormal hemoglobin.}
-									\item{What are the differences between adult Hb \& fetal Hb?}
-									\item{What are the different RBC indices? What are their clinical significance?}
-								\end{enumerate}
-								%-----}}}
 								%-------BloodGrouping---{{{
 
 								\chapter*{\centering Blood Grouping \& Typing}
