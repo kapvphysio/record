@@ -37,27 +37,27 @@
 \contentsline {chapter}{Effects of Posture and Exercise on Blood Pressure}{167}
 \contentsline {chapter}{Examination Of Sensory System}{175}
 \contentsline {paragraph}{Following sensations are tested}{175}
-\contentsline {chapter}{Examination Of Motor System}{191}
-\contentsline {chapter}{Reflexes}{211}
-\contentsline {paragraph}{Components Of Reflex Arc:}{211}
-\contentsline {paragraph}{Types Of Reflexes:}{211}
-\contentsline {paragraph}{Clonus:}{217}
-\contentsline {paragraph}{Grading of reflexes:}{217}
-\contentsline {paragraph}{Reinforcement technique:}{217}
-\contentsline {paragraph}{For eliciting upper limb reflexes:}{217}
-\contentsline {paragraph}{For eliciting lower limbs reflexes:}{219}
-\contentsline {chapter}{Cerebellar Function Tests}{227}
-\contentsline {chapter}{Examination Of Cranial Nerves (1-6)}{239}
-\contentsline {paragraph}{Observation:}{241}
-\contentsline {paragraph}{Ishihara's chart:}{243}
-\contentsline {paragraph}{Holmgren\IeC {\textquoteright }s wool test:}{243}
-\contentsline {paragraph}{Direct light reflex:}{243}
-\contentsline {paragraph}{Response:}{243}
-\contentsline {paragraph}{Indirect/ Consensual light reflex:}{243}
-\contentsline {paragraph}{Response:}{245}
-\contentsline {paragraph}{Response: [ \IeC {\textquotedblleft }3Cs\IeC {\textquotedblright }]}{245}
-\contentsline {chapter}{Examination Of Cranial Nerves (7-12)}{257}
-\contentsline {paragraph}{Muscles of facial expression}{257}
-\contentsline {paragraph}{Tests For Cochlear Function}{259}
-\contentsline {paragraph}{It consists of 3 components:}{263}
-\contentsline {paragraph}{It has motor and sensory components.}{263}
+\contentsline {chapter}{Examination Of Motor System}{189}
+\contentsline {chapter}{Reflexes}{207}
+\contentsline {paragraph}{Components Of Reflex Arc:}{207}
+\contentsline {paragraph}{Types Of Reflexes:}{207}
+\contentsline {paragraph}{Clonus:}{213}
+\contentsline {paragraph}{Grading of reflexes:}{213}
+\contentsline {paragraph}{Reinforcement technique:}{213}
+\contentsline {paragraph}{For eliciting upper limb reflexes:}{213}
+\contentsline {paragraph}{For eliciting lower limbs reflexes:}{215}
+\contentsline {chapter}{Cerebellar Function Tests}{223}
+\contentsline {chapter}{Examination Of Cranial Nerves (1-6)}{235}
+\contentsline {paragraph}{Observation:}{237}
+\contentsline {paragraph}{Ishihara's chart:}{239}
+\contentsline {paragraph}{Holmgren\IeC {\textquoteright }s wool test:}{239}
+\contentsline {paragraph}{Direct light reflex:}{239}
+\contentsline {paragraph}{Response:}{239}
+\contentsline {paragraph}{Indirect/ Consensual light reflex:}{239}
+\contentsline {paragraph}{Response:}{241}
+\contentsline {paragraph}{Response: [ \IeC {\textquotedblleft }3Cs\IeC {\textquotedblright }]}{241}
+\contentsline {chapter}{Examination Of Cranial Nerves (7-12)}{253}
+\contentsline {paragraph}{Muscles of facial expression}{253}
+\contentsline {paragraph}{Tests For Cochlear Function}{255}
+\contentsline {paragraph}{It consists of 3 components:}{259}
+\contentsline {paragraph}{It has motor and sensory components.}{259}

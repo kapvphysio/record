@@ -4,10 +4,22 @@
 \usepackage{tocloft}
 \renewcommand{\cftsecafterpnum}{\quad\rule{1cm}{0.4pt}\quad\rule{2cm}{0.4pt}}
 \usepackage{tabularx}
-\usepackage[a4paper, left=1.45in,right=.7in,top=2cm,bottom=1.5cm,footskip=.5cm]{geometry}
+\usepackage[a4paper, left=1.45in,right=.7in,top=2cm,bottom=1.5cm,footskip=.15cm]{geometry}
 \usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancypagestyle{plain}{
+	\fancyhf{}
+	\fancyfoot[LE,RO]{\textbf{\thepage}}
+	\renewcommand{\headrulewidth}{0pt}
+	\renewcommand{\footrulewidth}{0pt}
+	}
+\fancyhead{}
+\fancyhead[LE,RO]{\textbf{\leftmark}}
+\fancyfoot{}
+\fancyfoot[LE,RO]{\textbf{\thepage}}
+%\renewcommand{\headrulewidth}{0pt}
 \usepackage{csvsimple}
-\pagestyle{plain}
+%\pagestyle{plain}
 \renewcommand{\chaptername}{Experiment}
 \usepackage[utf8]{inputenc}
 \usepackage{float}
@@ -73,23 +85,30 @@
 
 \newcommand{\blankpageForCaseSheet}{
 	\newpage
-	\thispagestyle{empty}
+	%\thispagestyle{empty}
+	\thispagestyle{plain}
 	%\mbox{}
+	%\iffalse
 	\begin{center}
 		\huge Case Sheet 
 	\end{center}
+	%\fi
 	\newpage
-	\thispagestyle{empty}
+	%\thispagestyle{empty}
+	\thispagestyle{plain}
 	\mbox{}
 	}
 
 \newcommand{\blankpageForAnswers}{
 	\newpage
-	\thispagestyle{empty}
+	%\thispagestyle{empty}
+	\thispagestyle{plain}
 	%\mbox{}
+	%\iffalse
 	\begin{center}
 		\Large Space For Answers: 
 	\end{center}
+	%\fi
 	}
 
 
@@ -116,7 +135,8 @@
 		}
 	\chapter*{\centering Compound Microscope}
 \addcontentsline{toc}{chapter}{Compound Microscope}
-
+%the following command in used to include the chapter title in header when the chapter command in used with chapter*
+\markboth{\uppercase{Compound Microscope}}{}
 	\begin{tabular}{p{4.5in} p{1in}}
 		\textbf{Exp No:}  & \textbf{Date:}\\
 	\end{tabular}
@@ -274,6 +294,7 @@
 
 			\chapter*{\centering Hemocytometer}
 \addcontentsline{toc}{chapter}{Hemocytometer}
+\markboth{\uppercase{Hemocytometer}}{}
 
 			\begin{tabular}{p{4.5in} p{1in}}
 				\textbf{Exp No:}  & \textbf{Date:}\\
@@ -341,7 +362,7 @@
 
 					\subsection*{RBC pipette}
 					\begin{itemize}
-
+						\itemsep0em
 						\item{Markings are 0.5, 1.0 and 101}
 						\item{The capillary bore is narrow}
 						\item{Bulb is larger and has a red bead}
@@ -350,6 +371,7 @@
 
 					\subsection*{WBC pipette:}
 					\begin{itemize}
+						\itemsep0em
 						\item{Markings are 0.5, 1.0 and 11}
 						\item{The capillary bore is wider}
 						\item{Bulb is smaller and has a white bead}
@@ -359,6 +381,7 @@
 
 					\subsection*{Finger Prick}
 					\begin{itemize}
+							\itemsep0em
 						\item{Clean the tip of the finger with spirit and allow the area to dry.}
 						\item{Prick the tip of finger with the lancet, deep enough to get a good drop of blood.}
 						\item{Don’t squeeze the finger pulp after pricking as this leads to the seepage of tissue fluid resulting in dilution of the blood.}
@@ -367,6 +390,7 @@
 
 					\subsection*{Filling The Pipette}
 					\begin{itemize}
+							\itemsep0em
 
 						\item{Under aseptic precautions prick the finger and wipe away the first drop and allow the flowing blood to form a good sized drop.}
 						\item{Hold the pipette horizontally and dip its end into the blood drop. Gently suck blood up-to 0.5 or 1.0 mark depending on the dilution required.}
@@ -379,6 +403,7 @@
 
 					\subsection*{Precautions}
 					\begin{itemize}
+							\itemsep0em
 
 						\item{The pipette must be dry and free from clotted blood and the bead must roll freely in the bulb.}
 						\item{The tip must not press against the finger or be lifted out of the blood drop or else air will enter it.}
@@ -390,6 +415,7 @@
 
 					\subsection*{Focusing The Counting Grid}
 					\begin{itemize}
+							\itemsep0em
 
 						\item{	Focus the counting grid with low power and then high power objective.}
 						\item{	The lines of the squares must be seen clearly.}
@@ -397,6 +423,7 @@
 
 					\subsection*{Charging The Chamber}
 					\begin{itemize}
+							\itemsep0em
 
 						\item{	 Place the coverslip on the central platform of the chamber covering the ruled squares.}
 						\item{	 Discard the stem fluid before charging the chamber as it contains only the diluting fluid.}
@@ -411,6 +438,7 @@
 
 					\subsection*{Precautions}
 					\begin{itemize}
+							\itemsep0em
 
 						\item{	 The chamber and the coverslip should be properly cleaned.}
 						\item{	 The contents of the bulb must be thoroughly mixed before charging.}
@@ -421,6 +449,7 @@
 
 					\subsection*{Cell Counting}
 					\begin{itemize}
+							\itemsep0em
 
 						\item{	 Count the cells in the respective squares.}
 						\item{	 Care should be taken not to count the same cells again by following L rule. (Count the cells present inside the square and those on the left and lower lines. Ignore those on the right and upper lines).}
@@ -439,6 +468,7 @@
 					%-------RBCcount---{{{
 					\chapter*{\centering Estimation Of Total RBC Count}
 \addcontentsline{toc}{chapter}{Estimation Of Total RBC Count}
+\markboth{\uppercase{Estimation Of Total RBC Count}}{}
 
 					\begin{tabular}{p{4.5in} p{1in}}
 						\textbf{Exp No:}  & \textbf{Date:}\\
@@ -452,6 +482,7 @@
 
 					\section*{Hayem's Fluid - composition}
 					\begin{itemize}
+							\itemsep0em
 
 						\item{		Sodium chloride - 0.5 g	- Maintains isotonicity}
 						\item{		Sodium bisulphate - 2.5 g - Prevents aggregation  of RBCs (Rouleaux formation)}
@@ -467,7 +498,7 @@
 
 					\section*{Calculation}
 					\begin{tabbing}
-					Number of RBCs in 5 medium sized RBC squares \= = \= $\frac{1}{25}$ $\times$ $\frac{1}{15}$ \= = \= hellohow \kill\\
+					Number of RBCs in 5 medium sized RBC squares \= = \= n$\frac{1}{25}$ $\times$ $\frac{1}{15}$ $\times$ 200 \= = \= hellohow \kill\\
 					
 					Number of RBCs in 5 medium sized RBC squares \> = \> n\vspace{.4cm}  \\
 					\> \\
@@ -501,6 +532,7 @@
 					%--------WBC count---{{{
 					\chapter*{\centering Estimation Of Total WBC Count}
 \addcontentsline{toc}{chapter}{Estimation Of Total WBC Count}
+\markboth{\uppercase{Estimation Of Total WBC Count}}{}
 
 					\begin{tabular}{p{4.5in} p{1in}}
 						\textbf{Exp No:}  & \textbf{Date:}\\
@@ -561,6 +593,7 @@ Number of cells in 1 $mm^3$ of un Diluted blood \= = \= n $\times$ $\frac{10}{4}
 					%------AEC---{{{
 					\chapter*{\centering Absolute Eosinophil Count}
 \addcontentsline{toc}{chapter}{Absolute Eosinophil Count}
+\markboth{\uppercase{Absolute Eosinophil Count}}{}
 
 					\begin{tabular}{p{4.5in} p{1in}}
 						\textbf{Exp No:}  & \textbf{Date:}\\
@@ -623,6 +656,7 @@ Number of cells in 1 $mm^3$ of undiluted blood \= = \= n$\times$$\frac{10}{9}$$\
 						}
 					\chapter*{\centering Differential Count}
 \addcontentsline{toc}{chapter}{Differential Count}
+\markboth{\uppercase{Differential Count}}{}
 					\begin{tabular}{p{5in} p{1in}}
 						\textbf{Exp No:}  & \textbf{Date:}\\
 					\end{tabular}
@@ -755,6 +789,7 @@ Number of cells in 1 $mm^3$ of undiluted blood \= = \= n$\times$$\frac{10}{9}$$\
 								}
 							\chapter*{\centering Hemoglobin Estimation}
 \addcontentsline{toc}{chapter}{Hemoglobin Estimation}
+\markboth{\uppercase{Hemoglobin Estimation}}{}
 							\begin{tabular}{p{5in} p{1in}}
 								\textbf{Exp No:}  & \textbf{Date:}\\
 							\end{tabular}
@@ -772,6 +807,7 @@ Number of cells in 1 $mm^3$ of undiluted blood \= = \= n$\times$$\frac{10}{9}$$\
 								The hemoglobin pipette has a single mark on the stem which corresponds to 0.02 $ml$ or 20 $mm^{3}$. A glass stirrer is provided for thorough mixing while diluting acid hematin solution.
 								\section*{Procedure}
 								\begin{enumerate}
+										\itemsep0em
 									\item{Fill the hemoglobin tube with $\frac{N}{10}$ HCl up-to its lowest mark (2 $g$\%).}
 									\item{Prick the finger under aseptic precautions to form an adequate drop of blood and suck blood into the hemoglobin pipette up-to 20 $mm^{3}$mark.}
 									\item{Gently wipe exterior of the tip of the pipette.}
@@ -805,6 +841,7 @@ Number of cells in 1 $mm^3$ of undiluted blood \= = \= n$\times$$\frac{10}{9}$$\
 									}
 								\chapter*{\centering Blood Grouping \& Typing}
 \addcontentsline{toc}{chapter}{Blood Grouping \& Typing}
+\markboth{\uppercase{Blood Grouping \& Typing}}{}
 								\begin{tabular}{p{5in} p{1in}}
 									\textbf{Exp No:}  & \textbf{Date:}\\
 								\end{tabular}
@@ -857,6 +894,7 @@ Number of cells in 1 $mm^3$ of undiluted blood \= = \= n$\times$$\frac{10}{9}$$\
 
 									\chapter*{\centering Estimation Of Bleeding Time}
 \addcontentsline{toc}{chapter}{Estimation Of Bleeding Time}
+\markboth{\uppercase{Estimation Of Bleeding Time}}{}
 									\begin{tabular}{p{5in} p{1in}}
 										\textbf{Exp No:}  & \textbf{Date:}\\
 									\end{tabular}
@@ -903,6 +941,7 @@ Number of cells in 1 $mm^3$ of undiluted blood \= = \= n$\times$$\frac{10}{9}$$\
 											}
 										\chapter*{\centering Estimation Of Clotting Time}
 \addcontentsline{toc}{chapter}{Estimation Of Clotting Time}
+\markboth{\uppercase{Estimation Of Clotting Time}}{}
 										\begin{tabular}{p{5in} p{1in}}
 											\textbf{Exp No:}  & \textbf{Date:}\\
 										\end{tabular}
@@ -956,6 +995,7 @@ Number of cells in 1 $mm^3$ of undiluted blood \= = \= n$\times$$\frac{10}{9}$$\
 
 											\chapter*{\centering Estimation Of Erythrocyte Sedimentation Rate}
 \addcontentsline{toc}{chapter}{Estimation Of Erythrocyte Sedimentation Rate}
+\markboth{\uppercase{Estimation Of Erythrocyte Sedimentation Rate}}{}
 											\begin{tabular}{p{5in} p{1in}}
 												\textbf{Exp No:}  & \textbf{Date:}\\
 											\end{tabular}
@@ -1013,6 +1053,7 @@ Number of cells in 1 $mm^3$ of undiluted blood \= = \= n$\times$$\frac{10}{9}$$\
 													}
 												\chapter*{\centering Packed Cell Volume}
 \addcontentsline{toc}{chapter}{Packed Cell Volume}
+\markboth{\uppercase{Packed Cell Volume}}{}
 												\begin{tabular}{p{5in} p{1in}}
 													\textbf{Exp No:}  & \textbf{Date:}\\
 												\end{tabular}
@@ -1056,6 +1097,7 @@ Number of cells in 1 $mm^3$ of undiluted blood \= = \= n$\times$$\frac{10}{9}$$\
 														}
 													\chapter*{\centering Osmotic Fragility}
 \addcontentsline{toc}{chapter}{Osmotic Fragility}
+\markboth{\uppercase{Osmotic Fragility}}{}
 													\begin{tabular}{p{5in} p{1in}}
 														\textbf{Exp No:}  & \textbf{Date:}\\
 													\end{tabular}
@@ -1115,6 +1157,7 @@ Number of cells in 1 $mm^3$ of undiluted blood \= = \= n$\times$$\frac{10}{9}$$\
 
 														\chapter*{\centering Specific Gravity}
 \addcontentsline{toc}{chapter}{Specific Gravity}
+\markboth{\uppercase{Specific Gravity}}{}
 \addtocontents{toc}{\protect\newpage}
 
 														\begin{tabular}{p{5in} p{1in}}
@@ -1255,10 +1298,12 @@ Number of cells in 1 $mm^3$ of undiluted blood \= = \= n$\times$$\frac{10}{9}$$\
 
 															\chapter*{\centering General Examination}
 \addcontentsline{toc}{chapter}{General Examination}
+\markboth{\uppercase{General Examination}}{}
 
 															\begin{tabular}{p{4.5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
+															\par
 															A thorough general examination is done before any systemic examination. Vital information such as name, age, sex, height, weight, occupation and address of the individual are recorded. The subject is comfortably seated. The room is well illuminated. It is always preferable to examine under good day light. The examiner should always be on the right side of the subject while examining.
 															\section*{The following observations are recorded:}
 															\section*{Level Of Consciousness}
@@ -1277,9 +1322,9 @@ Number of cells in 1 $mm^3$ of undiluted blood \= = \= n$\times$$\frac{10}{9}$$\
 																\item{\textbf{Sites of recording temperature:}}
 																	\begin{itemize}%Sites of recording temperature:]
 																		\itemsep0em
-																		\item{Mouth ( 36.6$^{\circ}$C to 37.2C$^{\circ}$C )}
-																		\item{Axilla ( 0.5 $^{\circ}$C lower than oral temperature )}
-																		\item{Rectum ( 0.5 $^{\circ}$C higher than oral temperature – Closer to core temperature )}
+																		\item{Mouth (36.6$^{\circ}$C to 37.2$^{\circ}$C)}
+																		\item{Axilla (0.5 $^{\circ}$C lower than oral temperature)}
+																		\item{Rectum (0.5 $^{\circ}$C higher than oral temperature – Closer to core temperature)}
 																	\end{itemize}
 															\end{itemize}
 
@@ -1480,6 +1525,7 @@ It is the condition where there is accumulation of free fluid in the interstitia
 																}
 															\chapter*{\centering Examination Of Respiratory System}
 \addcontentsline{toc}{chapter}{Examination Of Respiratory System}
+\markboth{\uppercase{Examination Of Respiratory System}}{}
 
 															\begin{tabular}{p{4.5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
@@ -1489,6 +1535,7 @@ It is the condition where there is accumulation of free fluid in the interstitia
 
 															\paragraph{Important Anatomical Landmarks:}
 															\begin{itemize}
+																	\itemsep0em
 \item{Midclavicular line – a vertical line that extends downwards from the midpoint between the middle of the suprasternal notch and the tip of the acromion.}
 \item{Anterior axillary line – a vertical line extending downwards from the anterior axillary fold.}
 \item{Posterior axillary line – a vertical line extending downwards from the posterior axillary fold.}
@@ -1500,8 +1547,10 @@ Examination of the respiratory system consists of Inspection, Palpation, Percuss
 \section*{Inspection}
 Ask the subject to sit on a stool with the chest and upper abdomen fully exposed.
 \begin{enumerate}
+		\itemsep0em
 \item{\textbf{Shape and symmetry of the chest}}
 	\begin{itemize}
+			\itemsep0em
 \item{Examine both the front and back of the chest.}
 \item{Look for any skeletal deformities and drooping of shoulder.}
 \item{Normal chest is bilaterally symmetrical and elliptical in cross section.}
@@ -1515,6 +1564,7 @@ Ask the subject to sit on a stool with the chest and upper abdomen fully exposed
 	\end{itemize}
 	\end{itemize}
 \item{\textbf{Position of Trachea}}
+	\itemsep0em
 	\begin{itemize}
 \item{Stand in front of the subject. Ask the subject to look straight. Observe for any deviation of trachea. Normally, it is in the midline or slightly deviated to the right.}
 \item{Look for any prominence of the sternocleidomastoid muscle. If it is prominent on one side, it indicates tracheal deviation to that side. This is TRIAL’S sign.}
@@ -1702,6 +1752,7 @@ Examination of respiratory system is carried out in the following lung areas.
 
 															\chapter*{\centering Respiratory Efficiency Test}
 \addcontentsline{toc}{chapter}{Respiratory Efficiency Test}
+\markboth{\uppercase{Respiratory Efficiency Test}}{}
 
 															\begin{tabular}{p{4.5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
@@ -1773,6 +1824,7 @@ Examination of respiratory system is carried out in the following lung areas.
 
 															\chapter*{\centering Spirometry}
 \addcontentsline{toc}{chapter}{Spirometry}
+\markboth{\uppercase{Spirometry}}{}
 
 															\begin{tabular}{p{4.5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
@@ -1802,19 +1854,13 @@ Examination of respiratory system is carried out in the following lung areas.
 																	\end{itemize}
 																\item{															\textbf{Vital Capacity :} The maximum volume of air that can be forcibly expired after maximum inspiration}
 																\begin{itemize}
+																		\itemsep0em
 \item{															Set the pointer at zero}
 \item{															Ask the subject to take a few normal breaths with nostrils closed}
 \item{															Ask the subject to inspire to the maximum and then to expire forcefully and completely into the mouthpiece}
 \item{															Record the reading as Vital Capacity}
 															\end{itemize}
 															\end{enumerate}
-
-															\section*{Result}
-														\begin{itemize}
-														\item[]	Tidal Volume						=\rule{5cm}{.5pt}	
-\item[]		Expiratory Reserve Volume				=\rule{5cm}{.5pt}
-\item[]			Vital Capacity						=\rule{5cm}{.5pt}	
-														\end{itemize}
 
 														\section*{Observations}
 
@@ -1837,8 +1883,27 @@ Examination of respiratory system is carried out in the following lung areas.
 	\hline
 \end{tabular}
 \end{table}
+
+															\section*{Result}
+															\vspace{-7mm}
+															\begin{tabbing}
+																Expiratory Reserve Volume \= = \= \rule{5cm}{.5pt}\kill\\
+																Tidal Volume \> = \> \rule{5cm}{.5pt}\\
+																Expiratory Reserve Volume \> = \> \rule{5cm}{.5pt}\\
+																Vital Capacity \> = \> \rule{5cm}{.5pt}\\
+															\end{tabbing}
+															\iffalse
+														\begin{itemize}
+																\itemsep0em
+														\item[]	Tidal Volume						=\rule{5cm}{.5pt}	
+\item[]		Expiratory Reserve Volume				=\rule{5cm}{.5pt}
+\item[]			Vital Capacity						=\rule{5cm}{.5pt}	
+														\end{itemize}
+														\fi
+
 														\section*{Questions :}
 														\begin{enumerate}
+																\itemsep0em
 \item{														 What are the factors affecting Vital Capacity ?}
 \item{														 Name the volumes and capacities that cannot be measured directly using Student’s Spirometer.}
 \item{														 What is Breathing Reserve ?}
@@ -1861,6 +1926,7 @@ Examination of respiratory system is carried out in the following lung areas.
 	}
 															\chapter*{\centering Stethography}
 \addcontentsline{toc}{chapter}{Stethography}
+\markboth{\uppercase{Stethography}}{}
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
@@ -1926,6 +1992,7 @@ Stethograph consists of a corrugated rubber tube with one end sealed and the oth
 
 															\chapter*{\centering Examination of the Arterial Pulse}
 \addcontentsline{toc}{chapter}{Examination of the Arterial Pulse}
+\markboth{\uppercase{Examination of the Arterial Pulse}}{}
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
@@ -2087,6 +2154,7 @@ Measurement of venous waves in the neck helps to determine the right atrial hich
 %--------Examination of CVS----{{{
 															\chapter*{\centering Examination Of Cardiovascular System}
 \addcontentsline{toc}{chapter}{Examination Of Cardiovascular System}
+\markboth{\uppercase{Examination Of Cardiovascular System}}{}
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
@@ -2232,6 +2300,7 @@ The second heart sound may be split. Split S2 is better appreciated in thin indi
 																}
 															\chapter*{\centering Recording of Blood Pressure}
 \addcontentsline{toc}{chapter}{Recording of Blood Pressure}
+\markboth{\uppercase{Recording of Blood Pressure}}{}
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
@@ -2287,6 +2356,7 @@ It gives a rough value of systolic blood pressure, It helps to avoid missing of 
 %------------Effect of posture and exercise on BP--{{{
 															\chapter*{\centering Effects of Posture and Exercise on	Blood Pressure}
 \addcontentsline{toc}{chapter}{Effects of Posture and Exercise on	Blood Pressure}
+\markboth{\uppercase{Effects of Posture and Exercise on	Blood Pressure}}{}
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
@@ -2373,6 +2443,7 @@ Systolic BP will show a rise due to increase in the heart rate and cardiac outpu
 				}
 															\chapter*{\centering Examination Of Sensory System}
 \addcontentsline{toc}{chapter}{Examination Of Sensory System}
+\markboth{\uppercase{Examination Of Sensory System}}{}
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
@@ -2427,6 +2498,7 @@ Apply uniform sensory stimulus and examine dermatome wise on both sides.
 	}
 \subsubsection*{Fine touch (Light touch):}
 \begin{itemize}
+		\itemsep0em
 \item{ Ask the subject to say ‘yes’ or raise his finger when he perceives the sensation of touch.}
 \item{ With a wisp of cotton wool, lightly touch the different parts of the body and compare with the corresponding area on the opposite side dermatome wise}
 \item{ Also enquire whether he perceives it normally or differently.}
@@ -2435,12 +2507,14 @@ Apply uniform sensory stimulus and examine dermatome wise on both sides.
 
 \subsubsection*{Crude touch (Pressure sense):}
 \begin{itemize}
+		\itemsep0em
 \item{Pressure is the sustained touch sensation.}
 \item{Elicit the pressure sensation by pressing with your finger tip on 	corresponding areas of both sides dermatome wise}
 \end{itemize}
 
 \subsubsection*{Tactile localisation:}
 \begin{itemize}
+		\itemsep0em
 \item{It is the ability to localise the touch with a ball pen tip.}
 \item{Measure the distance between the two points (localisation distance).  Tested in all dermatomes on both sides.}
 \item{Localisation distance varies in different parts of the body. It corresponds with the density of touch receptors.}
@@ -2448,6 +2522,7 @@ Apply uniform sensory stimulus and examine dermatome wise on both sides.
 
 \subsubsection*{Two point discrimination:}
 \begin{itemize}
+		\itemsep0em
 \item{Instruction is given to the subject to say whether he feels the touch as one point or two points when he is touched by a compass aesthesiometer}
 \item{Start with minimum distance of 1$mm$, touch the skin of the subject lightly with the two points simultaneously.}
 \item{Ask the subject to say whether he is being touched by one or two points.}
@@ -2457,6 +2532,7 @@ Apply uniform sensory stimulus and examine dermatome wise on both sides.
 \par
 (Minimum separable distance varies in different parts of the body - about 2$mm$ on finger tips, 5$mm$ on hands and maximum on the back of the trunk which is about 5$cm$. This is due to the difference in distribution of sensory receptive fields.)
 \begin{itemize}
+		\itemsep0em
 \item[]Anaesthesia 	– loss of all sensations
 \item[]Hypoaesthesia 	– Reduced touch sensation
 \item[]Hyperaesthesia 	- When the response to the sensory stimulus is exaggerated.  eg.thalamic lesion
@@ -2472,13 +2548,15 @@ The appreciation of passive movement
 (Movements of less than 10${^\circ}$ are appreciated at all the normal joints).
 \subsection*{Vibration Sense: (to be done with eyes closed)}
 \begin{itemize}
-\item{over bony prominences like styloid process of the radius ,the lower end of the tibia, and medial or l ateral malleolus.}
+		\itemsep0em
+\item{Over bony prominences like styloid process of the radius ,the lower end of the tibia, and medial or l ateral malleolus.}
 \item{Ask the subject if he perceives vibrations and instruct him to raise his hand when he ceases to feel the vibration.}
 \item{Immediately place tuning fork on the corresponding bony prominence of the examiner. If the examiner can still perceive it, the subject's perception of vibration is impaired.}
 \end{itemize}
 \subsection*{Pain Sensation:}
 \subsubsection*{Superficial pain:}
 \begin{itemize}
+		\itemsep0em
 \item{Explain the procedure}
 \item{Elicit superficial pain by gently pricking the skin with a pin}
 \item{Ask the subject if he perceives the pain}
@@ -2487,12 +2565,14 @@ The appreciation of passive movement
 \subsubsection*{Deep pain:}
 	Elicit Deep pain by squeezing the deeper structures such as the muscle or the tendon. It can also be quantified using Algometer.
 	\begin{itemize}
+			\itemsep0em
 \item{Analgesia is loss of pain sensation}
 \item{Hypoalgesia is partial loss of pain sensibility}
 \item{Hyperalgesia is a condition of exaggerated sensibility to pain}
 	\end{itemize}
 	\subsection*{Thermal Sense:}
 	\begin{itemize}
+			\itemsep0em
 \item{Take two test tubes containing warm and cold water separately}
 \item{Give proper instructions to the subject (to say whether he feels cold or warm when touched with different glass tubes)}
 \item{Place the bottom of the test tubes on the skin of the subject each ‘in turn or randomly’ and ask the subject to say what he feels}
@@ -2500,6 +2580,7 @@ The appreciation of passive movement
 	\end{itemize}
 	\subsection*{Stereognosis:}
 \begin{itemize}
+		\itemsep0em
 \item{Place a familiar object in subject’s hand}
 \item{The subject should identify the object by its shape,texture, size, etc and should tell what it is}
 \item{Repeat the procedure with 4 to 5 familiar objects}
@@ -2532,6 +2613,7 @@ S.No. & \textbf{Senses}                                                         
 
 \section*{Questions:}
 \begin{enumerate}
+		\itemsep0em
 \item{What is a dermatome?}
 \item{Name the receptors for pain.}
 \item{What are the types of pain?}
@@ -2581,12 +2663,14 @@ Romberg's sign                      & \multicolumn{8}{c|}{}                     
 %------------Examination of motor system-----------{{{
 															\chapter*{\centering Examination Of Motor System}
 \addcontentsline{toc}{chapter}{Examination Of Motor System}
+\markboth{\uppercase{Examination Of Motor System}}{}
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
 															\section*{Introduction}
 Examination of the motor system is carried out by assessing,
 \begin{itemize}
+		\itemsep0em
 \item{Nutrition or bulk of the muscle}
 \item{Tone of the muscle}
 \item{Power or strength of the muscle}
@@ -2598,11 +2682,13 @@ Examination of the motor system is carried out by assessing,
 
 \section*{Nutrition Or Bulk Of The Muscle:}
 \begin{itemize}
+		\itemsep0em
 \item{Inspect the different groups of muscles of the body on both sides for any wasting or contractures.}
 \item{Palpate the muscles and feel for the consistency. Atrophic muscle appears smaller and feels soft and flabby. Hypertrophic muscle appears bulky and are firm in consistency.}
 \item{Bulk of the muscle is assessed by measuring the circumference of the limbs at point of maximum bulk with reference to a definite bony landmark using an inch tape.}
 \item{Bony landmarks}
 	\begin{itemize}
+			\itemsep0em
 		\item[]Upper limb 	–	Arm circumference with reference to acromian or olecranon 			process. Forearm circumference with reference to olecranon 			process.
 		\item[]Lower limb 	–	Thigh and leg circumference with reference to tibial 				tuberosity. 
 	\end{itemize}
@@ -2612,6 +2698,7 @@ Examination of the motor system is carried out by assessing,
 \section*{Tone:}
 	Muscle tone is a state of partial contraction of muscle at rest.
 	\begin{itemize}
+			\itemsep0em
 \item{Ask the subject to keep the limb relaxed. Hold the limb and do passive movements on various joints and observe the degree of resistance offered by the muscle.}
 \item{The degree of resistance offered by the muscle indicates the tone of the muscle.}
 \item{Compare the tone of the muscles on both sides.}
@@ -2619,12 +2706,14 @@ Examination of the motor system is carried out by assessing,
 	\par
 	Hypertonia is increase in muscle tone. It is seen in upper motor neuron lesions. It is of two types: spasticity and rigidity.
 	\begin{itemize}
+			\itemsep0em
 		\item{\textbf{Spasticity:} Hypertonia of the corticospinal tract lesion is of Clasp knife type and it involves one group of muscles either the agonist or the antagonist muscles. It is maximum in the flexors of the upper limb and extensors of the lower limb.}
 		\item{\textbf{Rigidity:} Hypertonia of the extrapyramidal tracts lesion, involves both the agonist and the antagonist muscles. In Cog wheel rigidity, the resistance offered is intermittent. In Lead pipe rigidity, the resistance is felt throughout the range of movement.}
 	\end{itemize}
 	Hypotonia is decrease in muscle tone. It is seen in lower motor neuron lesions. Eg: Poliomyelitis and cerebellar lesions.
 	\section*{Power Or Strength Of The Muscles:}
 	\begin{itemize}
+			\itemsep0em
 \item{Expose the muscle to be tested. Ask the subject to perform the movement as instructed and offer resistance. Observe the contraction of the muscle. Compare strength of same group of muscle on the other side}
 \item{The strength of the muscle is assessed by comparing the  strength of the examiner.}
 	\end{itemize}
@@ -2707,6 +2796,7 @@ Examination of the motor system is carried out by assessing,
 
 
 	\subsection*{Testing muscles of the upper limb:}
+
 	\begin{enumerate}
 \item{ Abductor pollicis brevis:
 	\par
@@ -2781,7 +2871,6 @@ Ask the subject to push forward his hands against a wall. If there is paralysis 
 Ask the subject to clasp his hands behind his back while the examiner stands behind him and offers passive resistance.
 }	
 \end{enumerate}
-\subsection*{Muscles	of	the	trunk:}	
 
 	\addfig{
 		\begin{figure}[H]
@@ -2806,6 +2895,8 @@ Ask the subject to clasp his hands behind his back while the examiner stands beh
 			\caption*{\textbf{Examination Of Muscle Power}}
 		\end{figure}
 		}
+\subsection*{Muscles	of	the	trunk:}	
+
 \subsubsection*{Abdominal muscles:}
 	With the subject in supine position, ask the subject to lift up his head against resistance. In paralysis of lower abdominal segment, umbilicus moves up. When the upper segment is paralysed umbilicus is pulled down. This is called Beevor's sign.
 	\par
@@ -2814,8 +2905,10 @@ Ask the subject to clasp his hands behind his back while the examiner stands beh
 	Ask the subject to lie with his face down and to raise his head from the bed by extending his neck and the back. Muscles of the back stand out prominently.
 \subsection*{Muscles of lower limb:}
 \begin{enumerate}
+		\itemsep0em
 \item{Muscles of foot and toes:}
 \begin{itemize}
+		\itemsep0em
 	\item{Dorsi-flexors and plantar flexors of the feet and toes:
 		\par
 Ask the subject to dorsiflex and plantarflex the distal foot against resistance.
@@ -2867,6 +2960,7 @@ With the lower limbs extended on the bed, ask the subject to rotate the limb out
 \section*{Gait:}
 Ask the subject to walk barefoot in a straight line, and to turn round at a given point and then to come back. While walking, observe whether he walks in a straight line and if he deviates in any direction. Observe for automatic associated movements. .
 \begin{itemize}
+		\itemsep0em
 \item{Festinant gait in Parkinson's disease.}
 \item{Waddling gait in muscular dystrophy and myopathies.}
 \item{High stepping gait in common peroneal nerve palsy.}
@@ -2912,6 +3006,7 @@ Pathological: Parkinsonism, cerebellar disorders, thyrotoxicosis,  	hypoglycaemi
 																}
 															\chapter*{\centering Reflexes}
 \addcontentsline{toc}{chapter}{Reflexes}
+\markboth{\uppercase{Reflexes}}{}
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
@@ -3135,6 +3230,7 @@ The subject is questioned about any difficulty in swallowing, nasal regurgitatio
 %-------------Cerebellar Function Tests------{{{
 \chapter*{\centering Cerebellar Function Tests}
 \addcontentsline{toc}{chapter}{Cerebellar Function Tests}
+\markboth{\uppercase{Cerebellar Function Tests}}{}
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
@@ -3234,6 +3330,7 @@ Normally he should be able to put a brake on the movement. In cerebellar lesions
 %------------------------Cranial Nerves 1 to 6 ------{{{
 														\chapter*{\centering Examination Of Cranial Nerves (1-6)}
 \addcontentsline{toc}{chapter}{Examination Of Cranial Nerves (1-6)}
+\markboth{\uppercase{Examination Of Cranial Nerves (1-6)}}{}
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
@@ -3388,9 +3485,6 @@ Ask the subject to let his jaw sag open slightly. Place the left thumb over t he
 \textbf{Response:} Closure of mouth.\\
 \textbf{Afferent \& Efferent} – 5th   cranial nerve.
 
-\section*{Inference:}
-\vspace{1in}
-
 \section*{Questions:}
 \begin{enumerate}
 \item{ Trace the pathway for smell.}
@@ -3446,6 +3540,7 @@ Ask the subject to let his jaw sag open slightly. Place the left thumb over t he
 }
 														\chapter*{\centering Examination Of Cranial Nerves (7-12)}
 \addcontentsline{toc}{chapter}{Examination Of Cranial Nerves (7-12)}
+\markboth{\uppercase{Examination Of Cranial Nerves (7-12)}}{}
 															\begin{tabular}{p{5in} p{1in}}
 																\textbf{Exp No:}  & \textbf{Date:}\\
 															\end{tabular}
