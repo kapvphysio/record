@@ -1,9 +1,10 @@
 %-----------preamble-------{{{
-\documentclass[a4paper,12pt,openany,oneside]{book}
+%\documentclass[a4paper,12pt,openany,oneside]{book}
+\documentclass[a4paper,12pt,openany,twoside]{book}
 \usepackage{tocloft}
 \renewcommand{\cftsecafterpnum}{\quad\rule{1cm}{0.4pt}\quad\rule{2cm}{0.4pt}}
 \usepackage{tabularx}
-\usepackage[a4paper, left=1.35in,right=.7in,top=2cm,bottom=1.5cm,footskip=.5cm]{geometry}
+\usepackage[a4paper, left=1.45in,right=.7in,top=2cm,bottom=1.5cm,footskip=.5cm]{geometry}
 \usepackage{fancyhdr}
 \usepackage{csvsimple}
 \pagestyle{plain}
@@ -28,16 +29,23 @@
 \makeatletter
 \newcommand\@addfig{\relax}
 \newcommand\addfig[1]{\global\long\def\@addfig{#1}}
-\newcommand\@putfig{\@addfig\addfig{\relax}}
+\newcommand\@putfig{%
+	%\newgeometry{left=.7in,right=1.45in}
+	\@addfig\addfig{\relax}
+	%\restoregeometry
+	}
 \newcommand\blankpage{%
+	%\newgeometry{left=.7in,right=1.45in}
 	\null
 	\vfill
 	\@putfig%
 	\vfill
 	\thispagestyle{empty}% BEWARE, if you want the header and footer, you should put the correct style here
 	\clearpage%
-	\addtocounter{page}{-1}% BEWARE, if you want the left pages to be numbered, don't put this line, this is intended to have picture page with the same number as the facing text page
-	\afterpage{\blankpage}}
+	%\addtocounter{page}{-1}% BEWARE, if you want the left pages to be numbered, don't put this line, this is intended to have picture page with the same number as the facing text page
+	\afterpage{\blankpage}
+	%\restoregeometry
+	}
 	\makeatother
 
     \makeatletter
@@ -271,14 +279,6 @@
 				\textbf{Exp No:}  & \textbf{Date:}\\
 			\end{tabular}
 
-				\addfig{%
-					\begin{figure}[h]
-						\centering
-							\includegraphics[scale=.45]{./grid.jpg}
-						\caption*{\textbf{Neubauer Chamber's Counting Region}}
-						\label{grid}
-					\end{figure}
-					}
 
 
 					\section*{Introduction}
@@ -301,6 +301,16 @@
 					\end{itemize}
 
 					\section*{RBC counting squares}
+
+				\addfig{%
+					\begin{figure}[h]
+						\centering
+							\includegraphics[scale=.45]{./grid.jpg}
+						\caption*{\textbf{Neubauer Chamber's Counting Region}}
+						\label{grid}
+					\end{figure}
+					}
+
 					\begin{itemize}
 
 						\item{The 1$mm^2$ central RBC square is divided into 25 medium sized squares by triple lines. The four corner and central medium sized squares are used for RBC count.}
@@ -312,6 +322,8 @@
 						\item{Volume of each smallest square = $\frac{1}{20}$ $\times$ $\frac{1}{20}$ $\times$ $\frac{1}{10}$ = $\frac{1}{4000}$ $mm^3$.}
 
 					\end{itemize}
+
+
 
 					\section*{Pipettes}
 					The pipettes are used to dilute the blood to a known dilution.
@@ -1151,6 +1163,7 @@ Number of cells in 1 $mm^3$ of undiluted blood \= = \= n$\times$$\frac{10}{9}$$\
 															\part*{Clinical Physiology}
 															\clearpage
 %---------------GeneralExamination---{{{
+
 														\addfig{%
 															\begin{figure}[h]
 																\begin{subfigure}[t]{.23\textwidth}
@@ -1239,6 +1252,7 @@ Number of cells in 1 $mm^3$ of undiluted blood \= = \= n$\times$$\frac{10}{9}$$\
 																\caption*{\textbf{General Examination}}
 															\end{figure}
 															}
+
 															\chapter*{\centering General Examination}
 \addcontentsline{toc}{chapter}{General Examination}
 
@@ -2583,6 +2597,39 @@ Examination of the motor system is carried out by assessing,
 \end{itemize}
 
 \section*{Nutrition Or Bulk Of The Muscle:}
+\begin{itemize}
+\item{Inspect the different groups of muscles of the body on both sides for any wasting or contractures.}
+\item{Palpate the muscles and feel for the consistency. Atrophic muscle appears smaller and feels soft and flabby. Hypertrophic muscle appears bulky and are firm in consistency.}
+\item{Bulk of the muscle is assessed by measuring the circumference of the limbs at point of maximum bulk with reference to a definite bony landmark using an inch tape.}
+\item{Bony landmarks}
+	\begin{itemize}
+		\item[]Upper limb 	–	Arm circumference with reference to acromian or olecranon 			process. Forearm circumference with reference to olecranon 			process.
+		\item[]Lower limb 	–	Thigh and leg circumference with reference to tibial 				tuberosity. 
+	\end{itemize}
+\item{ Compare the bulk of both limbs at the same reference point.}
+\end{itemize}
+
+\section*{Tone:}
+	Muscle tone is a state of partial contraction of muscle at rest.
+	\begin{itemize}
+\item{Ask the subject to keep the limb relaxed. Hold the limb and do passive movements on various joints and observe the degree of resistance offered by the muscle.}
+\item{The degree of resistance offered by the muscle indicates the tone of the muscle.}
+\item{Compare the tone of the muscles on both sides.}
+	\end{itemize}
+	\par
+	Hypertonia is increase in muscle tone. It is seen in upper motor neuron lesions. It is of two types: spasticity and rigidity.
+	\begin{itemize}
+		\item{\textbf{Spasticity:} Hypertonia of the corticospinal tract lesion is of Clasp knife type and it involves one group of muscles either the agonist or the antagonist muscles. It is maximum in the flexors of the upper limb and extensors of the lower limb.}
+		\item{\textbf{Rigidity:} Hypertonia of the extrapyramidal tracts lesion, involves both the agonist and the antagonist muscles. In Cog wheel rigidity, the resistance offered is intermittent. In Lead pipe rigidity, the resistance is felt throughout the range of movement.}
+	\end{itemize}
+	Hypotonia is decrease in muscle tone. It is seen in lower motor neuron lesions. Eg: Poliomyelitis and cerebellar lesions.
+	\section*{Power Or Strength Of The Muscles:}
+	\begin{itemize}
+\item{Expose the muscle to be tested. Ask the subject to perform the movement as instructed and offer resistance. Observe the contraction of the muscle. Compare strength of same group of muscle on the other side}
+\item{The strength of the muscle is assessed by comparing the  strength of the examiner.}
+	\end{itemize}
+	\subsection*{Grading of power:}
+
 \addfig{
 	\begin{figure}[H]
 		\begin{subfigure}[t]{.25\textwidth}
@@ -2647,38 +2694,6 @@ Examination of the motor system is carried out by assessing,
 		\caption*{\textbf{Examination Of Muscle Power}}
 	\end{figure}
 }
-\begin{itemize}
-\item{Inspect the different groups of muscles of the body on both sides for any wasting or contractures.}
-\item{Palpate the muscles and feel for the consistency. Atrophic muscle appears smaller and feels soft and flabby. Hypertrophic muscle appears bulky and are firm in consistency.}
-\item{Bulk of the muscle is assessed by measuring the circumference of the limbs at point of maximum bulk with reference to a definite bony landmark using an inch tape.}
-\item{Bony landmarks}
-	\begin{itemize}
-		\item[]Upper limb 	–	Arm circumference with reference to acromian or olecranon 			process. Forearm circumference with reference to olecranon 			process.
-		\item[]Lower limb 	–	Thigh and leg circumference with reference to tibial 				tuberosity. 
-	\end{itemize}
-\item{ Compare the bulk of both limbs at the same reference point.}
-\end{itemize}
-
-\section*{Tone:}
-	Muscle tone is a state of partial contraction of muscle at rest.
-	\begin{itemize}
-\item{Ask the subject to keep the limb relaxed. Hold the limb and do passive movements on various joints and observe the degree of resistance offered by the muscle.}
-\item{The degree of resistance offered by the muscle indicates the tone of the muscle.}
-\item{Compare the tone of the muscles on both sides.}
-	\end{itemize}
-	\par
-	Hypertonia is increase in muscle tone. It is seen in upper motor neuron lesions. It is of two types: spasticity and rigidity.
-	\begin{itemize}
-		\item{\textbf{Spasticity:} Hypertonia of the corticospinal tract lesion is of Clasp knife type and it involves one group of muscles either the agonist or the antagonist muscles. It is maximum in the flexors of the upper limb and extensors of the lower limb.}
-		\item{\textbf{Rigidity:} Hypertonia of the extrapyramidal tracts lesion, involves both the agonist and the antagonist muscles. In Cog wheel rigidity, the resistance offered is intermittent. In Lead pipe rigidity, the resistance is felt throughout the range of movement.}
-	\end{itemize}
-	Hypotonia is decrease in muscle tone. It is seen in lower motor neuron lesions. Eg: Poliomyelitis and cerebellar lesions.
-	\section*{Power Or Strength Of The Muscles:}
-	\begin{itemize}
-\item{Expose the muscle to be tested. Ask the subject to perform the movement as instructed and offer resistance. Observe the contraction of the muscle. Compare strength of same group of muscle on the other side}
-\item{The strength of the muscle is assessed by comparing the  strength of the examiner.}
-	\end{itemize}
-	\subsection*{Grading of power:}
 	\begin{itemize}
 			\itemsep0em
 \item[]	Grade 0 	:	Complete paralysis. 
@@ -2698,29 +2713,6 @@ Examination of the motor system is carried out by assessing,
 	Ask the subject to abduct the thumb against resistance in a plane at right angle to the palmar aspect of the index finger.
 }
 \item{ Opponens pollicis:
-	\addfig{
-		\begin{figure}[H]
-		\begin{subfigure}[t]{\textwidth}
-			\centering
-			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/motorSystem/hipAdduction.jpg}
-			\subcaption{Testing hip Adductors}
-		\end{subfigure}
-		\hspace{\fill}
-		\begin{subfigure}[t]{\textwidth}
-			\centering
-			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/motorSystem/kneeFlexion.jpg}
-			\subcaption{Testing hip Adductors}
-		\end{subfigure}
-		\hspace{\fill}
-		\begin{subfigure}[t]{\textwidth}
-			\centering
-			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/motorSystem/kneeExtension.jpg}
-			\subcaption{Testing hip Adductors}
-		\end{subfigure}
-		\hspace{\fill}
-			\caption*{\textbf{Examination Of Muscle Power}}
-		\end{figure}
-		}
 	\par
 	Ask the subject to touch the tip of his little finger with the point of his thumb against resistance without moving the little finger.
 }
@@ -2790,6 +2782,30 @@ Ask the subject to clasp his hands behind his back while the examiner stands beh
 }	
 \end{enumerate}
 \subsection*{Muscles	of	the	trunk:}	
+
+	\addfig{
+		\begin{figure}[H]
+		\begin{subfigure}[t]{\textwidth}
+			\centering
+			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/motorSystem/hipAdduction.jpg}
+			\subcaption{Testing hip Adductors}
+		\end{subfigure}
+		\hspace{\fill}
+		\begin{subfigure}[t]{\textwidth}
+			\centering
+			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/motorSystem/kneeFlexion.jpg}
+			\subcaption{Testing hip Adductors}
+		\end{subfigure}
+		\hspace{\fill}
+		\begin{subfigure}[t]{\textwidth}
+			\centering
+			\includegraphics[width=5cm,height=5cm]{./clinicalPhysioPic/motorSystem/kneeExtension.jpg}
+			\subcaption{Testing hip Adductors}
+		\end{subfigure}
+		\hspace{\fill}
+			\caption*{\textbf{Examination Of Muscle Power}}
+		\end{figure}
+		}
 \subsubsection*{Abdominal muscles:}
 	With the subject in supine position, ask the subject to lift up his head against resistance. In paralysis of lower abdominal segment, umbilicus moves up. When the upper segment is paralysed umbilicus is pulled down. This is called Beevor's sign.
 	\par
@@ -3392,12 +3408,6 @@ Ask the subject to let his jaw sag open slightly. Place the left thumb over t he
 \blankpageForAnswers
 %-----------------------}}}
 %--------------------Cranial Nerves 7 to 12--{{{
-														\chapter*{\centering Examination Of Cranial Nerves (7-12)}
-\addcontentsline{toc}{chapter}{Examination Of Cranial Nerves (7-12)}
-															\begin{tabular}{p{5in} p{1in}}
-																\textbf{Exp No:}  & \textbf{Date:}\\
-															\end{tabular}
-\section*{VII Cranial Nerve – Facial Nerve (Mixed nerve)}
 \addfig{
 	\centering
 	\begin{figure}[h]
@@ -3434,6 +3444,12 @@ Ask the subject to let his jaw sag open slightly. Place the left thumb over t he
 		\caption*{\textbf{Examination Of The Motor Component Of The Facial Nerve}}
 	\end{figure}
 }
+														\chapter*{\centering Examination Of Cranial Nerves (7-12)}
+\addcontentsline{toc}{chapter}{Examination Of Cranial Nerves (7-12)}
+															\begin{tabular}{p{5in} p{1in}}
+																\textbf{Exp No:}  & \textbf{Date:}\\
+															\end{tabular}
+\section*{VII Cranial Nerve – Facial Nerve (Mixed nerve)}
 The seventh nerve consists of,
 Motor fibres supply the muscles of facial expression, muscles of the scalp and ear, platysma, posterior belly of digastrics, stylohyoid and stapedius.
 Parasympathetic fibres supply nasal, palatine, lacrimal, submaxillary and sublingual glands.
